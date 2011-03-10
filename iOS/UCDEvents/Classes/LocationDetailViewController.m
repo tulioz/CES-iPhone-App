@@ -43,9 +43,17 @@
 	self.locationType = viewingLocation.type;
 	self.locationPhone = viewingLocation.phone;
 	
-	NSData *previewImageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:self.viewingLocation.imageURL]];
-	UIImage *previewImage = [[UIImage alloc] initWithData:previewImageData];
+	NSData *previewImageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:viewingLocation.imageURL]];
+
+	UIImage *previewImage;
+	if (previewImageData) {
+		previewImage = [[UIImage alloc] initWithData:previewImageData];
+	} else {
+		previewImage = [UIImage imageNamed:@"agg2x.png"];
+	}
+
 	[self.imageView setImage:previewImage];
+	TT_RELEASE_SAFELY(previewImage);
 	
 	self.locationAddress = viewingLocation.address;
 	self.locationCity = viewingLocation.city;

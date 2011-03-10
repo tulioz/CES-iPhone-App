@@ -2,8 +2,10 @@
 	if (isset($_GET['format']) && isset($_GET['type'])) {
 		$format = strtolower($_GET['format']);
 		$type = strtolower($_GET['type']);
+		
+		$validDBs = array("restaurants", "hospitals", "events", "test");
 
-		if($type != "restaurants" && $type != "hospitals") {
+		if(!in_array($type, validDBs)) {
 			die("Invalid location type request. Please don't abuse the API.");
 		}
 		

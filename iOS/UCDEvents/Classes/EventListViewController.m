@@ -76,7 +76,7 @@ animated:
 -(void)createModel {
 	NSLog(@"running createModel!");
 	
-	self.dataSource = [[[EventXMLDataSource alloc]
+	self.dataSource = [[[EventJSONDataSource alloc]
 						initWithMyURL:self.categoryURL]
 					   autorelease];
 	

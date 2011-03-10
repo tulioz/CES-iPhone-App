@@ -29,8 +29,8 @@
 		3D04243F1324F9C70021B590 /* EventItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0424371324F9C70021B590 /* EventItem.m */; };
 		3D0424401324F9C70021B590 /* EventListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0424381324F9C70021B590 /* EventListViewController.xib */; };
 		3D0424411324F9C70021B590 /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D04243A1324F9C70021B590 /* EventListViewController.m */; };
-		3D0424421324F9C70021B590 /* EventXMLDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D04243C1324F9C70021B590 /* EventXMLDataModel.m */; };
-		3D0424431324F9C70021B590 /* EventXMLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D04243E1324F9C70021B590 /* EventXMLDataSource.m */; };
+		3D0424421324F9C70021B590 /* EventJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D04243C1324F9C70021B590 /* EventJSONDataModel.m */; };
+		3D0424431324F9C70021B590 /* EventJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D04243E1324F9C70021B590 /* EventJSONDataSource.m */; };
 		3D0BEBB213236B5700F3191C /* LocationJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BEBB113236B5700F3191C /* LocationJSONDataSource.m */; };
 		3D0BEBB813236B6E00F3191C /* LocationJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BEBB713236B6E00F3191C /* LocationJSONDataModel.m */; };
 		3D9911AC132453A9009A8B0F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9911AB132453A9009A8B0F /* Default.png */; };
@@ -301,10 +301,10 @@
 		3D0424381324F9C70021B590 /* EventListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventListViewController.xib; sourceTree = "<group>"; };
 		3D0424391324F9C70021B590 /* EventListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
 		3D04243A1324F9C70021B590 /* EventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListViewController.m; sourceTree = "<group>"; };
-		3D04243B1324F9C70021B590 /* EventXMLDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventXMLDataModel.h; sourceTree = "<group>"; };
-		3D04243C1324F9C70021B590 /* EventXMLDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventXMLDataModel.m; sourceTree = "<group>"; };
-		3D04243D1324F9C70021B590 /* EventXMLDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventXMLDataSource.h; sourceTree = "<group>"; };
-		3D04243E1324F9C70021B590 /* EventXMLDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventXMLDataSource.m; sourceTree = "<group>"; };
+		3D04243B1324F9C70021B590 /* EventJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventJSONDataModel.h; sourceTree = "<group>"; };
+		3D04243C1324F9C70021B590 /* EventJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventJSONDataModel.m; sourceTree = "<group>"; };
+		3D04243D1324F9C70021B590 /* EventJSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventJSONDataSource.h; sourceTree = "<group>"; };
+		3D04243E1324F9C70021B590 /* EventJSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventJSONDataSource.m; sourceTree = "<group>"; };
 		3D0BEBB013236B5700F3191C /* LocationJSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationJSONDataSource.h; sourceTree = "<group>"; };
 		3D0BEBB113236B5700F3191C /* LocationJSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationJSONDataSource.m; sourceTree = "<group>"; };
 		3D0BEBB613236B6E00F3191C /* LocationJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationJSONDataModel.h; sourceTree = "<group>"; };
@@ -557,10 +557,10 @@
 				3D0424381324F9C70021B590 /* EventListViewController.xib */,
 				3D0424391324F9C70021B590 /* EventListViewController.h */,
 				3D04243A1324F9C70021B590 /* EventListViewController.m */,
-				3D04243B1324F9C70021B590 /* EventXMLDataModel.h */,
-				3D04243C1324F9C70021B590 /* EventXMLDataModel.m */,
-				3D04243D1324F9C70021B590 /* EventXMLDataSource.h */,
-				3D04243E1324F9C70021B590 /* EventXMLDataSource.m */,
+				3D04243B1324F9C70021B590 /* EventJSONDataModel.h */,
+				3D04243C1324F9C70021B590 /* EventJSONDataModel.m */,
+				3D04243D1324F9C70021B590 /* EventJSONDataSource.h */,
+				3D04243E1324F9C70021B590 /* EventJSONDataSource.m */,
 				3DCA849E1325A45700E9E688 /* EventDetailViewController.h */,
 				3DCA849F1325A45700E9E688 /* EventDetailViewController.m */,
 				3DCA84A01325A45700E9E688 /* EventDetailViewController.xib */,
@@ -961,8 +961,8 @@
 				3D0BEBB813236B6E00F3191C /* LocationJSONDataModel.m in Sources */,
 				3D04243F1324F9C70021B590 /* EventItem.m in Sources */,
 				3D0424411324F9C70021B590 /* EventListViewController.m in Sources */,
-				3D0424421324F9C70021B590 /* EventXMLDataModel.m in Sources */,
-				3D0424431324F9C70021B590 /* EventXMLDataSource.m in Sources */,
+				3D0424421324F9C70021B590 /* EventJSONDataModel.m in Sources */,
+				3D0424431324F9C70021B590 /* EventJSONDataSource.m in Sources */,
 				3DCA84A11325A45700E9E688 /* EventDetailViewController.m in Sources */,
 				3DD733E01325F6AB00C6381D /* MockDataSource.m in Sources */,
 			);
@@ -1023,6 +1023,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1032,13 +1033,14 @@
 					../three20/Build/Products/three20,
 					../three20/Build/Products/three20,
 					../three20/Build/Products/three20,
+					../three20/src,
 				);
 				INFOPLIST_FILE = "UCD_Events-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-ObjC",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "UCD Events";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv6 i386";
 			};
 			name = Debug;
 		};
@@ -1046,7 +1048,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UCD_Events_Prefix.pch;
@@ -1064,29 +1066,29 @@
 					../three20/Build/Products/three20,
 					../three20/Build/Products/three20,
 					../Three20/src/,
+					../three20/src,
 				);
 				INFOPLIST_FILE = "UCD_Events-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-ObjC",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "UCD Events";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv6 i386";
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
 		};
@@ -1098,9 +1100,11 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Release;
 		};

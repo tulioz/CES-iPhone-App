@@ -1,0 +1,1582 @@
+TUCD Events
+v7
+r0
+t321474137.209093
+cCheck dependencies
+cProcessInfoPlistFile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/Info.plist" UCD_Events-Info.plist
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/Three20.bundle" ../three20/src/Three20.bundle
+cCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../MainWindow.xib"
+cCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../UCD_EventsViewController.xib"
+cCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.xib"
+cCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.xib"
+cCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.xib"
+cCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.xib"
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/antoine.png" antoine.png
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/fffuuuuuu.png" fffuuuuuu.png
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/Forever_Alone.png" Forever_Alone.png
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/Fuck-yea.png" Fuck-yea.png
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/header_mc_logo.gif" header_mc_logo.gif
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/lol-face.png" lol-face.png
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/ofer.png" ofer.png
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/robot-unicorn-attack.png" robot-unicorn-attack.png
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/tableIcon.png" tableIcon.png
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/troll-dad.png" troll-dad.png
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/twm.png" twm.png
+cCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.xib"
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/Default.png" Default.png
+cCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.xib"
+cCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib"
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/agg2x.png" agg2x.png
+cCpResource "build/Debug-iphonesimulator/UCD Events.app/agg.png" agg.png
+cProcessPCH /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch.gch UCD_Events_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/main.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD_EventsAppDelegate.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD_EventsViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/BasicLauncherViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../BasicLauncherViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/FeedItem.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../FeedItem.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/PhotoTableLinkModel.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../PhotoTableLinkModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationListViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedDataModel.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedParser.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedTableViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedTableViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketChooserDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketChooserViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketNavigationViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerTableView.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationDetailViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationItem.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationItem.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationJSONDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationJSONDataModel.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventItem.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventItem.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventListViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventXMLDataModel.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventXMLDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventDetailViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/MockDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events" normal i386
+cGenerateDSYMFile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app.dSYM" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events"
+cTouch "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CD6063E0000000000D00CA0
+t1289094718
+s13634720
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/../three20/src/Three20.bundle
+c000000004D6C710B0000000000000220
+t1298952459
+s544
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/BasicLauncherViewController.h
+c000000004D5B4A310000000000000182
+t1297828401
+s386
+i<UIKit/UIKit.h>
+i"Three20/Three20.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../BasicLauncherViewController.h
+c000000004D5B4A310000000000000182
+t1297828401
+s386
+i<UIKit/UIKit.h>
+i"Three20/Three20.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../BasicLauncherViewController.m
+c000000004D787FCE00000000000019EB
+t1299742670
+s6635
+i"BasicLauncherViewController.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../FeedItem.m
+c000000004C8518D1000000000000018A
+t1283791057
+s394
+i"FeedItem.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.h
+c000000004D7874D7000000000000046B
+t1299739863
+s1131
+i<UIKit/UIKit.h>
+i<Three20/Three20.h>
+i"LocationDetailViewController.h"
+i"LocationJSONDataSource.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.m
+c000000004D7889FC0000000000001C3B
+t1299745276
+s7227
+i"LocationListViewController.h"
+i"MockDataSource.h"
+i"Settings.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.xib
+c000000004D7435260000000000001951
+t1299461414
+s6481
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../MainWindow.xib
+c000000004D5B2FA20000000000004E4D
+t1297821602
+s20045
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../PhotoTableLinkModel.m
+c000000004D58BEBD00000000000002F7
+t1297661629
+s759
+i"PhotoTableLinkModel.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataModel.m
+c000000004D48F7CB00000000000003DC
+t1296627659
+s988
+i"RSSFeedDataModel.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataSource.m
+c000000004D5371D500000000000005C6
+t1297314261
+s1478
+i"RSSFeedDataSource.h"
+i"FeedItem.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedParser.m
+c000000004C852E4C0000000000001210
+t1283796556
+s4624
+i"RSSFeedParser.h"
+i"FeedItem.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedTableViewController.h
+c000000004D7332910000000000000141
+t1299395217
+s321
+i<UIKit/UIKit.h>
+i"Three20/Three20.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedTableViewController.m
+c000000004D48FCF500000000000002E4
+t1296628981
+s740
+i"RSSFeedTableViewController.h"
+i"RSSFeedDataSource.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h
+c000000004D78809E00000000000000FD
+t1299742878
+s253
+i<Foundation/Foundation.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m
+c000000004D5B005D00000000000000F7
+t1297809501
+s247
+i"TicketChooserDataSource.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.h
+c000000004D5B1E8D0000000000000167
+t1297817229
+s359
+i<UIKit/UIKit.h>
+i<Three20/Three20.h>
+i"TicketChooserDataSource.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.m
+c000000004D5B1E4F000000000000062F
+t1297817167
+s1583
+i"TicketChooserViewController.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.xib
+c000000004D58E569000000000000681A
+t1297671529
+s26650
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.m
+c000000004D58E7A600000000000005DC
+t1297672102
+s1500
+i"TicketNavigationViewController.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.xib
+c000000004D58EB780000000000005333
+t1297673080
+s21299
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerDataSource.m
+c000000004D536DF00000000000000110
+t1297313264
+s272
+i"TicketPickerDataSource.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m
+c000000004D52339C0000000000000638
+t1297232796
+s1592
+i"TicketPickerTableView.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.h
+c000000004D5AFCB300000000000001E8
+t1297808563
+s488
+i<UIKit/UIKit.h>
+i"Three20/Three20.h"
+i"TicketPickerDataSource.h"
+i"PhotoTableLinkModel.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.m
+c000000004D5AFF100000000000000F10
+t1297809168
+s3856
+i"TicketPickerViewController.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.xib
+c000000004D5AF8D400000000000043C7
+t1297807572
+s17351
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../UCD_EventsViewController.xib
+c000000004D5B2FA20000000000001A51
+t1297821602
+s6737
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.h
+c000000004D75AB54000000000000030F
+t1299557204
+s783
+i<UIKit/UIKit.h>
+i"EventItem.h"
+i"LocationDetailViewController.h"
+i<Three20/Three20.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.m
+c000000004D75ABBD0000000000000D1E
+t1299557309
+s3358
+i"EventDetailViewController.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib
+c000000004D75AB8600000000000083FB
+t1299557254
+s33787
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventItem.h
+c000000004D7564D5000000000000027F
+t1299539157
+s639
+i<Foundation/Foundation.h>
+i"LocationItem.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventItem.m
+c000000004D7564EE000000000000016D
+t1299539182
+s365
+i"EventItem.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.h
+c000000004D7880BB00000000000002FF
+t1299742907
+s767
+i<UIKit/UIKit.h>
+i<Three20/Three20.h>
+i"EventDetailViewController.h"
+i"EventXMLDataSource.h"
+i"Settings.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.m
+c000000004D7880BF000000000000189B
+t1299742911
+s6299
+i"EventListViewController.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.xib
+c000000004D7435260000000000001951
+t1299461414
+s6481
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataModel.h
+c000000004D75655500000000000002D6
+t1299539285
+s726
+i"EventItem.h"
+i"LocationItem.h"
+i<Three20/Three20.h>
+i<extThree20XML/extThree20XML.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataModel.m
+c000000004D756B900000000000001128
+t1299540880
+s4392
+i"EventXMLDataModel.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataSource.h
+c000000004D74C53D00000000000001A1
+t1299498301
+s417
+i"EventXMLDataModel.h"
+i"EventItem.h"
+i<Three20Core/NSDateAdditions.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataSource.m
+c000000004D788F3C000000000000107D
+t1299746620
+s4221
+i"EventXMLDataSource.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.h
+c000000004D75749B00000000000004DD
+t1299543195
+s1245
+i<UIKit/UIKit.h>
+i<Three20/Three20.h>
+i"LocationItem.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.m
+c000000004D78931A0000000000001337
+t1299747610
+s4919
+i"LocationDetailViewController.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.xib
+c000000004D75ABFE0000000000007C16
+t1299557374
+s31766
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationItem.h
+c000000004D75634E0000000000000325
+t1299538766
+s805
+i<Foundation/Foundation.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationItem.m
+c000000004D75637400000000000001C3
+t1299538804
+s451
+i"LocationItem.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataModel.h
+c000000004D7874E800000000000002D1
+t1299739880
+s721
+i"LocationItem.h"
+i<Three20/Three20.h>
+i<extThree20XML/extThree20XML.h>
+i<extThree20JSON/extThree20JSON.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataModel.m
+c000000004D78932F0000000000000FD8
+t1299747631
+s4056
+i"LocationJSONDataModel.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.h
+c000000004D7874EA00000000000001EF
+t1299739882
+s495
+i"LocationJSONDataModel.h"
+i"LocationItem.h"
+i<Three20Core/NSDateAdditions.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m
+c000000004D7893180000000000001038
+t1299747608
+s4152
+i"LocationJSONDataSource.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.h
+c000000004D6C710B00000000000003FB
+t1298952459
+s1019
+i<Three20/Three20.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m
+c000000004D6C710B000000000000341C
+t1298952459
+s13340
+i"MockDataSource.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsAppDelegate.h
+c000000004D745E2B000000000000026B
+t1299471915
+s619
+i<UIKit/UIKit.h>
+i<Three20/Three20.h>
+i"LocationItem.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsAppDelegate.m
+c000000004D75A9110000000000001378
+t1299556625
+s4984
+i"UCD_EventsAppDelegate.h"
+i"UCD_EventsViewController.h"
+i"BasicLauncherViewController.h"
+i"RSSFeedTableViewController.h"
+i"TicketPickerViewController.h"
+i"TicketChooserViewController.h"
+i"LocationListViewController.h"
+i"LocationDetailViewController.h"
+i"EventListViewController.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsViewController.h
+c000000004D5B482E00000000000000FE
+t1297827886
+s254
+i<UIKit/UIKit.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsViewController.m
+c000000004D5B2FA200000000000005D4
+t1297821602
+s1492
+i"UCD_EventsViewController.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Default.png
+c000000004D74206F00000000000393F0
+t1299456111
+s234480
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/FeedItem.h
+c000000004C85198500000000000001D7
+t1283791237
+s471
+i<Foundation/Foundation.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Forever_Alone.png
+c000000004D5388CD0000000000000E4E
+t1297320141
+s3662
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Fuck-yea.png
+c000000004D5383F00000000000000A5E
+t1297318896
+s2654
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/LocationListViewController.h
+c000000004D7874D7000000000000046B
+t1299739863
+s1131
+i<UIKit/UIKit.h>
+i<Three20/Three20.h>
+i"LocationDetailViewController.h"
+i"LocationJSONDataSource.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/PhotoTableLinkModel.h
+c000000004D58C0F40000000000000300
+t1297662196
+s768
+i<Foundation/Foundation.h>
+i<Three20/Three20.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/RSSFeedDataModel.h
+c000000004D48F51200000000000000CA
+t1296626962
+s202
+i"RSSFeedParser.h"
+i"Three20/Three20.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/RSSFeedDataSource.h
+c000000004D5371BA0000000000000177
+t1297314234
+s375
+i<Foundation/Foundation.h>
+i"Three20/Three20.h"
+i"RSSFeedDataModel.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/RSSFeedParser.h
+c000000004D7078B50000000000000347
+t1299216565
+s839
+i<Foundation/Foundation.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/RSSFeedTableViewController.h
+c000000004D7332910000000000000141
+t1299395217
+s321
+i<UIKit/UIKit.h>
+i"Three20/Three20.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Settings.h
+c000000004D78809E00000000000000FD
+t1299742878
+s253
+i<Foundation/Foundation.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/TicketChooserDataSource.h
+c000000004D5AFF24000000000000014C
+t1297809188
+s332
+i<Foundation/Foundation.h>
+i<Three20/Three20.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/TicketChooserViewController.h
+c000000004D5B1E8D0000000000000167
+t1297817229
+s359
+i<UIKit/UIKit.h>
+i<Three20/Three20.h>
+i"TicketChooserDataSource.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/TicketNavigationViewController.h
+c000000004D58EB5F000000000000010C
+t1297673055
+s268
+i<UIKit/UIKit.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/TicketPickerDataSource.h
+c000000004D536D3E0000000000000121
+t1297313086
+s289
+i<Foundation/Foundation.h>
+i<Three20/Three20.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/TicketPickerTableView.h
+c000000004D5233EA00000000000000F4
+t1297232874
+s244
+i<UIKit/UIKit.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/TicketPickerViewController.h
+c000000004D5AFCB300000000000001E8
+t1297808563
+s488
+i<UIKit/UIKit.h>
+i"Three20/Three20.h"
+i"TicketPickerDataSource.h"
+i"PhotoTableLinkModel.h"
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/UCD_Events_Prefix.pch
+c000000004D5B2FA200000000000000BD
+t1297821602
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/agg.png
+c000000004D7878AC0000000000004191
+t1299740844
+s16785
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/agg2x.png
+c000000004D7878AC0000000000006BFC
+t1299740844
+s27644
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/antoine.png
+c000000004D5385FE0000000000001589
+t1297319422
+s5513
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app
+t1299781337
+s986
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app.dSYM
+t1299781337
+s102
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/Default.png
+t1299781332
+s234480
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/EventDetailViewController.nib
+t1299781333
+s3401
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/EventListViewController.nib
+t1299781332
+s764
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/Forever_Alone.png
+t1299781332
+s3662
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/Fuck-yea.png
+t1299781332
+s2654
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/Info.plist
+t1299781330
+s681
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/LocationDetailViewController.nib
+t1299781332
+s2641
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/LocationListViewController.nib
+t1299781331
+s764
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/MainWindow.nib
+t1299781331
+s1129
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/PkgInfo
+t1299781330
+s8
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/Three20.bundle
+t1299781330
+s544
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/TicketChooserViewController.nib
+t1299781331
+s1611
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/TicketNavigationViewController.nib
+t1299781332
+s1228
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/TicketPickerViewController.nib
+t1299781332
+s815
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events
+t1299781336
+s1942092
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD_EventsViewController.nib
+t1299781331
+s795
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/agg.png
+t1299781332
+s16785
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/agg2x.png
+t1299781332
+s27644
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/antoine.png
+t1299781332
+s5513
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/fffuuuuuu.png
+t1299781332
+s4520
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/header_mc_logo.gif
+t1299781332
+s12364
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/lol-face.png
+t1299781332
+s6822
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/ofer.png
+t1299781332
+s5349
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/robot-unicorn-attack.png
+t1299781332
+s6172
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/tableIcon.png
+t1299781332
+s1124
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/troll-dad.png
+t1299781332
+s3404
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/twm.png
+t1299781332
+s9111
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/BasicLauncherViewController.o
+t1299781334
+s61748
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventDetailViewController.o
+t1299781335
+s53868
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventItem.o
+t1299781335
+s14156
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventListViewController.o
+t1299781335
+s54656
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventXMLDataModel.o
+t1299781335
+s23156
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventXMLDataSource.o
+t1299781335
+s51484
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/FeedItem.o
+t1299781334
+s13360
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationDetailViewController.o
+t1299781335
+s75556
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationItem.o
+t1299781335
+s18216
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationJSONDataModel.o
+t1299781335
+s18928
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationJSONDataSource.o
+t1299781335
+s54696
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationListViewController.o
+t1299781334
+s62208
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/MockDataSource.o
+t1299781336
+s98324
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/PhotoTableLinkModel.o
+t1299781334
+s45716
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedDataModel.o
+t1299781334
+s15368
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedDataSource.o
+t1299781334
+s45676
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedParser.o
+t1299781334
+s28888
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedTableViewController.o
+t1299781334
+s44772
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketChooserDataSource.o
+t1299781334
+s8740
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketChooserViewController.o
+t1299781334
+s42712
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketNavigationViewController.o
+t1299781334
+s37956
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerDataSource.o
+t1299781335
+s6532
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerTableView.o
+t1299781335
+s37756
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerViewController.o
+t1299781335
+s54308
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD Events.LinkFileList
+c000000004D7916D200000000000010FA
+t1299781330
+s4346
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD_EventsAppDelegate.o
+t1299781334
+s71212
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD_EventsViewController.o
+t1299781334
+s37624
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/main.o
+t1299781334
+s6352
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/fffuuuuuu.png
+c000000004D5382C200000000000011A8
+t1297318594
+s4520
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/header_mc_logo.gif
+c000000004D58CE9E000000000000304C
+t1297665694
+s12364
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/lol-face.png
+c000000004D53838A0000000000001AA6
+t1297318794
+s6822
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/main.m
+c000000004D5B2FA20000000000000173
+t1297821602
+s371
+i<UIKit/UIKit.h>
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/ofer.png
+c000000004D53859000000000000014E5
+t1297319312
+s5349
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/robot-unicorn-attack.png
+c000000004D538879000000000000181C
+t1297320057
+s6172
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/tableIcon.png
+c000000004D08449B0000000000000464
+t1292387483
+s1124
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/troll-dad.png
+c000000004D5384B50000000000000D4C
+t1297319093
+s3404
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/twm.png
+c000000004D5387980000000000002397
+t1297319832
+s9111
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20.a
+c000000004D7916D20000000000001048
+t1299781330
+s4168
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a
+c000000004D7916B70000000000041798
+t1299781303
+s268184
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a
+c000000004D7916BA0000000000052FB8
+t1299781306
+s339896
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a
+c000000004D7916C40000000000128C80
+t1299781316
+s1215616
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a
+c000000004D7916D000000000005CCF88
+t1299781328
+s6082440
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a
+c000000004D7916BE000000000004ADE8
+t1299781310
+s306664
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a
+c000000004D7916C6000000000008FA20
+t1299781318
+s588320
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libextThree20JSON+SBJSON.a
+c000000004D7916BB000000000001EBC8
+t1299781307
+s125896
+
+N/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libextThree20XML.a
+c000000004D7916BC000000000000E140
+t1299781308
+s57664
+
+N/var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch.gch
+t1299781333
+s15453392
+
+NUCD_Events-Info.plist
+c000000004D790E3200000000000003FF
+t1299779122
+s1023
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321474130#321474130#0(0"0(0#1#0"8612920288#0"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/BasicLauncherViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../BasicLauncherViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.186715
+e321474134.348523
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/BasicLauncherViewController.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../BasicLauncherViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../BasicLauncherViewController.m321474134#321474134#0(0"0(0#0#96"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../BasicLauncherViewController.m8614032160#1885"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../BasicLauncherViewController.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/BasicLauncherViewController.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventDetailViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.673156
+e321474135.833093
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventDetailViewController.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.m321474135#321474135#0(0"0(0#0#91"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.m8612882560#1878"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventDetailViewController.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventItem.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventItem.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.443321
+e321474135.519515
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventItem.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventItem.m321474135#321474135#0(0"0(0#0#75"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventItem.m8617281664#1846"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventItem.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventItem.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventListViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.456697
+e321474135.630641
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventListViewController.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h:7: warning: 'imagesPath' defined but not used
+lSLF07#2@97"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.m321474135#321474135#0(124"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h:7: warning: 'imagesPath' defined but not used1(22@33"'imagesPath' defined but not used321474135#0#124#0(6@77"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h321435678#7#0#7#0#24"'*' defined but not used0(0#0#89"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.m8616299008#1874"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventListViewController.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventXMLDataModel.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.519619
+e321474135.673043
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventXMLDataModel.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataModel.m321474135#321474135#0(0"0(0#0#83"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataModel.m8612749056#1862"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataModel.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventXMLDataModel.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventXMLDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.630817
+e321474135.829517
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventXMLDataSource.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataSource.m321474135#321474135#0(0"0(0#0#84"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataSource.m8622242912#1864"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventXMLDataSource.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/EventXMLDataSource.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/FeedItem.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../FeedItem.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.257845
+e321474134.336712
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/FeedItem.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../FeedItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../FeedItem.m321474134#321474134#0(0"0(0#0#77"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../FeedItem.m8622567328#1847"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../FeedItem.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/FeedItem.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationDetailViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.070530
+e321474135.290214
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationDetailViewController.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.m321474135#321474135#0(0"0(0#0#94"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.m8614916960#1884"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationDetailViewController.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationItem.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationItem.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.210582
+e321474135.286413
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationItem.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationItem.m321474135#321474135#0(0"0(0#0#78"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationItem.m8615462080#1852"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationItem.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationItem.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationJSONDataModel.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.290324
+e321474135.443203
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationJSONDataModel.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataModel.m321474135#321474135#0(0"0(0#0#87"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataModel.m8621664832#1870"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataModel.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationJSONDataModel.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationJSONDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.286531
+e321474135.456581
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationJSONDataSource.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m: In function '-[LocationJSONDataSource search:]':
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m:104: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m:104: warning: (Messages without a matching method signature
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m:104: warning: will be assumed to return 'id' and accept
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m:104: warning: '...' as arguments.)
+lSLF07#2@96"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m321474135#321474135#0(719"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m: In function '-[LocationJSONDataSource search:]':/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m:104: warning: 'NSMutableArray' may not respond to '-perform:withObject:'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m:104: warning: (Messages without a matching method signature/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m:104: warning: will be assumed to return 'id' and accept/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m:104: warning: '...' as arguments.)2(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#139#162#0(6@88"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m321440408#104#0#104#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)321474135#301#149#0(6@88"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m321440408#104#0#104#0#0"0(0#0#88"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m8624933952#1872"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationJSONDataSource.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationJSONDataSource.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationListViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.348638
+e321474134.515123
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationListViewController.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h:7: warning: 'imagesPath' defined but not used
+lSLF07#2@103"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.m321474134#321474134#0(124"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h:7: warning: 'imagesPath' defined but not used1(22@33"'imagesPath' defined but not used321474134#0#124#0(6@77"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h321435678#7#0#7#0#24"'*' defined but not used0(0#0#95"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.m8616669888#1883"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/LocationListViewController.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/MockDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.829636
+e321474136.015651
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/MockDataSource.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m: In function '-[MockAddressBook fakeSearch:]':
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:337: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:337: warning: (Messages without a matching method signature
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:337: warning: will be assumed to return 'id' and accept
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:337: warning: '...' as arguments.)
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m: In function '-[MockAddressBook fakeLoadingReady]':
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:405: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m: In function '-[MockAddressBook load:more:]':
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:409: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:414: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:417: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m: In function '-[MockAddressBook cancel]':
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:427: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:430: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m: In function '-[MockAddressBook search:]':
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:451: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:454: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:457: warning: 'NSMutableArray' may not respond to '-perform:withObject:'
+lSLF07#2@88"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m321474135#321474136#0(2569"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m: In function '-[MockAddressBook fakeSearch:]':/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:337: warning: 'NSMutableArray' may not respond to '-perform:withObject:'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:337: warning: (Messages without a matching method signature/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:337: warning: will be assumed to return 'id' and accept/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:337: warning: '...' as arguments.)/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m: In function '-[MockAddressBook fakeLoadingReady]':/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:405: warning: 'NSMutableArray' may not respond to '-perform:withObject:'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m: In function '-[MockAddressBook load:more:]':/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:409: warning: 'NSMutableArray' may not respond to '-perform:withObject:'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:414: warning: 'NSMutableArray' may not respond to '-perform:withObject:'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:417: warning: 'NSMutableArray' may not respond to '-perform:withObject:'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m: In function '-[MockAddressBook cancel]':/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:427: warning: 'NSMutableArray' may not respond to '-perform:withObject:'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:430: warning: 'NSMutableArray' may not respond to '-perform:withObject:'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m: In function '-[MockAddressBook search:]':/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:451: warning: 'NSMutableArray' may not respond to '-perform:withObject:'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:454: warning: 'NSMutableArray' may not respond to '-perform:withObject:'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m:457: warning: 'NSMutableArray' may not respond to '-perform:withObject:'11(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#128#154#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#337#0#337#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)321474135#282#141#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#337#0#337#0#0"0(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#809#154#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#405#0#405#0#26"'*' may not respond to '*'0(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#1090#154#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#409#0#409#0#26"'*' may not respond to '*'0(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#1244#154#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#414#0#414#0#26"'*' may not respond to '*'0(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#1398#154#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#417#0#417#0#26"'*' may not respond to '*'0(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#1675#154#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#427#0#427#0#26"'*' may not respond to '*'0(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#1829#154#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#430#0#430#0#26"'*' may not respond to '*'0(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#2107#154#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#451#0#451#0#26"'*' may not respond to '*'0(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#2261#154#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#454#0#454#0#26"'*' may not respond to '*'0(22@58"'NSMutableArray' may not respond to '-perform:withObject:'321474135#2415#154#0(6@80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m320645259#457#0#457#0#26"'*' may not respond to '*'0(0#0#80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m8618637952#1856"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/MockDataSource.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/MockDataSource.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/PhotoTableLinkModel.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../PhotoTableLinkModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.336820
+e321474134.490584
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/PhotoTableLinkModel.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../PhotoTableLinkModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../PhotoTableLinkModel.m321474134#321474134#0(0"0(0#0#88"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../PhotoTableLinkModel.m8617982880#1869"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../PhotoTableLinkModel.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/PhotoTableLinkModel.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedDataModel.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataModel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.490692
+e321474134.613724
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedDataModel.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataModel.m321474134#321474134#0(0"0(0#0#85"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataModel.m8614528512#1863"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataModel.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedDataModel.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.515235
+e321474134.689883
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedDataSource.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataSource.m321474134#321474134#0(0"0(0#0#86"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataSource.m8613491264#1865"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedDataSource.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedDataSource.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedParser.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.613835
+e321474134.716930
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedParser.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedParser.m321474134#321474134#0(0"0(0#0#82"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedParser.m8624172032#1857"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedParser.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedParser.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedTableViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedTableViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.690024
+e321474134.834203
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedTableViewController.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedTableViewController.m321474134#321474134#0(0"0(0#0#95"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedTableViewController.m8617930176#1883"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../RSSFeedTableViewController.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/RSSFeedTableViewController.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketChooserDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.717059
+e321474134.860843
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketChooserDataSource.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m:14: warning: incomplete implementation of class 'TicketChooserDataSource'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m:14: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m:14: warning: method definition for '-tableView:numberOfRowsInSection:' not found
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m:14: warning: class 'TicketChooserDataSource' does not fully implement the 'UITableViewDataSource' protocol
+lSLF07#2@100"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m321474134#321474134#0(715"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m:14: warning: incomplete implementation of class 'TicketChooserDataSource'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m:14: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m:14: warning: method definition for '-tableView:numberOfRowsInSection:' not found/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m:14: warning: class 'TicketChooserDataSource' does not fully implement the 'UITableViewDataSource' protocol4(22@60"Incomplete implementation of class 'TicketChooserDataSource'321474134#0#167#0(6@92"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m319502301#14#0#14#0#38"incomplete implementation of class '*'0(22@67"Method definition for '-tableView:cellForRowAtIndexPath:' not found321474134#167#174#0(6@92"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m319502301#14#0#14#0#35"method definition for '*' not found0(22@67"Method definition for '-tableView:numberOfRowsInSection:' not found321474134#341#174#0(6@92"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m319502301#14#0#14#0#35"method definition for '*' not found0(22@93"Class 'TicketChooserDataSource' does not fully implement the 'UITableViewDataSource' protocol321474134#515#200#0(6@92"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m319502301#14#0#14#0#51"class '*' does not fully implement the '*' protocol0(0#0#92"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m8621607424#1877"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserDataSource.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketChooserDataSource.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketChooserViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.834308
+e321474134.989055
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketChooserViewController.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.m321474134#321474134#0(0"0(0#0#96"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.m8621114208#1885"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketChooserViewController.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketNavigationViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.860955
+e321474134.927943
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketNavigationViewController.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.m321474134#321474134#0(0"0(0#0#99"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.m8617766048#1891"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketNavigationViewController.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerDataSource.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerDataSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.928050
+e321474135.051426
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerDataSource.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerDataSource.m321474134#321474135#0(0"0(0#0#91"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerDataSource.m8614543264#1875"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerDataSource.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerDataSource.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerTableView.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.989165
+e321474135.070412
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerTableView.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m: In function '-[TicketPickerTableView didReceiveMemoryWarning]':
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m:48: warning: 'UITableView' may not respond to '-didReceiveMemoryWarning'
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m:48: warning: (Messages without a matching method signature
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m:48: warning: will be assumed to return 'id' and accept
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m:48: warning: '...' as arguments.)
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m: In function '-[TicketPickerTableView viewDidUnload]':
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m:54: warning: 'UITableView' may not respond to '-viewDidUnload'
+lSLF07#2@98"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m321474134#321474135#0(1041"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m: In function '-[TicketPickerTableView didReceiveMemoryWarning]':/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m:48: warning: 'UITableView' may not respond to '-didReceiveMemoryWarning'/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m:48: warning: (Messages without a matching method signature/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m:48: warning: will be assumed to return 'id' and accept/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m:48: warning: '...' as arguments.)/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m: In function '-[TicketPickerTableView viewDidUnload]':/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m:54: warning: 'UITableView' may not respond to '-viewDidUnload'3(22@59"'UITableView' may not respond to '-didReceiveMemoryWarning'321474135#156#164#0(6@90"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m318925596#48#0#48#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)321474135#320#150#0(6@90"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m318925596#48#0#48#0#0"0(22@49"'UITableView' may not respond to '-viewDidUnload'321474135#887#154#0(6@90"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m318925596#54#0#54#0#26"'*' may not respond to '*'0(0#0#90"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m8613119840#1873"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerTableView.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerTableView.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474135.051546
+e321474135.210470
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerViewController.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.m321474135#321474135#0(0"0(0#0#95"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.m8624819392#1883"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/TicketPickerViewController.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD_EventsAppDelegate.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.053647
+e321474134.257734
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD_EventsAppDelegate.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h:5: warning: 'apiPath' defined but not used
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h:7: warning: 'imagesPath' defined but not used
+lSLF07#2@95"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsAppDelegate.m321474134#321474134#0(245"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h:5: warning: 'apiPath' defined but not used/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h:7: warning: 'imagesPath' defined but not used2(22@30"'apiPath' defined but not used321474134#0#121#0(6@77"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h321435678#5#0#5#0#24"'*' defined but not used0(22@33"'imagesPath' defined but not used321474134#121#124#0(6@77"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../Settings.h321435678#7#0#7#0#24"'*' defined but not used0(0#0#87"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsAppDelegate.m8614742176#1870"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsAppDelegate.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD_EventsAppDelegate.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD_EventsViewController.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.109444
+e321474134.186603
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD_EventsViewController.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsViewController.m321474134#321474134#0(0"0(0#0#90"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsViewController.m8619968992#1876"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/UCD_EventsViewController.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD_EventsViewController.o"0#
+
+CCompileC "build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/main.o" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474134.052626
+e321474134.109331
+r1
+xCompileC
+xbuild/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/main.o
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/main.m321474134#321474134#0(0"0(0#0#62"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/main.m8612696736#1828"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -include /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/main.m" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.xib"
+s321474131.393351
+e321474131.785848
+r1
+xCompileXIB
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.xib
+lSLF07#2@52"CompileXIB Classes/../LocationListViewController.xib321474131#321474131#0(0"0(0#0#97"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.xib8615779584#689"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/LocationListViewController.nib" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../LocationListViewController.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../MainWindow.xib"
+s321474130.973093
+e321474131.436634
+r1
+xCompileXIB
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../MainWindow.xib
+lSLF07#2@36"CompileXIB Classes/../MainWindow.xib321474130#321474131#0(0"0(0#0#81"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../MainWindow.xib8615331744#657"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/MainWindow.nib" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../MainWindow.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.xib"
+s321474131.436736
+e321474131.909866
+r1
+xCompileXIB
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.xib
+lSLF07#2@53"CompileXIB Classes/../TicketChooserViewController.xib321474131#321474131#0(0"0(0#0#98"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.xib8615209024#691"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/TicketChooserViewController.nib" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketChooserViewController.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.xib"
+s321474131.785948
+e321474132.223163
+r1
+xCompileXIB
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.xib
+lSLF07#2@56"CompileXIB Classes/../TicketNavigationViewController.xib321474131#321474132#0(0"0(0#0#101"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.xib8614010592#697"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/TicketNavigationViewController.nib" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketNavigationViewController.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.xib"
+s321474131.909965
+e321474132.457484
+r1
+xCompileXIB
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/TicketPickerViewController.xib:4: warning: The separator style "Single Line Etched" is not supported on plain style table views.
+lSLF07#2@52"CompileXIB Classes/../TicketPickerViewController.xib321474131#321474132#0(226"/* com.apple.ibtool.document.warnings *//Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/TicketPickerViewController.xib:4: warning: The separator style "Single Line Etched" is not supported on plain style table views.1(22@85"The separator style "Single Line Etched" is not supported on plain style table views.321474132#18446744073709551615#0#0(6@86"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/TicketPickerViewController.xib319500372#4#0#4#0#0"0(0#0#97"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.xib8613218976#689"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/TicketPickerViewController.nib" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../TicketPickerViewController.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../UCD_EventsViewController.xib"
+s321474130.986953
+e321474131.393251
+r1
+xCompileXIB
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../UCD_EventsViewController.xib
+lSLF07#2@50"CompileXIB Classes/../UCD_EventsViewController.xib321474130#321474131#0(0"0(0#0#95"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../UCD_EventsViewController.xib8629733600#685"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD_EventsViewController.nib" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/../UCD_EventsViewController.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib"
+s321474132.751638
+e321474133.244721
+r1
+xCompileXIB
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib:31: warning: UITextView does not support data detectors when the text view is editable.
+o/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib:16: warning: The value specified for the "Highlighted" property is used only for display within Interface Builder and will not be present at runtime.
+lSLF07#2@48"CompileXIB Classes/EventDetailViewController.xib321474132#321474133#0(467"/* com.apple.ibtool.document.warnings *//Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib:31: warning: UITextView does not support data detectors when the text view is editable./Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib:16: warning: The value specified for the "Highlighted" property is used only for display within Interface Builder and will not be present at runtime.2(22@74"UITextView does not support data detectors when the text view is editable.321474133#18446744073709551615#0#0(6@93"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib321250054#31#0#31#0#0"0(22@136"The value specified for the "Highlighted" property is used only for display within Interface Builder and will not be present at runtime.321474133#18446744073709551615#0#0(6@93"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib321250054#16#0#16#0#0"0(0#0#93"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib8621054336#684"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/EventDetailViewController.nib" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventDetailViewController.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.xib"
+s321474132.459254
+e321474132.848015
+r1
+xCompileXIB
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.xib
+lSLF07#2@46"CompileXIB Classes/EventListViewController.xib321474132#321474132#0(0"0(0#0#91"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.xib8625732768#680"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/EventListViewController.nib" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/EventListViewController.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.xib"
+s321474132.238660
+e321474132.751544
+r1
+xCompileXIB
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.xib
+lSLF07#2@51"CompileXIB Classes/LocationDetailViewController.xib321474132#321474132#0(0"0(0#0#96"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.xib8617762272#690"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/LocationDetailViewController.nib" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Classes/LocationDetailViewController.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/Default.png" Default.png
+s321474132.457581
+e321474132.464862
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png321474132#321474132#0(0"0(0#0#67"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Default.png8627134400#541"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Default.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/Forever_Alone.png" Forever_Alone.png
+s321474132.224775
+e321474132.234208
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/Forever_Alone.png
+xForever_Alone.png
+lSLF07#2@22"Copy Forever_Alone.png321474132#321474132#0(0"0(0#0#73"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Forever_Alone.png8613512896#547"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Forever_Alone.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/Fuck-yea.png" Fuck-yea.png
+s321474132.225397
+e321474132.244300
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/Fuck-yea.png
+xFuck-yea.png
+lSLF07#2@17"Copy Fuck-yea.png321474132#321474132#0(0"0(0#0#68"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Fuck-yea.png8612235488#542"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/Fuck-yea.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/Three20.bundle" ../three20/src/Three20.bundle
+s321474130.972052
+e321474130.986843
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/Three20.bundle
+x../three20/src/Three20.bundle
+lSLF07#2@34"Copy ../three20/src/Three20.bundle321474130#321474130#0(0"0(0#0#85"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/../three20/src/Three20.bundle8596345280#559"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/../three20/src/Three20.bundle" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/agg.png" agg.png
+s321474132.849030
+e321474132.856370
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/agg.png
+xagg.png
+lSLF07#2@12"Copy agg.png321474132#321474132#0(0"0(0#0#63"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/agg.png8619629984#537"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/agg.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/agg2x.png" agg2x.png
+s321474132.848109
+e321474132.854911
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/agg2x.png
+xagg2x.png
+lSLF07#2@14"Copy agg2x.png321474132#321474132#0(0"0(0#0#65"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/agg2x.png8620288704#539"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/agg2x.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/antoine.png" antoine.png
+s321474132.223345
+e321474132.231820
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/antoine.png
+xantoine.png
+lSLF07#2@16"Copy antoine.png321474132#321474132#0(0"0(0#0#67"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/antoine.png8618938048#541"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/antoine.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/fffuuuuuu.png" fffuuuuuu.png
+s321474132.224136
+e321474132.262280
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/fffuuuuuu.png
+xfffuuuuuu.png
+lSLF07#2@18"Copy fffuuuuuu.png321474132#321474132#0(0"0(0#0#69"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/fffuuuuuu.png8616643392#543"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/fffuuuuuu.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/header_mc_logo.gif" header_mc_logo.gif
+s321474132.225998
+e321474132.238561
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/header_mc_logo.gif
+xheader_mc_logo.gif
+lSLF07#2@23"Copy header_mc_logo.gif321474132#321474132#0(0"0(0#0#74"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/header_mc_logo.gif8612143392#548"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/header_mc_logo.gif" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/lol-face.png" lol-face.png
+s321474132.226603
+e321474132.240633
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/lol-face.png
+xlol-face.png
+lSLF07#2@17"Copy lol-face.png321474132#321474132#0(0"0(0#0#68"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/lol-face.png8622393504#542"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/lol-face.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/ofer.png" ofer.png
+s321474132.227234
+e321474132.256817
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/ofer.png
+xofer.png
+lSLF07#2@13"Copy ofer.png321474132#321474132#0(0"0(0#0#64"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/ofer.png8614391168#538"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/ofer.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/robot-unicorn-attack.png" robot-unicorn-attack.png
+s321474132.228165
+e321474132.242974
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/robot-unicorn-attack.png
+xrobot-unicorn-attack.png
+lSLF07#2@29"Copy robot-unicorn-attack.png321474132#321474132#0(0"0(0#0#80"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/robot-unicorn-attack.png8612329632#554"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/robot-unicorn-attack.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/tableIcon.png" tableIcon.png
+s321474132.229932
+e321474132.250750
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/tableIcon.png
+xtableIcon.png
+lSLF07#2@18"Copy tableIcon.png321474132#321474132#0(0"0(0#0#69"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/tableIcon.png8630758176#543"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/tableIcon.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/troll-dad.png" troll-dad.png
+s321474132.231906
+e321474132.255600
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/troll-dad.png
+xtroll-dad.png
+lSLF07#2@18"Copy troll-dad.png321474132#321474132#0(0"0(0#0#69"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/troll-dad.png8622894208#543"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/troll-dad.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CCpResource "build/Debug-iphonesimulator/UCD Events.app/twm.png" twm.png
+s321474132.234294
+e321474132.260902
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/UCD Events.app/twm.png
+xtwm.png
+lSLF07#2@12"Copy twm.png321474132#321474132#0(0"0(0#0#63"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/twm.png8620039872#537"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/twm.png" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+
+CGenerateDSYMFile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app.dSYM" "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events"
+s321474136.752908
+e321474137.204891
+r1
+xGenerateDSYMFile
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app.dSYM
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events
+lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/UCD Events.app.dSYM" "build/Debug-iphonesimulator/UCD Events.app/UCD Events"321474136#321474137#0(0"0(0#0#109"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events8616426304#461"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/usr/bin/dsymutil "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events" -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app.dSYM"0#
+
+CLd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events" normal i386
+s321474136.015754
+e321474136.752790
+r1
+xLd
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events
+xnormal
+xi386
+lSLF07#2@114"Link /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events321474136#321474136#0(0"0(0#0#0"8614202368#2065"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" -filelist "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/Objects-normal/i386/UCD Events.LinkFileList" -mmacosx-version-min=10.6 -ObjC -Xlinker -objc_abi_version -Xlinker 2 "/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libextThree20JSON+SBJSON.a" "/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libextThree20XML.a" "/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a" "/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20.a" "/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a" "/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a" "/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a" "/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a" "/Users/william/Documents/UC Davis/dev/git/iOS/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a" -framework QuartzCore -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/UCD Events"0#
+
+CProcessInfoPlistFile "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/Info.plist" UCD_Events-Info.plist
+s321474130.918360
+e321474130.971946
+r1
+xProcessInfoPlistFile
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/Info.plist
+xUCD_Events-Info.plist
+lSLF07#2@29"Process UCD_Events-Info.plist321474130#321474130#0(0"0(0#0#77"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/UCD_Events-Info.plist8613597664#553"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UCD_Events-Info.plist -genpkginfo "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app/Info.plist"0#
+
+CProcessPCH /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch.gch UCD_Events_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321474133.244841
+e321474134.052455
+r1
+xProcessPCH
+x/var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch.gch
+xUCD_Events_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile UCD_Events_Prefix.pch321474133#321474134#0(0"0(0#0#77"/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/UCD_Events_Prefix.pch8596091808#1698"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/UCD Events.hmap" "-F/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/include" -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/Build/Products/three20 -I../three20/src "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources/i386" "-I/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/UCD Events.build/Debug-iphonesimulator/UCD Events.build/DerivedSources" -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/UCD_Events_Prefix.pch" -o /var/folders/bq/bqQhEluHGruiFOhGh0FruE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UCD_Events_Prefix-arihzriqntaowecxubhcpttzdgrk/UCD_Events_Prefix.pch.gch0#
+
+CTouch "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"
+s321474137.205082
+e321474137.209047
+r1
+xTouch
+x/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app
+lSLF07#2@104"Touch /Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app321474137#321474137#0(0"0(0#0#0"8617254848#327"    cd "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/william/Documents/UC Davis/dev/git/iOS/UCDEvents/build/Debug-iphonesimulator/UCD Events.app"0#
+

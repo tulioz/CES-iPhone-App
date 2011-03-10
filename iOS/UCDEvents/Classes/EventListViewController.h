@@ -10,7 +10,7 @@
 #import <Three20/Three20.h>
 #import "EventDetailViewController.h"
 //#import "SelectableImageItem.h"
-#import "EventXMLDataSource.h"
+#import "EventJSONDataSource.h"
 //#import <TTXMLParser.h>
 //#import <TTXMLParser.h>
 //#import <extThree20XML/TTXMLParser.h>
