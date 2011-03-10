@@ -87,14 +87,14 @@
 		}
 		
 //		This is the actual creation of the event's cell item. URL is empty as the view controller push is handled elsewhere.
-		TTTableMessageItem *newTableItem = [TTTableMessageItem itemWithTitle:event.name caption:event.eventLocation.name text:event.description timestamp:event.date imageURL:event.imageURL URL:@""];
+		TTTableMessageItem *newTableItem = [TTTableMessageItem itemWithTitle:event.name caption:event.eventLocation.name text:event.description timestamp:event.date URL:@""];
 //		newTableItem.imageStyle = TTSTYLE(rounded);
 		
 //		Bundle up the event NSObject into userInfo as a query-able dictionary.
 //		We use this in the tableviewcontroller's didSelect method to push the event to the detailviewcontroller.
 		newTableItem.userInfo = [NSDictionary dictionaryWithObject:event forKey:@"event"];
 		
-		newTableItem.delegate = [UIImage imageNamed:@"agg2x.png"];
+//		newTableItem.defaultImage = [UIImage imageNamed:@"agg2x.png"];
 		
 //		Add the cell to the list
 		[categoryArray addObject:newTableItem];

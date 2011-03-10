@@ -137,7 +137,7 @@ animated:
 -(void)didSelectObject:(id)object atIndexPath:(NSIndexPath *)indexPath {
 	[_delegate locationListViewController:self didSelectObject:object];
 	NSLog(@"didSelect called");
-/*
+
 	TTTableSubtitleItem *theItem = object;
 	
 	NSDictionary *locationDict = theItem.userInfo;
@@ -150,7 +150,7 @@ animated:
 		LocationDetailViewController *locationDetail = [[LocationDetailViewController alloc] initWithLocation:theLocation];
 		[self.navigationController pushViewController:locationDetail animated:YES];
 	}
-	*/
+	
 //	[self.navigationController pushViewController:locationDetail animated:YES];
 //	[[restaurantDataSource model] modelItems];
 	
