@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>UCD_Events</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>UCD_Events</key>
+		<dict>
+			<key>HotelLocationItem</key>
+			<data>
+			BKwRTIzKMFcgZ7IkL5afpw2h3IWmGgvxpA0SDH1Bcyk=
+			</data>
+			<key>RestaurantLocationItem</key>
+			<data>
+			1WiLtsTdsnN0fjcWtOtHPeOTn1zAFf6GFeVhddFEBgE=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>
