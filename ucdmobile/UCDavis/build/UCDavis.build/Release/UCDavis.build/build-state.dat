@@ -1,0 +1,1779 @@
+TUCDavis
+v7
+r1
+
+N/Users/william/Downloads/ucdmobile/UCDavis/A_icon.png
+c000000004B7BA9E80000000000000D4E
+t1266395624
+s3406
+
+N/Users/william/Downloads/ucdmobile/UCDavis/AggieTV_icon.png
+c000000004B7BA9E80000000000001F88
+t1266395624
+s8072
+
+N/Users/william/Downloads/ucdmobile/UCDavis/AthleticsListViewController.xib
+c000000004B7BA9E80000000000001C9C
+t1266395624
+s7324
+
+N/Users/william/Downloads/ucdmobile/UCDavis/AthleticsRootListController.xib
+c000000004B7BA9E8000000000000428F
+t1266395624
+s17039
+
+N/Users/william/Downloads/ucdmobile/UCDavis/AthleticsRootViewController.xib
+c000000004B7BA9E80000000000002D3F
+t1266395624
+s11583
+
+N/Users/william/Downloads/ucdmobile/UCDavis/B_icon.png
+c000000004B7BA9E80000000000000D32
+t1266395624
+s3378
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Baseball_icon.png
+c000000004B7BA9E80000000000000365
+t1266395624
+s869
+
+N/Users/william/Downloads/ucdmobile/UCDavis/C_icon.png
+c000000004B7BA9E80000000000000DAD
+t1266395624
+s3501
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/../CollegeListViewController.xib
+c000000004B7BA9E80000000000004927
+t1266395624
+s18727
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/../InformationRootViewController.xib
+c000000004B7BA9E8000000000000300A
+t1266395624
+s12298
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/../InformationTeamViewController.xib
+c000000004B7BA9E80000000000001F86
+t1266395624
+s8070
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/../RootViewController.xib
+c000000004B7BA9E8000000000000BCB2
+t1266395624
+s48306
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/AboutRootViewController.xib
+c000000004B7BA9E80000000000002EE8
+t1266395624
+s12008
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/ArticleWebViewController.xib
+c000000004B7BA9E80000000000005F20
+t1266395624
+s24352
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CMAllTransitMapViewController.xib
+c000000004B7BA9E8000000000000400F
+t1266395624
+s16399
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CMMapViewController.xib
+c000000004B7BA9E80000000000004C79
+t1266395624
+s19577
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CMTransitLineListView.xib
+c000000004B7BA9E80000000000003D4A
+t1266395624
+s15690
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CMTransitMapViewController.xib
+c000000004B7BA9E80000000000003FEF
+t1266395624
+s16367
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CMTransitRouteStopList.xib
+c000000004B7BA9E80000000000002E3B
+t1266395624
+s11835
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CMTransitStopDetailView.xib
+c000000004B7BA9E800000000000036F1
+t1266395624
+s14065
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CMTransitStopSearchViewController.xib
+c000000004B7BA9E80000000000001F68
+t1266395624
+s8040
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CMWebBrowserViewController.xib
+c000000004B7BA9E8000000000000724F
+t1266395624
+s29263
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CalendarRootViewController.xib
+c000000004B7BA9E80000000000006037
+t1266395624
+s24631
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CalendarViewController.xib
+c000000004B7BA9E800000000000051E2
+t1266395624
+s20962
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CampusResourcesRootViewController.xib
+c000000004B7BA9E80000000000005C8C
+t1266395624
+s23692
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CampusResourcesViewController.xib
+c000000004B7BA9E8000000000000496C
+t1266395624
+s18796
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseCollegeListViewController.xib
+c000000004B7BA9E8000000000000363F
+t1266395624
+s13887
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseDepartmentListViewController.xib
+c000000004B7BA9E80000000000001DE4
+t1266395624
+s7652
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseDetailViewController.xib
+c000000004B7BA9E80000000000005905
+t1266395624
+s22789
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseListViewController.xib
+c000000004B7BA9E80000000000001FEA
+t1266395624
+s8170
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseRootViewController.xib
+c000000004B7BA9E80000000000002D81
+t1266395624
+s11649
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseSearchListViewController.xib
+c000000004B7BA9E80000000000001CA5
+t1266395624
+s7333
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/DepartmentCollegeListViewController.xib
+c000000004B7BA9E80000000000004648
+t1266395624
+s17992
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/DepartmentDetailViewController.xib
+c000000004B7BA9E80000000000001DDC
+t1266395624
+s7644
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/DepartmentListViewCell.xib
+c000000004B7BA9E80000000000002CC8
+t1266395624
+s11464
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/DepartmentListViewController.xib
+c000000004B7BA9E80000000000001CA7
+t1266395624
+s7335
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/DepartmentRootViewController.xib
+c000000004B7BA9E80000000000005D6C
+t1266395624
+s23916
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/DirectoryDetailViewController.xib
+c000000004B7BA9E80000000000002F67
+t1266395624
+s12135
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/DirectoryListViewController.xib
+c000000004B7BA9E80000000000002DBA
+t1266395624
+s11706
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/DirectoryRootViewController.xib
+c000000004B7BA9E80000000000002D07
+t1266395624
+s11527
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/JSON/../../MapRootViewController.xib
+c000000004B7BA9E80000000000002E34
+t1266395624
+s11828
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/JSON/CMBuildingDetailViewController.xib
+c000000004B7BA9E8000000000000421D
+t1266395624
+s16925
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/JSON/MapViewController.xib
+c000000004B7BA9E80000000000003FAD
+t1266395624
+s16301
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/MediaListViewController.xib
+c000000004B7BA9E80000000000001C90
+t1266395624
+s7312
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/MediaRadioViewController.xib
+c000000004B7BA9E800000000000048FA
+t1266395624
+s18682
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/MediaRootListController.xib
+c000000004B7BA9E80000000000001C90
+t1266395624
+s7312
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/MediaWebViewController.xib
+c000000004B7BA9E800000000000044EB
+t1266395624
+s17643
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/NewspaperDetailViewController.xib
+c000000004B7BA9E800000000000081CD
+t1266395624
+s33229
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/NewspaperRootListController.xib
+c000000004B7BA9E80000000000001C9C
+t1266395624
+s7324
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/PersonDetailViewCell.xib
+c000000004B7BA9E80000000000002BEA
+t1266395624
+s11242
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/TransitRootViewController.xib
+c000000004B7BA9E80000000000003315
+t1266395624
+s13077
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/WebBrowserRootViewController.xib
+c000000004B7BA9E80000000000002F4E
+t1266395624
+s12110
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Classes/en.lproj/MyView.xib
+c000000004B7BA9E80000000000001D2B
+t1266395624
+s7467
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Cross Country_icon.png
+c000000004B7BA9E800000000000003F3
+t1266395624
+s1011
+
+N/Users/william/Downloads/ucdmobile/UCDavis/D_icon.png
+c000000004B7BA9E80000000000000D22
+t1266395624
+s3362
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Dateline_icon.png
+c000000004B7BA9E80000000000000460
+t1266395624
+s1120
+
+N/Users/william/Downloads/ucdmobile/UCDavis/E_icon.png
+c000000004B7BA9E80000000000000CA7
+t1266395624
+s3239
+
+N/Users/william/Downloads/ucdmobile/UCDavis/EmailViewController.xib
+c000000004B7BA9E80000000000006F02
+t1266395624
+s28418
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Entitlements.plist
+c000000004B7BA9E800000000000000E1
+t1266395624
+s225
+
+N/Users/william/Downloads/ucdmobile/UCDavis/F_icon.png
+c000000004B7BA9E80000000000000C98
+t1266395624
+s3224
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Field Hockey_icon.png
+c000000004B7BA9E800000000000002E0
+t1266395624
+s736
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Football_icon.png
+c000000004B7BA9E80000000000000367
+t1266395624
+s871
+
+N/Users/william/Downloads/ucdmobile/UCDavis/G_icon.png
+c000000004B7BA9E80000000000000D99
+t1266395624
+s3481
+
+N/Users/william/Downloads/ucdmobile/UCDavis/H_icon.png
+c000000004B7BA9E80000000000000C8C
+t1266395624
+s3212
+
+N/Users/william/Downloads/ucdmobile/UCDavis/J_icon.png
+c000000004B7BA9E80000000000000CF6
+t1266395624
+s3318
+
+N/Users/william/Downloads/ucdmobile/UCDavis/KDVS Radio_icon.png
+c000000004B7BA9E8000000000000136F
+t1266395624
+s4975
+
+N/Users/william/Downloads/ucdmobile/UCDavis/K_icon.png
+c000000004B7BA9E80000000000000D3A
+t1266395624
+s3386
+
+N/Users/william/Downloads/ucdmobile/UCDavis/L_icon.png
+c000000004B7BA9E80000000000000C8A
+t1266395624
+s3210
+
+N/Users/william/Downloads/ucdmobile/UCDavis/ListViewCell.xib
+c000000004B7BA9E80000000000005860
+t1266395624
+s22624
+
+N/Users/william/Downloads/ucdmobile/UCDavis/LoadingViewController.xib
+c000000004B7BA9E80000000000002474
+t1266395624
+s9332
+
+N/Users/william/Downloads/ucdmobile/UCDavis/M_icon.png
+c000000004B7BA9E80000000000000D49
+t1266395624
+s3401
+
+N/Users/william/Downloads/ucdmobile/UCDavis/MainWindow.xib
+c000000004B7BA9E800000000000026E6
+t1266395624
+s9958
+
+N/Users/william/Downloads/ucdmobile/UCDavis/MediaRootViewController.xib
+c000000004B7BA9E800000000000058B7
+t1266395624
+s22711
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Men's Basketball_icon.png
+c000000004B7BA9E8000000000000038F
+t1266395624
+s911
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Men's Golf_icon.png
+c000000004B7BA9E800000000000003C7
+t1266395624
+s967
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Men's Soccer_icon.png
+c000000004B7BA9E800000000000003F3
+t1266395624
+s1011
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Men's Tennis_icon.png
+c000000004B7BA9E80000000000000327
+t1266395624
+s807
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Men's Water Polo_icon.png
+c000000004B7BA9E800000000000003D5
+t1266395624
+s981
+
+N/Users/william/Downloads/ucdmobile/UCDavis/NewspaperListViewController.xib
+c000000004B7BA9E80000000000001ACF
+t1266395624
+s6863
+
+N/Users/william/Downloads/ucdmobile/UCDavis/NewspaperRootViewController.xib
+c000000004B7BA9E80000000000005DBE
+t1266395624
+s23998
+
+N/Users/william/Downloads/ucdmobile/UCDavis/P_icon.png
+c000000004B7BA9E80000000000000CEC
+t1266395624
+s3308
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Q_icon.png
+c000000004B7BA9E80000000000000DF9
+t1266395624
+s3577
+
+N/Users/william/Downloads/ucdmobile/UCDavis/RSSFeeds.plist
+c000000004B7BA9E80000000000000E13
+t1266395624
+s3603
+
+N/Users/william/Downloads/ucdmobile/UCDavis/S_icon.png
+c000000004B7BA9E80000000000000DD1
+t1266395624
+s3537
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Softball_icon.png
+c000000004B7BA9E800000000000003E2
+t1266395624
+s994
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Swimming & Diving_icon.png
+c000000004B7BA9E800000000000003CD
+t1266395624
+s973
+
+N/Users/william/Downloads/ucdmobile/UCDavis/T_icon.png
+c000000004B7BA9E80000000000000C98
+t1266395624
+s3224
+
+N/Users/william/Downloads/ucdmobile/UCDavis/The California Aggie_icon.png
+c000000004B7BA9E80000000000000589
+t1266395624
+s1417
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Top Events & Scores_icon.png
+c000000004B7BA9E8000000000000038D
+t1266395624
+s909
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Top Stories_icon.png
+c000000004B7BA9E80000000000000352
+t1266395624
+s850
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Track_icon.png
+c000000004B7BA9E80000000000000263
+t1266395624
+s611
+
+N/Users/william/Downloads/ucdmobile/UCDavis/UC Davis Channel_icon.png
+c000000004B7BA9E80000000000001430
+t1266395624
+s5168
+
+N/Users/william/Downloads/ucdmobile/UCDavis/UC Davis Engineering_icon.png
+c000000004B7BA9E80000000000001779
+t1266395624
+s6009
+
+N/Users/william/Downloads/ucdmobile/UCDavis/UC Davis_icon.png
+c000000004B7BA9E80000000000001430
+t1266395624
+s5168
+
+N/Users/william/Downloads/ucdmobile/UCDavis/U_icon.png
+c000000004B7BA9E80000000000000CE2
+t1266395624
+s3298
+
+N/Users/william/Downloads/ucdmobile/UCDavis/UnitransRouteList.plist
+c000000004B7BA9E8000000000000076C
+t1266395624
+s1900
+
+N/Users/william/Downloads/ucdmobile/UCDavis/W_icon.png
+c000000004B7BA9E80000000000000D8B
+t1266395624
+s3467
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Women's Basketball_icon.png
+c000000004B7BA9E8000000000000034B
+t1266395624
+s843
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Women's Golf_icon.png
+c000000004B7BA9E8000000000000036F
+t1266395624
+s879
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Women's Gymnastics_icon.png
+c000000004B7BA9E800000000000003E8
+t1266395624
+s1000
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Women's Lacrosse_icon.png
+c000000004B7BA9E80000000000000314
+t1266395624
+s788
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Women's Rowing_icon.png
+c000000004B7BA9E800000000000003B9
+t1266395624
+s953
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Women's Soccer_icon.png
+c000000004B7BA9E80000000000000392
+t1266395624
+s914
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Women's Tennis_icon.png
+c000000004B7BA9E800000000000002F1
+t1266395624
+s753
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Women's Volleyball_icon.png
+c000000004B7BA9E80000000000000369
+t1266395624
+s873
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Women's Water Polo_icon.png
+c000000004B7BA9E80000000000000386
+t1266395624
+s902
+
+N/Users/william/Downloads/ucdmobile/UCDavis/Wrestling_icon.png
+c000000004B7BA9E8000000000000035A
+t1266395624
+s858
+
+N/Users/william/Downloads/ucdmobile/UCDavis/athletics.png
+c000000004B7BA9E80000000000002A85
+t1266395624
+s10885
+
+N/Users/william/Downloads/ucdmobile/UCDavis/back.png
+c000000004B7BA9E80000000000000BCA
+t1266395624
+s3018
+
+N/Users/william/Downloads/ucdmobile/UCDavis/bg_ucdavis2.png
+c000000004B7BA9E8000000000001AFD2
+t1266395624
+s110546
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Info.plist
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/A_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/AboutRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/AggieTV_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/ArticleWebViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/AthleticsListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/AthleticsRootListController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/AthleticsRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/B_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Baseball_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CMAllTransitMapViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CMBuildingDetailViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CMMapViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CMTransitLineListView.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CMTransitMapViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CMTransitRouteStopList.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CMTransitStopDetailView.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CMTransitStopSearchViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CMWebBrowserViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/C_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CalendarRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CalendarViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CampusResourcesRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CampusResourcesViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CollegeListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CourseCollegeListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CourseDepartmentListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CourseDetailViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CourseListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CourseRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/CourseSearchListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Cross Country_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/D_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Dateline_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/DepartmentCollegeListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/DepartmentDetailViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/DepartmentListViewCell.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/DepartmentListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/DepartmentRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/DirectoryDetailViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/DirectoryListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/DirectoryRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/E_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/EmailViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Entitlements.plist
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/F_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Field Hockey_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Football_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/G_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/H_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/InformationRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/InformationTeamViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/J_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/KDVS Radio_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/K_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/L_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/ListViewCell.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/LoadingViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/M_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/MapRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/MapViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/MediaListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/MediaRadioViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/MediaRootListController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/MediaRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/MediaWebViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Men's Basketball_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Men's Golf_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Men's Soccer_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Men's Tennis_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Men's Water Polo_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/NewspaperDetailViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/NewspaperListViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/NewspaperRootListController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/NewspaperRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/P_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/PersonDetailViewCell.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Q_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/RSSFeeds.plist
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/RootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/S_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Softball_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Swimming & Diving_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/T_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/The California Aggie_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Top Events & Scores_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Top Stories_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Track_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/TransitRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/UC Davis Channel_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/UC Davis Engineering_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/UC Davis_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/U_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/UnitransRouteList.plist
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/W_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/WebBrowserRootViewController.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Women's Basketball_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Women's Golf_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Women's Gymnastics_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Women's Lacrosse_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Women's Rowing_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Women's Soccer_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Women's Tennis_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Women's Volleyball_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Women's Water Polo_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Wrestling_icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/athletics.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/back.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/bg_ucdavis2.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/building.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/building_detail.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/buildings.plist
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/bus.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/bus_0.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/bus_1.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/bus_2.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/bus_3.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/bus_4.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/bus_5.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/bus_6.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/bus_7.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/buspin.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/calendar.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/classes.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/contact.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/departments.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/directory.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/email.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/en.lproj/MyView.nib
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/forward.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/location.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/mail.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/map.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/media.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/news.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/pin.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/radio.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/ralph.gif
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/resources.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/settings.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/stop.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/stop_detail.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/title.png
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/transit.db
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/webservice.db
+t2
+s0
+
+N/Users/william/Downloads/ucdmobile/UCDavis/building.png
+c000000004B7BA9E8000000000000051F
+t1266395624
+s1311
+
+N/Users/william/Downloads/ucdmobile/UCDavis/building_detail.png
+c000000004B7BA9E800000000000003EC
+t1266395624
+s1004
+
+N/Users/william/Downloads/ucdmobile/UCDavis/buildings.plist
+c000000004B7BA9E80000000000001384
+t1266395624
+s4996
+
+N/Users/william/Downloads/ucdmobile/UCDavis/bus.png
+c000000004B7BA9E800000000000005F4
+t1266395624
+s1524
+
+N/Users/william/Downloads/ucdmobile/UCDavis/bus_0.png
+c000000004B7BA9E80000000000000C72
+t1266395624
+s3186
+
+N/Users/william/Downloads/ucdmobile/UCDavis/bus_1.png
+c000000004B7BA9E80000000000000CA6
+t1266395624
+s3238
+
+N/Users/william/Downloads/ucdmobile/UCDavis/bus_2.png
+c000000004B7BA9E80000000000000C62
+t1266395624
+s3170
+
+N/Users/william/Downloads/ucdmobile/UCDavis/bus_3.png
+c000000004B7BA9E80000000000000CC1
+t1266395624
+s3265
+
+N/Users/william/Downloads/ucdmobile/UCDavis/bus_4.png
+c000000004B7BA9E80000000000000C6C
+t1266395624
+s3180
+
+N/Users/william/Downloads/ucdmobile/UCDavis/bus_5.png
+c000000004B7BA9E80000000000000C9D
+t1266395624
+s3229
+
+N/Users/william/Downloads/ucdmobile/UCDavis/bus_6.png
+c000000004B7BA9E80000000000000C4F
+t1266395624
+s3151
+
+N/Users/william/Downloads/ucdmobile/UCDavis/bus_7.png
+c000000004B7BA9E80000000000000CA4
+t1266395624
+s3236
+
+N/Users/william/Downloads/ucdmobile/UCDavis/buspin.png
+c000000004B7BA9E80000000000000209
+t1266395624
+s521
+
+N/Users/william/Downloads/ucdmobile/UCDavis/calendar.png
+c000000004B7BA9E80000000000000637
+t1266395624
+s1591
+
+N/Users/william/Downloads/ucdmobile/UCDavis/classes.png
+c000000004B7BA9E800000000000006A8
+t1266395624
+s1704
+
+N/Users/william/Downloads/ucdmobile/UCDavis/contact.png
+c000000004B7BA9E80000000000000E7A
+t1266395624
+s3706
+
+N/Users/william/Downloads/ucdmobile/UCDavis/departments.png
+c000000004B7BA9E80000000000000444
+t1266395624
+s1092
+
+N/Users/william/Downloads/ucdmobile/UCDavis/directory.png
+c000000004B7BA9E800000000000004C3
+t1266395624
+s1219
+
+N/Users/william/Downloads/ucdmobile/UCDavis/email.png
+c000000004B7BA9E800000000000005CB
+t1266395624
+s1483
+
+N/Users/william/Downloads/ucdmobile/UCDavis/forward.png
+c000000004B7BA9E80000000000000BD3
+t1266395624
+s3027
+
+N/Users/william/Downloads/ucdmobile/UCDavis/icon.png
+c000000004B7BA9E8000000000000072A
+t1266395624
+s1834
+
+N/Users/william/Downloads/ucdmobile/UCDavis/location.png
+c000000004B7BA9E80000000000000125
+t1266395624
+s293
+
+N/Users/william/Downloads/ucdmobile/UCDavis/mail.png
+c000000004B7BA9E80000000000000B7A
+t1266395624
+s2938
+
+N/Users/william/Downloads/ucdmobile/UCDavis/map.png
+c000000004B7BA9E80000000000002AEA
+t1266395624
+s10986
+
+N/Users/william/Downloads/ucdmobile/UCDavis/media.png
+c000000004B7BA9E800000000000009DE
+t1266395624
+s2526
+
+N/Users/william/Downloads/ucdmobile/UCDavis/news.png
+c000000004B7BA9E80000000000000525
+t1266395624
+s1317
+
+N/Users/william/Downloads/ucdmobile/UCDavis/pin.png
+c000000004B7BA9E80000000000001230
+t1266395624
+s4656
+
+N/Users/william/Downloads/ucdmobile/UCDavis/radio.png
+c000000004B7BA9E80000000000000645
+t1266395624
+s1605
+
+N/Users/william/Downloads/ucdmobile/UCDavis/ralph.gif
+c000000004B7BA9E800000000000011B6
+t1266395624
+s4534
+
+N/Users/william/Downloads/ucdmobile/UCDavis/resources.png
+c000000004B7BA9E80000000000000DBC
+t1266395624
+s3516
+
+N/Users/william/Downloads/ucdmobile/UCDavis/settings.png
+c000000004B7BA9E800000000000000EB
+t1266395624
+s235
+
+N/Users/william/Downloads/ucdmobile/UCDavis/stop.png
+c000000004B7BA9E80000000000000C50
+t1266395624
+s3152
+
+N/Users/william/Downloads/ucdmobile/UCDavis/stop_detail.png
+c000000004B7BA9E800000000000005D4
+t1266395624
+s1492
+
+N/Users/william/Downloads/ucdmobile/UCDavis/title.png
+c000000004B7BA9E8000000000000170F
+t1266395624
+s5903
+
+N/Users/william/Downloads/ucdmobile/UCDavis/transit.db
+c000000004B7BA9E80000000000575800
+t1266395624
+s5724160
+
+N/Users/william/Downloads/ucdmobile/UCDavis/webservice.db
+c000000004B7BA9E80000000000E72800
+t1266395624
+s15149056
+
+NUCDavis-Info.plist
+c000000004B7BA9E80000000000000391
+t1266395624
+s913
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/AthleticsListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/AthleticsRootListController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/AthleticsRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/../CollegeListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/../InformationRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/../InformationTeamViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/../RootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/AboutRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/ArticleWebViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CMAllTransitMapViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CMMapViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CMTransitLineListView.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CMTransitMapViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CMTransitRouteStopList.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CMTransitStopDetailView.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CMTransitStopSearchViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CMWebBrowserViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CalendarRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CalendarViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CampusResourcesRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CampusResourcesViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseCollegeListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseDepartmentListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseDetailViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/CourseSearchListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/DepartmentCollegeListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/DepartmentDetailViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/DepartmentListViewCell.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/DepartmentListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/DepartmentRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/DirectoryDetailViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/DirectoryListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/DirectoryRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/JSON/../../MapRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/JSON/CMBuildingDetailViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/JSON/MapViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/MediaListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/MediaRadioViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/MediaRootListController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/MediaWebViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/NewspaperDetailViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/NewspaperRootListController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/PersonDetailViewCell.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/TransitRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/WebBrowserRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/Classes/en.lproj/MyView.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/EmailViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/ListViewCell.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/LoadingViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/MainWindow.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/MediaRootViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/NewspaperListViewController.xib
+r0
+
+CCompileXIB /Users/william/Downloads/ucdmobile/UCDavis/NewspaperRootViewController.xib
+r0
+
+CCopyPlistFile /Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/Entitlements.plist Entitlements.plist
+r0
+
+CCopyPlistFile /Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/RSSFeeds.plist RSSFeeds.plist
+r0
+
+CCopyPlistFile /Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/UnitransRouteList.plist UnitransRouteList.plist
+r0
+
+CCopyPlistFile /Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Resources/buildings.plist buildings.plist
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Cross Country_icon.png" "Cross Country_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Field Hockey_icon.png" "Field Hockey_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/KDVS Radio_icon.png" "KDVS Radio_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Men's Basketball_icon.png" "Men's Basketball_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Men's Golf_icon.png" "Men's Golf_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Men's Soccer_icon.png" "Men's Soccer_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Men's Tennis_icon.png" "Men's Tennis_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Men's Water Polo_icon.png" "Men's Water Polo_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Swimming & Diving_icon.png" "Swimming & Diving_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/The California Aggie_icon.png" "The California Aggie_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Top Events & Scores_icon.png" "Top Events & Scores_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Top Stories_icon.png" "Top Stories_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/UC Davis Channel_icon.png" "UC Davis Channel_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/UC Davis Engineering_icon.png" "UC Davis Engineering_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/UC Davis_icon.png" "UC Davis_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Women's Basketball_icon.png" "Women's Basketball_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Women's Golf_icon.png" "Women's Golf_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Women's Gymnastics_icon.png" "Women's Gymnastics_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Women's Lacrosse_icon.png" "Women's Lacrosse_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Women's Rowing_icon.png" "Women's Rowing_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Women's Soccer_icon.png" "Women's Soccer_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Women's Tennis_icon.png" "Women's Tennis_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Women's Volleyball_icon.png" "Women's Volleyball_icon.png"
+r0
+
+CCpResource "build/Release/UCDavis.app/Contents/Resources/Women's Water Polo_icon.png" "Women's Water Polo_icon.png"
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/A_icon.png A_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/AggieTV_icon.png AggieTV_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/B_icon.png B_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/Baseball_icon.png Baseball_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/C_icon.png C_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/D_icon.png D_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/Dateline_icon.png Dateline_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/E_icon.png E_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/F_icon.png F_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/Football_icon.png Football_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/G_icon.png G_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/H_icon.png H_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/J_icon.png J_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/K_icon.png K_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/L_icon.png L_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/M_icon.png M_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/P_icon.png P_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/Q_icon.png Q_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/S_icon.png S_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/Softball_icon.png Softball_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/T_icon.png T_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/Track_icon.png Track_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/U_icon.png U_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/W_icon.png W_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/Wrestling_icon.png Wrestling_icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/athletics.png athletics.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/back.png back.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/bg_ucdavis2.png bg_ucdavis2.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/building.png building.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/building_detail.png building_detail.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/bus.png bus.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/bus_0.png bus_0.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/bus_1.png bus_1.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/bus_2.png bus_2.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/bus_3.png bus_3.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/bus_4.png bus_4.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/bus_5.png bus_5.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/bus_6.png bus_6.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/bus_7.png bus_7.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/buspin.png buspin.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/calendar.png calendar.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/classes.png classes.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/contact.png contact.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/departments.png departments.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/directory.png directory.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/email.png email.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/forward.png forward.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/icon.png icon.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/location.png location.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/mail.png mail.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/map.png map.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/media.png media.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/news.png news.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/pin.png pin.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/radio.png radio.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/ralph.gif ralph.gif
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/resources.png resources.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/settings.png settings.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/stop.png stop.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/stop_detail.png stop_detail.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/title.png title.png
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/transit.db transit.db
+r0
+
+CCpResource build/Release/UCDavis.app/Contents/Resources/webservice.db webservice.db
+r0
+
+CProcessInfoPlistFile /Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app/Contents/Info.plist UCDavis-Info.plist
+r0
+
+CTouch /Users/william/Downloads/ucdmobile/UCDavis/build/Release/UCDavis.app
+r0
+

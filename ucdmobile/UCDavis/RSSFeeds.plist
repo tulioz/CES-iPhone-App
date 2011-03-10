@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>The California Aggie</key>
+	<string>http://theaggie.org/rss/headlines</string>
+	<key>Dateline</key>
+	<string>http://www.news.ucdavis.edu/xml/getnews.php?type=category&amp;categories=Dateline&amp;format=rss</string>
+	<key>Top Events &amp; Scores</key>
+	<string>http://www.ucdavisaggies.com/event-toolbar-rss.xml</string>
+	<key>Top Stories</key>
+	<string>http://www.ucdavisaggies.com/headline-rss.xml</string>
+	<key>Swimming &amp; Diving</key>
+	<string>http://www.ucdavisaggies.com/sports/c-swim/headline-rss.xml</string>
+	<key>Track</key>
+	<string>http://www.ucdavisaggies.com/sports/c-track/headline-rss.xml</string>
+	<key>Cross Country</key>
+	<string>http://www.ucdavisaggies.com/sports/c-xc/headline-rss.xml</string>
+	<key>Baseball</key>
+	<string>http://www.ucdavisaggies.com/sports/m-basebl/headline-rss.xml</string>
+	<key>Men&apos;s Basketball</key>
+	<string>http://www.ucdavisaggies.com/sports/m-baskbl/headline-rss.xml</string>
+	<key>Football</key>
+	<string>http://www.ucdavisaggies.com/sports/m-footbl/headline-rss.xml</string>
+	<key>Men&apos;s Golf</key>
+	<string>http://www.ucdavisaggies.com/sports/m-golf/headline-rss.xml</string>
+	<key>Men&apos;s Soccer</key>
+	<string>http://www.ucdavisaggies.com/sports/m-soccer/headline-rss.xml</string>
+	<key>Men&apos;s Tennis</key>
+	<string>http://www.ucdavisaggies.com/sports/m-tennis/headline-rss.xml</string>
+	<key>Men&apos;s Water Polo</key>
+	<string>http://www.ucdavisaggies.com/sports/m-wpolo/headline-rss.xml</string>
+	<key>Wrestling</key>
+	<string>http://www.ucdavisaggies.com/sports/m-wrestl/headline-rss.xml</string>
+	<key>Women&apos;s Basketball</key>
+	<string>http://www.ucdavisaggies.com/sports/w-baskbl/headline-rss.xml</string>
+	<key>Women&apos;s Golf</key>
+	<string>http://www.ucdavisaggies.com/sports/w-golf/headline-rss.xml</string>
+	<key>Women&apos;s Gymnastics</key>
+	<string>http://www.ucdavisaggies.com/sports/w-gym/headline-rss.xml</string>
+	<key>Women&apos;s Lacrosse</key>
+	<string>http://www.ucdavisaggies.com/sports/w-lacros/headline-rss.xml</string>
+	<key>Women&apos;s Rowing</key>
+	<string>http://www.ucdavisaggies.com/sports/w-rowing/headline-rss.xml</string>
+	<key>Women&apos;s Soccer</key>
+	<string>http://www.ucdavisaggies.com/sports/w-soccer/headline-rss.xml</string>
+	<key>Softball</key>
+	<string>http://www.ucdavisaggies.com/sports/w-softbl/headline-rss.xml</string>
+	<key>Women&apos;s Tennis</key>
+	<string>http://www.ucdavisaggies.com/sports/w-tennis/headline-rss.xml</string>
+	<key>Women&apos;s Volleyball</key>
+	<string>http://www.ucdavisaggies.com/sports/w-volley/headline-rss.xml</string>
+	<key>Women&apos;s Water Polo</key>
+	<string>http://www.ucdavisaggies.com/sports/w-wpolo/headline-rss.xml</string>
+	<key>Field Hockey</key>
+	<string>http://www.ucdavisaggies.com/sports/w-fieldh/headline-rss.xml</string>
+	<key>UC Davis</key>
+	<string>http://www.news.ucdavis.edu/xml/getnews.php?type=category&amp;categories=General+Interest&amp;format=rss</string>
+	<key>UC Davis Engineering</key>
+	<string>http://www.facebook.com/feeds/page.php?format=atom10&amp;id=125598955309</string>
+	<key>AggieTV</key>
+	<string>http://gdata.youtube.com/feeds/base/users/asucd/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile</string>
+	<key>UC Davis Channel</key>
+	<string>http://gdata.youtube.com/feeds/base/users/UCDavis/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile</string>
+</dict>
+</plist>

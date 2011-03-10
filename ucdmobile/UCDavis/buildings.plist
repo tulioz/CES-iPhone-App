@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>ARC</string>
+		<key>lat</key>
+		<real>38.543061</real>
+		<key>lng</key>
+		<real>-121.759844</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Academic Surge Building</string>
+		<key>lat</key>
+		<real>38.535366</real>
+		<key>lng</key>
+		<real>-121.752977</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bainer Hall</string>
+		<key>lat</key>
+		<real>38.537313</real>
+		<key>lng</key>
+		<real>-121.752741</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Crocker Nuclear Lab</string>
+		<key>lat</key>
+		<real>38.53644</real>
+		<key>lng</key>
+		<real>-121.752591</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Engineering III</string>
+		<key>lat</key>
+		<real>38.536214</real>
+		<key>lng</key>
+		<real>-121.753567</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kemper Hall</string>
+		<key>lat</key>
+		<real>38.537154</real>
+		<key>lng</key>
+		<real>-121.754876</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Meyer Hall</string>
+		<key>lat</key>
+		<real>38.53482</real>
+		<key>lng</key>
+		<real>-121.754544</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mathematical Science Building</string>
+		<key>lat</key>
+		<real>38.535962</real>
+		<key>lng</key>
+		<real>-121.752656</real>
+	</dict>
+		<dict>
+		<key>name</key>
+		<string>Roessler Hall</string>
+		<key>lat</key>
+		<real>38.537053</real>
+		<key>lng</key>
+		<real>-121.751797</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Physics-Geology Building</string>
+		<key>lat</key>
+		<real>38.536675</real>
+		<key>lng</key>
+		<real>-121.751207</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Physical Sciences and Engineering Library</string>
+		<key>lat</key>
+		<real>38.53733</real>
+		<key>lng</key>
+		<real>-121.750842</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Chemistry Annex</string>
+		<key>lat</key>
+		<real>38.537783</real>
+		<key>lng</key>
+		<real>-121.750435</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Chemistry Building</string>
+		<key>lat</key>
+		<real>38.538387</real>
+		<key>lng</key>
+		<real>-121.75125</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Everson Building</string>
+		<key>lat</key>
+		<real>38.538597</real>
+		<key>lng</key>
+		<real>-121.750113</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Art Building</string>
+		<key>lat</key>
+		<real>38.539</real>
+		<key>lng</key>
+		<real>-121.748514</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Art Annex</string>
+		<key>lat</key>
+		<real>38.538429</real>
+		<key>lng</key>
+		<real>-121.748546</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Wright Hall</string>
+		<key>lat</key>
+		<real>38.538698</real>
+		<key>lng</key>
+		<real>-121.747935</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Music Building</string>
+		<key>lat</key>
+		<real>38.539126</real>
+		<key>lng</key>
+		<real>-121.747409</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Olson Hall</string>
+		<key>lat</key>
+		<real>38.53999</real>
+		<key>lng</key>
+		<real>-121.747624</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sproul Hall</string>
+		<key>lat</key>
+		<real>38.539982</real>
+		<key>lng</key>
+		<real>-121.747077</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Shields Library</string>
+		<key>lat</key>
+		<real>38.539604</real>
+		<key>lng</key>
+		<real>-121.749619</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Walker Hall</string>
+		<key>lat</key>
+		<real>38.539587</real>
+		<key>lng</key>
+		<real>-121.750671</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Wellman Hall</string>
+		<key>lat</key>
+		<real>38.541324</real>
+		<key>lng</key>
+		<real>-121.7514</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kerr Hall</string>
+		<key>lat</key>
+		<real>38.541526</real>
+		<key>lng</key>
+		<real>-121.752065</real>
+	</dict>
+		<dict>
+		<key>name</key>
+		<string>Robbins Hall</string>
+		<key>lat</key>
+		<real>38.540418</real>
+		<key>lng</key>
+		<real>-121.752044</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hart Hall</string>
+		<key>lat</key>
+		<real>38.540552</real>
+		<key>lng</key>
+		<real>-121.750757</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Robbins Annex</string>
+		<key>lat</key>
+		<real>38.541047</real>
+		<key>lng</key>
+		<real>-121.752259</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Asmundson Hall</string>
+		<key>lat</key>
+		<real>38.541836</real>
+		<key>lng</key>
+		<real>-121.75331</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Wickson Hall</string>
+		<key>lat</key>
+		<real>38.542046</real>
+		<key>lng</key>
+		<real>-121.751465</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Freeborn Hall</string>
+		<key>lat</key>
+		<real>38.542642</real>
+		<key>lng</key>
+		<real>-121.749898</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bookstore</string>
+		<key>lat</key>
+		<real>38.542801</real>
+		<key>lng</key>
+		<real>-121.749169</real>
+	</dict>
+</array>
+</plist>
