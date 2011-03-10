@@ -83,7 +83,7 @@
 		for (LocationItem *location in _locationFeedModel.locations) {
 			NSString *locationName = [location.name lowercaseString];
 			if ([locationName hasPrefix:text]) {
-				NSLog(@"Found a match with location %@", location.name);
+				NSLog(@"Found a match with location %@", location.address);
 				TTTableSubtitleItem *newTableItem = [TTTableSubtitleItem itemWithText:location.name subtitle:location.address imageURL:location.imageURL URL:@""];
 				newTableItem.userInfo = [NSDictionary dictionaryWithObject:location forKey:@"location"];
 				newTableItem.defaultImage = [UIImage imageNamed:@"agg2x.png"];
