@@ -1,3 +1,0 @@
-/Users/william/Documents/UC Davis/UCD Events 5/Classes/LocationXMLDataModel.m:97: warning: property 'matchingNames' requires method '-matchingNames' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/william/Documents/UC Davis/UCD Events 5/Classes/LocationXMLDataModel.m:97: warning: incomplete implementation of class 'LocationXMLDataModel'
-/Users/william/Documents/UC Davis/UCD Events 5/Classes/LocationXMLDataModel.m:97: warning: method definition for '-search:' not found
