@@ -77,6 +77,7 @@
 		}
 		location.type = [currentLocation objectForKey:@"type"];
 		location.name = [currentLocation objectForKey:@"name"];
+		location.address = [currentLocation objectForKey:@"address"];
 		location.imageURL = [currentLocation objectForKey:@"imageURL"];
 //		NSLog(@"location's imageURL is ", [location.imageURL class]);
 //		if (location.imageURL == nil) {

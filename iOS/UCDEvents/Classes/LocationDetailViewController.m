@@ -61,7 +61,6 @@
 -(id) initWithLocation:(LocationItem *) theLocation {
 	self = [super init];
 	if (nil != self) {
-		NSLog(@"starting with location %@", theLocation.name);
 		viewingLocation = theLocation;
 	}
 	
