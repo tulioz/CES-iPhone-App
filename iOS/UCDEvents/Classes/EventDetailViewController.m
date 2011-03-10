@@ -38,22 +38,19 @@
 	self.descriptionScrollView.text = theEvent.description;
 	self.descriptionScrollView.editable = NO;
 	
-	NSData *previewImageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:self.theEvent.imageURL]];
-	UIImage *previewImage = [[UIImage alloc] initWithData:previewImageData];
-	[self.eventImageView setImage:previewImage];
-	/*
-	TTImageView *myImageView;
-	myImageView = [[TTImageView alloc] init];
-//	self.eventImageView.backgroundColor = [UIColor clearColor];
-	myImageView.defaultImage = [UIImage imageNamed:@"antoine.png"];
-	NSLog(@"imageURL is %@", self.theEvent.imageURL);
-	myImageView.urlPath = self.theEvent.imageURL;
-	[myImageView reload];
-	*/
+	NSData *previewImageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:self.theEvent.imageURL]];
 	
+	UIImage *previewImage;
+	if (previewImageData) {
+		previewImage = [[UIImage alloc] initWithData:previewImageData];
+	} else {
+		previewImage = [UIImage imageNamed:@"agg2x.png"];
+	}
+	
+	[self.eventImageView setImage:previewImage];
 	
 //	TT_RELEASE_SAFELY(previewImageData);
-//	TT_RELEASE_SAFELY(previewImage);
+	TT_RELEASE_SAFELY(previewImage);
 	
 	
 	NSDate *eventDate = self.theEvent.date;

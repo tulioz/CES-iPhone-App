@@ -1,3 +1,4 @@
 .DS_Store
+iOS/UCDEvents/Build/
 iOS/UCDEvents/Build/**/*
-
+iOS/UCDEvents/build/
