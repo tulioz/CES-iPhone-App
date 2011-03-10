@@ -179,6 +179,11 @@
 			3D7DC8421328C184001AEFE3 /* PBXTextBookmark */ = 3D7DC8421328C184001AEFE3 /* PBXTextBookmark */;
 			3D7DC8431328C184001AEFE3 /* PBXTextBookmark */ = 3D7DC8431328C184001AEFE3 /* PBXTextBookmark */;
 			3D7DC8461328C184001AEFE3 /* PBXTextBookmark */ = 3D7DC8461328C184001AEFE3 /* PBXTextBookmark */;
+			3D7DC85F1328C6C2001AEFE3 /* PBXTextBookmark */ = 3D7DC85F1328C6C2001AEFE3 /* PBXTextBookmark */;
+			3D7DC8601328C6C2001AEFE3 /* PBXTextBookmark */ = 3D7DC8601328C6C2001AEFE3 /* PBXTextBookmark */;
+			3D7DC8611328C6C2001AEFE3 /* PBXTextBookmark */ = 3D7DC8611328C6C2001AEFE3 /* PBXTextBookmark */;
+			3D7DC8621328C6C2001AEFE3 /* PBXTextBookmark */ = 3D7DC8621328C6C2001AEFE3 /* PBXTextBookmark */;
+			3D7DC8631328C6C2001AEFE3 /* PBXTextBookmark */ = 3D7DC8631328C6C2001AEFE3 /* PBXTextBookmark */;
 			3DDEE7671328A9A900BA2A42 = 3DDEE7671328A9A900BA2A42 /* PBXTextBookmark */;
 			3DDEE79E1328AC6600BA2A42 = 3DDEE79E1328AC6600BA2A42 /* PBXTextBookmark */;
 			3DDEE79F1328AC6600BA2A42 = 3DDEE79F1328AC6600BA2A42 /* PBXTextBookmark */;
@@ -274,7 +279,7 @@
 	};
 	3D04243D1324F9C70021B590 /* EventXMLDataSource.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {976, 676}}";
+			sepNavIntBoundsRect = "{{0, 0}, {976, 699}}";
 			sepNavSelRange = "{115, 0}";
 			sepNavVisRange = "{0, 417}";
 			sepNavWindowFrame = "{{96, 0}, {678, 878}}";
@@ -282,9 +287,9 @@
 	};
 	3D04243E1324F9C70021B590 /* EventXMLDataSource.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1398, 2100}}";
-			sepNavSelRange = "{3442, 0}";
-			sepNavVisRange = "{1744, 1893}";
+			sepNavIntBoundsRect = "{{0, 0}, {1230, 1935}}";
+			sepNavSelRange = "{3032, 0}";
+			sepNavVisRange = "{1724, 1801}";
 			sepNavWindowFrame = "{{226, 48}, {1089, 810}}";
 		};
 	};
@@ -316,7 +321,7 @@
 	3D0BEBB113236B5700F3191C /* LocationJSONDataSource.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 1800}}";
-			sepNavSelRange = "{2185, 0}";
+			sepNavSelRange = "{2122, 64}";
 			sepNavVisRange = "{1021, 2141}";
 			sepNavWindowFrame = "{{714, 0}, {678, 878}}";
 		};
@@ -378,7 +383,7 @@
 		fRef = 3D04243E1324F9C70021B590 /* EventXMLDataSource.m */;
 		name = "EventXMLDataSource.m: 97";
 		rLen = 0;
-		rLoc = 3442;
+		rLoc = 3424;
 		rType = 0;
 		vrLen = 1893;
 		vrLoc = 1744;
@@ -398,7 +403,7 @@
 		fRef = 3D04243E1324F9C70021B590 /* EventXMLDataSource.m */;
 		name = "EventXMLDataSource.m: 97";
 		rLen = 0;
-		rLoc = 3442;
+		rLoc = 3424;
 		rType = 0;
 		vrLen = 1893;
 		vrLoc = 1744;
@@ -444,6 +449,56 @@
 		vrLoc = 3749;
 	};
 	3D7DC8461328C184001AEFE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D04243A1324F9C70021B590 /* EventListViewController.m */;
+		name = "EventListViewController.m: 10";
+		rLen = 0;
+		rLoc = 199;
+		rType = 0;
+		vrLen = 1291;
+		vrLoc = 0;
+	};
+	3D7DC85F1328C6C2001AEFE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3DC437CC130B800A00408345 /* LocationListViewController.m */;
+		name = "LocationListViewController.m: 153";
+		rLen = 0;
+		rLoc = 4857;
+		rType = 0;
+		vrLen = 1722;
+		vrLoc = 3749;
+	};
+	3D7DC8601328C6C2001AEFE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D0BEBB113236B5700F3191C /* LocationJSONDataSource.m */;
+		name = "LocationJSONDataSource.m: 63";
+		rLen = 64;
+		rLoc = 2122;
+		rType = 0;
+		vrLen = 2141;
+		vrLoc = 1021;
+	};
+	3D7DC8611328C6C2001AEFE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D04243D1324F9C70021B590 /* EventXMLDataSource.h */;
+		name = "EventXMLDataSource.h: 6";
+		rLen = 0;
+		rLoc = 115;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	3D7DC8621328C6C2001AEFE3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D04243E1324F9C70021B590 /* EventXMLDataSource.m */;
+		name = "EventXMLDataSource.m: 90";
+		rLen = 0;
+		rLoc = 3032;
+		rType = 0;
+		vrLen = 1801;
+		vrLoc = 1724;
+	};
+	3D7DC8631328C6C2001AEFE3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3D04243A1324F9C70021B590 /* EventListViewController.m */;
 		name = "EventListViewController.m: 10";
@@ -594,7 +649,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1405, 3450}}";
 			sepNavSelRange = "{4857, 0}";
-			sepNavVisRange = "{3749, 1720}";
+			sepNavVisRange = "{3749, 1722}";
 			sepNavWindowFrame = "{{762, 0}, {678, 878}}";
 		};
 	};
@@ -1097,7 +1152,7 @@
 		fRef = 3D04243E1324F9C70021B590 /* EventXMLDataSource.m */;
 		name = "EventXMLDataSource.m: 97";
 		rLen = 0;
-		rLoc = 3442;
+		rLoc = 3424;
 		rType = 0;
 		vrLen = 1893;
 		vrLoc = 1744;

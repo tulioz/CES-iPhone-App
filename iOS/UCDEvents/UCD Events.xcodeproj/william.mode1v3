@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>3D7DC8461328C184001AEFE3</string>
+						<string>3D7DC8631328C6C2001AEFE3</string>
 						<key>history</key>
 						<array>
 							<string>3D7DC7EB1328C156001AEFE3</string>
@@ -318,8 +318,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>17</integer>
-									<integer>15</integer>
+									<integer>11</integer>
+									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -362,7 +362,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>LocationListViewController.m</string>
+								<string>EventXMLDataSource.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -370,11 +370,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>LocationListViewController.m</string>
+										<string>EventXMLDataSource.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3D7DC8431328C184001AEFE3</string>
+										<string>3D7DC8621328C6C2001AEFE3</string>
 										<key>history</key>
 										<array>
 											<string>3DDEE7671328A9A900BA2A42</string>
@@ -392,16 +392,16 @@
 											<string>3DDEE8341328B82400BA2A42</string>
 											<string>3DDEE8351328B82400BA2A42</string>
 											<string>3DDEE8441328B85F00BA2A42</string>
-											<string>3DDEE8451328B85F00BA2A42</string>
 											<string>3DDEE8461328B85F00BA2A42</string>
 											<string>3DDEE8471328B85F00BA2A42</string>
 											<string>3DDEE84F1328B88A00BA2A42</string>
 											<string>3DDEE8501328B88A00BA2A42</string>
-											<string>3D7DC83F1328C184001AEFE3</string>
 											<string>3D7DC8401328C184001AEFE3</string>
 											<string>3D7DC8411328C184001AEFE3</string>
-											<string>3D7DC8421328C184001AEFE3</string>
-											<string>3DDEE84E1328B88A00BA2A42</string>
+											<string>3D7DC85F1328C6C2001AEFE3</string>
+											<string>3D7DC8601328C6C2001AEFE3</string>
+											<string>3D7DC8611328C6C2001AEFE3</string>
+											<string>3D7DC83F1328C184001AEFE3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
