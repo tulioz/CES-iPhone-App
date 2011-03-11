@@ -34,7 +34,7 @@
 		
 	//	[map from:@"ucde://EventDetail/didTapID" toObject:self selector:@selector(didTapID:)];
 		
-		NSLog(@"received name of %@ and %@.", self.categoryName, self.categoryURL);
+//		NSLog(@"received name of %@ and %@.", self.categoryName, self.categoryURL);
 	}
 	
 	return self;
@@ -121,7 +121,7 @@ animated:
 //	NSLog(@"Dict is %@", EventDict);
 
 	EventItem *theEvent = [EventDict objectForKey:@"event"];
-	NSLog(@"Name is %@", theEvent.time);
+//	NSLog(@"Name is %@", theEvent.time);
 	
 	if (theEvent) {
 		EventDetailViewController *EventDetail = [[EventDetailViewController alloc] initWithEvent:theEvent];

@@ -11,6 +11,7 @@
 #import "LocationDetailViewController.h"
 //#import "SelectableImageItem.h"
 #import "LocationJSONDataSource.h"
+#import "LocationManager.h"
 //#import <TTXMLParser.h>
 //#import <TTXMLParser.h>
 //#import <extThree20XML/TTXMLParser.h>
@@ -22,6 +23,8 @@
 	NSString *_name;
 	NSString *_url;
 	
+	CLLocation *lastLocation;
+	
 	id<LocationListViewControllerDelegate> _delegate;
 }
 
@@ -31,6 +34,7 @@
 
 @property (nonatomic, retain) NSString *categoryName;
 @property (nonatomic, retain) NSString *categoryURL;
+@property (nonatomic, retain) CLLocation * lastLocation;
 
 @property (nonatomic, retain) id<LocationListViewControllerDelegate> delegate;
 

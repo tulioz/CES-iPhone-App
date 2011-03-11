@@ -47,7 +47,11 @@
 		TT_RELEASE_SAFELY(response);
 		
 		// Send out the request
-		[request send];
+		if ([request send]) {
+			NSLog(@"Loaded URL From cache");
+		} else {
+			NSLog(@"Loaded URL from web");
+		}
 	}
 }
 

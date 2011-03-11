@@ -15,6 +15,7 @@
 #import "LocationListViewController.h"
 #import "LocationDetailViewController.h"
 #import "EventListViewController.h"
+#import "TTTwitterSearchFeedViewController.h"
 
 @implementation UCD_EventsAppDelegate
 
@@ -49,7 +50,7 @@
 	[map from:@"ucde://newsfeed/" toViewController:
 	 [RSSFeedTableViewController class]];
 	[map from:@"ucde://ticketpicker/" toViewController:
-	 [TicketPickerViewController class]];
+	 [TTTwitterSearchFeedViewController class]];
 	[map from:@"ucde://ticketpicker/(initWithStyle:)" toViewController:
 	 [TicketPickerViewController class]];
 	[map from:@"ucde://ticketchooser/(initWithStyle:)" toViewController:

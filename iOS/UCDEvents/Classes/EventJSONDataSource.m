@@ -76,7 +76,7 @@
 		
 //		If we didn't find the category, add it to the list of sections and add current event to its array.
 		if(eventFound == -1) {
-			NSLog(@"Adding new category....");
+//			NSLog(@"Adding new category....");
 			[sectionNames addObject:theCategory];
 			NSMutableArray *newCategory = [[NSMutableArray alloc] init];
 			categoryArray = newCategory;

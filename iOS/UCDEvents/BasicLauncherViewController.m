@@ -44,7 +44,7 @@
 						   [self launcherItemWithTitle:@"Weather" image:@"bundle://agg.png" URL:@""],
 						   [self launcherItemWithTitle:@"Map" image:@"bundle://agg.png" URL:@""],
 						   [self launcherItemWithTitle:@"Events" image:@"bundle://agg.png" URL:@"ucde://eventList/Events/events.xml"],
-						   [self launcherItemWithTitle:@"Tickets" image:@"bundle://agg.png" URL:@"ucde://ticketchooser/UITableViewStyleGrouped/"],
+						   [self launcherItemWithTitle:@"Tickets" image:@"bundle://agg.png" URL:@"ucde://ticketchooser/"],
 						   [self launcherItemWithTitle:@"Special Deals" image:@"bundle://agg.png" URL:@"ucde://ticketpicker/"],
 						   [self launcherItemWithTitle:@"Restaurants" image:@"bundle://agg.png" URL:@"ucde://locationList/Restaurants/restaurants"],
 						   [self launcherItemWithTitle:@"Shopping" image:@"bundle://agg.png" URL:@"http://maps.google.com/maps/place?cid=9237992642497654431&q=panda+express+davis+ca&hl=en&sll=38.560978,-121.766971&sspn=0.035357,0.058199&ie=UTF8&ll=38.686582,-121.81057&spn=0,0&z=12"],
