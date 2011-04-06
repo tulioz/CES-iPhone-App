@@ -23,6 +23,6 @@
 @synthesize longitude;
 @synthesize latitude;
 @synthesize mapsURL;
-
+@synthesize distance;
 
 @end

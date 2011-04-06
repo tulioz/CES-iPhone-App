@@ -7,13 +7,15 @@
 //
 
 #import "LocationJSONDataSource.h"
-
+#import "LocationManager.h"
 
 @implementation LocationJSONDataSource
 
 -(id)initWithMyURL:(NSString *)theURL {
 	if (self = [super init]) {
 		_locationFeedModel = [[LocationJSONDataModel alloc] initWithMyURL:theURL];
+
+	
 	}
 
 	return self;

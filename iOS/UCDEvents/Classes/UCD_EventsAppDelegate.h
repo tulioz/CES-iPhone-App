@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Three20/Three20.h>
 #import "LocationItem.h"
+#import "LocationManager.h"
 
 @class UCD_EventsViewController;
 

@@ -15,7 +15,6 @@
 @synthesize categoryName = _name;
 @synthesize categoryURL = _url;
 @synthesize delegate = _delegate;
-@synthesize lastLocation;
 
 -(id)initWithName:(NSString *)name {
 	if (self = [super init]) {
@@ -95,10 +94,6 @@ animated:
 
 -(void)viewDidLoad {
 	self.title = self.categoryName;
-	
-	LocationManager *locationManager = [[LocationManager alloc] init];
-	locationManager.delegate = self;
-	[locationManager startUpdates];
 }
 
 -(void)createModel {
@@ -171,11 +166,6 @@ animated:
 
 -(BOOL)shouldOpenURL:(NSString *)URL {
 	return NO;
-}
-
--(void)updateLocation:(CLLocation *)location {
-	self.lastLocation = location;
-	NSLog(@"Updated location!!!");
 }
 
 //-(id)init {

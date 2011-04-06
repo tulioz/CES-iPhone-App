@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D198CE11342A726005C523B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE01342A726005C523B /* UIKit.framework */; };
+		3D198CE31342A726005C523B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE21342A726005C523B /* Foundation.framework */; };
+		3D198CE51342A726005C523B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE41342A726005C523B /* CoreGraphics.framework */; };
+		3D198CE71342A726005C523B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE61342A726005C523B /* CoreData.framework */; };
+		3D198CED1342A726005C523B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D198CEB1342A726005C523B /* InfoPlist.strings */; };
+		3D198CF01342A726005C523B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D198CEF1342A726005C523B /* main.m */; };
+		3D198CF31342A726005C523B /* UCD_EventsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D198CF21342A726005C523B /* UCD_EventsAppDelegate.m */; };
+		3D198CF61342A726005C523B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D198CF41342A726005C523B /* MainWindow.xib */; };
+		3D198CF91342A726005C523B /* UCD_Events.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D198CF71342A726005C523B /* UCD_Events.xcdatamodeld */; };
+		3D198D001342A727005C523B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE01342A726005C523B /* UIKit.framework */; };
+		3D198D011342A727005C523B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE21342A726005C523B /* Foundation.framework */; };
+		3D198D021342A727005C523B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE41342A726005C523B /* CoreGraphics.framework */; };
+		3D198D031342A727005C523B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE61342A726005C523B /* CoreData.framework */; };
+		3D198D0B1342A727005C523B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D198D091342A727005C523B /* InfoPlist.strings */; };
+		3D198D0E1342A727005C523B /* UCD_EventsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D198D0D1342A727005C523B /* UCD_EventsTests.h */; };
+		3D198D101342A727005C523B /* UCD_EventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D198D0F1342A727005C523B /* UCD_EventsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D198D041342A727005C523B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D198CD31342A726005C523B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D198CDB1342A726005C523B;
+			remoteInfo = "UCD Events";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D198CDC1342A726005C523B /* UCD Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCD Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D198CE01342A726005C523B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D198CE21342A726005C523B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D198CE41342A726005C523B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D198CE61342A726005C523B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3D198CEA1342A726005C523B /* UCD Events-Info.plist */ = {isa = PBXFileReference; path = "UCD Events-Info.plist"; sourceTree = "<group>"; };
+		3D198CEC1342A726005C523B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D198CEE1342A726005C523B /* UCD Events-Prefix.pch */ = {isa = PBXFileReference; path = "UCD Events-Prefix.pch"; sourceTree = "<group>"; };
+		3D198CEF1342A726005C523B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D198CF11342A726005C523B /* UCD_EventsAppDelegate.h */ = {isa = PBXFileReference; path = UCD_EventsAppDelegate.h; sourceTree = "<group>"; };
+		3D198CF21342A726005C523B /* UCD_EventsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCD_EventsAppDelegate.m; sourceTree = "<group>"; };
+		3D198CF51342A726005C523B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3D198CF81342A726005C523B /* UCD_Events.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UCD_Events.xcdatamodel; sourceTree = "<group>"; };
+		3D198CFF1342A727005C523B /* UCD EventsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UCD EventsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D198D081342A727005C523B /* UCD EventsTests-Info.plist */ = {isa = PBXFileReference; path = "UCD EventsTests-Info.plist"; sourceTree = "<group>"; };
+		3D198D0A1342A727005C523B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D198D0C1342A727005C523B /* UCD EventsTests-Prefix.pch */ = {isa = PBXFileReference; path = "UCD EventsTests-Prefix.pch"; sourceTree = "<group>"; };
+		3D198D0D1342A727005C523B /* UCD_EventsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCD_EventsTests.h; sourceTree = "<group>"; };
+		3D198D0F1342A727005C523B /* UCD_EventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCD_EventsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D198CD91342A726005C523B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D198CE11342A726005C523B /* UIKit.framework in Frameworks */,
+				3D198CE31342A726005C523B /* Foundation.framework in Frameworks */,
+				3D198CE51342A726005C523B /* CoreGraphics.framework in Frameworks */,
+				3D198CE71342A726005C523B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D198CFB1342A727005C523B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D198D001342A727005C523B /* UIKit.framework in Frameworks */,
+				3D198D011342A727005C523B /* Foundation.framework in Frameworks */,
+				3D198D021342A727005C523B /* CoreGraphics.framework in Frameworks */,
+				3D198D031342A727005C523B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D198CD11342A726005C523B = {
+			isa = PBXGroup;
+			children = (
+				3D198CE81342A726005C523B /* UCD Events */,
+				3D198D061342A727005C523B /* UCD EventsTests */,
+				3D198CDF1342A726005C523B /* Frameworks */,
+				3D198CDD1342A726005C523B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D198CDD1342A726005C523B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D198CDC1342A726005C523B /* UCD Events.app */,
+				3D198CFF1342A727005C523B /* UCD EventsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D198CDF1342A726005C523B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D198CE01342A726005C523B /* UIKit.framework */,
+				3D198CE21342A726005C523B /* Foundation.framework */,
+				3D198CE41342A726005C523B /* CoreGraphics.framework */,
+				3D198CE61342A726005C523B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D198CE81342A726005C523B /* UCD Events */ = {
+			isa = PBXGroup;
+			children = (
+				3D198CF11342A726005C523B /* UCD_EventsAppDelegate.h */,
+				3D198CF21342A726005C523B /* UCD_EventsAppDelegate.m */,
+				3D198CF41342A726005C523B /* MainWindow.xib */,
+				3D198CF71342A726005C523B /* UCD_Events.xcdatamodeld */,
+				3D198CE91342A726005C523B /* Supporting Files */,
+			);
+			path = "UCD Events";
+			sourceTree = "<group>";
+		};
+		3D198CE91342A726005C523B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D198CEA1342A726005C523B /* UCD Events-Info.plist */,
+				3D198CEB1342A726005C523B /* InfoPlist.strings */,
+				3D198CEE1342A726005C523B /* UCD Events-Prefix.pch */,
+				3D198CEF1342A726005C523B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D198D061342A727005C523B /* UCD EventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D198D0D1342A727005C523B /* UCD_EventsTests.h */,
+				3D198D0F1342A727005C523B /* UCD_EventsTests.m */,
+				3D198D071342A727005C523B /* Supporting Files */,
+			);
+			path = "UCD EventsTests";
+			sourceTree = "<group>";
+		};
+		3D198D071342A727005C523B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D198D081342A727005C523B /* UCD EventsTests-Info.plist */,
+				3D198D091342A727005C523B /* InfoPlist.strings */,
+				3D198D0C1342A727005C523B /* UCD EventsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D198CDB1342A726005C523B /* UCD Events */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D198D131342A727005C523B /* Build configuration list for PBXNativeTarget "UCD Events" */;
+			buildPhases = (
+				3D198CD81342A726005C523B /* Sources */,
+				3D198CD91342A726005C523B /* Frameworks */,
+				3D198CDA1342A726005C523B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UCD Events";
+			productName = "UCD Events";
+			productReference = 3D198CDC1342A726005C523B /* UCD Events.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D198CFE1342A727005C523B /* UCD EventsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D198D161342A727005C523B /* Build configuration list for PBXNativeTarget "UCD EventsTests" */;
+			buildPhases = (
+				3D198CFA1342A727005C523B /* Sources */,
+				3D198CFB1342A727005C523B /* Frameworks */,
+				3D198CFC1342A727005C523B /* Resources */,
+				3D198CFD1342A727005C523B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D198D051342A727005C523B /* PBXTargetDependency */,
+			);
+			name = "UCD EventsTests";
+			productName = "UCD EventsTests";
+			productReference = 3D198CFF1342A727005C523B /* UCD EventsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D198CD31342A726005C523B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3D198CD61342A726005C523B /* Build configuration list for PBXProject "UCD Events" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D198CD11342A726005C523B;
+			productRefGroup = 3D198CDD1342A726005C523B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D198CDB1342A726005C523B /* UCD Events */,
+				3D198CFE1342A727005C523B /* UCD EventsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D198CDA1342A726005C523B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D198CED1342A726005C523B /* InfoPlist.strings in Resources */,
+				3D198CF61342A726005C523B /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D198CFC1342A727005C523B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D198D0B1342A727005C523B /* InfoPlist.strings in Resources */,
+				3D198D0E1342A727005C523B /* UCD_EventsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D198CFD1342A727005C523B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D198CD81342A726005C523B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D198CF01342A726005C523B /* main.m in Sources */,
+				3D198CF31342A726005C523B /* UCD_EventsAppDelegate.m in Sources */,
+				3D198CF91342A726005C523B /* UCD_Events.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D198CFA1342A727005C523B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D198D101342A727005C523B /* UCD_EventsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D198D051342A727005C523B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D198CDB1342A726005C523B /* UCD Events */;
+			targetProxy = 3D198D041342A727005C523B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D198CEB1342A726005C523B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D198CEC1342A726005C523B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D198CF41342A726005C523B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D198CF51342A726005C523B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3D198D091342A727005C523B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D198D0A1342A727005C523B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D198D111342A727005C523B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D198D121342A727005C523B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3D198D141342A727005C523B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCD Events/UCD Events-Prefix.pch";
+				INFOPLIST_FILE = "UCD Events/UCD Events-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D198D151342A727005C523B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCD Events/UCD Events-Prefix.pch";
+				INFOPLIST_FILE = "UCD Events/UCD Events-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D198D171342A727005C523B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UCD Events.app/UCD Events";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCD EventsTests/UCD EventsTests-Prefix.pch";
+				INFOPLIST_FILE = "UCD EventsTests/UCD EventsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3D198D181342A727005C523B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UCD Events.app/UCD Events";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCD EventsTests/UCD EventsTests-Prefix.pch";
+				INFOPLIST_FILE = "UCD EventsTests/UCD EventsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D198CD61342A726005C523B /* Build configuration list for PBXProject "UCD Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D198D111342A727005C523B /* Debug */,
+				3D198D121342A727005C523B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D198D131342A727005C523B /* Build configuration list for PBXNativeTarget "UCD Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D198D141342A727005C523B /* Debug */,
+				3D198D151342A727005C523B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D198D161342A727005C523B /* Build configuration list for PBXNativeTarget "UCD EventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D198D171342A727005C523B /* Debug */,
+				3D198D181342A727005C523B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D198CF71342A726005C523B /* UCD_Events.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D198CF81342A726005C523B /* UCD_Events.xcdatamodel */,
+			);
+			currentVersion = 3D198CF81342A726005C523B /* UCD_Events.xcdatamodel */;
+			path = UCD_Events.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D198CD31342A726005C523B /* Project object */;
+}

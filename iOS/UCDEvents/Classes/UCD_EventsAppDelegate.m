@@ -16,12 +16,12 @@
 #import "LocationDetailViewController.h"
 #import "EventListViewController.h"
 #import "TTTwitterSearchFeedViewController.h"
+#import "LocationManager.h"
 
 @implementation UCD_EventsAppDelegate
 
 @synthesize window;
 @synthesize viewController;
-
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -34,13 +34,10 @@
     [self.window addSubview:viewController.view];
     [self.window makeKeyAndVisible];
 	
-	[TTURLCache sharedCache].disableDiskCache = YES;
-	[[TTURLCache sharedCache] removeAll:YES];
-	
-	
-	//	NSLog(@"hmm0....");
+//	[TTURLCache sharedCache].disableDiskCache = YES;
+//	[[TTURLCache sharedCache] removeAll:YES];
+
 	TTNavigator* navigator = [TTNavigator navigator];
-	//navigator.window = window;
 	navigator.persistenceMode = TTNavigatorPersistenceModeAll;
 	TTURLMap* map = navigator.URLMap;
 	
@@ -62,22 +59,17 @@
 	
 	[map from:@"ucde://eventList/(initWithName:)/(url:)/" toViewController:
 	 [EventListViewController class]];
-	
-	//	NSLog(@"hmmm1....");
-	
+
 	if (![navigator restoreViewControllers]) {
 		[[TTNavigator navigator] openURLAction:
 		 [[TTURLAction actionWithURLPath:@"ucde://launcher"] applyAnimated:YES]];
-		//		NSLog(@"hmmm...");
-		//[navigator openURLAction:
-		// [[TTURLAction actionWithURLPath:@"tt://launcher"]
-		//  applyAnimated:YES]];
 	}
+	
+	LocationManager *locationManager = [[LocationManager alloc] init];
+	[locationManager startUpdates];
 	
     return YES;
 }
-
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     /*

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface LocationItem : NSObject {
 
@@ -24,5 +25,6 @@
 @property (nonatomic, retain) NSString *longitude;
 @property (nonatomic, retain) NSString *latitude;
 @property (nonatomic, retain) NSString *mapsURL;
+@property (nonatomic) CLLocationDistance *distance;
 
 @end

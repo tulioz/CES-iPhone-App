@@ -14,11 +14,14 @@
 @synthesize myurl = _myurl;
 @synthesize locations = _locations;
 @synthesize finished = _finished;
+@synthesize currentCoords;
 
 -(id)initWithMyURL:(NSString *)theURL {
 	if (self = [super init]) {
 		self.myurl = theURL;
 		_locations = [[NSMutableArray array] retain];
+		
+		currentCoords = [[LocationManager sharedInstance] lastLocation];
 	}
 	
 	return self;
@@ -66,8 +69,6 @@
 	
 	NSArray *theLocations = [feed objectForKey:@"locations"];
 
-//	NSLog(@"locations array is %@", theLocations);
-	
 	NSMutableArray *locations = [[NSMutableArray alloc] init];
 
 	for (NSDictionary *currentLocationDictionary in theLocations) {
@@ -75,33 +76,28 @@
 		
 		NSDictionary *currentLocation = [currentLocationDictionary objectForKey:@"location"];
 		
-//		NSLog(@"id is %@", [currentLocation objectForKey:@"id"]);
-		if ((location.iD = [currentLocation objectForKey:@"id"]) == @"<null>") {
-			location.iD = @"";
-		}
 		location.type = [currentLocation objectForKey:@"type"];
 		location.name = [currentLocation objectForKey:@"name"];
 		location.address = [currentLocation objectForKey:@"address"];
 		location.imageURL = [currentLocation objectForKey:@"imageURL"];
-//		NSLog(@"location's imageURL is ", [location.imageURL class]);
-//		if (location.imageURL == nil) {
-//			location.imageURL = @"";
-//		}
 		location.phone = [currentLocation objectForKey:@"phone"];
+		location.latitude = [currentLocation objectForKey:@"latitude"];
+		location.longitude = [currentLocation objectForKey:@"longitude"];
 		
-		// Query the dictionary for each attribute and assign to the appropriate LocationItem properties
-/*		location.iD = [[currentLocation objectForKey:@"id"] objectForXMLNode];
-		location.type = [[currentLocation objectForKey:@"type"] objectForXMLNode];
-		location.name = [[currentLocation objectForKey:@"name"] objectForXMLNode];
-		location.imageURL = [[currentLocation objectForKey:@"imageURL"] objectForXMLNode];
-		location.address = [[currentLocation objectForKey:@"address"] objectForXMLNode];
-		location.city = [[currentLocation objectForKey:@"city"] objectForXMLNode];
-		location.country = [[currentLocation objectForKey:@"country"] objectForXMLNode];
-		location.phone = [[currentLocation objectForKey:@"phone"] objectForXMLNode];
-		location.longitude = [[currentLocation objectForKey:@"longitude"] objectForXMLNode];
-		location.latitude = [[currentLocation objectForKey:@"latitude"] objectForXMLNode];
-		location.mapsURL = [[currentLocation objectForKey:@"mapsURL"] objectForXMLNode];
-*/		
+		NSNumberFormatter * coordFormatter = [[NSNumberFormatter alloc] init];
+		[coordFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
+		
+		CLLocationCoordinate2D locationCoords;
+		locationCoords.latitude = [location.latitude doubleValue];
+		locationCoords.longitude = [location.longitude doubleValue];
+		
+		NSDate *today = [NSDate date];
+//		CLLocationCoordinate2D *locationCL = [[CLLocationCoordinate2D alloc] initWithCoordinate:locationCoords altitude:1 horizontalAccuracy:1 verticalAccuracy:-1 timestamp:today];
+
+//		location.distance = [locationCL distanceFromLocation:locationCoords];
+		
+		NSLog(@"Distance is %@", location.distance);
+		
 		[locations addObject:location];
 		TT_RELEASE_SAFELY(location);
 	}
