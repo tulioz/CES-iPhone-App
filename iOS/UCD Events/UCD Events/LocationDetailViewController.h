@@ -11,12 +11,16 @@
 #import "LocationItem.h"
 
 @interface LocationDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
-
+    NSString* _typeId;
+    NSString* _locationId;
 }
 
+-(id)initWithType:(NSString *)typeId locationId:(NSString *)locationId;
 -(id)initWithLocation:(LocationItem *)theLocation;
 -(IBAction) message;
 -(NSString *) formatPhoneString:(NSString *) rawString;
+
+-(NSString *) getURL;
 
 @property (nonatomic, retain) LocationItem *viewingLocation;
 @property (nonatomic, retain) IBOutlet UILabel *nameLabel;
@@ -24,14 +28,5 @@
 @property (nonatomic, retain) IBOutlet UIButton *phoneButton;
 @property (nonatomic, retain) IBOutlet UIImageView *imageView;
 @property (nonatomic, retain) IBOutlet UITableView *contactTable;
-
-@property (nonatomic, retain) NSString *locationName;
-@property (nonatomic, retain) NSString *locationCategory;
-@property (nonatomic, retain) NSString *locationPhone;
-@property (nonatomic, retain) UIImage *locationImage;
-
-@property (nonatomic, retain) NSString *locationAddress;
-@property (nonatomic, retain) NSString *locationCity;
-@property (nonatomic, retain) NSString *locationCountry;
 
 @end

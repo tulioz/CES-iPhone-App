@@ -9,13 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Three20/Three20.h>
 #import "LocationDetailViewController.h"
-//#import "SelectableImageItem.h"
 #import "LocationJSONDataSource.h"
-
-//#import <TTXMLParser.h>
-//#import <TTXMLParser.h>
-//#import <extThree20XML/TTXMLParser.h>
-//#import "RestaurantModel.h"
 
 @protocol LocationListViewControllerDelegate;
 
