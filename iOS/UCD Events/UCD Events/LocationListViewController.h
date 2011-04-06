@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Three20/Three20.h>
 #import "LocationDetailViewController.h"
-#import "LocationJSONDataSource.h"
+#import "LocationIndexJSONDataSource.h"
 
 @protocol LocationListViewControllerDelegate;
 

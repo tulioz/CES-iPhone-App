@@ -37,10 +37,12 @@
 		3D2AB5E6134826F2001F41F0 /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5DE134826F2001F41F0 /* LocationDetailViewController.m */; };
 		3D2AB5E7134826F2001F41F0 /* LocationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AB5DF134826F2001F41F0 /* LocationDetailViewController.xib */; };
 		3D2AB5E8134826F2001F41F0 /* LocationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E1134826F2001F41F0 /* LocationItem.m */; };
-		3D2AB5E9134826F2001F41F0 /* LocationJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E3134826F2001F41F0 /* LocationJSONDataModel.m */; };
-		3D2AB5EA134826F2001F41F0 /* LocationJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E5134826F2001F41F0 /* LocationJSONDataSource.m */; };
+		3D2AB5E9134826F2001F41F0 /* LocationIndexJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E3134826F2001F41F0 /* LocationIndexJSONDataModel.m */; };
+		3D2AB5EA134826F2001F41F0 /* LocationIndexJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E5134826F2001F41F0 /* LocationIndexJSONDataSource.m */; };
 		3D2AB5EE13482700001F41F0 /* LocationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5EC13482700001F41F0 /* LocationListViewController.m */; };
 		3D2AB5EF13482700001F41F0 /* LocationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AB5ED13482700001F41F0 /* LocationListViewController.xib */; };
+		3D36FCCF134C34FA001A4CC4 /* LocationItemJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D36FCCE134C34FA001A4CC4 /* LocationItemJSONDataModel.m */; };
+		3D36FCD1134C3A1E001A4CC4 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D36FCD0134C3A1C001A4CC4 /* Settings.m */; };
 		3D72BA591342DBCC00B91A4A /* UCD_EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D72BA571342DBCC00B91A4A /* UCD_EventsViewController.m */; };
 		3D72BA5A1342DBCC00B91A4A /* UCD_EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA581342DBCC00B91A4A /* UCD_EventsViewController.xib */; };
 		3D72BA5C1342DD9600B91A4A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA5B1342DD9500B91A4A /* Default.png */; };
@@ -291,14 +293,17 @@
 		3D2AB5DF134826F2001F41F0 /* LocationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationDetailViewController.xib; sourceTree = "<group>"; };
 		3D2AB5E0134826F2001F41F0 /* LocationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItem.h; sourceTree = "<group>"; };
 		3D2AB5E1134826F2001F41F0 /* LocationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItem.m; sourceTree = "<group>"; };
-		3D2AB5E2134826F2001F41F0 /* LocationJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationJSONDataModel.h; sourceTree = "<group>"; };
-		3D2AB5E3134826F2001F41F0 /* LocationJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationJSONDataModel.m; sourceTree = "<group>"; };
-		3D2AB5E4134826F2001F41F0 /* LocationJSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationJSONDataSource.h; sourceTree = "<group>"; };
-		3D2AB5E5134826F2001F41F0 /* LocationJSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationJSONDataSource.m; sourceTree = "<group>"; };
+		3D2AB5E2134826F2001F41F0 /* LocationIndexJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationIndexJSONDataModel.h; sourceTree = "<group>"; };
+		3D2AB5E3134826F2001F41F0 /* LocationIndexJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationIndexJSONDataModel.m; sourceTree = "<group>"; };
+		3D2AB5E4134826F2001F41F0 /* LocationIndexJSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationIndexJSONDataSource.h; sourceTree = "<group>"; };
+		3D2AB5E5134826F2001F41F0 /* LocationIndexJSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationIndexJSONDataSource.m; sourceTree = "<group>"; };
 		3D2AB5EB13482700001F41F0 /* LocationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListViewController.h; sourceTree = "<group>"; };
 		3D2AB5EC13482700001F41F0 /* LocationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListViewController.m; sourceTree = "<group>"; };
 		3D2AB5ED13482700001F41F0 /* LocationListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationListViewController.xib; sourceTree = "<group>"; };
 		3D2AB5F013482730001F41F0 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		3D36FCCD134C34FA001A4CC4 /* LocationItemJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItemJSONDataModel.h; sourceTree = "<group>"; };
+		3D36FCCE134C34FA001A4CC4 /* LocationItemJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItemJSONDataModel.m; sourceTree = "<group>"; };
+		3D36FCD0134C3A1C001A4CC4 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		3D72BA561342DBCC00B91A4A /* UCD_EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCD_EventsViewController.h; sourceTree = "<group>"; };
 		3D72BA571342DBCC00B91A4A /* UCD_EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCD_EventsViewController.m; sourceTree = "<group>"; };
 		3D72BA581342DBCC00B91A4A /* UCD_EventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UCD_EventsViewController.xib; sourceTree = "<group>"; };
@@ -471,6 +476,7 @@
 			isa = PBXGroup;
 			children = (
 				3D2AB5F013482730001F41F0 /* Settings.h */,
+				3D36FCD0134C3A1C001A4CC4 /* Settings.m */,
 				3D72BA5D1342DDB200B91A4A /* Resources */,
 				3D99CADB1342BC6E004606D1 /* Classes */,
 				3D198CF41342A726005C523B /* MainWindow.xib */,
@@ -523,10 +529,12 @@
 				3D2AB5DF134826F2001F41F0 /* LocationDetailViewController.xib */,
 				3D2AB5E0134826F2001F41F0 /* LocationItem.h */,
 				3D2AB5E1134826F2001F41F0 /* LocationItem.m */,
-				3D2AB5E2134826F2001F41F0 /* LocationJSONDataModel.h */,
-				3D2AB5E3134826F2001F41F0 /* LocationJSONDataModel.m */,
-				3D2AB5E4134826F2001F41F0 /* LocationJSONDataSource.h */,
-				3D2AB5E5134826F2001F41F0 /* LocationJSONDataSource.m */,
+				3D2AB5E2134826F2001F41F0 /* LocationIndexJSONDataModel.h */,
+				3D36FCCD134C34FA001A4CC4 /* LocationItemJSONDataModel.h */,
+				3D36FCCE134C34FA001A4CC4 /* LocationItemJSONDataModel.m */,
+				3D2AB5E3134826F2001F41F0 /* LocationIndexJSONDataModel.m */,
+				3D2AB5E4134826F2001F41F0 /* LocationIndexJSONDataSource.h */,
+				3D2AB5E5134826F2001F41F0 /* LocationIndexJSONDataSource.m */,
 			);
 			name = Locations;
 			sourceTree = "<group>";
@@ -881,9 +889,11 @@
 				3D72BA591342DBCC00B91A4A /* UCD_EventsViewController.m in Sources */,
 				3D2AB5E6134826F2001F41F0 /* LocationDetailViewController.m in Sources */,
 				3D2AB5E8134826F2001F41F0 /* LocationItem.m in Sources */,
-				3D2AB5E9134826F2001F41F0 /* LocationJSONDataModel.m in Sources */,
-				3D2AB5EA134826F2001F41F0 /* LocationJSONDataSource.m in Sources */,
+				3D2AB5E9134826F2001F41F0 /* LocationIndexJSONDataModel.m in Sources */,
+				3D2AB5EA134826F2001F41F0 /* LocationIndexJSONDataSource.m in Sources */,
 				3D2AB5EE13482700001F41F0 /* LocationListViewController.m in Sources */,
+				3D36FCCF134C34FA001A4CC4 /* LocationItemJSONDataModel.m in Sources */,
+				3D36FCD1134C3A1E001A4CC4 /* Settings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

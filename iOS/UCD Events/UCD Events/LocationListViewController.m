@@ -37,7 +37,7 @@
 	
 	TTTableViewController *searchController = [[[TTTableViewController alloc] init] autorelease];
 	
-	searchController.dataSource = [[[LocationJSONDataSource alloc]
+	searchController.dataSource = [[[LocationIndexJSONDataSource alloc]
                                     initWithMyURL: self.categoryURL]
                                     autorelease];
 
@@ -57,7 +57,7 @@
 }
 
 -(void)createModel {
-    self.dataSource = [[[LocationJSONDataSource alloc]
+    self.dataSource = [[[LocationIndexJSONDataSource alloc]
                         initWithMyURL:self.categoryURL]
                        autorelease];
 }
