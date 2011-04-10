@@ -19,10 +19,11 @@ ActiveRecord::Schema.define(:version => 20110403043536) do
     t.integer  "type_id"
     t.string   "address"
     t.string   "category"
-    t.string   "imageURL"
+    t.string   "address_2"
     t.string   "phone"
     t.string   "latitude"
     t.string   "longitude"
+    t.string   "description"
   end
 
   create_table "types", :force => true do |t|
