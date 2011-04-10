@@ -11,6 +11,7 @@
 #import "BasicLauncherViewController.h"
 #import "LocationListViewController.h"
 #import "LocationDetailViewController.h"
+#import "EventListViewController.h"
 
 @implementation UCD_EventsAppDelegate
 
@@ -49,6 +50,8 @@
 	 [LocationListViewController class]];
     [map from:@"ucde://types/(initWithTypeId:)/locations/(locationId:)" toViewController:
      [LocationDetailViewController class]];
+    [map from:@"ucde://events/" toViewController:
+     [EventListViewController class]];
 //	[map from:@"ucde://locationDetail/" toViewController:[LocationDetailViewController class]]; 
 //	[map from:@"ucde://locationDetail/location/(initWithID:)/(query:)" toViewController:[LocationDetailViewController class]];
 	
