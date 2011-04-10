@@ -45,6 +45,12 @@
 {
     NSLog(@"did loadview on launcher");
     [super loadView];
+    
+    UIButton* infoButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
+    [infoButton addTarget:self action:@selector(infoButtonAction) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *modalButton = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
+    [self.navigationItem setRightBarButtonItem:modalButton animated:YES];
+    [modalButton release];
 	
 	launcherView = [[TTLauncherView alloc] initWithFrame:self.view.bounds];
 	launcherView.backgroundColor = [UIColor colorWithRed:.1 green:.1 blue:.1 alpha:1];
@@ -82,13 +88,13 @@
                                                  image:@"bundle://agg.png" 
                                                    URL:@""
                             ],
-                           [self launcherItemWithTitle:@"Banks" 
+                           [self launcherItemWithTitle:@"Info" 
                                                  image:@"bundle://agg.png" 
                                                    URL:@""
                             ],
-						   [self launcherItemWithTitle:@"Hospitals" 
+						   [self launcherItemWithTitle:@"UCD The Button" 
                                                  image:@"bundle://agg.png" 
-                                                   URL:@"ucde://locationList/Hospitals/hospitals"
+                                                   URL:@""
                             ],
                            nil],
                           nil];
@@ -146,6 +152,11 @@
 																	 URL:url	
 															   canDelete:NO];
 	return [launcherItem autorelease];
+}
+
+- (void)infoButtonAction {
+    [[TTNavigator navigator] openURLAction:
+     [[TTURLAction actionWithURLPath:@"ucde://navbarInfoButton"] applyAnimated:YES]];
 }
 
 @end

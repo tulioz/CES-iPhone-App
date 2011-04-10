@@ -12,6 +12,7 @@
 #import "LocationListViewController.h"
 #import "LocationDetailViewController.h"
 #import "EventListViewController.h"
+#import "InfoViewController.h"
 
 @implementation UCD_EventsAppDelegate
 
@@ -54,7 +55,8 @@
      [EventListViewController class]];
 //	[map from:@"ucde://locationDetail/" toViewController:[LocationDetailViewController class]]; 
 //	[map from:@"ucde://locationDetail/location/(initWithID:)/(query:)" toViewController:[LocationDetailViewController class]];
-	
+	[map from:@"ucde://navbarInfoButton/" toViewController:
+     [InfoViewController class]];
 //	[map from:@"ucde://eventList/(initWithName:)/(url:)/" toViewController:
 //	 [EventListViewController class]];
 

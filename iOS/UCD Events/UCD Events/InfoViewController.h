@@ -6,11 +6,14 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <Three20/Three20.h>
+
 
 
 @interface InfoViewController : TTTableViewController {
     
 }
 
+-(NSString *) formatPhoneString:(NSString *) rawString;
 @end
