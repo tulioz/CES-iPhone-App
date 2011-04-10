@@ -13,3 +13,5 @@ const NSString *ucdePath            = @"ucde://";
 const NSString *apiDataFormat       = @"json";
 const NSString *typesString         = @"types";
 const NSString *locationsString     = @"locations";
+const NSString *eventsString        = @"events";
+NSString *eventsTitleString   = @"Events";

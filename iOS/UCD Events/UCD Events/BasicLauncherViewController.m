@@ -64,7 +64,7 @@
                             ],
 						   [self launcherItemWithTitle:@"Events" 
                                                  image:@"bundle://agg.png" 
-                                                   URL:@"ucde://eventList/Events/events.xml"
+                                                   URL:@"ucde://events/"
                             ],
 						   [self launcherItemWithTitle:@"Special Deals" 
                                                  image:@"bundle://agg.png" 

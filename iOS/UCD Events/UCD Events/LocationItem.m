@@ -29,7 +29,6 @@
 
 -(id)initWithLocationDictionary:(NSDictionary *) locationDictionary {
     if (self = [super init]) {
-        
         self.iD = [locationDictionary objectForKey:@"id"];
         self.category = [locationDictionary objectForKey:@"category"];
         self.name = [locationDictionary objectForKey:@"name"];
