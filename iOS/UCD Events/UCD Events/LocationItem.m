@@ -24,15 +24,22 @@
 @synthesize latitude;
 @synthesize mapsURL;
 @synthesize distance;
+@synthesize description;
+
 
 -(id)initWithLocationDictionary:(NSDictionary *) locationDictionary {
-    self.category = [locationDictionary objectForKey:@"category"];
-    self.name = [locationDictionary objectForKey:@"name"];
-    self.address = [locationDictionary objectForKey:@"address"];
-    self.imageURL = [locationDictionary objectForKey:@"imageURL"];
-    self.phone = [locationDictionary objectForKey:@"phone"];
-    self.latitude = [locationDictionary objectForKey:@"latitude"];
-    self.longitude = [locationDictionary objectForKey:@"longitude"]; 
+    if (self = [super init]) {
+        
+        self.iD = [locationDictionary objectForKey:@"id"];
+        self.category = [locationDictionary objectForKey:@"category"];
+        self.name = [locationDictionary objectForKey:@"name"];
+        self.address = [locationDictionary objectForKey:@"address"];
+        self.imageURL = [locationDictionary objectForKey:@"imageURL"];
+        self.phone = [locationDictionary objectForKey:@"phone"];
+        self.latitude = [locationDictionary objectForKey:@"latitude"];
+        self.longitude = [locationDictionary objectForKey:@"longitude"];
+        self.description = [locationDictionary objectForKey:@"description"];
+    }
     
     return self;
 }

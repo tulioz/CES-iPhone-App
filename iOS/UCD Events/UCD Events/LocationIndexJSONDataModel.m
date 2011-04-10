@@ -11,13 +11,12 @@
 
 @implementation LocationIndexJSONDataModel
 
-@synthesize myurl = _myurl;
 @synthesize locations = _locations;
 @synthesize finished = _finished;
 
--(id)initWithMyURL:(NSString *)theURL {
+-(id)initWithTypeId:(NSString *)typeId {
 	if (self = [super init]) {
-		self.myurl = theURL;
+        _typeId = [[NSString alloc] initWithString:typeId];
 		_locations = [[NSMutableArray array] retain];
 	}
 	
@@ -25,19 +24,22 @@
 }
 
 -(void) dealloc {
-	TT_RELEASE_SAFELY(_myurl);
 	TT_RELEASE_SAFELY(_locations);
+    TT_RELEASE_SAFELY(_typeId);
 	[super dealloc];
 }
 
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {
-	if (!self.isLoading && TTIsStringWithAnyText(_myurl)) {
+    NSLog(@"index load calleD");
+    NSString *loadURL = [self getURL];
+    
+	if (!self.isLoading && TTIsStringWithAnyText(loadURL)) {
 		// Create a request for the XML file passed by the init method
-		TTURLRequest *request = [TTURLRequest requestWithURL:self.myurl delegate:self];
+		TTURLRequest *request = [TTURLRequest requestWithURL:loadURL delegate:self];
 	
 		// Define a cacheTimeout of 7 days
 		NSTimeInterval cacheTimeout = 7 * 24 * 60 * 60;
-		
+//        NSTimeInterval cacheTimeout = 1;
 		request.cachePolicy = cachePolicy;
 		request.cacheExpirationAge = cacheTimeout;
 
@@ -84,6 +86,11 @@
 	TT_RELEASE_SAFELY(locations);
 	
 	[super requestDidFinishLoad:request];
+}
+
+-(NSString *)getURL {
+    NSLog(@"GetURL: _typeId is %@", typesString);
+    return [NSString stringWithFormat:@"%@%@/%@/%@.%@", apiPath, typesString, _typeId, locationsString, apiDataFormat]; 
 }
 
 @end

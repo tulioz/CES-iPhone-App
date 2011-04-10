@@ -35,7 +35,6 @@
 		3D198D0E1342A727005C523B /* UCD_EventsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D198D0D1342A727005C523B /* UCD_EventsTests.h */; };
 		3D198D101342A727005C523B /* UCD_EventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D198D0F1342A727005C523B /* UCD_EventsTests.m */; };
 		3D2AB5E6134826F2001F41F0 /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5DE134826F2001F41F0 /* LocationDetailViewController.m */; };
-		3D2AB5E7134826F2001F41F0 /* LocationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AB5DF134826F2001F41F0 /* LocationDetailViewController.xib */; };
 		3D2AB5E8134826F2001F41F0 /* LocationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E1134826F2001F41F0 /* LocationItem.m */; };
 		3D2AB5E9134826F2001F41F0 /* LocationIndexJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E3134826F2001F41F0 /* LocationIndexJSONDataModel.m */; };
 		3D2AB5EA134826F2001F41F0 /* LocationIndexJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E5134826F2001F41F0 /* LocationIndexJSONDataSource.m */; };
@@ -49,6 +48,7 @@
 		3D72BA601342DDE500B91A4A /* agg2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA5F1342DDE500B91A4A /* agg2x.png */; };
 		3D72BA621342DDEB00B91A4A /* agg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA611342DDEB00B91A4A /* agg.png */; };
 		3D99CADA1342BC2D004606D1 /* BasicLauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D99CAD91342BC2D004606D1 /* BasicLauncherViewController.m */; };
+		3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -290,7 +290,6 @@
 		3D198D0F1342A727005C523B /* UCD_EventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCD_EventsTests.m; sourceTree = "<group>"; };
 		3D2AB5DD134826F2001F41F0 /* LocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailViewController.h; sourceTree = "<group>"; };
 		3D2AB5DE134826F2001F41F0 /* LocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailViewController.m; sourceTree = "<group>"; };
-		3D2AB5DF134826F2001F41F0 /* LocationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationDetailViewController.xib; sourceTree = "<group>"; };
 		3D2AB5E0134826F2001F41F0 /* LocationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItem.h; sourceTree = "<group>"; };
 		3D2AB5E1134826F2001F41F0 /* LocationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItem.m; sourceTree = "<group>"; };
 		3D2AB5E2134826F2001F41F0 /* LocationIndexJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationIndexJSONDataModel.h; sourceTree = "<group>"; };
@@ -312,6 +311,8 @@
 		3D72BA611342DDEB00B91A4A /* agg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agg.png; sourceTree = "<group>"; };
 		3D99CAD81342BC2D004606D1 /* BasicLauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicLauncherViewController.h; sourceTree = "<group>"; };
 		3D99CAD91342BC2D004606D1 /* BasicLauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicLauncherViewController.m; sourceTree = "<group>"; };
+		3DD11561134D3DE400F27CF3 /* LocationItemJSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItemJSONDataSource.h; sourceTree = "<group>"; };
+		3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItemJSONDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -526,13 +527,14 @@
 				3D2AB5ED13482700001F41F0 /* LocationListViewController.xib */,
 				3D2AB5DD134826F2001F41F0 /* LocationDetailViewController.h */,
 				3D2AB5DE134826F2001F41F0 /* LocationDetailViewController.m */,
-				3D2AB5DF134826F2001F41F0 /* LocationDetailViewController.xib */,
 				3D2AB5E0134826F2001F41F0 /* LocationItem.h */,
 				3D2AB5E1134826F2001F41F0 /* LocationItem.m */,
-				3D2AB5E2134826F2001F41F0 /* LocationIndexJSONDataModel.h */,
 				3D36FCCD134C34FA001A4CC4 /* LocationItemJSONDataModel.h */,
 				3D36FCCE134C34FA001A4CC4 /* LocationItemJSONDataModel.m */,
+				3D2AB5E2134826F2001F41F0 /* LocationIndexJSONDataModel.h */,
 				3D2AB5E3134826F2001F41F0 /* LocationIndexJSONDataModel.m */,
+				3DD11561134D3DE400F27CF3 /* LocationItemJSONDataSource.h */,
+				3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */,
 				3D2AB5E4134826F2001F41F0 /* LocationIndexJSONDataSource.h */,
 				3D2AB5E5134826F2001F41F0 /* LocationIndexJSONDataSource.m */,
 			);
@@ -845,7 +847,6 @@
 				3D72BA5C1342DD9600B91A4A /* Default.png in Resources */,
 				3D72BA601342DDE500B91A4A /* agg2x.png in Resources */,
 				3D72BA621342DDEB00B91A4A /* agg.png in Resources */,
-				3D2AB5E7134826F2001F41F0 /* LocationDetailViewController.xib in Resources */,
 				3D2AB5EF13482700001F41F0 /* LocationListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -894,6 +895,7 @@
 				3D2AB5EE13482700001F41F0 /* LocationListViewController.m in Sources */,
 				3D36FCCF134C34FA001A4CC4 /* LocationItemJSONDataModel.m in Sources */,
 				3D36FCD1134C3A1E001A4CC4 /* Settings.m in Sources */,
+				3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

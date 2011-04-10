@@ -8,20 +8,24 @@
 
 #import <UIKit/UIKit.h>
 #import <Three20/Three20.h>
-#import "LocationItemJSONDataModel.h"
+#import "LocationItemJSONDataSource.h"
 #import "LocationItem.h"
 
-@interface LocationDetailViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+@protocol LocationDetailViewControllerDelegate;
+
+@interface LocationDetailViewController : TTTableViewController {
     NSString* _typeId;
     NSString* _locationId;
     
     LocationItemJSONDataModel* _locationItemDataModel;
+    
+   id<LocationDetailViewControllerDelegate> _delegate;
 }
 
--(id)initWithType:(NSString *)typeId locationId:(NSString *)locationId;
--(id)initWithLocation:(LocationItem *)theLocation;
--(IBAction) message;
--(NSString *) formatPhoneString:(NSString *) rawString;
+-(id)initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId;
+-(void)modelDidFinishLoading;
+
+@property (nonatomic, retain) id<LocationDetailViewControllerDelegate> delegate;
 
 @property (nonatomic, retain) LocationItem *viewingLocation;
 @property (nonatomic, retain) IBOutlet UILabel *nameLabel;

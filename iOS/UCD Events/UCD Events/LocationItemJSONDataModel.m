@@ -11,12 +11,16 @@
 
 @implementation LocationItemJSONDataModel
 
-@synthesize location;
+@synthesize location = _location;
+@synthesize finished = _finished;
 
--(id) initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId {
-    _typeId = typeId;
-    _locationId = locationId;
-    
+-(id)initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId {
+    if (self = [super init]) {
+        NSLog(@"location item data model init");
+        _typeId = typeId;
+        _locationId = locationId;
+    }
+        
     return self;
 }
 
@@ -25,6 +29,8 @@
 }
 
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {
+    NSLog(@"Called load on item data model typeId of %@ and locationId of %@", _typeId, _locationId);
+    
     NSString *loadURL = [self getURL];
 	if (!self.isLoading && TTIsStringWithAnyText(loadURL)) {
 		// Create a request for the XML file passed by the init method
@@ -53,27 +59,17 @@
 -(void)requestDidFinishLoad:(TTURLRequest *)request {
 	TTURLJSONResponse *response = request.response;
     NSLog(@"%@", [response.rootObject class]);
-	TTDASSERT([response.rootObject isKindOfClass:[NSArray class]]);
-	
-	// rootObject represents the parsed JSON feed in an array of dictionaries representing nodes
-	NSArray *feed = response.rootObject;
+    TTDASSERT([response.rootObject isKindOfClass:[NSMutableDictionary class]]);
 
-    NSLog(@"locationobject's class is %@", [feed class]);
+	// rootObject represents the parsed JSON feed in a dictionary representing the location
+	NSMutableDictionary *locationDict = response.rootObject;
     
-//	NSArray *theLocations = feed;
-//    
-//	NSMutableArray *locations = [[NSMutableArray alloc] init];
-//    
-//	for (NSDictionary *currentLocationDictionary in theLocations) {
-//        NSDictionary *currentLocation = [currentLocationDictionary objectForKey:@"location"];
-//		LocationItem *location = [[LocationItem alloc] initWithLocationDictionary:currentLocation];
-//        
-//		[locations addObject:location];
-//		TT_RELEASE_SAFELY(location);
-//	}
+    _location = [[LocationItem alloc] initWithLocationDictionary:[locationDict objectForKey:@"location"]];
+    
+    NSLog(@"Before location's name is %@", self.location.name);
     
 	_finished = TRUE;
-	
+    
 	// Clear out locations just in case we've done this before
 	
 	[super requestDidFinishLoad:request];

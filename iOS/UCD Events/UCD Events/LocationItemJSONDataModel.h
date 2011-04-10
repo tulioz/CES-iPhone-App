@@ -12,9 +12,13 @@
 #import "LocationItem.h"
 #import "Settings.h"
 
+@class TTModelViewController;
+
 @interface LocationItemJSONDataModel : TTURLRequestModel {
     NSString *_typeId;
     NSString *_locationId;
+    
+    LocationItem *_location;
     
     BOOL _finished;
 }
@@ -22,7 +26,8 @@
 -(id) initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId;
 -(NSString *) getURL;
 
-@property (nonatomic, retain) LocationItem* location;
+@property (nonatomic, readonly) LocationItem* location;
+@property (nonatomic, readonly) BOOL finished;
 
 
 @end

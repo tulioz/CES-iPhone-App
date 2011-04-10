@@ -6,19 +6,21 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-//#import <Cocoa/Cocoa.h>
 #import "LocationIndexJSONDataModel.h"
 #import "LocationItem.h"
-
+#import "Settings.h"
 #import <Three20Core/NSDateAdditions.h>
 
 
 @interface LocationIndexJSONDataSource : TTSectionedDataSource {
 	LocationIndexJSONDataModel *_locationFeedModel;
+    NSString *_typeId;
+    
 	NSMutableArray *_allItems;
 	NSMutableArray* _delegates;
 }
 
--(id)initWithMyURL:(NSString *)theURL;
+-(id)initWithTypeId:(NSString *)typeId;
+-(id)getURLforTypeId:(NSString *)typeId locationId:(NSString *)locationId;
 
 @end

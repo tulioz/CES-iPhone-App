@@ -7,25 +7,24 @@
 //
 
 #import "LocationItem.h"
+#import "Settings.h"
 
 #import <Three20/Three20.h>
 #import <extThree20XML/extThree20XML.h>
 #import <extThree20JSON/extThree20JSON.h>
 
 @interface LocationIndexJSONDataModel : TTURLRequestModel {
-	NSString* _myurl; // url of XML file containing locations
 	NSMutableArray *_locations; // array of locations in NSObject form
-	
 	BOOL _finished;
+    NSString *_typeId;
 }
 
-//KAWAII!!!
+-(NSString *)getURL;
 
-@property (nonatomic, copy) NSString *myurl;
 @property (nonatomic, readonly) NSMutableArray *locations;
 @property (nonatomic, readonly) BOOL finished;
 
--(id)initWithMyURL:(NSString *)theURL;
+-(id)initWithTypeId:(NSString *)typeId;
 
 @end
 

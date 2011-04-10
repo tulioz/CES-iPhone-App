@@ -16,6 +16,8 @@
 @interface LocationListViewController : TTTableViewController <TTSearchTextFieldDelegate>{
 	NSString *_name;
 	NSString *_url;
+    
+    NSString *_typeId;
 	
 	id<LocationListViewControllerDelegate> _delegate;
 }

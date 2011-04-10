@@ -20,10 +20,7 @@
 	if (self = [super init]) {
 		_delegate = nil;
 		self.categoryName = name;
-
-		self.categoryURL = [NSString stringWithFormat:@"%@%@/%@/%@.%@", apiPath, typesString, typeId, locationsString, apiDataFormat]; 
-		
-		NSLog(@"url is %@", self.categoryURL);
+        _typeId = typeId;
 		
 		self.navigationBarTintColor = [UIColor colorWithRed:.92 green:.76 blue:0 alpha:1];
 		self.navigationBarStyle = UIStatusBarStyleDefault;
@@ -38,7 +35,7 @@
 	TTTableViewController *searchController = [[[TTTableViewController alloc] init] autorelease];
 	
 	searchController.dataSource = [[[LocationIndexJSONDataSource alloc]
-                                    initWithMyURL: self.categoryURL]
+                                    initWithTypeId:_typeId]
                                     autorelease];
 
 //	searchController.dataSource = self.dataSource;
@@ -58,11 +55,11 @@
 
 -(void)createModel {
     self.dataSource = [[[LocationIndexJSONDataSource alloc]
-                        initWithMyURL:self.categoryURL]
+                        initWithTypeId:_typeId]
                        autorelease];
 }
 
--(void)didSelectObject:(id)object atIndexPath:(NSIndexPath *)indexPath {
+/*-(void)didSelectObject:(id)object atIndexPath:(NSIndexPath *)indexPath {
 	[_delegate locationListViewController:self didSelectObject:object];
 
 	TTTableSubtitleItem *theItem = object;
@@ -75,15 +72,15 @@
 		LocationDetailViewController *locationDetail = [[LocationDetailViewController alloc] initWithLocation:theLocation];
 		[self.navigationController pushViewController:locationDetail animated:YES];
 	}
-}
+}*/
 
 -(void)textField:(TTSearchTextField *)textField didSelectObject:(id)object {
 	[_delegate locationListViewController:self didSelectObject:object];
 }
 
--(BOOL)shouldOpenURL:(NSString *)URL {
-	return NO;
-}		 
+//-(BOOL)shouldOpenURL:(NSString *)URL {
+//	return NO;
+//}		 
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -132,6 +129,10 @@
 - (void)dealloc {
     [super dealloc];
 }
+
+//-(BOOL)persistView:(NSMutableDictionary *)state {
+//    return NO;
+//}
 
 
 @end

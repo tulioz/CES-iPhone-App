@@ -28,6 +28,7 @@
 @property (nonatomic, retain) NSString *longitude;
 @property (nonatomic, retain) NSString *latitude;
 @property (nonatomic, retain) NSString *mapsURL;
+@property (nonatomic, retain) NSString *description;
 @property (nonatomic) CLLocationDistance *distance;
 
 @end

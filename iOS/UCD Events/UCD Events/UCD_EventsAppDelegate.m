@@ -10,6 +10,7 @@
 
 #import "BasicLauncherViewController.h"
 #import "LocationListViewController.h"
+#import "LocationDetailViewController.h"
 
 @implementation UCD_EventsAppDelegate
 
@@ -46,6 +47,8 @@
 //	 [RSSFeedTableViewController class]];
 	[map from:@"ucde://locationList/(initWithName:)/(typeId:)/" toViewController:
 	 [LocationListViewController class]];
+    [map from:@"ucde://types/(initWithTypeId:)/locations/(locationId:)" toViewController:
+     [LocationDetailViewController class]];
 //	[map from:@"ucde://locationDetail/" toViewController:[LocationDetailViewController class]]; 
 //	[map from:@"ucde://locationDetail/location/(initWithID:)/(query:)" toViewController:[LocationDetailViewController class]];
 	

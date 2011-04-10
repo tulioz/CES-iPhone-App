@@ -19,6 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"UCD Events";
+
     }
     return self;
 }
@@ -55,7 +56,7 @@
 						  [NSArray arrayWithObjects:
 						   [self launcherItemWithTitle:@"Weather" 
                                                  image:@"bundle://agg.png" 
-                                                   URL:@""
+                                                   URL:@"http://www.accuweather.com/m/en-us/US/CA/Davis/Quick-Look.aspx"
                             ],
 						   [self launcherItemWithTitle:@"Map" 
                                                  image:@"bundle://agg.png" 
@@ -90,23 +91,7 @@
                                                    URL:@"ucde://locationList/Hospitals/hospitals"
                             ],
                            nil],
-						 
-                          [NSArray arrayWithObjects:
-						   [self launcherItemWithTitle:@"Campus Facts" 
-                                                 image:@"bundle://tableIcon.png" 
-                                                   URL:@""
-                            ],
-						   [self launcherItemWithTitle:@"Parking & Transportation" 
-                                                 image:@"bundle://tableIcon.png" 
-                                                   URL:@"http://taps.ucdavis.edu/"
-                            ],
-						   [self launcherItemWithTitle:@"News" 
-                                                 image:@"bundle://tableIcon.png"
-                                                   URL:@"ucde://newsfeed"
-                            ], 
-                           nil],
-                          
-						   nil];
+                          nil];
 	launcherView.delegate = self;
     
 	
