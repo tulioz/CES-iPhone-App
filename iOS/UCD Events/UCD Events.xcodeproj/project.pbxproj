@@ -47,11 +47,12 @@
 		3D72BA5C1342DD9600B91A4A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA5B1342DD9500B91A4A /* Default.png */; };
 		3D72BA601342DDE500B91A4A /* agg2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA5F1342DDE500B91A4A /* agg2x.png */; };
 		3D72BA621342DDEB00B91A4A /* agg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA611342DDEB00B91A4A /* agg.png */; };
-		3D76D4C81351711C009FFCB1 /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4C71351711C009FFCB1 /* EventListViewController.m */; };
-		3D76D4CB135177AE009FFCB1 /* EventIndexJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4CA135177AE009FFCB1 /* EventIndexJSONDataSource.m */; };
-		3D76D4CE135177F2009FFCB1 /* EventIndexJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4CD135177F2009FFCB1 /* EventIndexJSONDataModel.m */; };
-		3D76D4D1135178B3009FFCB1 /* EventItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4D0135178B3009FFCB1 /* EventItem.m */; };
 		3D99CADA1342BC2D004606D1 /* BasicLauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D99CAD91342BC2D004606D1 /* BasicLauncherViewController.m */; };
+		3DAEBF311351B38D0078A984 /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4C71351711C009FFCB1 /* EventListViewController.m */; };
+		3DAEBF321351B38D0078A984 /* EventIndexJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4CA135177AE009FFCB1 /* EventIndexJSONDataSource.m */; };
+		3DAEBF331351B38D0078A984 /* EventIndexJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4CD135177F2009FFCB1 /* EventIndexJSONDataModel.m */; };
+		3DAEBF341351B38D0078A984 /* EventItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4D0135178B3009FFCB1 /* EventItem.m */; };
+		3DAEBF351351B3A80078A984 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248AEF4E135173CD009FE716 /* InfoViewController.m */; };
 		3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */; };
 /* End PBXBuildFile section */
 
@@ -915,6 +916,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAEBF351351B3A80078A984 /* InfoViewController.m in Sources */,
+				3DAEBF311351B38D0078A984 /* EventListViewController.m in Sources */,
+				3DAEBF321351B38D0078A984 /* EventIndexJSONDataSource.m in Sources */,
+				3DAEBF331351B38D0078A984 /* EventIndexJSONDataModel.m in Sources */,
+				3DAEBF341351B38D0078A984 /* EventItem.m in Sources */,
 				3D198CF01342A726005C523B /* main.m in Sources */,
 				3D198CF31342A726005C523B /* UCD_EventsAppDelegate.m in Sources */,
 				3D198CF91342A726005C523B /* UCD_Events.xcdatamodeld in Sources */,
@@ -928,7 +934,6 @@
 				3D36FCCF134C34FA001A4CC4 /* LocationItemJSONDataModel.m in Sources */,
 				3D36FCD1134C3A1E001A4CC4 /* Settings.m in Sources */,
 				3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */,
-				248AEF4F135173CD009FE716 /* InfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
