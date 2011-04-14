@@ -18,13 +18,15 @@
 @synthesize date = _date;
 @synthesize description;
 
--(id)initWithEventDictionary:(NSDictionary *)eventDictionary {
+-(id)initWithEventDictionary:(NSMutableDictionary *)eventDictionary {
     if (self = [super init]) {
-        self.iD = [eventDictionary objectForKey:@"id"];
-        self.name = [eventDictionary objectForKey:@"name"];
-        self.locationId = [eventDictionary objectForKey:@"location_id"];
-        self.website = [eventDictionary objectForKey:@"website"];
-        self.description = [eventDictionary objectForKey:@"description"];        
+
+        self.iD = (NSString *)[eventDictionary objectForKey:@"id"];
+        self.name = (NSString *)[eventDictionary objectForKey:@"name"];
+        self.locationId = (NSString *)[eventDictionary objectForKey:@"location_id"];
+        self.website = (NSString *)[eventDictionary objectForKey:@"website"];
+        self.description = (NSString *)[eventDictionary objectForKey:@"description"];  
+            
         
         NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];

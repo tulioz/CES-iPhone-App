@@ -6,7 +6,7 @@ class AddAdditionsToLocations < ActiveRecord::Migration
     add_column :locations, :phone, :string
     add_column :locations, :latitude, :string
     add_column :locations, :longitude, :string
-    add_column :locations, :description, :string
+    add_column :locations, :description, :text
   end
 
   def self.down

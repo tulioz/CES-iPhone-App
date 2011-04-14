@@ -1,12 +1,28 @@
 UcdeService::Application.routes.draw do
-  resources :events
+  devise_for :administrators
 
-  resources :types
-  resources :locations
-  
-  resources :types do
+  # devise_for :admins
+
+  namespace :admin do
+    resources :api_keys
+    resources :events
+    resources :types
     resources :locations
+    resources :types do
+      resources :locations
+    end
   end
+  
+  # resources :api_keys
+  # 
+  # resources :events
+  # 
+  # resources :types
+  # resources :locations
+  # 
+  # resources :types do
+  #   resources :locations
+  # end
 
   # resources :categories do
     # resource :locations
@@ -68,7 +84,7 @@ UcdeService::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  root :to => "locations#index"
 
   # See how all your routes lay out with "rake routes"
 

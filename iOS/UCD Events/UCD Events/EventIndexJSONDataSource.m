@@ -40,6 +40,10 @@
 	NSArray *sortDescriptors = [NSArray arrayWithObjects:sortByDate, sortByName, nil];
 	[eventsFromModel sortUsingDescriptors:sortDescriptors];
     
+    if ([eventsFromModel count] == 0) {
+        return;
+    }
+    
     EventItem *firstEvent = [eventsFromModel objectAtIndex:0];
     NSLog(@"Looked up event with name of %@", firstEvent.name);
 	
@@ -68,7 +72,10 @@
         NSString *itemURL = [self getURLForEventId:event.iD];
         NSLog(@"An item's URL is %@", itemURL);
 		//		This is the actual creation of the location's cell item. URL is empty as the view controller push is handled elsewhere.
-		TTTableMessageItem *newTableItem = [TTTableMessageItem itemWithTitle:event.name caption:event.name text:event.description timestamp:event.date URL:itemURL];
+        
+        NSString *description = [event.description isKindOfClass:[NSNull class]] ? @" " : event.description;
+        
+		TTTableMessageItem *newTableItem = [TTTableMessageItem itemWithTitle:event.name caption:event.name text:description timestamp:event.date URL:itemURL];
 		
 		//		Bundle up the location NSObject into userInfo as a query-able dictionary.
 		//		We use this in the tableviewcontroller's didSelect method to push the location to the detailviewcontroller.
