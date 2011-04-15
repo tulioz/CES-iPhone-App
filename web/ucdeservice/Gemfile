@@ -11,6 +11,7 @@ gem 'devise'
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 
 gem 'faker'
+gem 'random_data'
 
 # Use unicorn as the web server
 # gem 'unicorn'

@@ -42,6 +42,9 @@
 		3D2AB5EF13482700001F41F0 /* LocationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AB5ED13482700001F41F0 /* LocationListViewController.xib */; };
 		3D36FCCF134C34FA001A4CC4 /* LocationItemJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D36FCCE134C34FA001A4CC4 /* LocationItemJSONDataModel.m */; };
 		3D36FCD1134C3A1E001A4CC4 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D36FCD0134C3A1C001A4CC4 /* Settings.m */; };
+		3D68642113578802001DDFD7 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68642013578802001DDFD7 /* EventDetailViewController.m */; };
+		3D68642713579C4A001DDFD7 /* EventItemJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68642613579C4A001DDFD7 /* EventItemJSONDataModel.m */; };
+		3D68642A13579C66001DDFD7 /* EventItemDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68642913579C66001DDFD7 /* EventItemDataSource.m */; };
 		3D72BA591342DBCC00B91A4A /* UCD_EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D72BA571342DBCC00B91A4A /* UCD_EventsViewController.m */; };
 		3D72BA5A1342DBCC00B91A4A /* UCD_EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA581342DBCC00B91A4A /* UCD_EventsViewController.xib */; };
 		3D72BA5C1342DD9600B91A4A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA5B1342DD9500B91A4A /* Default.png */; };
@@ -310,6 +313,12 @@
 		3D36FCCD134C34FA001A4CC4 /* LocationItemJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItemJSONDataModel.h; sourceTree = "<group>"; };
 		3D36FCCE134C34FA001A4CC4 /* LocationItemJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItemJSONDataModel.m; sourceTree = "<group>"; };
 		3D36FCD0134C3A1C001A4CC4 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		3D68641F13578802001DDFD7 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		3D68642013578802001DDFD7 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		3D68642513579C4A001DDFD7 /* EventItemJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventItemJSONDataModel.h; sourceTree = "<group>"; };
+		3D68642613579C4A001DDFD7 /* EventItemJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventItemJSONDataModel.m; sourceTree = "<group>"; };
+		3D68642813579C65001DDFD7 /* EventItemDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventItemDataSource.h; sourceTree = "<group>"; };
+		3D68642913579C66001DDFD7 /* EventItemDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventItemDataSource.m; sourceTree = "<group>"; };
 		3D72BA561342DBCC00B91A4A /* UCD_EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCD_EventsViewController.h; sourceTree = "<group>"; };
 		3D72BA571342DBCC00B91A4A /* UCD_EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCD_EventsViewController.m; sourceTree = "<group>"; };
 		3D72BA581342DBCC00B91A4A /* UCD_EventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UCD_EventsViewController.xib; sourceTree = "<group>"; };
@@ -537,19 +546,19 @@
 		3D2AB5DC13482695001F41F0 /* Locations */ = {
 			isa = PBXGroup;
 			children = (
+				3D2AB5DD134826F2001F41F0 /* LocationDetailViewController.h */,
+				3D2AB5DE134826F2001F41F0 /* LocationDetailViewController.m */,
+				3D36FCCD134C34FA001A4CC4 /* LocationItemJSONDataModel.h */,
+				3D36FCCE134C34FA001A4CC4 /* LocationItemJSONDataModel.m */,
+				3DD11561134D3DE400F27CF3 /* LocationItemJSONDataSource.h */,
+				3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */,
 				3D2AB5EB13482700001F41F0 /* LocationListViewController.h */,
 				3D2AB5EC13482700001F41F0 /* LocationListViewController.m */,
 				3D2AB5ED13482700001F41F0 /* LocationListViewController.xib */,
-				3D2AB5DD134826F2001F41F0 /* LocationDetailViewController.h */,
-				3D2AB5DE134826F2001F41F0 /* LocationDetailViewController.m */,
 				3D2AB5E0134826F2001F41F0 /* LocationItem.h */,
 				3D2AB5E1134826F2001F41F0 /* LocationItem.m */,
-				3D36FCCD134C34FA001A4CC4 /* LocationItemJSONDataModel.h */,
-				3D36FCCE134C34FA001A4CC4 /* LocationItemJSONDataModel.m */,
 				3D2AB5E2134826F2001F41F0 /* LocationIndexJSONDataModel.h */,
 				3D2AB5E3134826F2001F41F0 /* LocationIndexJSONDataModel.m */,
-				3DD11561134D3DE400F27CF3 /* LocationItemJSONDataSource.h */,
-				3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */,
 				3D2AB5E4134826F2001F41F0 /* LocationIndexJSONDataSource.h */,
 				3D2AB5E5134826F2001F41F0 /* LocationIndexJSONDataSource.m */,
 				248AEF4D135173CD009FE716 /* InfoViewController.h */,
@@ -580,6 +589,10 @@
 			isa = PBXGroup;
 			children = (
 				3D76D4C61351711C009FFCB1 /* EventListViewController.h */,
+				3D68642813579C65001DDFD7 /* EventItemDataSource.h */,
+				3D68642913579C66001DDFD7 /* EventItemDataSource.m */,
+				3D68642513579C4A001DDFD7 /* EventItemJSONDataModel.h */,
+				3D68642613579C4A001DDFD7 /* EventItemJSONDataModel.m */,
 				3D76D4C71351711C009FFCB1 /* EventListViewController.m */,
 				3D76D4C9135177AE009FFCB1 /* EventIndexJSONDataSource.h */,
 				3D76D4CA135177AE009FFCB1 /* EventIndexJSONDataSource.m */,
@@ -587,6 +600,8 @@
 				3D76D4CD135177F2009FFCB1 /* EventIndexJSONDataModel.m */,
 				3D76D4CF135178B3009FFCB1 /* EventItem.h */,
 				3D76D4D0135178B3009FFCB1 /* EventItem.m */,
+				3D68641F13578802001DDFD7 /* EventDetailViewController.h */,
+				3D68642013578802001DDFD7 /* EventDetailViewController.m */,
 			);
 			name = Events;
 			sourceTree = "<group>";
@@ -934,6 +949,9 @@
 				3D36FCCF134C34FA001A4CC4 /* LocationItemJSONDataModel.m in Sources */,
 				3D36FCD1134C3A1E001A4CC4 /* Settings.m in Sources */,
 				3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */,
+				3D68642113578802001DDFD7 /* EventDetailViewController.m in Sources */,
+				3D68642713579C4A001DDFD7 /* EventItemJSONDataModel.m in Sources */,
+				3D68642A13579C66001DDFD7 /* EventItemDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

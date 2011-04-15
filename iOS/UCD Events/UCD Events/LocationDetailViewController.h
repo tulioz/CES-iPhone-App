@@ -28,10 +28,5 @@
 @property (nonatomic, retain) id<LocationDetailViewControllerDelegate> delegate;
 
 @property (nonatomic, retain) LocationItem *viewingLocation;
-@property (nonatomic, retain) IBOutlet UILabel *nameLabel;
-@property (nonatomic, retain) IBOutlet UILabel *typeLabel;
-@property (nonatomic, retain) IBOutlet UIButton *phoneButton;
-@property (nonatomic, retain) IBOutlet UIImageView *imageView;
-@property (nonatomic, retain) IBOutlet UITableView *contactTable;
 
 @end

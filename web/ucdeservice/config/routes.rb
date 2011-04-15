@@ -4,8 +4,8 @@ Ucdeservice::Application.routes.draw do
   namespace :api do
     namespace :v1 do
       # resources :locations, :only => [:index, :show]
-      resources :types do
-        resources :locations #:only => [:index, :show]
+      resources :types, :only => [:index, :show] do
+        resources :locations, :only => [:index, :show]
       end
       
       resources :events, :only => [:index, :show]

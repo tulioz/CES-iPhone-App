@@ -9,6 +9,19 @@ namespace :db do
                     :password_confirmation => '111111') 
       Type.create!(:name => "Restaurants")                                 
 
+      eventSuffixes = ["Day", "Celebration", "Seminar", "Conference"];
+
+      25.times do
+        e = {
+          :name => "#{Faker::Lorem.words(2)} #{eventSuffixes.rand.to_s}",
+          :description => Faker::Lorem.paragraphs(1),
+          :website => "#{Faker::Internet.domain_name()}#{Faker::Internet.domain_suffix()}",
+          :date => (1..200).to_a.rand.days.from_now
+        }
+
+        Event.create!(e)
+      end    
+
       restaurantCategories = ["American", "Chinese", "Japanese", "French",
                               "Italian", "Fast Food", "Indian", "Thai",
                               "Cafe", "Deli", "Cajun"]
@@ -24,11 +37,15 @@ namespace :db do
           :latitude => '1000000',
           :longitude => '1000000',
           :description => Faker::Company.catch_phrase(),
-          :type_id => 1
+          :type_id => 1,
+          :event_id => Event.all.rand.id
         }
       
         Location.create!(r)
       end
+
+
+
       
     end
 end
