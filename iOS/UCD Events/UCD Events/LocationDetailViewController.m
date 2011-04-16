@@ -12,9 +12,22 @@
 @implementation LocationDetailViewController
 
 @synthesize viewingLocation;
+@synthesize nameLabel;
+@synthesize typeLabel;
+@synthesize phoneButton;
+@synthesize imageView;
+
+@synthesize contactTable;
 
 @synthesize delegate = _delegate;
 
+-(void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	
+	self.nameLabel.text = self.viewingLocation.name;
+	self.typeLabel.text = self.viewingLocation.category;
+//	self.imageView = [[UIImageView alloc] initWithImage:self.viewingLocation.imageURL];
+}
 
 -(void)viewDidLoad {
 	[super viewDidLoad];
@@ -87,6 +100,7 @@
 
 
 - (void)dealloc {
+	TT_RELEASE_SAFELY(imageView);
     [super dealloc];
 }
 

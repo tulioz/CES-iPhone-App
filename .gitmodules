@@ -1,0 +1,6 @@
+[submodule "iOS/RestKit"]
+	path = iOS/RestKit
+	url = git://github.com/twotoasters/RestKit.git
+[submodule "iOS/three20"]
+	path = iOS/three20
+	url = git://github.com/facebook/three20.git

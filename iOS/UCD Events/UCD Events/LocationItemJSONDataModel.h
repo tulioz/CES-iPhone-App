@@ -12,6 +12,8 @@
 #import "LocationItem.h"
 #import "Settings.h"
 
+@class TTModelViewController;
+
 @interface LocationItemJSONDataModel : TTURLRequestModel {
     NSString *_typeId;
     NSString *_locationId;
