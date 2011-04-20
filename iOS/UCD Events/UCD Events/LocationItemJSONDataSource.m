@@ -48,7 +48,7 @@
     [self.sections addObject:@"Directions"];
     
     NSLog(@"Location's name is %@", location.name);
-
+    
     //Basic
     NSArray *basic = [NSArray arrayWithObjects:
                       [TTTableCaptionItem itemWithText:location.name caption:@"name"],

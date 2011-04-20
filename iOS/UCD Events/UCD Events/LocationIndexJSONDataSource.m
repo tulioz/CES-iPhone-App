@@ -15,7 +15,7 @@
         _typeId = typeId;
 		_locationFeedModel = [[LocationIndexJSONDataModel alloc] initWithTypeId:_typeId];
 	}
-
+    
 	return self;
 }
 
@@ -55,18 +55,15 @@
 		}
 		
         NSString *itemURL = [self getURLforTypeId:_typeId locationId:location.iD];
-        NSLog(@"An item's URL is %@", itemURL);
 		//		This is the actual creation of the location's cell item. URL is empty as the view controller push is handled elsewhere.
-		TTTableSubtitleItem *newTableItem = [TTTableSubtitleItem itemWithText:location.name subtitle:location.address  URL:itemURL];
+		[category addObject: [TTTableSubtitleItem itemWithText:location.name
+                                                      subtitle:location.address  URL:itemURL]];
 		
-		//		Bundle up the location NSObject into userInfo as a query-able dictionary.
-		//		We use this in the tableviewcontroller's didSelect method to push the location to the detailviewcontroller.
-		newTableItem.userInfo = [NSDictionary dictionaryWithObject:location forKey:@"location"];
-		
-		[category addObject:newTableItem];
 	}
 	
-	NSArray *categoryNames = [categories.allKeys sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
+	NSArray *categoryNames = [categories.allKeys sortedArrayUsingSelector:
+                              @selector(caseInsensitiveCompare:)];
+    
 	for (NSString *currentCategory in categoryNames) {
 		NSArray *items = [categories objectForKey:currentCategory];
 		[_sections addObject:currentCategory];
@@ -103,7 +100,7 @@
 		}
 		
 		[_delegates perform:@selector(modelDidFinishLoad:) withObject:self];
-
+        
 	}
 }
 -(id)getURLforTypeId:(NSString *)typeId locationId:(NSString *)locationId {
