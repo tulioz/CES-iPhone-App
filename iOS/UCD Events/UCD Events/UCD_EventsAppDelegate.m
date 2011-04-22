@@ -33,6 +33,7 @@
     TTDefaultCSSStyleSheet *styleSheet = [[TTDefaultCSSStyleSheet alloc] init];
     [styleSheet addStyleSheetFromDisk:TTPathForBundleResource(@"stylesheet.css")];
     [TTStyleSheet setGlobalStyleSheet:styleSheet];
+    
     TT_RELEASE_SAFELY(styleSheet);
     
     

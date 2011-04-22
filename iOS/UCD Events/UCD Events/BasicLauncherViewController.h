@@ -13,6 +13,7 @@
 @interface BasicLauncherViewController : TTViewController <TTLauncherViewDelegate> 
 {
     TTLauncherView *launcherView;
+    
 }
 
 @end

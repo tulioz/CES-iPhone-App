@@ -7,12 +7,43 @@
 //
 
 #import "BasicLauncherViewController.h"
+#import "Three20UI/UIViewAdditions.h"
 
 @interface BasicLauncherViewController(Private)
 - (TTLauncherItem *)launcherItemWithTitle:(NSString *)pTitle image:(NSString *)image URL:(NSString *)url;
 @end
 
 @implementation BasicLauncherViewController
+
+- (TTStyle*)embossedButton:(UIControlState)state {
+    if (state == UIControlStateNormal) {
+        return
+        [TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:8] next:
+         [TTInsetStyle styleWithInset:UIEdgeInsetsMake(0, 0, 1, 0) next:
+          [TTShadowStyle styleWithColor:RGBACOLOR(255,255,255,0) blur:1 offset:CGSizeMake(0, 1) next:
+           [TTLinearGradientFillStyle styleWithColor1:RGBCOLOR(255, 255, 255)
+                                               color2:RGBCOLOR(216, 221, 231) next:
+            [TTSolidBorderStyle styleWithColor:RGBCOLOR(161, 167, 178) width:1 next:
+             [TTBoxStyle styleWithPadding:UIEdgeInsetsMake(10, 12, 9, 12) next:
+              [TTTextStyle styleWithFont:nil color:TTSTYLEVAR(linkTextColor)
+                             shadowColor:[UIColor colorWithWhite:255 alpha:0.4]
+                            shadowOffset:CGSizeMake(0, -1) next:nil]]]]]]];
+    } else if (state == UIControlStateHighlighted) {
+        return
+        [TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:8] next:
+         [TTInsetStyle styleWithInset:UIEdgeInsetsMake(0, 0, 1, 0) next:
+          [TTShadowStyle styleWithColor:RGBACOLOR(255,255,255,0.9) blur:1 offset:CGSizeMake(0, 1) next:
+           [TTLinearGradientFillStyle styleWithColor1:RGBCOLOR(225, 225, 225)
+                                               color2:RGBCOLOR(196, 201, 221) next:
+            [TTSolidBorderStyle styleWithColor:RGBCOLOR(161, 167, 178) width:1 next:
+             [TTBoxStyle styleWithPadding:UIEdgeInsetsMake(10, 12, 9, 12) next:
+              [TTTextStyle styleWithFont:nil color:[UIColor whiteColor]
+                             shadowColor:[UIColor colorWithWhite:255 alpha:0.4]
+                            shadowOffset:CGSizeMake(0, -1) next:nil]]]]]]];
+    } else {
+        return nil;
+    }
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -52,10 +83,8 @@
     [self.navigationItem setRightBarButtonItem:modalButton animated:YES];
     [modalButton release];
 	
-	launcherView = [[TTLauncherView alloc] initWithFrame:self.view.bounds];
-//	launcherView.backgroundColor = [UIColor colorWithRed:.1 green:.1 blue:.1 alpha:1];
-//	self.navigationBarTintColor = [UIColor colorWithRed:.92 green:.76 blue:0 alpha:1];
-//	self.navigationBarStyle = UIStatusBarStyleDefault;
+	launcherView = [[TTLauncherView alloc] initWithFrame:CGRectMake(0, 0, 320, 385)];
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"title.png"]];
 	launcherView.columnCount = 3;
     //	launcherView.rowCount = 4;
 	launcherView.pages = [NSArray arrayWithObjects:
@@ -99,9 +128,20 @@
                            nil],
                           nil];
 	launcherView.delegate = self;
+   
+    TTStyleSheet *globalStyleSheet = [TTStyleSheet globalStyleSheet];
+//    [globalStyleSheet 
     
-	
+    TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"embossedButton:"];
+    [emergencyInfoButton addTarget:@"ucde://navbarInfoButton" action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];
+    [emergencyInfoButton setFrame:CGRectMake(0, 372, 320, 50)];
+    [emergencyInfoButton setBackgroundColor:[UIColor yellowColor]];
+//    [emergencyInfoButton setBackgroundColor:[[TTStyleSheet globalStyleSheet] ]];
+    [emergencyInfoButton setTitle:@"Emergency Information" forState:UIControlStateNormal];
+//    [_myButton setImage:@"bundle://title.png" forState:UIControlStateNormal];
+    
 	[self.view addSubview:launcherView];
+    [self.view addSubview:emergencyInfoButton];
 }
 
 
@@ -110,8 +150,6 @@
 {
     NSLog(@"viewdidload called on launcherview");
     [super viewDidLoad];
-    
-    self.title = @"UCD Events";
 }
 
 

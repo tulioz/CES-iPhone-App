@@ -4,3 +4,6 @@
 [submodule "iOS/three20"]
 	path = iOS/three20
 	url = git://github.com/facebook/three20.git
+[submodule "android/ActionBarSherlock"]
+	path = android/ActionBarSherlock
+	url = git://github.com/JakeWharton/ActionBarSherlock.git
