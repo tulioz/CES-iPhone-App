@@ -29,6 +29,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [TTExtensionLoader loadAllExtensions];
+    TTDefaultCSSStyleSheet *styleSheet = [[TTDefaultCSSStyleSheet alloc] init];
+    [styleSheet addStyleSheetFromDisk:TTPathForBundleResource(@"stylesheet.css")];
+    [TTStyleSheet setGlobalStyleSheet:styleSheet];
+    TT_RELEASE_SAFELY(styleSheet);
+    
+    
+    
     // Override point for customization after application launch.
 
     [self.window addSubview:viewController.view];
@@ -49,20 +57,14 @@
  	[map from:@"*" toViewController:[TTWebController class]];
 	[map from:@"ucde://launcher/" toViewController:
 	 [BasicLauncherViewController class]];
-//	[map from:@"ucde://newsfeed/" toViewController:
-//	 [RSSFeedTableViewController class]];
 	[map from:@"ucde://locationList/(initWithName:)/(typeId:)/" toViewController:
 	 [LocationListViewController class]];
     [map from:@"ucde://types/(initWithTypeId:)/locations/(locationId:)" toViewController:
      [LocationDetailViewController class]];
     [map from:@"ucde://events/" toViewController:
      [EventListViewController class]];
-//	[map from:@"ucde://locationDetail/" toViewController:[LocationDetailViewController class]]; 
-//	[map from:@"ucde://locationDetail/location/(initWithID:)/(query:)" toViewController:[LocationDetailViewController class]];
 	[map from:@"ucde://navbarInfoButton/" toViewController:
      [InfoViewController class]];
-//	[map from:@"ucde://eventList/(initWithName:)/(url:)/" toViewController:
-//	 [EventListViewController class]];
 
 //  Push the first view: the launcher  
 	if (![navigator restoreViewControllers]) {

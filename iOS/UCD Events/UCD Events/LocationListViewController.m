@@ -22,8 +22,8 @@
 		self.categoryName = name;
         _typeId = typeId;
 		
-		self.navigationBarTintColor = [UIColor colorWithRed:.92 green:.76 blue:0 alpha:1];
-		self.navigationBarStyle = UIStatusBarStyleDefault;
+//		self.navigationBarTintColor = [UIColor colorWithRed:.92 green:.76 blue:0 alpha:1];
+//		self.navigationBarStyle = UIStatusBarStyleDefault;
 	}
 	
 	return self;

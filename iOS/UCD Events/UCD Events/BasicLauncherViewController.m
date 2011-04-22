@@ -53,9 +53,9 @@
     [modalButton release];
 	
 	launcherView = [[TTLauncherView alloc] initWithFrame:self.view.bounds];
-	launcherView.backgroundColor = [UIColor colorWithRed:.1 green:.1 blue:.1 alpha:1];
-	self.navigationBarTintColor = [UIColor colorWithRed:.92 green:.76 blue:0 alpha:1];
-	self.navigationBarStyle = UIStatusBarStyleDefault;
+//	launcherView.backgroundColor = [UIColor colorWithRed:.1 green:.1 blue:.1 alpha:1];
+//	self.navigationBarTintColor = [UIColor colorWithRed:.92 green:.76 blue:0 alpha:1];
+//	self.navigationBarStyle = UIStatusBarStyleDefault;
 	launcherView.columnCount = 3;
     //	launcherView.rowCount = 4;
 	launcherView.pages = [NSArray arrayWithObjects:

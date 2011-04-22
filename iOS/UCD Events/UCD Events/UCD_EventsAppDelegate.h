@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Three20/Three20.h"
+#import "extThree20CSSStyle/extThree20CSSStyle.h"
 #import "BasicLauncherViewController.h"
 #import "UCD_EventsViewController.h"
 
