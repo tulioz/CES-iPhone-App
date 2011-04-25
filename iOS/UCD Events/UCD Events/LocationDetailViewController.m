@@ -47,16 +47,7 @@
 }
 
 -(void)createModel {
-    NSLog(@"Create model for detail called!");
     self.dataSource = [[[LocationItemJSONDataSource alloc] initWithTypeId:_typeId locationId:_locationId] autorelease];
-}
-
--(id)init {
-    if (self = [super init]) {
-        NSLog(@"called regular init on detailview!!!!!!!");
-    }
-    
-    return self;
 }
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.

@@ -23,7 +23,7 @@
 }
 
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {
-    NSLog(@"index load calleD");
+//    NSLog(@"index load calleD");
     NSString *loadURL = [self getURL];
     
 	if (!self.isLoading && TTIsStringWithAnyText(loadURL)) {
@@ -52,7 +52,7 @@
 
 -(void)requestDidFinishLoad:(TTURLRequest *)request {
 	TTURLJSONResponse *response = request.response;
-    NSLog(@"%@", [response.rootObject class]);
+//    NSLog(@"%@", [response.rootObject class]);
 	TTDASSERT([response.rootObject isKindOfClass:[NSArray class]]);
 	
 	// rootObject represents the parsed JSON feed in an array of dictionaries representing nodes
@@ -65,7 +65,7 @@
 	for (NSDictionary *currentEventDictionary in theEvents) {
         NSDictionary *currentEvent = [currentEventDictionary objectForKey:@"event"];
 		EventItem *event = [[EventItem alloc] initWithEventDictionary:currentEvent];
-        NSLog(@"Adding event to model with name of %@", event.name);
+//        NSLog(@"Adding event to model with name of %@", event.name);
 		[events addObject:event];
 		TT_RELEASE_SAFELY(event);
 	}

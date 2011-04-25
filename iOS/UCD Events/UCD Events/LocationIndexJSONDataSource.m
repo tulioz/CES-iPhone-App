@@ -47,7 +47,6 @@
 	
 	for (LocationItem *location in locationsFromModel) {
 		NSString *categoryName = location.category;
-        NSLog(@"Category name is %@", categoryName);
 		NSMutableArray *category = [categories objectForKey:categoryName];
 		if (!category) {
 			category = [NSMutableArray array];
@@ -70,39 +69,39 @@
 		[_items addObject:items];
 	}
 }
-
--(void)search:(NSString *)text {
-	if (text.length) {
-		_items = [[NSMutableArray alloc] init];
-		NSMutableArray *resultItems = [[NSMutableArray alloc] init];
-		NSLog(@"Reached the search!");
-		text = [text lowercaseString];
-		NSLog(@"text is: %@", text);
-		for (LocationItem *location in _locationFeedModel.locations) {
-			NSString *locationName = [location.name lowercaseString];
-			if ([locationName hasPrefix:text]) {
-				NSLog(@"Found a match with location %@", location.name);
-				TTTableSubtitleItem *newTableItem = [TTTableSubtitleItem itemWithText:location.name subtitle:location.address imageURL:location.imageURL URL:@""];
-				newTableItem.userInfo = [NSDictionary dictionaryWithObject:location forKey:@"location"];
-				newTableItem.defaultImage = [UIImage imageNamed:@"agg2x.png"];
-				[resultItems addObject:newTableItem];
-			}
-		}
-		[_items addObject:resultItems];
-		_sections = [NSArray arrayWithObject:@"Test"];
-		
-		NSLog(@"items are: %@", _items);		 
-		if ([resultItems count] == 0) {
-			[resultItems release];
-			resultItems	= nil;
-		} else {
-			resultItems = nil;
-		}
-		
-		[_delegates perform:@selector(modelDidFinishLoad:) withObject:self];
-        
-	}
-}
+//
+//-(void)search:(NSString *)text {
+//	if (text.length) {
+//		_items = [[NSMutableArray alloc] init];
+//		NSMutableArray *resultItems = [[NSMutableArray alloc] init];
+//		NSLog(@"Reached the search!");
+//		text = [text lowercaseString];
+//		NSLog(@"text is: %@", text);
+//		for (LocationItem *location in _locationFeedModel.locations) {
+//			NSString *locationName = [location.name lowercaseString];
+//			if ([locationName hasPrefix:text]) {
+//				NSLog(@"Found a match with location %@", location.name);
+//				TTTableSubtitleItem *newTableItem = [TTTableSubtitleItem itemWithText:location.name subtitle:location.address imageURL:location.imageURL URL:@""];
+//				newTableItem.userInfo = [NSDictionary dictionaryWithObject:location forKey:@"location"];
+//				newTableItem.defaultImage = [UIImage imageNamed:@"agg2x.png"];
+//				[resultItems addObject:newTableItem];
+//			}
+//		}
+//		[_items addObject:resultItems];
+//		_sections = [NSArray arrayWithObject:@"Test"];
+//		
+//		NSLog(@"items are: %@", _items);		 
+//		if ([resultItems count] == 0) {
+//			[resultItems release];
+//			resultItems	= nil;
+//		} else {
+//			resultItems = nil;
+//		}
+//		
+//		[_delegates perform:@selector(modelDidFinishLoad:) withObject:self];
+//        
+//	}
+//}
 -(id)getURLforTypeId:(NSString *)typeId locationId:(NSString *)locationId {
     return [NSString stringWithFormat:@"%@%@/%@/%@/%@", ucdePath, typesString, typeId, locationsString, locationId, apiDataFormat];
 }

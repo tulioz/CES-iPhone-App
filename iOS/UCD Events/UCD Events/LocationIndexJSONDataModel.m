@@ -30,7 +30,6 @@
 }
 
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {
-    NSLog(@"index load calleD");
     NSString *loadURL = [self getURL];
     
 	if (!self.isLoading && TTIsStringWithAnyText(loadURL)) {
@@ -59,7 +58,7 @@
 
 -(void)requestDidFinishLoad:(TTURLRequest *)request {
 	TTURLJSONResponse *response = request.response;
-    NSLog(@"%@", [response.rootObject class]);
+//    NSLog(@"%@", [response.rootObject class]);
 	TTDASSERT([response.rootObject isKindOfClass:[NSArray class]]);
 	
 	// rootObject represents the parsed JSON feed in an array of dictionaries representing nodes
@@ -89,7 +88,7 @@
 }
 
 -(NSString *)getURL {
-    NSLog(@"GetURL: _typeId is %@", typesString);
+//    NSLog(@"GetURL: _typeId is %@", typesString);
     return [NSString stringWithFormat:@"%@%@/%@/%@.%@", apiPath, typesString, _typeId, locationsString, apiDataFormat]; 
 }
 

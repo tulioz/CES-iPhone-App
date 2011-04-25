@@ -47,8 +47,6 @@
     
     [self.sections addObject:@"Directions"];
     
-    NSLog(@"Location's name is %@", location.name);
-    
     //Basic
     NSArray *basic = [NSArray arrayWithObjects:
                       [TTTableCaptionItem itemWithText:location.name caption:@"name"],
@@ -57,12 +55,11 @@
                       ];
     // Contact
     NSArray *contact = [NSArray arrayWithObjects:
-                        [TTTableCaptionItem itemWithText:[self formatPhoneString:location.phone] caption:@"phone" URL:[NSString stringWithFormat:@"tel://%@", location.phone]],
+                        [TTTableCaptionItem itemWithText:[self formatPhoneString:location.phone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", location.phone]],
                         [TTTableCaptionItem itemWithText:location.address caption:@"address" URL:@""],
                         nil];
     
     // Description
-    NSLog(@"%@", location.description);
     NSArray *description = [NSArray arrayWithObjects:
                             [TTTableLongTextItem itemWithText:location.description]
                             , nil];

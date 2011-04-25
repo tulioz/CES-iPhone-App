@@ -37,8 +37,6 @@
     
     TT_RELEASE_SAFELY(styleSheet);
     
-    
-    
     // Override point for customization after application launch.
 
     [self.window addSubview:viewController.view];
@@ -65,7 +63,7 @@
      [LocationDetailViewController class]];
     [map from:@"ucde://events/" toViewController:
      [EventListViewController class]];
-	[map from:@"ucde://navbarInfoButton/" toViewController:
+	[map from:@"ucde://info/" toViewController:
      [InfoViewController class]];
     [map from:@"ucde://offers/" toViewController:
      [OffersViewController class]];

@@ -9,8 +9,15 @@
 #import "Settings.h"
 #import "InfoViewController.h"
 
-
 @implementation InfoViewController
+
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        self.tableViewStyle = UITableViewStyleGrouped;
+    }
+
+    return self;
+}
 
 - (void) createModel {
                         
@@ -47,17 +54,8 @@
                         dataSourceWithItems:items sections:sections];
 }
 
--(id)init {
-    if (self = [super init]) {
-        NSLog(@"view loaded!!!!!!!");
-        self.tableViewStyle = UITableViewStyleGrouped;
-    }
-    NSLog(@"Why do you hate me!?!??!");
-    return self;
-}
-
 -(void)viewDidLoad {
-	self.title = @"Info";
+	self.title = @"Emergency Information";
 }
 
 

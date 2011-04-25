@@ -16,7 +16,6 @@
 
 -(id)initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId {
     if (self = [super init]) {
-        NSLog(@"location item data model init");
         _typeId = typeId;
         _locationId = locationId;
     }
@@ -28,9 +27,7 @@
     return [NSString stringWithFormat:@"%@%@/%@/%@/%@.%@", apiPath, typesString, _typeId, locationsString, _locationId, apiDataFormat];
 }
 
--(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {
-    NSLog(@"Called load on item data model typeId of %@ and locationId of %@", _typeId, _locationId);
-    
+-(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {  
     NSString *loadURL = [self getURL];
 	if (!self.isLoading && TTIsStringWithAnyText(loadURL)) {
 		// Create a request for the XML file passed by the init method
@@ -58,15 +55,12 @@
 
 -(void)requestDidFinishLoad:(TTURLRequest *)request {
 	TTURLJSONResponse *response = request.response;
-    NSLog(@"%@", [response.rootObject class]);
     TTDASSERT([response.rootObject isKindOfClass:[NSMutableDictionary class]]);
 
 	// rootObject represents the parsed JSON feed in a dictionary representing the location
 	NSMutableDictionary *locationDict = response.rootObject;
     
     _location = [[LocationItem alloc] initWithLocationDictionary:[locationDict objectForKey:@"location"]];
-    
-    NSLog(@"Before location's name is %@", self.location.name);
     
 	_finished = TRUE;
     

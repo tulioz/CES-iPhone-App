@@ -19,7 +19,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = @"UCD Events";
+        self.title = @"Home";
 
     }
     return self;
@@ -47,13 +47,13 @@
     NSLog(@"did loadview on launcher");
     [super loadView];
     
-    UIButton* infoButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
-    [infoButton addTarget:self action:@selector(infoButtonAction) forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem *modalButton = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
-    [self.navigationItem setRightBarButtonItem:modalButton animated:YES];
-    [modalButton release];
+//    UIButton* infoButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
+//    [infoButton addTarget:self action:@selector(infoButtonAction) forControlEvents:UIControlEventTouchUpInside];
+//    UIBarButtonItem *modalButton = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
+//    [self.navigationItem setRightBarButtonItem:modalButton animated:YES];
+//    [modalButton release];
 	
-	launcherView = [[TTLauncherView alloc] initWithFrame:CGRectMake(0, 0, 320, 385)];
+	launcherView = [[UELauncherView alloc] initWithFrame:CGRectMake(0, 0, 320, 385)];
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"title.png"]];
 	launcherView.columnCount = 3;
     //	launcherView.rowCount = 4;
@@ -102,7 +102,7 @@
 
     
     TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"emergencyInfoButton:" title:@"Emergency Information"];
-    [emergencyInfoButton addTarget:@"ucde://navbarInfoButton" action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];
+    [emergencyInfoButton addTarget:@"ucde://info/" action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];
     [emergencyInfoButton setFrame:CGRectMake(0, 370, 320, 50)];
     
 	[self.view addSubview:launcherView];

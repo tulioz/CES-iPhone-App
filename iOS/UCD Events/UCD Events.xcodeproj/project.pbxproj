@@ -57,6 +57,7 @@
 		3DAEBF331351B38D0078A984 /* EventIndexJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4CD135177F2009FFCB1 /* EventIndexJSONDataModel.m */; };
 		3DAEBF341351B38D0078A984 /* EventItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4D0135178B3009FFCB1 /* EventItem.m */; };
 		3DAEBF351351B3A80078A984 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248AEF4E135173CD009FE716 /* InfoViewController.m */; };
+		3DC7D77313662C8C00057F6B /* UELauncherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7D77213662C8C00057F6B /* UELauncherView.m */; };
 		3DCB57071363B79D0090F9F0 /* UEStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB57061363B79D0090F9F0 /* UEStyleSheet.m */; };
 		3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */; };
 		3DEDD45D136613BD0001BE2B /* OffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEDD45C136613BD0001BE2B /* OffersViewController.m */; };
@@ -357,6 +358,8 @@
 		3D76D4D0135178B3009FFCB1 /* EventItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventItem.m; sourceTree = "<group>"; };
 		3D99CAD81342BC2D004606D1 /* BasicLauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicLauncherViewController.h; sourceTree = "<group>"; };
 		3D99CAD91342BC2D004606D1 /* BasicLauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicLauncherViewController.m; sourceTree = "<group>"; };
+		3DC7D77113662C8C00057F6B /* UELauncherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UELauncherView.h; sourceTree = "<group>"; };
+		3DC7D77213662C8C00057F6B /* UELauncherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UELauncherView.m; sourceTree = "<group>"; };
 		3DCB57051363B79D0090F9F0 /* UEStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEStyleSheet.h; sourceTree = "<group>"; };
 		3DCB57061363B79D0090F9F0 /* UEStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEStyleSheet.m; sourceTree = "<group>"; };
 		3DD11561134D3DE400F27CF3 /* LocationItemJSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItemJSONDataSource.h; sourceTree = "<group>"; };
@@ -598,8 +601,6 @@
 				3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */,
 				3D2AB5E4134826F2001F41F0 /* LocationIndexJSONDataSource.h */,
 				3D2AB5E5134826F2001F41F0 /* LocationIndexJSONDataSource.m */,
-				248AEF4D135173CD009FE716 /* InfoViewController.h */,
-				248AEF4E135173CD009FE716 /* InfoViewController.m */,
 			);
 			name = Locations;
 			sourceTree = "<group>";
@@ -669,7 +670,11 @@
 		3D99CADF1342BCF0004606D1 /* Launcher */ = {
 			isa = PBXGroup;
 			children = (
+				248AEF4D135173CD009FE716 /* InfoViewController.h */,
+				248AEF4E135173CD009FE716 /* InfoViewController.m */,
 				3D99CAD81342BC2D004606D1 /* BasicLauncherViewController.h */,
+				3DC7D77113662C8C00057F6B /* UELauncherView.h */,
+				3DC7D77213662C8C00057F6B /* UELauncherView.m */,
 				3D99CAD91342BC2D004606D1 /* BasicLauncherViewController.m */,
 			);
 			name = Launcher;
@@ -1028,6 +1033,7 @@
 				3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */,
 				3DCB57071363B79D0090F9F0 /* UEStyleSheet.m in Sources */,
 				3DEDD45D136613BD0001BE2B /* OffersViewController.m in Sources */,
+				3DC7D77313662C8C00057F6B /* UELauncherView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
