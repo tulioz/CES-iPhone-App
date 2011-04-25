@@ -32,7 +32,7 @@
 {
     [TTExtensionLoader loadAllExtensions];
     UEStyleSheet *styleSheet = [[UEStyleSheet alloc] init];
-    [styleSheet addStyleSheetFromDisk:TTPathForBundleResource(@"stylesheet.css")];
+    [styleSheet addStyleSheetFromDisk:TTPathForBundleResource(@"UCDEvents.css")];
     [TTStyleSheet setGlobalStyleSheet:styleSheet];
     
     TT_RELEASE_SAFELY(styleSheet);
