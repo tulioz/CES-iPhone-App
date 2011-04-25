@@ -13,6 +13,7 @@
 #import "LocationDetailViewController.h"
 #import "EventListViewController.h"
 #import "InfoViewController.h"
+#import "OffersViewController.h"
 
 @implementation UCD_EventsAppDelegate
 
@@ -30,7 +31,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [TTExtensionLoader loadAllExtensions];
-    TTDefaultCSSStyleSheet *styleSheet = [[TTDefaultCSSStyleSheet alloc] init];
+    UEStyleSheet *styleSheet = [[UEStyleSheet alloc] init];
     [styleSheet addStyleSheetFromDisk:TTPathForBundleResource(@"stylesheet.css")];
     [TTStyleSheet setGlobalStyleSheet:styleSheet];
     
@@ -66,6 +67,8 @@
      [EventListViewController class]];
 	[map from:@"ucde://navbarInfoButton/" toViewController:
      [InfoViewController class]];
+    [map from:@"ucde://offers/" toViewController:
+     [OffersViewController class]];
 
 //  Push the first view: the launcher  
 	if (![navigator restoreViewControllers]) {

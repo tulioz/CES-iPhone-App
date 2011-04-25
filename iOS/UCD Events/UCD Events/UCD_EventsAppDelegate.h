@@ -11,6 +11,7 @@
 #import "extThree20CSSStyle/extThree20CSSStyle.h"
 #import "BasicLauncherViewController.h"
 #import "UCD_EventsViewController.h"
+#import "UEStyleSheet.h"
 
 @interface UCD_EventsAppDelegate : NSObject <UIApplicationDelegate> {
 

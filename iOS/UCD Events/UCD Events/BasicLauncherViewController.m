@@ -15,36 +15,6 @@
 
 @implementation BasicLauncherViewController
 
-- (TTStyle*)embossedButton:(UIControlState)state {
-    if (state == UIControlStateNormal) {
-        return
-        [TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:8] next:
-         [TTInsetStyle styleWithInset:UIEdgeInsetsMake(0, 0, 1, 0) next:
-          [TTShadowStyle styleWithColor:RGBACOLOR(255,255,255,0) blur:1 offset:CGSizeMake(0, 1) next:
-           [TTLinearGradientFillStyle styleWithColor1:RGBCOLOR(255, 255, 255)
-                                               color2:RGBCOLOR(216, 221, 231) next:
-            [TTSolidBorderStyle styleWithColor:RGBCOLOR(161, 167, 178) width:1 next:
-             [TTBoxStyle styleWithPadding:UIEdgeInsetsMake(10, 12, 9, 12) next:
-              [TTTextStyle styleWithFont:nil color:TTSTYLEVAR(linkTextColor)
-                             shadowColor:[UIColor colorWithWhite:255 alpha:0.4]
-                            shadowOffset:CGSizeMake(0, -1) next:nil]]]]]]];
-    } else if (state == UIControlStateHighlighted) {
-        return
-        [TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:8] next:
-         [TTInsetStyle styleWithInset:UIEdgeInsetsMake(0, 0, 1, 0) next:
-          [TTShadowStyle styleWithColor:RGBACOLOR(255,255,255,0.9) blur:1 offset:CGSizeMake(0, 1) next:
-           [TTLinearGradientFillStyle styleWithColor1:RGBCOLOR(225, 225, 225)
-                                               color2:RGBCOLOR(196, 201, 221) next:
-            [TTSolidBorderStyle styleWithColor:RGBCOLOR(161, 167, 178) width:1 next:
-             [TTBoxStyle styleWithPadding:UIEdgeInsetsMake(10, 12, 9, 12) next:
-              [TTTextStyle styleWithFont:nil color:[UIColor whiteColor]
-                             shadowColor:[UIColor colorWithWhite:255 alpha:0.4]
-                            shadowOffset:CGSizeMake(0, -1) next:nil]]]]]]];
-    } else {
-        return nil;
-    }
-}
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -101,9 +71,9 @@
                                                  image:@"bundle://agg.png" 
                                                    URL:@"ucde://events/"
                             ],
-						   [self launcherItemWithTitle:@"Special Deals" 
+						   [self launcherItemWithTitle:@"Special Offers" 
                                                  image:@"bundle://agg.png" 
-                                                   URL:@"ucde://ticketpicker/"
+                                                   URL:@"ucde://offers/"
                             ],
 						   [self launcherItemWithTitle:@"Restaurants" 
                                                  image:@"bundle://agg.png" 
@@ -128,17 +98,12 @@
                            nil],
                           nil];
 	launcherView.delegate = self;
-   
-    TTStyleSheet *globalStyleSheet = [TTStyleSheet globalStyleSheet];
-//    [globalStyleSheet 
     
-    TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"embossedButton:"];
+
+    
+    TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"emergencyInfoButton:" title:@"Emergency Information"];
     [emergencyInfoButton addTarget:@"ucde://navbarInfoButton" action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];
-    [emergencyInfoButton setFrame:CGRectMake(0, 372, 320, 50)];
-    [emergencyInfoButton setBackgroundColor:[UIColor yellowColor]];
-//    [emergencyInfoButton setBackgroundColor:[[TTStyleSheet globalStyleSheet] ]];
-    [emergencyInfoButton setTitle:@"Emergency Information" forState:UIControlStateNormal];
-//    [_myButton setImage:@"bundle://title.png" forState:UIControlStateNormal];
+    [emergencyInfoButton setFrame:CGRectMake(0, 370, 320, 50)];
     
 	[self.view addSubview:launcherView];
     [self.view addSubview:emergencyInfoButton];

@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+	xmlns:app="http://schemas.android.com/apk/res/edu.ucdavis.events"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<com.markupartist.android.widget.ActionBar
+		android:id="@+id/actionbar" style="@style/ActionBar"
+		android:layout_weight="0" />
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1">
+			<Button android:id="@+id/restaurantsButton" style="@style/DashboardButton"
+				android:text="Restaurants" android:onClick="onRestaurantsClick"
+				android:drawableTop="@drawable/agg" />
+			<Button android:id="@+id/offersButton" style="@style/DashboardButton"
+				android:text="Offers" android:drawableTop="@drawable/agg" />
+			<Button android:id="@+id/offersButton" style="@style/DashboardButton"
+				android:text="Offers" android:drawableTop="@drawable/agg" />
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1">
+			<Button android:id="@+id/restaurantsButton" style="@style/DashboardButton"
+				android:text="Restaurants" android:drawableTop="@drawable/agg" />
+			<Button android:id="@+id/offersButton" style="@style/DashboardButton"
+				android:text="Offers" android:drawableTop="@drawable/agg" />
+			<Button android:id="@+id/offersButton" style="@style/DashboardButton"
+				android:text="Offers" android:drawableTop="@drawable/agg" />
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1">
+			<Button android:id="@+id/restaurantsButton" style="@style/DashboardButton"
+				android:text="Restaurants" android:drawableTop="@drawable/agg" />
+			<Button android:id="@+id/offersButton" style="@style/DashboardButton"
+				android:text="Offers" android:drawableTop="@drawable/agg" />
+			<Button android:id="@+id/offersButton" style="@style/DashboardButton"
+				android:text="Offers" android:drawableTop="@drawable/agg" />
+		</LinearLayout>
+	</LinearLayout>
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Emergency Information"
+		android:layout_weight="0" />
 </LinearLayout>
