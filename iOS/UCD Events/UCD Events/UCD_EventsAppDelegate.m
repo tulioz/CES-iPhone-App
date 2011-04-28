@@ -14,6 +14,7 @@
 #import "EventListViewController.h"
 #import "InfoViewController.h"
 #import "OffersViewController.h"
+#import "MapViewController.h"
 
 @implementation UCD_EventsAppDelegate
 
@@ -67,6 +68,8 @@
      [InfoViewController class]];
     [map from:@"ucde://offers/" toViewController:
      [OffersViewController class]];
+    [map from:@"ucde://map/" toViewController:
+     [MapViewController class]];
 
 //  Push the first view: the launcher  
 	if (![navigator restoreViewControllers]) {

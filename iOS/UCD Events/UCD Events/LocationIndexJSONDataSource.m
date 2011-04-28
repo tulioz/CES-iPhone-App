@@ -7,6 +7,8 @@
 //
 
 #import "LocationIndexJSONDataSource.h"
+#import "UEFeaturedItem.h"
+#import "UEFeaturedItemCell.h"
 
 @implementation LocationIndexJSONDataSource
 
@@ -55,9 +57,15 @@
 		
         NSString *itemURL = [self getURLforTypeId:_typeId locationId:location.iD];
 		//		This is the actual creation of the location's cell item. URL is empty as the view controller push is handled elsewhere.
-		[category addObject: [TTTableSubtitleItem itemWithText:location.name
-                                                      subtitle:location.address  URL:itemURL]];
-		
+        if ([location.featured isEqualToNumber:[NSNumber numberWithInt:1]]) {
+            [category addObject: [UEFeaturedItem itemWithText:location.name
+                                                     subtitle:location.address  URL:itemURL]];
+        } else {
+            NSLog(@"location was not featured");
+            [category addObject: [TTTableSubtitleItem itemWithText:location.name
+                                                     subtitle:location.address  URL:itemURL]];
+        }
+
 	}
 	
 	NSArray *categoryNames = [categories.allKeys sortedArrayUsingSelector:
@@ -102,6 +110,15 @@
 //        
 //	}
 //}
+
+-(Class)tableView:(UITableView *)tableView cellClassForObject:(id)object {
+    if ([object isKindOfClass:[UEFeaturedItem class]]) {
+        return [UEFeaturedItemCell class];
+    } else {
+        return [super tableView:tableView cellClassForObject:object];
+    }
+}
+
 -(id)getURLforTypeId:(NSString *)typeId locationId:(NSString *)locationId {
     return [NSString stringWithFormat:@"%@%@/%@/%@/%@", ucdePath, typesString, typeId, locationsString, locationId, apiDataFormat];
 }

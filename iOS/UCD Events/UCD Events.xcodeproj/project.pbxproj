@@ -52,6 +52,9 @@
 		3D72BA601342DDE500B91A4A /* agg2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA5F1342DDE500B91A4A /* agg2x.png */; };
 		3D72BA621342DDEB00B91A4A /* agg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA611342DDEB00B91A4A /* agg.png */; };
 		3D99CADA1342BC2D004606D1 /* BasicLauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D99CAD91342BC2D004606D1 /* BasicLauncherViewController.m */; };
+		3DA62B201368E38200788918 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA62B1F1368E38200788918 /* MapViewController.m */; };
+		3DA62B221368E3A600788918 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA62B211368E3A600788918 /* MapKit.framework */; };
+		3DA62B2A1368E84000788918 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA62B291368E84000788918 /* CoreLocation.framework */; };
 		3DAEBF311351B38D0078A984 /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4C71351711C009FFCB1 /* EventListViewController.m */; };
 		3DAEBF321351B38D0078A984 /* EventIndexJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4CA135177AE009FFCB1 /* EventIndexJSONDataSource.m */; };
 		3DAEBF331351B38D0078A984 /* EventIndexJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D76D4CD135177F2009FFCB1 /* EventIndexJSONDataModel.m */; };
@@ -61,6 +64,8 @@
 		3DCB57071363B79D0090F9F0 /* UEStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB57061363B79D0090F9F0 /* UEStyleSheet.m */; };
 		3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */; };
 		3DEDD45D136613BD0001BE2B /* OffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEDD45C136613BD0001BE2B /* OffersViewController.m */; };
+		3DF3FC561367DDE2002D6613 /* UEFeaturedItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3FC551367DDE1002D6613 /* UEFeaturedItemCell.m */; };
+		3DF3FC591367EE48002D6613 /* UEFeaturedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3FC581367EE47002D6613 /* UEFeaturedItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -358,6 +363,10 @@
 		3D76D4D0135178B3009FFCB1 /* EventItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventItem.m; sourceTree = "<group>"; };
 		3D99CAD81342BC2D004606D1 /* BasicLauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicLauncherViewController.h; sourceTree = "<group>"; };
 		3D99CAD91342BC2D004606D1 /* BasicLauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicLauncherViewController.m; sourceTree = "<group>"; };
+		3DA62B1E1368E38200788918 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		3DA62B1F1368E38200788918 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		3DA62B211368E3A600788918 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3DA62B291368E84000788918 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3DC7D77113662C8C00057F6B /* UELauncherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UELauncherView.h; sourceTree = "<group>"; };
 		3DC7D77213662C8C00057F6B /* UELauncherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UELauncherView.m; sourceTree = "<group>"; };
 		3DCB57051363B79D0090F9F0 /* UEStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEStyleSheet.h; sourceTree = "<group>"; };
@@ -366,6 +375,10 @@
 		3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItemJSONDataSource.m; sourceTree = "<group>"; };
 		3DEDD45B136613BD0001BE2B /* OffersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersViewController.h; sourceTree = "<group>"; };
 		3DEDD45C136613BD0001BE2B /* OffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersViewController.m; sourceTree = "<group>"; };
+		3DF3FC541367DDE1002D6613 /* UEFeaturedItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UEFeaturedItemCell.h; path = "UCD Events.xcodeproj/UEFeaturedItemCell.h"; sourceTree = SOURCE_ROOT; };
+		3DF3FC551367DDE1002D6613 /* UEFeaturedItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UEFeaturedItemCell.m; path = "UCD Events.xcodeproj/UEFeaturedItemCell.m"; sourceTree = SOURCE_ROOT; };
+		3DF3FC571367EE47002D6613 /* UEFeaturedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEFeaturedItem.h; sourceTree = "<group>"; };
+		3DF3FC581367EE47002D6613 /* UEFeaturedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEFeaturedItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,6 +386,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA62B2A1368E84000788918 /* CoreLocation.framework in Frameworks */,
+				3DA62B221368E3A600788918 /* MapKit.framework in Frameworks */,
 				320D69F6C4746BCAB3364E95 /* libextThree20CSSStyle.a in Frameworks */,
 				32005DD2DD4BE82AFAA88C85 /* libextThree20JSON+YAJL.a in Frameworks */,
 				3205FA96B41F8AE94E5369E5 /* libextThree20XML.a in Frameworks */,
@@ -499,6 +514,7 @@
 		3D198CD11342A726005C523B = {
 			isa = PBXGroup;
 			children = (
+				3DA62B291368E84000788918 /* CoreLocation.framework */,
 				3D198CE81342A726005C523B /* UCD Events */,
 				3D198D061342A727005C523B /* UCD EventsTests */,
 				3D198CDF1342A726005C523B /* Frameworks */,
@@ -518,6 +534,7 @@
 		3D198CDF1342A726005C523B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3DA62B211368E3A600788918 /* MapKit.framework */,
 				320D69F6C4746BCAB3364E90 /* extThree20CSSStyle.xcodeproj */,
 				32005DD2DD4BE82AFAA88C80 /* extThree20JSON.xcodeproj */,
 				3205FA96B41F8AE94E5369E0 /* extThree20XML.xcodeproj */,
@@ -586,6 +603,10 @@
 		3D2AB5DC13482695001F41F0 /* Locations */ = {
 			isa = PBXGroup;
 			children = (
+				3DF3FC571367EE47002D6613 /* UEFeaturedItem.h */,
+				3DF3FC581367EE47002D6613 /* UEFeaturedItem.m */,
+				3DF3FC541367DDE1002D6613 /* UEFeaturedItemCell.h */,
+				3DF3FC551367DDE1002D6613 /* UEFeaturedItemCell.m */,
 				3D2AB5EB13482700001F41F0 /* LocationListViewController.h */,
 				3D2AB5EC13482700001F41F0 /* LocationListViewController.m */,
 				3D2AB5ED13482700001F41F0 /* LocationListViewController.xib */,
@@ -645,6 +666,7 @@
 		3D99CADB1342BC6E004606D1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3DA62B1D1368E35600788918 /* Map */,
 				3DCB57041363B7630090F9F0 /* Styles */,
 				3DEDD45A1366137E0001BE2B /* Offers */,
 				3D76D4C5135170F4009FFCB1 /* Events */,
@@ -673,11 +695,20 @@
 				248AEF4D135173CD009FE716 /* InfoViewController.h */,
 				248AEF4E135173CD009FE716 /* InfoViewController.m */,
 				3D99CAD81342BC2D004606D1 /* BasicLauncherViewController.h */,
+				3D99CAD91342BC2D004606D1 /* BasicLauncherViewController.m */,
 				3DC7D77113662C8C00057F6B /* UELauncherView.h */,
 				3DC7D77213662C8C00057F6B /* UELauncherView.m */,
-				3D99CAD91342BC2D004606D1 /* BasicLauncherViewController.m */,
 			);
 			name = Launcher;
+			sourceTree = "<group>";
+		};
+		3DA62B1D1368E35600788918 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				3DA62B1E1368E38200788918 /* MapViewController.h */,
+				3DA62B1F1368E38200788918 /* MapViewController.m */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 		3DCB57041363B7630090F9F0 /* Styles */ = {
@@ -1034,6 +1065,9 @@
 				3DCB57071363B79D0090F9F0 /* UEStyleSheet.m in Sources */,
 				3DEDD45D136613BD0001BE2B /* OffersViewController.m in Sources */,
 				3DC7D77313662C8C00057F6B /* UELauncherView.m in Sources */,
+				3DF3FC561367DDE2002D6613 /* UEFeaturedItemCell.m in Sources */,
+				3DF3FC591367EE48002D6613 /* UEFeaturedItem.m in Sources */,
+				3DA62B201368E38200788918 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "Three20/Three20.h"
+#import "Three20/Three20+Additions.h"
 
 @interface OffersViewController : TTViewController <TTScrollViewDataSource, TTScrollViewDelegate> {
     TTScrollView* _scrollView;
     TTPageControl* _pageControl;
-    NSArray* _colors;
+    NSArray* _descriptions;
 }
 
 @end

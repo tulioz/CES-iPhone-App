@@ -65,7 +65,7 @@
                             ],
 						   [self launcherItemWithTitle:@"Map" 
                                                  image:@"bundle://agg.png" 
-                                                   URL:@""
+                                                   URL:@"ucde://map/"
                             ],
 						   [self launcherItemWithTitle:@"Events" 
                                                  image:@"bundle://agg.png" 

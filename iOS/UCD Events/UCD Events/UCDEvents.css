@@ -18,7 +18,7 @@
  * Common styles
  */
 body {
-    background-color: #1A1A1A;
+  background-color: #1A1A1A;
   color: black;
   font-size: 14pt;
 }
@@ -28,7 +28,7 @@ body:hover {
 }
 
 navigationBar {
-    background-color: #EAC200;
+    background-color: #D7AA00;
 }
 
 toolbar {
@@ -44,7 +44,8 @@ searchbar {
  * Tables
  */
 table {
-  background-color: none;
+    color:black;
+  background-color: transparent;
 }
 
 groupedTable {
@@ -63,6 +64,11 @@ searchTableSeparator {
 /**
  * Table Items
  */
+
+.featuredTableItem {
+    background-color: yellow;
+    color: black;
+}
 
 .tableItemLink {
   color: #576B95;
@@ -115,7 +121,13 @@ searchTableSeparator {
 }
 
 .emergencyInfoButton {
-    background-color: #EAC200;
+    background-color: #D7AA00;
     font-size: 15pt;
     font-weight: bold;
+}
+
+.offerFrame {
+    background-color: transparent;
+    color: black;
+    font-size: 15pt;
 }

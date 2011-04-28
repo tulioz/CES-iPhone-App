@@ -25,6 +25,7 @@
 @synthesize mapsURL;
 @synthesize distance;
 @synthesize description;
+@synthesize featured;
 
 
 -(id)initWithLocationDictionary:(NSDictionary *) locationDictionary {
@@ -38,6 +39,7 @@
         self.latitude = [locationDictionary objectForKey:@"latitude"];
         self.longitude = [locationDictionary objectForKey:@"longitude"];
         self.description = [locationDictionary objectForKey:@"description"];
+        self.featured = [locationDictionary objectForKey:@"featured"];
     }
     
     return self;

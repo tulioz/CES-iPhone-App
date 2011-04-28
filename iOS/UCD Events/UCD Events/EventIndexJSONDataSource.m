@@ -38,13 +38,16 @@
 	NSSortDescriptor *sortByDate = [[NSSortDescriptor alloc] initWithKey: @"date" ascending:YES];
 	NSSortDescriptor *sortByName = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
 	NSArray *sortDescriptors = [NSArray arrayWithObjects:sortByDate, sortByName, nil];
-	[eventsFromModel sortUsingDescriptors:sortDescriptors];
+//	[eventsFromModel sortUsingDescriptors:sortDescriptors];
+
+    EventItem *firstEvent = (EventItem *)[eventsFromModel objectAtIndex:0];
+    NSLog(@"Events from model is: %@", firstEvent.date);
     
     if ([eventsFromModel count] == 0) {
         return;
     }
     
-    EventItem *firstEvent = [eventsFromModel objectAtIndex:0];
+
 //    NSLog(@"Looked up event with name of %@", firstEvent.name);
 	
 	TT_RELEASE_SAFELY(sortByDate);
@@ -59,10 +62,11 @@
 //        NSLog(@"eventname is %@", event.name);
 //        NSLog(@"%@", event.date);
         NSString *sectionHeader = [dateFormatter stringFromDate:eventDate];
+        TT_RELEASE_SAFELY(dateFormatter);
         if(!sectionHeader) {
             sectionHeader = @"Upcoming";
         }
-        TT_RELEASE_SAFELY(dateFormatter);
+
 		NSMutableArray *section = [sections objectForKey:sectionHeader];
 		if (!section) {
 			section = [NSMutableArray array];
@@ -83,7 +87,8 @@
 		[section addObject:newTableItem];
 	}
 	
-	NSArray *sectionNames = [sections.allKeys sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
+    NSArray *sectionNames = [sections allKeys];
+//	NSArray *sectionNames = [sections.allKeys sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
 	for (NSString *currentSection in sectionNames) {
 		NSArray *items = [sections objectForKey:currentSection];
 		[_sections addObject:currentSection];
