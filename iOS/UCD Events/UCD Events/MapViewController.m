@@ -30,7 +30,7 @@
 //                                   options:(NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld) 
 //                                   context:NULL];
     
-    self.mapView.region = MKCoordinateRegionMake(CLLocationCoordinate2DMake(38.537051, -121.754909), MKCoordinateSpanMake(.005, .005));
+//    self.mapView.region = MKCoordinateRegionMake(CLLocationCoordinate2DMake(38.537051, -121.754909), MKCoordinateSpanMake(.005, .005));
     
 }
 
