@@ -45,6 +45,7 @@
 		3D2AB5EF13482700001F41F0 /* LocationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2AB5ED13482700001F41F0 /* LocationListViewController.xib */; };
 		3D36FCCF134C34FA001A4CC4 /* LocationItemJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D36FCCE134C34FA001A4CC4 /* LocationItemJSONDataModel.m */; };
 		3D36FCD1134C3A1E001A4CC4 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D36FCD0134C3A1C001A4CC4 /* Settings.m */; };
+		3D4BD7F7136A1974004F3B29 /* LocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BD7F6136A1974004F3B29 /* LocationAnnotation.m */; };
 		3D6C72A0136111ED0078EF9A /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6C729F136111ED0078EF9A /* title.png */; };
 		3D72BA591342DBCC00B91A4A /* UCD_EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D72BA571342DBCC00B91A4A /* UCD_EventsViewController.m */; };
 		3D72BA5A1342DBCC00B91A4A /* UCD_EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D72BA581342DBCC00B91A4A /* UCD_EventsViewController.xib */; };
@@ -346,6 +347,8 @@
 		3D36FCCD134C34FA001A4CC4 /* LocationItemJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItemJSONDataModel.h; sourceTree = "<group>"; };
 		3D36FCCE134C34FA001A4CC4 /* LocationItemJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItemJSONDataModel.m; sourceTree = "<group>"; };
 		3D36FCD0134C3A1C001A4CC4 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		3D4BD7F5136A1974004F3B29 /* LocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnnotation.h; sourceTree = "<group>"; };
+		3D4BD7F6136A1974004F3B29 /* LocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAnnotation.m; sourceTree = "<group>"; };
 		3D6C729F136111ED0078EF9A /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		3D72BA561342DBCC00B91A4A /* UCD_EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCD_EventsViewController.h; sourceTree = "<group>"; };
 		3D72BA571342DBCC00B91A4A /* UCD_EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCD_EventsViewController.m; sourceTree = "<group>"; };
@@ -707,6 +710,8 @@
 			children = (
 				3DA62B1E1368E38200788918 /* MapViewController.h */,
 				3DA62B1F1368E38200788918 /* MapViewController.m */,
+				3D4BD7F5136A1974004F3B29 /* LocationAnnotation.h */,
+				3D4BD7F6136A1974004F3B29 /* LocationAnnotation.m */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -1068,6 +1073,7 @@
 				3DF3FC561367DDE2002D6613 /* UEFeaturedItemCell.m in Sources */,
 				3DF3FC591367EE48002D6613 /* UEFeaturedItem.m in Sources */,
 				3DA62B201368E38200788918 /* MapViewController.m in Sources */,
+				3D4BD7F7136A1974004F3B29 /* LocationAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
