@@ -27,8 +27,6 @@
 		320D69F6C4746BCAB3364E95 /* libextThree20CSSStyle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D69F6C4746BCAB3364E94 /* libextThree20CSSStyle.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
-		3D005227136F87A000FFBB76 /* OffersJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D005226136F87A000FFBB76 /* OffersJSONDataModel.m */; };
-		3D00522A136F8B8E00FFBB76 /* OfferItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D005229136F8B8E00FFBB76 /* OfferItem.m */; };
 		3D175AFE136623CB002E5AFC /* extThree20CSSStyle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D175AFD136623CB002E5AFC /* extThree20CSSStyle.bundle */; };
 		3D175B0013662439002E5AFC /* UCDEvents.css in Resources */ = {isa = PBXBuildFile; fileRef = 3D175AFF13662439002E5AFC /* UCDEvents.css */; };
 		3D198CE11342A726005C523B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE01342A726005C523B /* UIKit.framework */; };
@@ -47,6 +45,9 @@
 		3D198D0B1342A727005C523B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D198D091342A727005C523B /* InfoPlist.strings */; };
 		3D198D0E1342A727005C523B /* UCD_EventsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3D198D0D1342A727005C523B /* UCD_EventsTests.h */; };
 		3D198D101342A727005C523B /* UCD_EventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D198D0F1342A727005C523B /* UCD_EventsTests.m */; };
+		3D21D456137094A4006348C6 /* OfferItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D21D451137094A4006348C6 /* OfferItem.m */; };
+		3D21D457137094A4006348C6 /* OffersJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D21D453137094A4006348C6 /* OffersJSONDataModel.m */; };
+		3D21D458137094A4006348C6 /* OffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D21D455137094A4006348C6 /* OffersViewController.m */; };
 		3D2AB5E6134826F2001F41F0 /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5DE134826F2001F41F0 /* LocationDetailViewController.m */; };
 		3D2AB5E8134826F2001F41F0 /* LocationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E1134826F2001F41F0 /* LocationItem.m */; };
 		3D2AB5E9134826F2001F41F0 /* LocationIndexJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E3134826F2001F41F0 /* LocationIndexJSONDataModel.m */; };
@@ -74,7 +75,6 @@
 		3DC7D77313662C8C00057F6B /* UELauncherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7D77213662C8C00057F6B /* UELauncherView.m */; };
 		3DCB57071363B79D0090F9F0 /* UEStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB57061363B79D0090F9F0 /* UEStyleSheet.m */; };
 		3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */; };
-		3DEDD45D136613BD0001BE2B /* OffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEDD45C136613BD0001BE2B /* OffersViewController.m */; };
 		3DF3FC561367DDE2002D6613 /* UEFeaturedItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3FC551367DDE1002D6613 /* UEFeaturedItemCell.m */; };
 		3DF3FC591367EE48002D6613 /* UEFeaturedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3FC581367EE47002D6613 /* UEFeaturedItem.m */; };
 /* End PBXBuildFile section */
@@ -337,10 +337,6 @@
 		320D69F6C4746BCAB3364E90 /* extThree20CSSStyle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = extThree20CSSStyle.xcodeproj; path = ../three20/src/extThree20CSSStyle/extThree20CSSStyle.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
-		3D005225136F87A000FFBB76 /* OffersJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersJSONDataModel.h; sourceTree = "<group>"; };
-		3D005226136F87A000FFBB76 /* OffersJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersJSONDataModel.m; sourceTree = "<group>"; };
-		3D005228136F8B8E00FFBB76 /* OfferItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferItem.h; sourceTree = "<group>"; };
-		3D005229136F8B8E00FFBB76 /* OfferItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferItem.m; sourceTree = "<group>"; };
 		3D175AFD136623CB002E5AFC /* extThree20CSSStyle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = extThree20CSSStyle.bundle; path = ../../three20/src/extThree20CSSStyle/Resources/extThree20CSSStyle.bundle; sourceTree = "<group>"; };
 		3D175AFF13662439002E5AFC /* UCDEvents.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = UCDEvents.css; sourceTree = "<group>"; };
 		3D198CDC1342A726005C523B /* UCD Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCD Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -362,6 +358,12 @@
 		3D198D0C1342A727005C523B /* UCD EventsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCD EventsTests-Prefix.pch"; sourceTree = "<group>"; };
 		3D198D0D1342A727005C523B /* UCD_EventsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCD_EventsTests.h; sourceTree = "<group>"; };
 		3D198D0F1342A727005C523B /* UCD_EventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCD_EventsTests.m; sourceTree = "<group>"; };
+		3D21D450137094A4006348C6 /* OfferItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferItem.h; sourceTree = "<group>"; };
+		3D21D451137094A4006348C6 /* OfferItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferItem.m; sourceTree = "<group>"; };
+		3D21D452137094A4006348C6 /* OffersJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersJSONDataModel.h; sourceTree = "<group>"; };
+		3D21D453137094A4006348C6 /* OffersJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersJSONDataModel.m; sourceTree = "<group>"; };
+		3D21D454137094A4006348C6 /* OffersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersViewController.h; sourceTree = "<group>"; };
+		3D21D455137094A4006348C6 /* OffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersViewController.m; sourceTree = "<group>"; };
 		3D2AB5DD134826F2001F41F0 /* LocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailViewController.h; sourceTree = "<group>"; };
 		3D2AB5DE134826F2001F41F0 /* LocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailViewController.m; sourceTree = "<group>"; };
 		3D2AB5E0134826F2001F41F0 /* LocationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItem.h; sourceTree = "<group>"; };
@@ -406,8 +408,6 @@
 		3DCB57061363B79D0090F9F0 /* UEStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEStyleSheet.m; sourceTree = "<group>"; };
 		3DD11561134D3DE400F27CF3 /* LocationItemJSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItemJSONDataSource.h; sourceTree = "<group>"; };
 		3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItemJSONDataSource.m; sourceTree = "<group>"; };
-		3DEDD45B136613BD0001BE2B /* OffersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersViewController.h; sourceTree = "<group>"; };
-		3DEDD45C136613BD0001BE2B /* OffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersViewController.m; sourceTree = "<group>"; };
 		3DF3FC541367DDE1002D6613 /* UEFeaturedItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UEFeaturedItemCell.h; path = "UCD Events.xcodeproj/UEFeaturedItemCell.h"; sourceTree = SOURCE_ROOT; };
 		3DF3FC551367DDE1002D6613 /* UEFeaturedItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UEFeaturedItemCell.m; path = "UCD Events.xcodeproj/UEFeaturedItemCell.m"; sourceTree = SOURCE_ROOT; };
 		3DF3FC571367EE47002D6613 /* UEFeaturedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEFeaturedItem.h; sourceTree = "<group>"; };
@@ -656,6 +656,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3D21D44F13709494006348C6 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				3D21D450137094A4006348C6 /* OfferItem.h */,
+				3D21D451137094A4006348C6 /* OfferItem.m */,
+				3D21D452137094A4006348C6 /* OffersJSONDataModel.h */,
+				3D21D453137094A4006348C6 /* OffersJSONDataModel.m */,
+				3D21D454137094A4006348C6 /* OffersViewController.h */,
+				3D21D455137094A4006348C6 /* OffersViewController.m */,
+			);
+			name = Offers;
+			sourceTree = "<group>";
+		};
 		3D2AB5DC13482695001F41F0 /* Locations */ = {
 			isa = PBXGroup;
 			children = (
@@ -722,10 +735,10 @@
 		3D99CADB1342BC6E004606D1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3D21D44F13709494006348C6 /* Offers */,
 				243C60D4136FC91200F2BC92 /* BSGeocoding */,
 				3DA62B1D1368E35600788918 /* Map */,
 				3DCB57041363B7630090F9F0 /* Styles */,
-				3DEDD45A1366137E0001BE2B /* Offers */,
 				3D76D4C5135170F4009FFCB1 /* Events */,
 				3D2AB5DC13482695001F41F0 /* Locations */,
 				3D99CADF1342BCF0004606D1 /* Launcher */,
@@ -777,19 +790,6 @@
 				3DCB57061363B79D0090F9F0 /* UEStyleSheet.m */,
 			);
 			name = Styles;
-			sourceTree = "<group>";
-		};
-		3DEDD45A1366137E0001BE2B /* Offers */ = {
-			isa = PBXGroup;
-			children = (
-				3DEDD45B136613BD0001BE2B /* OffersViewController.h */,
-				3DEDD45C136613BD0001BE2B /* OffersViewController.m */,
-				3D005225136F87A000FFBB76 /* OffersJSONDataModel.h */,
-				3D005226136F87A000FFBB76 /* OffersJSONDataModel.m */,
-				3D005228136F8B8E00FFBB76 /* OfferItem.h */,
-				3D005229136F8B8E00FFBB76 /* OfferItem.m */,
-			);
-			name = Offers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1126,16 +1126,11 @@
 				3D36FCD1134C3A1E001A4CC4 /* Settings.m in Sources */,
 				3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */,
 				3DCB57071363B79D0090F9F0 /* UEStyleSheet.m in Sources */,
-				3DEDD45D136613BD0001BE2B /* OffersViewController.m in Sources */,
 				3DC7D77313662C8C00057F6B /* UELauncherView.m in Sources */,
 				3DF3FC561367DDE2002D6613 /* UEFeaturedItemCell.m in Sources */,
 				3DF3FC591367EE48002D6613 /* UEFeaturedItem.m in Sources */,
 				3DA62B201368E38200788918 /* MapViewController.m in Sources */,
 				3D4BD7F7136A1974004F3B29 /* LocationAnnotation.m in Sources */,
-<<<<<<< HEAD
-				3D005227136F87A000FFBB76 /* OffersJSONDataModel.m in Sources */,
-				3D00522A136F8B8E00FFBB76 /* OfferItem.m in Sources */,
-=======
 				243C60E5136FC95E00F2BC92 /* BSAddressComponent.m in Sources */,
 				243C60E6136FC95E00F2BC92 /* BSForwardGeocoder.m in Sources */,
 				243C60E7136FC95E00F2BC92 /* BSGoogleV2KmlParser.m in Sources */,
@@ -1144,7 +1139,9 @@
 				243C60EA136FC95E00F2BC92 /* CustomPlacemark.m in Sources */,
 				243C60EB136FC95E00F2BC92 /* Forward_GeocodingAppDelegate.m in Sources */,
 				243C60EC136FC95E00F2BC92 /* Forward_GeocodingViewController.m in Sources */,
->>>>>>> ad27288d399f3eb7eef62dc42dbcef685670f08e
+				3D21D456137094A4006348C6 /* OfferItem.m in Sources */,
+				3D21D457137094A4006348C6 /* OffersJSONDataModel.m in Sources */,
+				3D21D458137094A4006348C6 /* OffersViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
