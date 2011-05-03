@@ -6,6 +6,9 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+
+// INCLUDE THIS CODE: https://github.com/bjornsallarp/BSForwardGeocoder it will allow us to decode address into coordinates, which should make life way easier in the long run, more details available at: http://blog.sallarp.com/ipad-iphone-forward-geocoding-api-google/
+
 #import "LocationAnnotation.h"
 
 
@@ -31,6 +34,12 @@
         self.location = locationItem;
         self.coordinate = CLLocationCoordinate2DMake([self.location.latitude doubleValue], [self.location.longitude doubleValue]);        
     }
+}
+
+// drops a pin on map in the address specified
+-(void)dropPin{
+    
+    
 }
 
 @end

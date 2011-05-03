@@ -7,7 +7,12 @@
 //
 
 #import "MapViewController.h"
+#import "BSForwardGeocoder.h"
 
+#define kWalking 0
+#define kDriving 1
+#define kPublicTransit 2
+#define kCancelButton 3
 
 @implementation MapViewController
 
@@ -72,5 +77,47 @@
 //        [self moveOr
     }
 }
-                
+
+// open the Google Maps application with start and end locations
+- (void)openGoogleMapsWithStartingCoordinate:(CLLocationCoordinate2D)start directionType:(NSInteger)directionType {
+	NSString *formatString = @"http://maps.google.com/maps?saddr=%f,%f&daddr=%@,%@";
+	// append the direction type flag
+	switch (directionType) {
+		case kWalking:
+			formatString = [formatString stringByAppendingString:@"&dirflg=w"];
+			break;
+		case kDriving:
+			break;
+		case kPublicTransit:
+			formatString = [formatString stringByAppendingString:@"&dirflg=r"];
+			break;
+		default:
+			break;
+	}
+//	NSString* url = [NSString stringWithFormat:formatString, start.latitude, start.longitude, building.latitude, building.longitude];
+//	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: url]];
+}
+
+// Creates a new BSForwardGeocoder. It takes the address string, finds the GPS coordinates through findLocation via a BSForwardGeocoder object
+-(BSKmlResult*)convertAddressToCoor:(NSString *)address {
+    BSForwardGeocoder* forwardGeocoder = nil;
+    BSKmlResult* place = nil;
+    
+    if(forwardGeocoder == nil) {
+        forwardGeocoder = [[BSForwardGeocoder alloc] initWithDelegate:self];
+    }
+    [forwardGeocoder findLocation:address];
+    
+    if(forwardGeocoder.status == G_GEO_SUCCESS) {
+        place = [forwardGeocoder.results objectAtIndex:0];
+        
+        return place;
+    }
+    else {
+        return nil;
+    }
+    
+    // take care of situations that haven't properly implemented the forwardGeocoder
+}
+
 @end
