@@ -31,65 +31,25 @@
     _scrollView.dataSource = nil;
     TT_RELEASE_SAFELY(_scrollView);
     TT_RELEASE_SAFELY(_pageControl);
-    TT_RELEASE_SAFELY(_descriptions);
+    TT_RELEASE_SAFELY(_offersDataModel);
     [super dealloc];
 }
 
 -(id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nil bundle:nil]) {
-        _descriptions = [[NSArray arrayWithObjects:
-                          [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:
-                                                                @"In-n-Out", 
-                                                                @"http://farm6.static.flickr.com/5222/5644882930_5261f80b13_m.jpg",
-                                                                @"Awesome Food!!! <br /> <br />Come here!!!! <img src=\"http://farm6.static.flickr.com/5222/5644882930_5261f80b13_m.jpg\" width=\"160\" height=\"120\"/>",
-                                                                @"1", nil]
-                                                      forKeys:[NSArray arrayWithObjects:
-                                                                @"title",
-                                                                @"imageURL",
-                                                                @"description",
-                                                                @"locationId",
-                                                               nil]
-                           ],
-                          [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:
-                                                               @"Burger King", 
-                                                               @"http://farm6.static.flickr.com/5222/5644882930_5261f80b13_m.jpg",
-                                                               @"Awesome Food!!!! Come here!!!!",
-                                                               @"2", nil]
-                                                      forKeys:[NSArray arrayWithObjects:
-                                                               @"title",
-                                                               @"imageURL",
-                                                               @"description",
-                                                               @"locationId",
-                                                               nil]
-                           ],
-                          [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:
-                                                               @"Wendy's", 
-                                                               @"http://farm6.static.flickr.com/5222/5644882930_5261f80b13_m.jpg",
-                                                               @"<span class=\"mediumText\">Awesome Food!!!! Come here!!!!</span>",
-                                                               @"3", nil]
-                                                      forKeys:[NSArray arrayWithObjects:
-                                                               @"title",
-                                                               @"imageURL",
-                                                               @"description",
-                                                               @"locationId",
-                                                               nil]
-                           ],
-                          [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:
-                                                               @"KFC", 
-                                                               @"http://farm6.static.flickr.com/5222/5644882930_5261f80b13_m.jpg",
-                                                               @"<span class=\"largeText\">ewww!!! ewww!!! ewww!!! ewww!!! ewww!!! ewww!!! ewww!!! ewww!!! ewww!!!</span>",
-                                                               @"4", nil]
-                                                      forKeys:[NSArray arrayWithObjects:
-                                                               @"title",
-                                                               @"imageURL",
-                                                               @"description",
-                                                               @"locationId",
-                                                               nil]
-                           ],
-                          nil] retain];
+    if (self = [super initWithNibName:nil bundle:nil]) {    
+        [self createModel];
+        [self reload];
     }
     
     return self;
+}
+
+-(id<TTModel>)model {
+    return _offersDataModel;
+}
+
+-(BOOL)shouldLoad {
+    return YES;
 }
 
 -(void)viewDidLoad {
@@ -111,18 +71,26 @@
     _scrollView.zoomEnabled = NO;
     [self.view addSubview:_scrollView];
     
-     _pageControl = [[TTPageControl alloc] initWithFrame:CGRectMake(0, _scrollView.bottom, self.view.width, 20)];
+    _pageControl = [[TTPageControl alloc] initWithFrame:CGRectMake(0, _scrollView.bottom, self.view.width, 20)];
     _pageControl.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     _pageControl.currentPage = 0;
-    _pageControl.numberOfPages = [_descriptions count];
     _pageControl.backgroundColor = TTSTYLEVAR(backgroundColor);
     [_pageControl addTarget:self action:@selector(changePage:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:_pageControl];
-    
+}
+
+-(void)createModel {
+    _offersDataModel = [[OffersJSONDataModel alloc] init]; 
+    self.model = _offersDataModel;
+}
+
+-(void)modelDidFinishLoad:(id<TTModel>)model {
+    _pageControl.numberOfPages = [_offersDataModel.offers count];
+    [_scrollView reloadData];
 }
 
 - (NSInteger)numberOfPagesInScrollView:(TTScrollView*)scrollView {
-    return _descriptions.count;
+    return [_offersDataModel.offers count];
 }
 
 - (UIView*)scrollView:(TTScrollView*)scrollView pageAtIndex:(NSInteger)pageIndex {
@@ -131,15 +99,8 @@
         pageView = [[[TTView alloc] init] autorelease];
         pageView.backgroundColor = [UIColor clearColor];
         pageView.userInteractionEnabled = NO;
-        //pageView.contentMode = UIViewContentModeLeft;
     }
-    
-//    TTImageView* imageView = [[[TTImageView alloc] initWithFrame:CGRectMake(30, 30, 0, 0)]
-//                              autorelease];
-//    imageView.autoresizesToImage = NO;
-//    imageView.urlPath = @"http://farm6.static.flickr.com/5222/5644882930_5261f80b13_m.jpg";
-//    [pageView addSubview:imageView];
-//    
+
     NSString* kText = @"\
     <span class=\"floated\"><img src=\"http://farm6.static.flickr.com/5222/5644882930_5261f80b13_m.jpg\" width=\"160\" height=\"120\"/></span>This \
     is a test of floats. This is still a test of floats.  This text will wrap itself around \
@@ -148,19 +109,20 @@
     NSString *mytext = @"Hello!";
     
     OffersStyledTextLabel* label = [[[OffersStyledTextLabel alloc] initWithFrame:CGRectMake(20, 20, 265, 300)] autorelease];
-    label.html = [[_descriptions objectAtIndex:pageIndex] objectForKey:@"description"];
+    OfferItem *currentOffer = [_offersDataModel.offers objectAtIndex:pageIndex];
+
+    label.html = currentOffer.description;
     
     [pageView addSubview:label];
     
     TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"embossedButton:" title:@"Location Information"];
-    NSString *targetURL = [[NSString alloc] initWithFormat:@"ucde://types/1/locations/%@", [[_descriptions objectAtIndex:pageIndex] objectForKey:@"locationId"]];
+    NSString *targetURL = [[NSString alloc] initWithFormat:@"ucde://types/1/locations/%@", currentOffer.locationId];
     [emergencyInfoButton addTarget:targetURL action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];
     [emergencyInfoButton setFrame:CGRectMake(20, 330, 265, 50)];
     
     [pageView addSubview:emergencyInfoButton];
 
     pageView.style = TTSTYLEVAR(offerCard);
-
     
     return pageView;
 }

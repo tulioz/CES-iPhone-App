@@ -19,6 +19,8 @@
 		320D69F6C4746BCAB3364E95 /* libextThree20CSSStyle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D69F6C4746BCAB3364E94 /* libextThree20CSSStyle.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		3D005227136F87A000FFBB76 /* OffersJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D005226136F87A000FFBB76 /* OffersJSONDataModel.m */; };
+		3D00522A136F8B8E00FFBB76 /* OfferItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D005229136F8B8E00FFBB76 /* OfferItem.m */; };
 		3D175AFE136623CB002E5AFC /* extThree20CSSStyle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D175AFD136623CB002E5AFC /* extThree20CSSStyle.bundle */; };
 		3D175B0013662439002E5AFC /* UCDEvents.css in Resources */ = {isa = PBXBuildFile; fileRef = 3D175AFF13662439002E5AFC /* UCDEvents.css */; };
 		3D198CE11342A726005C523B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE01342A726005C523B /* UIKit.framework */; };
@@ -311,6 +313,10 @@
 		320D69F6C4746BCAB3364E90 /* extThree20CSSStyle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = extThree20CSSStyle.xcodeproj; path = ../three20/src/extThree20CSSStyle/extThree20CSSStyle.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3D005225136F87A000FFBB76 /* OffersJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersJSONDataModel.h; sourceTree = "<group>"; };
+		3D005226136F87A000FFBB76 /* OffersJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersJSONDataModel.m; sourceTree = "<group>"; };
+		3D005228136F8B8E00FFBB76 /* OfferItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferItem.h; sourceTree = "<group>"; };
+		3D005229136F8B8E00FFBB76 /* OfferItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferItem.m; sourceTree = "<group>"; };
 		3D175AFD136623CB002E5AFC /* extThree20CSSStyle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = extThree20CSSStyle.bundle; path = ../../three20/src/extThree20CSSStyle/Resources/extThree20CSSStyle.bundle; sourceTree = "<group>"; };
 		3D175AFF13662439002E5AFC /* UCDEvents.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = UCDEvents.css; sourceTree = "<group>"; };
 		3D198CDC1342A726005C523B /* UCD Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCD Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -730,6 +736,10 @@
 			children = (
 				3DEDD45B136613BD0001BE2B /* OffersViewController.h */,
 				3DEDD45C136613BD0001BE2B /* OffersViewController.m */,
+				3D005225136F87A000FFBB76 /* OffersJSONDataModel.h */,
+				3D005226136F87A000FFBB76 /* OffersJSONDataModel.m */,
+				3D005228136F8B8E00FFBB76 /* OfferItem.h */,
+				3D005229136F8B8E00FFBB76 /* OfferItem.m */,
 			);
 			name = Offers;
 			sourceTree = "<group>";
@@ -1074,6 +1084,8 @@
 				3DF3FC591367EE48002D6613 /* UEFeaturedItem.m in Sources */,
 				3DA62B201368E38200788918 /* MapViewController.m in Sources */,
 				3D4BD7F7136A1974004F3B29 /* LocationAnnotation.m in Sources */,
+				3D005227136F87A000FFBB76 /* OffersJSONDataModel.m in Sources */,
+				3D00522A136F8B8E00FFBB76 /* OfferItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

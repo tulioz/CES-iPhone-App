@@ -5,6 +5,8 @@ const NSString *ucdePath;
 const NSString *apiDataFormat;
 const NSString *typesString;
 const NSString *locationsString;
+const NSString *offersString;
+
 const NSString *UCDPoliceDepartmentPhone;
 const NSString *UCDPoliceDepartmentAddr;
 const NSString *UCDFireDepartmentPhone;
