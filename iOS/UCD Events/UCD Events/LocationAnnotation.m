@@ -36,6 +36,10 @@
     }
 }
 
--(void)dropPin:(
+// drops a pin on map in the address specified
+-(void)dropPin{
+    
+    
+}
 
 @end
