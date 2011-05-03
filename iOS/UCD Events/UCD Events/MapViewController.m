@@ -99,10 +99,9 @@
 }
 
 // Creates a new BSForwardGeocoder. It takes the address string, finds the GPS coordinates through findLocation via a BSForwardGeocoder object
--(CLLocationCoordinate2D)convertAddressToCoor:(NSString *)address {
+-(BSKmlResult*)convertAddressToCoor:(NSString *)address {
     BSForwardGeocoder* forwardGeocoder = nil;
     BSKmlResult* place = nil;
-    CLLocationCoordinate2D* coordinate = nil;
     
     if(forwardGeocoder == nil) {
         forwardGeocoder = [[BSForwardGeocoder alloc] initWithDelegate:self];
@@ -110,11 +109,15 @@
     [forwardGeocoder findLocation:address];
     
     if(forwardGeocoder.status == G_GEO_SUCCESS) {
+        place = [forwardGeocoder.results objectAtIndex:0];
         
+        return place;
+    }
+    else {
+        return nil;
     }
     
     // take care of situations that haven't properly implemented the forwardGeocoder
-    return coordinate;
 }
 
 @end
