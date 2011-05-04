@@ -77,6 +77,8 @@
 		3DAEBF351351B3A80078A984 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248AEF4E135173CD009FE716 /* InfoViewController.m */; };
 		3DC7D77313662C8C00057F6B /* UELauncherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC7D77213662C8C00057F6B /* UELauncherView.m */; };
 		3DCB57071363B79D0090F9F0 /* UEStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB57061363B79D0090F9F0 /* UEStyleSheet.m */; };
+		3DCC5DF61370E17C0062B3D4 /* home_btn_map_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC5DF51370E17C0062B3D4 /* home_btn_map_default.png */; };
+		3DCC5DF81370E1990062B3D4 /* home_btn_schedule_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC5DF71370E1990062B3D4 /* home_btn_schedule_default.png */; };
 		3DD11563134D3DE400F27CF3 /* LocationItemJSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */; };
 		3DF3FC561367DDE2002D6613 /* UEFeaturedItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3FC551367DDE1002D6613 /* UEFeaturedItemCell.m */; };
 		3DF3FC591367EE48002D6613 /* UEFeaturedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3FC581367EE47002D6613 /* UEFeaturedItem.m */; };
@@ -415,6 +417,8 @@
 		3DC7D77213662C8C00057F6B /* UELauncherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UELauncherView.m; sourceTree = "<group>"; };
 		3DCB57051363B79D0090F9F0 /* UEStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEStyleSheet.h; sourceTree = "<group>"; };
 		3DCB57061363B79D0090F9F0 /* UEStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEStyleSheet.m; sourceTree = "<group>"; };
+		3DCC5DF51370E17C0062B3D4 /* home_btn_map_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_btn_map_default.png; sourceTree = "<group>"; };
+		3DCC5DF71370E1990062B3D4 /* home_btn_schedule_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_btn_schedule_default.png; sourceTree = "<group>"; };
 		3DD11561134D3DE400F27CF3 /* LocationItemJSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItemJSONDataSource.h; sourceTree = "<group>"; };
 		3DD11562134D3DE400F27CF3 /* LocationItemJSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItemJSONDataSource.m; sourceTree = "<group>"; };
 		3DF3FC541367DDE1002D6613 /* UEFeaturedItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UEFeaturedItemCell.h; path = "UCD Events.xcodeproj/UEFeaturedItemCell.h"; sourceTree = SOURCE_ROOT; };
@@ -718,6 +722,8 @@
 		3D72BA5E1342DDD100B91A4A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3DCC5DF71370E1990062B3D4 /* home_btn_schedule_default.png */,
+				3DCC5DF51370E17C0062B3D4 /* home_btn_map_default.png */,
 				3D6C729F136111ED0078EF9A /* title.png */,
 				3D72BA611342DDEB00B91A4A /* agg.png */,
 				3D72BA5F1342DDE500B91A4A /* agg2x.png */,
@@ -1087,6 +1093,8 @@
 				3D6C72A0136111ED0078EF9A /* title.png in Resources */,
 				3D175AFE136623CB002E5AFC /* extThree20CSSStyle.bundle in Resources */,
 				3D175B0013662439002E5AFC /* UCDEvents.css in Resources */,
+				3DCC5DF61370E17C0062B3D4 /* home_btn_map_default.png in Resources */,
+				3DCC5DF81370E1990062B3D4 /* home_btn_schedule_default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
