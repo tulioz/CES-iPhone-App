@@ -146,7 +146,7 @@
     [pageView addSubview:label];
     
     TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"embossedButton:" title:@"Location Information"];
-    NSString *targetURL = [[NSString alloc] initWithFormat:@"ucde://types/1/locations/%@", currentOffer.locationId];
+    NSString *targetURL = [self getLocationURL:currentOffer.locationId];
     [emergencyInfoButton addTarget:targetURL action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];
     [emergencyInfoButton setFrame:CGRectMake(20, 330, 265, 50)];
     
@@ -184,6 +184,11 @@
 - (IBAction)changePage:(id)sender {
     int page = _pageControl.currentPage;
     [_scrollView setCenterPageIndex:page];
+}
+
+-(NSString *)getLocationURL:(NSString *)locationId {
+    // Memory issue. Fix this!
+    return [[NSString alloc] initWithFormat:@"%@%@/%@", ucdePath, locationsString, locationId];
 }
 
 @end

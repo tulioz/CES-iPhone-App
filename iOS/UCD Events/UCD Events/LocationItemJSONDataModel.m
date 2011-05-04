@@ -14,9 +14,8 @@
 @synthesize location = _location;
 @synthesize finished = _finished;
 
--(id)initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId {
+-(id)initWithLocationId:(NSString *)locationId {
     if (self = [super init]) {
-        _typeId = typeId;
         _locationId = locationId;
     }
         
@@ -24,7 +23,7 @@
 }
 
 -(NSString *) getURL {
-    return [NSString stringWithFormat:@"%@%@/%@/%@/%@.%@", apiPath, typesString, _typeId, locationsString, _locationId, apiDataFormat];
+    return [NSString stringWithFormat:@"%@%@/%@.%@", apiPath, locationsString, _locationId, apiDataFormat];
 }
 
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {  

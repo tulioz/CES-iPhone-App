@@ -21,4 +21,6 @@
     OffersJSONDataModel *_offersDataModel;
 }
 
+-(NSString *)getLocationURL:(NSString *)locationId;
+
 @end

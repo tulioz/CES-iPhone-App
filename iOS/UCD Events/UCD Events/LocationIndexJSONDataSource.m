@@ -55,8 +55,9 @@
 			[categories setObject:category forKey:categoryName];
 		}
 		
-        NSString *itemURL = [self getURLforTypeId:_typeId locationId:location.iD];
-		//		This is the actual creation of the location's cell item. URL is empty as the view controller push is handled elsewhere.
+        NSString *itemURL = [self getURLforLocationId:location.iD];
+        NSLog(@"Generated URL is %@", itemURL);
+		//		This is the actual creation of the location's cell item. 
         if ([location.featured isEqualToNumber:[NSNumber numberWithInt:1]]) {
             [category addObject: [UEFeaturedItem itemWithText:location.name
                                                      subtitle:location.address  URL:itemURL]];
@@ -119,8 +120,9 @@
     }
 }
 
--(id)getURLforTypeId:(NSString *)typeId locationId:(NSString *)locationId {
-    return [NSString stringWithFormat:@"%@%@/%@/%@/%@", ucdePath, typesString, typeId, locationsString, locationId, apiDataFormat];
+-(id)getURLforLocationId:(NSString *)locationId {
+//    NSLog(@"locationId in getURL is %@", locationId);
+    return [NSString stringWithFormat:@"%@%@/%@", ucdePath, locationsString, locationId, apiDataFormat];
 }
 
 -(NSMutableArray *)delegates {

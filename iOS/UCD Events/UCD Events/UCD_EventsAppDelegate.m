@@ -61,7 +61,7 @@
 	 [BasicLauncherViewController class]];
 	[map from:@"ucde://locationList/(initWithName:)/(typeId:)/" toViewController:
 	 [LocationListViewController class]];
-    [map from:@"ucde://types/(initWithTypeId:)/locations/(locationId:)" toViewController:
+    [map from:@"ucde://locations/(initWithLocationId:)" toViewController:
      [LocationDetailViewController class]];
     [map from:@"ucde://events/" toViewController:
      [EventListViewController class]];

@@ -35,11 +35,10 @@
 	self.title = @"Info";
 }
 
--(id)initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId {
+-(id)initWithLocationId:(NSString *)locationId {
     if (self = [super init]) {
         self.tableViewStyle = UITableViewStyleGrouped;
-        NSLog(@"LocationDetailView called with typeId %@ and locationId %@", typeId, locationId);
-        _typeId = typeId;
+        NSLog(@"LocationDetailView called with locationId %@", locationId);
         _locationId = locationId;
     }
 
@@ -47,7 +46,7 @@
 }
 
 -(void)createModel {
-    self.dataSource = [[[LocationItemJSONDataSource alloc] initWithTypeId:_typeId locationId:_locationId] autorelease];
+    self.dataSource = [[[LocationItemJSONDataSource alloc] initWithLocationId:_locationId] autorelease];
 }
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
