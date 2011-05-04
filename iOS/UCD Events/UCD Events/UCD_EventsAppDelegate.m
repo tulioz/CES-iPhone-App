@@ -80,6 +80,14 @@
 		 [[TTURLAction actionWithURLPath:@"ucde://launcher"] applyAnimated:YES]];
 	}
     
+//    From http://stackoverflow.com/questions/3790957/reachability-guide-for-ios-4
+    Reachability *reachable = [Reachability reachabilityWithHostName:@"google.com"];
+    NetworkStatus status = [reachable currentReachabilityStatus];
+    if (status == NotReachable) {
+        UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Unable to connect" message:@"UCD Events was unable to connect to the UC Davis Events service. Parts of the app may not function." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] autorelease];
+        [alert show];
+    }
+    
     return YES;
 }
 

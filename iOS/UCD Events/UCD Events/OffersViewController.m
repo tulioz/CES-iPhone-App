@@ -78,21 +78,44 @@
     [_pageControl addTarget:self action:@selector(changePage:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:_pageControl];
     
-    TTActivityLabel* label = [[[TTActivityLabel alloc] initWithStyle:TTActivityLabelStyleWhite] autorelease];
-    label.text = @"Loading...";
-    [label sizeToFit];
-    label.frame = CGRectMake(0, _scrollView.height / 2 , self.view.width, label.height);
-    [_scrollView addSubview:label];
+
 }
 
 -(void)createModel {
-    _offersDataModel = [[OffersJSONDataModel alloc] init]; 
-    self.model = _offersDataModel;
+    //    From http://stackoverflow.com/questions/3790957/reachability-guide-for-ios-4
+    Reachability *reachable = [Reachability reachabilityForInternetConnection];
+    NetworkStatus status = [reachable currentReachabilityStatus];
+    if (status == NotReachable) {
+        TTErrorView* errorView = [[[TTErrorView alloc] initWithTitle:@"Connection Error."
+                                                            subtitle:@"Please try again."
+                                                               image:nil] autorelease];
+        errorView.backgroundColor = _scrollView.backgroundColor;
+        errorView.frame = CGRectMake(0, _scrollView.height / 2 , self.view.width, errorView.height);
+        [_scrollView addSubview:errorView];
+    } else {
+        TTActivityLabel* label = [[[TTActivityLabel alloc] initWithStyle:TTActivityLabelStyleWhite] autorelease];
+        label.text = @"Loading...";
+        [label sizeToFit];
+        label.frame = CGRectMake(0, _scrollView.height / 2 , self.view.width, label.height);
+        [_scrollView addSubview:label];
+        _offersDataModel = [[OffersJSONDataModel alloc] init]; 
+        self.model = _offersDataModel;
+    }
 }
 
+
+
 -(void)modelDidFinishLoad:(id<TTModel>)model {
+    NSLog(@"Model back!");
     _pageControl.numberOfPages = [_offersDataModel.offers count];
     [_scrollView removeAllSubviews];
+//    if (_offersDataModel.size < 1) {
+//        TTLabel *label = [[TTLabel alloc] initWithText:@"Error!"];
+//        label.backgroundColor = [UIColor whiteColor];
+//        [label sizeToFit];
+//        label.frame = CGRectMake(0, _scrollView.height / 2 , self.view.width, label.height);
+//        [_scrollView addSubview:label];
+//    }
     [_scrollView reloadData];
 }
 

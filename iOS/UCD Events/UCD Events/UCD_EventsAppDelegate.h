@@ -12,6 +12,7 @@
 #import "BasicLauncherViewController.h"
 #import "UCD_EventsViewController.h"
 #import "UEStyleSheet.h"
+#import "Reachability.h"
 
 @interface UCD_EventsAppDelegate : NSObject <UIApplicationDelegate> {
 

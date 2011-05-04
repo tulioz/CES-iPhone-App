@@ -11,6 +11,7 @@
 #import "Three20/Three20+Additions.h"
 #import "OffersJSONDataModel.h"
 #import "OfferItem.h"
+#import "Reachability.h"
 
 @interface OffersViewController : TTModelViewController <TTScrollViewDataSource, TTScrollViewDelegate> {
     TTScrollView* _scrollView;

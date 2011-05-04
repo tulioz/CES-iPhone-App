@@ -27,6 +27,8 @@
 		320D69F6C4746BCAB3364E95 /* libextThree20CSSStyle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D69F6C4746BCAB3364E94 /* libextThree20CSSStyle.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		3D05494F1371060C005DF21C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D05494E1371060C005DF21C /* Reachability.m */; };
+		3D054951137107CF005DF21C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D054950137107CE005DF21C /* SystemConfiguration.framework */; };
 		3D175AFE136623CB002E5AFC /* extThree20CSSStyle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D175AFD136623CB002E5AFC /* extThree20CSSStyle.bundle */; };
 		3D175B0013662439002E5AFC /* UCDEvents.css in Resources */ = {isa = PBXBuildFile; fileRef = 3D175AFF13662439002E5AFC /* UCDEvents.css */; };
 		3D198CE11342A726005C523B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D198CE01342A726005C523B /* UIKit.framework */; };
@@ -342,6 +344,9 @@
 		320D69F6C4746BCAB3364E90 /* extThree20CSSStyle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = extThree20CSSStyle.xcodeproj; path = ../three20/src/extThree20CSSStyle/extThree20CSSStyle.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3D05494D1371060C005DF21C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3D05494E1371060C005DF21C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3D054950137107CE005DF21C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3D175AFD136623CB002E5AFC /* extThree20CSSStyle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = extThree20CSSStyle.bundle; path = ../../three20/src/extThree20CSSStyle/Resources/extThree20CSSStyle.bundle; sourceTree = "<group>"; };
 		3D175AFF13662439002E5AFC /* UCDEvents.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = UCDEvents.css; sourceTree = "<group>"; };
 		3D198CDC1342A726005C523B /* UCD Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCD Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -432,6 +437,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D054951137107CF005DF21C /* SystemConfiguration.framework in Frameworks */,
 				3DA62B2A1368E84000788918 /* CoreLocation.framework in Frameworks */,
 				3DA62B221368E3A600788918 /* MapKit.framework in Frameworks */,
 				320D69F6C4746BCAB3364E95 /* libextThree20CSSStyle.a in Frameworks */,
@@ -580,6 +586,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3D05494C137105F6005DF21C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3D05494D1371060C005DF21C /* Reachability.h */,
+				3D05494E1371060C005DF21C /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
 		3D198CD11342A726005C523B = {
 			isa = PBXGroup;
 			children = (
@@ -602,6 +617,7 @@
 		3D198CDF1342A726005C523B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D054950137107CE005DF21C /* SystemConfiguration.framework */,
 				3DA62B291368E84000788918 /* CoreLocation.framework */,
 				3DA62B211368E3A600788918 /* MapKit.framework */,
 				320D69F6C4746BCAB3364E90 /* extThree20CSSStyle.xcodeproj */,
@@ -756,6 +772,7 @@
 		3D99CADB1342BC6E004606D1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3D05494C137105F6005DF21C /* Reachability */,
 				3D21D44F13709494006348C6 /* Offers */,
 				243C60D4136FC91200F2BC92 /* BSGeocoding */,
 				3DA62B1D1368E35600788918 /* Map */,
@@ -1168,6 +1185,7 @@
 				3D21D45B137096AB006348C6 /* EventDetailViewController.m in Sources */,
 				3D21D45E1370A2BD006348C6 /* EventItemDataSource.m in Sources */,
 				3D21D4611370A548006348C6 /* EventItemDataModel.m in Sources */,
+				3D05494F1371060C005DF21C /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
