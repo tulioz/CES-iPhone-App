@@ -79,7 +79,7 @@
 }
 
 -(NSString *)getLocationURL:(NSString *)locationId {
-    return [NSString stringWithFormat:@"%@types/1/%@/%@", ucdePath, locationsString, locationId];
+    return [NSString stringWithFormat:@"%@%@/%@", ucdePath, locationsString, locationId];
 }
 
 
