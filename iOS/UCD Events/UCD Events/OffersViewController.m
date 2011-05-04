@@ -77,6 +77,12 @@
     _pageControl.backgroundColor = TTSTYLEVAR(backgroundColor);
     [_pageControl addTarget:self action:@selector(changePage:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:_pageControl];
+    
+    TTActivityLabel* label = [[[TTActivityLabel alloc] initWithStyle:TTActivityLabelStyleWhite] autorelease];
+    label.text = @"Loading...";
+    [label sizeToFit];
+    label.frame = CGRectMake(0, _scrollView.height / 2 , self.view.width, label.height);
+    [_scrollView addSubview:label];
 }
 
 -(void)createModel {
@@ -86,6 +92,7 @@
 
 -(void)modelDidFinishLoad:(id<TTModel>)model {
     _pageControl.numberOfPages = [_offersDataModel.offers count];
+    [_scrollView removeAllSubviews];
     [_scrollView reloadData];
 }
 
