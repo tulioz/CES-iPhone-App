@@ -48,6 +48,9 @@
 		3D21D456137094A4006348C6 /* OfferItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D21D451137094A4006348C6 /* OfferItem.m */; };
 		3D21D457137094A4006348C6 /* OffersJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D21D453137094A4006348C6 /* OffersJSONDataModel.m */; };
 		3D21D458137094A4006348C6 /* OffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D21D455137094A4006348C6 /* OffersViewController.m */; };
+		3D21D45B137096AB006348C6 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D21D45A137096AB006348C6 /* EventDetailViewController.m */; };
+		3D21D45E1370A2BD006348C6 /* EventItemDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D21D45D1370A2BD006348C6 /* EventItemDataSource.m */; };
+		3D21D4611370A548006348C6 /* EventItemDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D21D4601370A548006348C6 /* EventItemDataModel.m */; };
 		3D2AB5E6134826F2001F41F0 /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5DE134826F2001F41F0 /* LocationDetailViewController.m */; };
 		3D2AB5E8134826F2001F41F0 /* LocationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E1134826F2001F41F0 /* LocationItem.m */; };
 		3D2AB5E9134826F2001F41F0 /* LocationIndexJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AB5E3134826F2001F41F0 /* LocationIndexJSONDataModel.m */; };
@@ -364,6 +367,12 @@
 		3D21D453137094A4006348C6 /* OffersJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersJSONDataModel.m; sourceTree = "<group>"; };
 		3D21D454137094A4006348C6 /* OffersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersViewController.h; sourceTree = "<group>"; };
 		3D21D455137094A4006348C6 /* OffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersViewController.m; sourceTree = "<group>"; };
+		3D21D459137096AB006348C6 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		3D21D45A137096AB006348C6 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		3D21D45C1370A2BC006348C6 /* EventItemDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventItemDataSource.h; sourceTree = "<group>"; };
+		3D21D45D1370A2BD006348C6 /* EventItemDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventItemDataSource.m; sourceTree = "<group>"; };
+		3D21D45F1370A546006348C6 /* EventItemDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventItemDataModel.h; sourceTree = "<group>"; };
+		3D21D4601370A548006348C6 /* EventItemDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventItemDataModel.m; sourceTree = "<group>"; };
 		3D2AB5DD134826F2001F41F0 /* LocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailViewController.h; sourceTree = "<group>"; };
 		3D2AB5DE134826F2001F41F0 /* LocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailViewController.m; sourceTree = "<group>"; };
 		3D2AB5E0134826F2001F41F0 /* LocationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItem.h; sourceTree = "<group>"; };
@@ -570,7 +579,6 @@
 		3D198CD11342A726005C523B = {
 			isa = PBXGroup;
 			children = (
-				3DA62B291368E84000788918 /* CoreLocation.framework */,
 				3D198CE81342A726005C523B /* UCD Events */,
 				3D198D061342A727005C523B /* UCD EventsTests */,
 				3D198CDF1342A726005C523B /* Frameworks */,
@@ -590,6 +598,7 @@
 		3D198CDF1342A726005C523B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3DA62B291368E84000788918 /* CoreLocation.framework */,
 				3DA62B211368E3A600788918 /* MapKit.framework */,
 				320D69F6C4746BCAB3364E90 /* extThree20CSSStyle.xcodeproj */,
 				32005DD2DD4BE82AFAA88C80 /* extThree20JSON.xcodeproj */,
@@ -728,6 +737,12 @@
 				3D76D4CD135177F2009FFCB1 /* EventIndexJSONDataModel.m */,
 				3D76D4CF135178B3009FFCB1 /* EventItem.h */,
 				3D76D4D0135178B3009FFCB1 /* EventItem.m */,
+				3D21D459137096AB006348C6 /* EventDetailViewController.h */,
+				3D21D45A137096AB006348C6 /* EventDetailViewController.m */,
+				3D21D45C1370A2BC006348C6 /* EventItemDataSource.h */,
+				3D21D45D1370A2BD006348C6 /* EventItemDataSource.m */,
+				3D21D45F1370A546006348C6 /* EventItemDataModel.h */,
+				3D21D4601370A548006348C6 /* EventItemDataModel.m */,
 			);
 			name = Events;
 			sourceTree = "<group>";
@@ -1142,6 +1157,9 @@
 				3D21D456137094A4006348C6 /* OfferItem.m in Sources */,
 				3D21D457137094A4006348C6 /* OffersJSONDataModel.m in Sources */,
 				3D21D458137094A4006348C6 /* OffersViewController.m in Sources */,
+				3D21D45B137096AB006348C6 /* EventDetailViewController.m in Sources */,
+				3D21D45E1370A2BD006348C6 /* EventItemDataSource.m in Sources */,
+				3D21D4611370A548006348C6 /* EventItemDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,7 +23,6 @@
 }
 
 -(id)initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId;
--(void)modelDidFinishLoading;
 
 @property (nonatomic, retain) id<LocationDetailViewControllerDelegate> delegate;
 

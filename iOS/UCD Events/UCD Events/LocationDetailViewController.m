@@ -95,10 +95,6 @@
     [super dealloc];
 }
 
--(void)modelDidFinishLoading {
-    
-}
-
 -(id<UITableViewDelegate>)createDelegate {
     return [[[TTTableViewVarHeightDelegate alloc] initWithController:self] autorelease];
 //	return [[[TTTableViewDragRefreshDelegate alloc] initWithController:self] autorelease];

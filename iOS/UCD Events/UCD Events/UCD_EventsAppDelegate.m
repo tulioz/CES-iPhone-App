@@ -12,6 +12,7 @@
 #import "LocationListViewController.h"
 #import "LocationDetailViewController.h"
 #import "EventListViewController.h"
+#import "EventDetailViewController.h"
 #import "InfoViewController.h"
 #import "OffersViewController.h"
 #import "MapViewController.h"
@@ -50,7 +51,7 @@
     //  TTNavigator Setup
     
     TTNavigator* navigator = [TTNavigator navigator];
-	navigator.persistenceMode = TTNavigatorPersistenceModeAll;
+	navigator.persistenceMode = TTNavigatorPersistenceModeNone;
 	TTURLMap* map = navigator.URLMap;
     
 //  TTNavigator mappings
@@ -64,6 +65,8 @@
      [LocationDetailViewController class]];
     [map from:@"ucde://events/" toViewController:
      [EventListViewController class]];
+    [map from:@"ucde://events/(initWithEventId:)" toViewController:
+     [EventDetailViewController class]];
 	[map from:@"ucde://info/" toViewController:
      [InfoViewController class]];
     [map from:@"ucde://offers/" toViewController:

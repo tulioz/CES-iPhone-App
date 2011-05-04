@@ -36,13 +36,10 @@
 	NSMutableArray *eventsFromModel = _eventFeedModel.events;
 	
 	NSSortDescriptor *sortByDate = [[NSSortDescriptor alloc] initWithKey: @"date" ascending:YES];
-	NSSortDescriptor *sortByName = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
-	NSArray *sortDescriptors = [NSArray arrayWithObjects:sortByDate, sortByName, nil];
-//	[eventsFromModel sortUsingDescriptors:sortDescriptors];
+//	NSSortDescriptor *sortByName = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+	NSArray *sortDescriptors = [NSArray arrayWithObjects:sortByDate, nil];
+	[eventsFromModel sortUsingDescriptors:sortDescriptors];
 
-    EventItem *firstEvent = (EventItem *)[eventsFromModel objectAtIndex:0];
-    NSLog(@"Events from model is: %@", firstEvent.date);
-    
     if ([eventsFromModel count] == 0) {
         return;
     }
@@ -51,7 +48,7 @@
 //    NSLog(@"Looked up event with name of %@", firstEvent.name);
 	
 	TT_RELEASE_SAFELY(sortByDate);
-	TT_RELEASE_SAFELY(sortByName);
+//	TT_RELEASE_SAFELY(sortByName);
 	
 	NSMutableDictionary *sections = [NSMutableDictionary dictionary];
 	
@@ -97,7 +94,7 @@
 }
 
 -(NSString *)getURLForEventId:(NSString *)eventId {
-    return [NSString stringWithFormat:@"%@%@/%@.%@", apiPath, eventsString, eventId, apiDataFormat]; 
+    return [NSString stringWithFormat:@"%@%@/%@", ucdePath, eventsString, eventId]; 
 }
 
 @end
