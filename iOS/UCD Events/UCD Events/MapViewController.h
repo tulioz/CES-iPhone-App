@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
+//#import "LocationItem.h "
 
 @interface MapViewController : TTModelViewController <MKMapViewDelegate> {
     MKMapView *mapView;

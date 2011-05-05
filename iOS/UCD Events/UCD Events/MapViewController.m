@@ -25,6 +25,11 @@
     return self;
 }
 
+//-(id)initWithAddress:(LocationItem *)locationItem {
+//    [self setCurrentLocation:locationItem.coordinate];
+    
+//}
+
 -(void)viewDidLoad {
     self.title = @"Map";
     mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
