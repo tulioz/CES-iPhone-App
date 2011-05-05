@@ -15,7 +15,6 @@
 @class TTModelViewController;
 
 @interface LocationItemJSONDataModel : TTURLRequestModel {
-    NSString *_typeId;
     NSString *_locationId;
     
     LocationItem *_location;
@@ -23,7 +22,7 @@
     BOOL _finished;
 }
 
--(id) initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId;
+-(id) initWithLocationId:(NSString *)locationId;
 -(NSString *) getURL;
 
 @property (nonatomic, readonly) LocationItem* location;

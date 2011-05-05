@@ -14,7 +14,6 @@
 @protocol LocationDetailViewControllerDelegate;
 
 @interface LocationDetailViewController : TTTableViewController {
-    NSString* _typeId;
     NSString* _locationId;
     
     LocationItemJSONDataModel* _locationItemDataModel;
@@ -22,8 +21,7 @@
    id<LocationDetailViewControllerDelegate> _delegate;
 }
 
--(id)initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId;
--(void)modelDidFinishLoading;
+-(id)initWithLocationId:(NSString *)locationId;
 
 @property (nonatomic, retain) id<LocationDetailViewControllerDelegate> delegate;
 

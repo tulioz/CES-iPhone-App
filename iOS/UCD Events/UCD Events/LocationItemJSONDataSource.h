@@ -13,11 +13,10 @@
 
 @interface LocationItemJSONDataSource : TTSectionedDataSource {
     LocationItemJSONDataModel *_locationItemDataModel;
-    NSString *_typeId;
     NSString *_locationId;
 }
 
--(id)initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId;
+-(id)initWithLocationId:(NSString *)locationId;
 -(NSString *) formatPhoneString:(NSString *) rawString;
 
 @end

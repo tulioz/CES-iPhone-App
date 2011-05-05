@@ -1,29 +1,29 @@
 //
-//  LocationItemJSONDataModel.m
+//  EventItemDataModel.m
 //  UCD Events
 //
-//  Created by William Binns-Smith on 4/5/11.
+//  Created by William Binns-Smith on 5/3/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "LocationItemJSONDataModel.h"
+#import "EventItemDataModel.h"
 
 
-@implementation LocationItemJSONDataModel
+@implementation EventItemDataModel
 
-@synthesize location = _location;
-@synthesize finished = _finished;
+@synthesize eventId = _eventId;
+@synthesize event = _event;
 
--(id)initWithLocationId:(NSString *)locationId {
+-(id)initWithEventId:(NSString *)eventId {
     if (self = [super init]) {
-        _locationId = locationId;
+        _eventId = eventId;
     }
-        
+    
     return self;
 }
 
 -(NSString *) getURL {
-    return [NSString stringWithFormat:@"%@%@/%@.%@", apiPath, locationsString, _locationId, apiDataFormat];
+    return [NSString stringWithFormat:@"%@%@/%@.%@", apiPath, eventsString, _eventId, apiDataFormat];
 }
 
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {  
@@ -55,11 +55,11 @@
 -(void)requestDidFinishLoad:(TTURLRequest *)request {
 	TTURLJSONResponse *response = request.response;
     TTDASSERT([response.rootObject isKindOfClass:[NSMutableDictionary class]]);
-
-	// rootObject represents the parsed JSON feed in a dictionary representing the location
-	NSMutableDictionary *locationDict = response.rootObject;
     
-    _location = [[LocationItem alloc] initWithLocationDictionary:[locationDict objectForKey:@"location"]];
+	// rootObject represents the parsed JSON feed in a dictionary representing the location
+	NSMutableDictionary *eventDict = response.rootObject;
+    
+    _event = [[EventItem alloc] initWithEventDictionary:[eventDict objectForKey:@"event"]];
     
 	_finished = TRUE;
     

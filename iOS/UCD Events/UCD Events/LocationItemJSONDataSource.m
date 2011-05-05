@@ -11,11 +11,11 @@
 
 @implementation LocationItemJSONDataSource
 
--(id) initWithTypeId:(NSString *)typeId locationId:(NSString *)locationId {
+-(id) initWithLocationId:(NSString *)locationId {
     if (self = [super init]) {
-        _typeId = typeId;
         _locationId = locationId;
-        _locationItemDataModel = [[LocationItemJSONDataModel alloc] initWithTypeId:_typeId locationId:_locationId];
+        NSLog(@"locationID is %@", locationId);
+        _locationItemDataModel = [[LocationItemJSONDataModel alloc] initWithLocationId:_locationId];
     }
     
     return self;

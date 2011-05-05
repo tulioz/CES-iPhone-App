@@ -12,6 +12,7 @@
 #import "LocationListViewController.h"
 #import "LocationDetailViewController.h"
 #import "EventListViewController.h"
+#import "EventDetailViewController.h"
 #import "InfoViewController.h"
 #import "OffersViewController.h"
 #import "MapViewController.h"
@@ -50,7 +51,7 @@
     //  TTNavigator Setup
     
     TTNavigator* navigator = [TTNavigator navigator];
-	navigator.persistenceMode = TTNavigatorPersistenceModeAll;
+	navigator.persistenceMode = TTNavigatorPersistenceModeNone;
 	TTURLMap* map = navigator.URLMap;
     
 //  TTNavigator mappings
@@ -60,10 +61,12 @@
 	 [BasicLauncherViewController class]];
 	[map from:@"ucde://locationList/(initWithName:)/(typeId:)/" toViewController:
 	 [LocationListViewController class]];
-    [map from:@"ucde://types/(initWithTypeId:)/locations/(locationId:)" toViewController:
+    [map from:@"ucde://locations/(initWithLocationId:)" toViewController:
      [LocationDetailViewController class]];
     [map from:@"ucde://events/" toViewController:
      [EventListViewController class]];
+    [map from:@"ucde://events/(initWithEventId:)" toViewController:
+     [EventDetailViewController class]];
 	[map from:@"ucde://info/" toViewController:
      [InfoViewController class]];
     [map from:@"ucde://offers/" toViewController:
@@ -76,6 +79,14 @@
 		[[TTNavigator navigator] openURLAction:
 		 [[TTURLAction actionWithURLPath:@"ucde://launcher"] applyAnimated:YES]];
 	}
+    
+//    From http://stackoverflow.com/questions/3790957/reachability-guide-for-ios-4
+    Reachability *reachable = [Reachability reachabilityWithHostName:@"google.com"];
+    NetworkStatus status = [reachable currentReachabilityStatus];
+    if (status == NotReachable) {
+        UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Unable to connect" message:@"UCD Events was unable to connect to the UC Davis Events service. Parts of the app may not function." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] autorelease];
+        [alert show];
+    }
     
     return YES;
 }

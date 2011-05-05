@@ -21,6 +21,6 @@
 }
 
 -(id)initWithTypeId:(NSString *)typeId;
--(id)getURLforTypeId:(NSString *)typeId locationId:(NSString *)locationId;
+-(id)getURLforLocationId:(NSString *)locationId;
 
 @end

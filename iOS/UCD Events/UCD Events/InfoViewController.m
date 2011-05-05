@@ -72,4 +72,9 @@
 	return [NSString stringWithFormat:@"+1 (%@) %@-%@", areaCode, phonePart1, phonePart2];		
 }
 
+-(id<UITableViewDelegate>)createDelegate {
+    return [[[TTTableViewVarHeightDelegate alloc] initWithController:self] autorelease];
+    //	return [[[TTTableViewDragRefreshDelegate alloc] initWithController:self] autorelease];
+}
+
 @end

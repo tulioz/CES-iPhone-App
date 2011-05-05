@@ -13,6 +13,7 @@ const NSString *ucdePath            = @"ucde://";
 const NSString *apiDataFormat       = @"json";
 const NSString *typesString         = @"types";
 const NSString *locationsString     = @"locations";
+const NSString *offersString        = @"offers";
 
 const NSString *UCDPoliceDepartmentPhone    = @"4087201707";
 const NSString *UCDPoliceDepartmentAddr     = @"500 Lake Blvd, Davis, CA 95616";
