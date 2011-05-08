@@ -14,6 +14,9 @@
 @synthesize eventItemDataModel = _eventItemDataModel;
 @synthesize eventId = _eventId;
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)initWithEventId:(NSString *)eventId {
     if (self = [super init]) {
         _eventId = eventId;
@@ -28,6 +31,9 @@
     
     [super dealloc];
 }
+
+#pragma mark -
+#pragma mark TTSectionedDataSource
 
 -(id<TTModel>)model {
     return _eventItemDataModel;
@@ -70,6 +76,9 @@
     
     [self.items addObject:directions];
 }
+
+#pragma mark -
+#pragma mark EventItemDataSource
 
 -(NSString *)getLocationURL:(NSString *)locationId {
     return [NSString stringWithFormat:@"%@%@/%@", ucdePath, locationsString, locationId];

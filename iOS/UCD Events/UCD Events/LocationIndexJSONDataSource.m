@@ -12,6 +12,9 @@
 
 @implementation LocationIndexJSONDataSource
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)initWithTypeId:(NSString *)typeId {
 	if (self = [super init]) {
         _typeId = typeId;
@@ -26,6 +29,9 @@
 	
 	[super dealloc];
 }
+
+#pragma mark -
+#pragma mark TTSectionedDataSource
 
 -(id<TTModel>)model {
 	return _locationFeedModel;
@@ -120,11 +126,6 @@
     }
 }
 
--(id)getURLforLocationId:(NSString *)locationId {
-//    NSLog(@"locationId in getURL is %@", locationId);
-    return [NSString stringWithFormat:@"%@%@/%@", ucdePath, locationsString, locationId, apiDataFormat];
-}
-
 -(NSMutableArray *)delegates {
 	if (!_delegates) {
 		_delegates = TTCreateNonRetainingArray();
@@ -146,6 +147,14 @@
 
 -(NSString *)subtitleForError:(NSError *)error {
 	return @"Please try again later. Error!";
+}
+
+#pragma mark -
+#pragma mark LocationIndexDataSource
+
+-(id)getURLforLocationId:(NSString *)locationId {
+    //    NSLog(@"locationId in getURL is %@", locationId);
+    return [NSString stringWithFormat:@"%@%@/%@", ucdePath, locationsString, locationId, apiDataFormat];
 }
 
 @end

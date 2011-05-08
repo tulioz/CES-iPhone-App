@@ -14,6 +14,9 @@
 @synthesize events = _events;
 @synthesize finished = _finished;
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)init {
     if (self = [super init]) {
         _events = [[NSMutableArray array] retain];
@@ -21,6 +24,15 @@
     
     return self;
 }
+
+-(void)dealloc {
+    TT_RELEASE_SAFELY(_events);
+    [super dealloc];
+}
+
+
+#pragma mark -
+#pragma mark TTURLRequestModel
 
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {
 //    NSLog(@"index load calleD");
@@ -82,9 +94,8 @@
 	[super requestDidFinishLoad:request];
 }
 
--(void)dealloc {
-    TT_RELEASE_SAFELY(_events);
-}
+#pragma mark -
+#pragma mark EventIndexDataModel
 
 -(NSString *)getURL {
     return [NSString stringWithFormat:@"%@%@.%@", apiPath, eventsString, apiDataFormat]; 

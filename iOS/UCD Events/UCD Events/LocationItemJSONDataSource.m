@@ -14,6 +14,9 @@
 
 @implementation LocationItemJSONDataSource
 
+#pragma mark -
+#pragma mark TTURLRequestModel
+
 -(id) initWithLocationId:(NSString *)locationId {
     if (self = [super init]) {
         _locationId = locationId;
@@ -30,6 +33,9 @@
     
     [super dealloc];
 }
+
+#pragma mark -
+#pragma mark TTURLRequestModel
 
 -(id<TTModel>)model {
     return _locationItemDataModel;
@@ -84,6 +90,9 @@
     
     [self.items addObject:directions];
 }
+
+#pragma mark -
+#pragma mark LocationItemDataSource
 
 -(NSString *) formatPhoneString:(NSString *) rawString {
     //	http://www.iphonesdkarticles.com/2008/11/localizating-iphone-apps-custom.html

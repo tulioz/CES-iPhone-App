@@ -14,6 +14,9 @@
 @synthesize locations = _locations;
 @synthesize finished = _finished;
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)initWithTypeId:(NSString *)typeId {
 	if (self = [super init]) {
         _typeId = [[NSString alloc] initWithString:typeId];
@@ -28,6 +31,9 @@
     TT_RELEASE_SAFELY(_typeId);
 	[super dealloc];
 }
+
+#pragma mark -
+#pragma mark TTURLRequestModel
 
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {
     NSString *loadURL = [self getURL];
@@ -86,6 +92,9 @@
 	
 	[super requestDidFinishLoad:request];
 }
+
+#pragma mark -
+#pragma mark LocationIndexDataModel
 
 -(NSString *)getURL {
 //    NSLog(@"GetURL: _typeId is %@", typesString);

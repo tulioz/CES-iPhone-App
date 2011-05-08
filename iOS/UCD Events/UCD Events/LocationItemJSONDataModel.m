@@ -14,6 +14,9 @@
 @synthesize location = _location;
 @synthesize finished = _finished;
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)initWithLocationId:(NSString *)locationId {
     if (self = [super init]) {
         _locationId = locationId;
@@ -22,9 +25,8 @@
     return self;
 }
 
--(NSString *) getURL {
-    return [NSString stringWithFormat:@"%@%@/%@.%@", apiPath, locationsString, _locationId, apiDataFormat];
-}
+#pragma mark -
+#pragma mark TTURLRequestModel
 
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {  
     NSString *loadURL = [self getURL];
@@ -68,5 +70,11 @@
 	[super requestDidFinishLoad:request];
 }
 
+#pragma mark -
+#pragma mark LocationItemDataModel
+
+-(NSString *) getURL {
+    return [NSString stringWithFormat:@"%@%@/%@.%@", apiPath, locationsString, _locationId, apiDataFormat];
+}
 
 @end
