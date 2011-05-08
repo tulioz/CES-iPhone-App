@@ -66,10 +66,10 @@
     NSArray *description = [NSArray arrayWithObjects:
                             [TTTableLongTextItem itemWithText:location.description]
                             , nil];
-    
-    //NSString *url = openGoogleMapsWithStartingCoordinate(location.latitude, location.longitude);
+
     
     NSString *url = [self openGoogleMapsWithDestinationLatitude:location.latitude longitude:location.longitude];
+    
     
     // Directions
     NSArray *directions = [NSArray arrayWithObjects:
@@ -100,36 +100,11 @@
 
 
 // open the Google Maps application with start and end locations
-/*-(void)openGoogleMapsWithStartingCoordinate:(CLLocationCoordinate2D)start directionType:(NSInteger)directionType destination:(CLLocationCoordinate2D)destination {
-	NSString *formatString = @"http://maps.google.com/maps?saddr=%f,%f&daddr=%@,%@";
-	// append the direction type flag
-	switch (directionType) {
-		case kWalking:
-			formatString = [formatString stringByAppendingString:@"&dirflg=w"];
-			break;
-		case kDriving:
-			break;
-		case kPublicTransit:
-			formatString = [formatString stringByAppendingString:@"&dirflg=r"];
-			break;
-		default:
-			break;
-	}
-
-	NSString* url = [NSString stringWithFormat:formatString, start.latitude, start.longitude];
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: url]];
-}*/
-
-
-// open the Google Maps application with start and end locations
 -(NSString *)openGoogleMapsWithDestinationLatitude:(NSString *)latitude longitude:(NSString *)longitude{
     NSString *formatString = @"http://maps.google.com/maps?daddr=%@,%@"; 
     
-    NSLog(longitude);
-    NSLog(latitude);
-    
 	NSString *url = [NSString stringWithFormat:formatString, latitude, longitude];
-    
+       
     return url;
 }
 
