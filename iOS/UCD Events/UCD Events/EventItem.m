@@ -18,6 +18,9 @@
 @synthesize date = _date;
 @synthesize description;
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)initWithEventDictionary:(NSMutableDictionary *)eventDictionary {
     if (self = [super init]) {
 

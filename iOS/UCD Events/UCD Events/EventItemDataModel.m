@@ -14,6 +14,9 @@
 @synthesize eventId = _eventId;
 @synthesize event = _event;
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)initWithEventId:(NSString *)eventId {
     if (self = [super init]) {
         _eventId = eventId;
@@ -22,9 +25,8 @@
     return self;
 }
 
--(NSString *) getURL {
-    return [NSString stringWithFormat:@"%@%@/%@.%@", apiPath, eventsString, _eventId, apiDataFormat];
-}
+#pragma mark -
+#pragma mark TTURLRequestModel
 
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {  
     NSString *loadURL = [self getURL];
@@ -68,5 +70,11 @@
 	[super requestDidFinishLoad:request];
 }
 
+#pragma mark -
+#pragma mark EventItemDataModel
+
+-(NSString *) getURL {
+    return [NSString stringWithFormat:@"%@%@/%@.%@", apiPath, eventsString, _eventId, apiDataFormat];
+}
 
 @end

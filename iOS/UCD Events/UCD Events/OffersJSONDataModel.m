@@ -15,17 +15,26 @@
 @synthesize finished = _finished;
 @synthesize size;
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)init {
     if (self = [super init]) {
         _offers = [[NSMutableArray array] retain];
-        NSLog(@"OffersJSONDataModel init");
     }
     
     return self;
 }
 
+-(void)dealloc {
+    TT_RELEASE_SAFELY(_offers);
+    [super dealloc];
+}
+
+#pragma mark -
+#pragma mark TTURLRequestModel
+
 -(void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more {
-    NSLog(@"OffersJSONDataModel load");
     NSString *loadURL = [self getURL];
     
 	if (!self.isLoading && TTIsStringWithAnyText(loadURL)) {
@@ -82,17 +91,15 @@
 	[super requestDidFinishLoad:request];
 }
 
+#pragma mark -
+#pragma mark OffersJSONDataModel
+
 -(NSString *)getURL {
     return [NSString stringWithFormat:@"%@%@.%@", apiPath, offersString, apiDataFormat]; 
 }
 
 -(NSUInteger)count {
     return [_offers count];
-}
-
--(void)dealloc {
-    TT_RELEASE_SAFELY(_offers);
-    [super dealloc];
 }
 
 @end

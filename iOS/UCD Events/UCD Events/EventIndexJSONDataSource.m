@@ -11,6 +11,9 @@
 
 @implementation EventIndexJSONDataSource
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)init {
     if (self = [super init]) {
         _eventFeedModel = [[EventIndexJSONDataModel alloc] init];
@@ -24,6 +27,9 @@
     
     [super dealloc];
 }
+
+#pragma mark -
+#pragma mark TTSectionedDataSource
 
 -(id<TTModel>)model {
 	return _eventFeedModel;
@@ -83,6 +89,9 @@
 		[_items addObject:items];
 	}
 }
+
+#pragma mark -
+#pragma mark EventIndexDataSource
 
 -(NSString *)getURLForEventId:(NSString *)eventId {
     return [NSString stringWithFormat:@"%@%@/%@", ucdePath, eventsString, eventId]; 

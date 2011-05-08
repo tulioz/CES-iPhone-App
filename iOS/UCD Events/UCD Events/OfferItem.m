@@ -16,6 +16,9 @@
 @synthesize description;
 @synthesize locationId;
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)initWithOfferDictionary:(NSDictionary *)offerDictionary {
     if (self = [super init]) {
         
@@ -31,6 +34,9 @@
 -(void)dealloc { 
     [super dealloc];
 }
+
+#pragma mark -
+#pragma mark OfferItem
 
 -(NSString *)getURL {
     return [NSString stringWithFormat:@"%@%@.%@", apiPath, eventsString, apiDataFormat]; 

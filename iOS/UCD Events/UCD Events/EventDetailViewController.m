@@ -11,6 +11,9 @@
 
 @implementation EventDetailViewController
 
+#pragma mark -
+#pragma mark NSObject
+
 -(id)initWithEventId:(NSString *)eventId {
     if (self = [super init]) {
         _eventId = eventId;
@@ -21,9 +24,15 @@
     return self;
 }
 
+#pragma mark -
+#pragma mark UIView
+
 -(void)viewDidLoad {
     self.title = @"Event Info.";
 }
+
+#pragma mark -
+#pragma mark TTTableViewController
 
 -(void)createModel {
     self.dataSource = [[[EventItemDataSource alloc] initWithEventId:_eventId] autorelease];

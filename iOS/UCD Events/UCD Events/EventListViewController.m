@@ -11,9 +11,15 @@
 
 @implementation EventListViewController
 
+#pragma mark -
+#pragma mark UIView
+
 -(void)viewDidLoad {
     self.title = eventsTitleString;
 }
+
+#pragma mark -
+#pragma mark TTTableViewController
 
 -(void)createModel {
     self.dataSource = [[[EventIndexJSONDataSource alloc]

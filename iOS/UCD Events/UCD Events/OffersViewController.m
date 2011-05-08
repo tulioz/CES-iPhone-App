@@ -26,14 +26,8 @@
 
 @implementation OffersViewController
 
--(void)dealloc {
-    _scrollView.delegate = nil;
-    _scrollView.dataSource = nil;
-    TT_RELEASE_SAFELY(_scrollView);
-    TT_RELEASE_SAFELY(_pageControl);
-    TT_RELEASE_SAFELY(_offersDataModel);
-    [super dealloc];
-}
+#pragma mark -
+#pragma mark NSObject
 
 -(id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nil bundle:nil]) {    
@@ -44,13 +38,17 @@
     return self;
 }
 
--(id<TTModel>)model {
-    return _offersDataModel;
+-(void)dealloc {
+    _scrollView.delegate = nil;
+    _scrollView.dataSource = nil;
+    TT_RELEASE_SAFELY(_scrollView);
+    TT_RELEASE_SAFELY(_pageControl);
+    TT_RELEASE_SAFELY(_offersDataModel);
+    [super dealloc];
 }
 
--(BOOL)shouldLoad {
-    return YES;
-}
+#pragma mark -
+#pragma mark UIView
 
 -(void)viewDidLoad {
     self.title = @"Offers";
@@ -78,7 +76,18 @@
     [_pageControl addTarget:self action:@selector(changePage:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:_pageControl];
     
+    
+}
 
+#pragma mark -
+#pragma mark TTModelViewController
+
+-(id<TTModel>)model {
+    return _offersDataModel;
+}
+
+-(BOOL)shouldLoad {
+    return YES;
 }
 
 -(void)createModel {
@@ -103,19 +112,10 @@
     }
 }
 
-
-
 -(void)modelDidFinishLoad:(id<TTModel>)model {
     NSLog(@"Model back!");
     _pageControl.numberOfPages = [_offersDataModel.offers count];
     [_scrollView removeAllSubviews];
-//    if (_offersDataModel.size < 1) {
-//        TTLabel *label = [[TTLabel alloc] initWithText:@"Error!"];
-//        label.backgroundColor = [UIColor whiteColor];
-//        [label sizeToFit];
-//        label.frame = CGRectMake(0, _scrollView.height / 2 , self.view.width, label.height);
-//        [_scrollView addSubview:label];
-//    }
     [_scrollView reloadData];
 }
 
@@ -130,13 +130,6 @@
         pageView.backgroundColor = [UIColor clearColor];
         pageView.userInteractionEnabled = NO;
     }
-
-    NSString* kText = @"\
-    <span class=\"floated\"><img src=\"http://farm6.static.flickr.com/5222/5644882930_5261f80b13_m.jpg\" width=\"160\" height=\"120\"/></span>This \
-    is a test of floats. This is still a test of floats.  This text will wrap itself around \
-    the image that is being floated on the left.  I repeat, this is a test of floats.";
-    
-    NSString *mytext = @"Hello!";
     
     OffersStyledTextLabel* label = [[[OffersStyledTextLabel alloc] initWithFrame:CGRectMake(20, 20, 265, 300)] autorelease];
     OfferItem *currentOffer = [_offersDataModel.offers objectAtIndex:pageIndex];
