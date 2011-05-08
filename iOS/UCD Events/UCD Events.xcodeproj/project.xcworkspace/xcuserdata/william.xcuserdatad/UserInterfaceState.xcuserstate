@@ -18321,7 +18321,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>326522586.60163999</real>
+		<real>326523300.72729701</real>
 		<string>{0, 213}</string>
 		<dict>
 			<key>$class</key>
@@ -19818,8 +19818,8 @@
 				</dict>
 			</array>
 		</dict>
-		<real>326521725.80474001</real>
-		<string>{0, 537}</string>
+		<real>326523296.34424102</real>
+		<string>{0, 269}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -25408,8 +25408,8 @@
 		</dict>
 		<string>IDEDeviceLocation</string>
 		<string>IDEDeviceArchitecture</string>
-		<string>dvtdevice-iphonesimulator:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk-iPhone</string>
-		<string>i386</string>
+		<string>dvtdevice-local-computer:localhost</string>
+		<string>x86_64</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -27232,7 +27232,7 @@
 				<integer>1843</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UCD_EventsViewController.xib</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/OfferItem.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -27250,7 +27250,7 @@
 				<integer>1845</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UCD_EventsViewController.m</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UCD_EventsViewController.xib</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -27268,7 +27268,7 @@
 				<integer>1847</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UCD_EventsViewController.h</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UCD_EventsViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -27286,7 +27286,7 @@
 				<integer>1849</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UCD_EventsAppDelegate.m</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UCD_EventsViewController.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -27304,7 +27304,7 @@
 				<integer>1851</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UCD_EventsAppDelegate.h</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UCD_EventsAppDelegate.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -27322,7 +27322,7 @@
 				<integer>1853</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UELauncherView.m</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UCD_EventsAppDelegate.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -27340,7 +27340,7 @@
 				<integer>1855</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UELauncherView.h</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UELauncherView.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -27358,7 +27358,7 @@
 				<integer>1857</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/BasicLauncherViewController.m</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/UELauncherView.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -27376,7 +27376,7 @@
 				<integer>1859</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/BasicLauncherViewController.h</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/dev/git/iOS/UCD%20Events/UCD%20Events/BasicLauncherViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -73424,7 +73424,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>326522586.60243702</real>
+		<real>326523300.72849101</real>
 		<string>{0, 213}</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
@@ -74250,7 +74250,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>4196</integer>
+					<integer>4197</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -74824,7 +74824,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>4242</integer>
+					<integer>4243</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -74832,23 +74832,23 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>4245</integer>
+					<integer>4246</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>4247</integer>
+					<integer>4248</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>4249</integer>
+					<integer>4250</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>4251</integer>
+					<integer>4252</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>4253</integer>
+					<integer>4254</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -74888,56 +74888,26 @@
 				</dict>
 			</array>
 		</dict>
+		<string>UCD EventsTests</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>86</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4236</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4242</integer>
+				</dict>
+			</array>
+		</dict>
 		<string>Products</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>86</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4236</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4125</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4123</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>86</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4236</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4125</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4123</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4243</integer>
-				</dict>
-			</array>
-		</dict>
-		<string>Launcher</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -74986,61 +74956,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>4246</integer>
-				</dict>
-			</array>
-		</dict>
-		<string>Locations</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>86</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4236</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4125</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4123</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4248</integer>
-				</dict>
-			</array>
-		</dict>
-		<string>Events</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>86</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4236</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4125</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4123</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>4250</integer>
+					<integer>4245</integer>
 				</dict>
 			</array>
 		</dict>
@@ -75067,7 +74983,88 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>4252</integer>
+					<integer>4247</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>Locations</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>86</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4236</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4125</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4123</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4249</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>Launcher</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>86</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4236</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4125</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4123</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4251</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>Events</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>86</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4236</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4125</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4123</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>4253</integer>
 				</dict>
 			</array>
 		</dict>
@@ -75090,11 +75087,10 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>4254</integer>
+					<integer>4123</integer>
 				</dict>
 			</array>
 		</dict>
-		<string>Supporting Files</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -75109,11 +75105,15 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
+					<integer>4125</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>4256</integer>
 				</dict>
 			</array>
 		</dict>
-		<string>UCD EventsTests</string>
+		<string>Supporting Files</string>
 		<dict>
 			<key>$class</key>
 			<dict>
