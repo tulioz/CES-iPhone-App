@@ -18,5 +18,8 @@
 
 -(id)initWithLocationId:(NSString *)locationId;
 -(NSString *) formatPhoneString:(NSString *) rawString;
+//-(NSString* )openGoogleMapsWithStartingCoordinate:(CLLocationCoordinate2D)destination;
+-(NSString* )openGoogleMapsWithDestinationLatitude:(NSString *)latitude longitude:(NSString *)longitude;
+
 
 @end

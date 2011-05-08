@@ -71,8 +71,9 @@
      [InfoViewController class]];
     [map from:@"ucde://offers/" toViewController:
      [OffersViewController class]];
-    [map from:@"ucde://map/(initWithAddress:)" toViewController:
+    [map from:@"ucde://map/" toViewController:
      [MapViewController class]];
+    //[map from:@"ucde://directions/(openURL:)/" toObject:UIApplication sharedApplication selector:@"openURL:"];
 
 //  Push the first view: the launcher  
 	if (![navigator restoreViewControllers]) {
