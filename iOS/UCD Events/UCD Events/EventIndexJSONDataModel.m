@@ -65,7 +65,7 @@
 	for (NSDictionary *currentEventDictionary in theEvents) {
         NSDictionary *currentEvent = [currentEventDictionary objectForKey:@"event"];
 		EventItem *event = [[EventItem alloc] initWithEventDictionary:currentEvent];
-//        NSLog(@"Adding event to model with name of %@", event.name);
+
 		[events addObject:event];
 		TT_RELEASE_SAFELY(event);
 	}

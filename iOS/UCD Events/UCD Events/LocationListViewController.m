@@ -7,7 +7,6 @@
 //
 
 #import "LocationListViewController.h"
-//#import "MockDataSource.h"
 #import "Settings.h"
 
 @implementation LocationListViewController
@@ -21,9 +20,6 @@
 		_delegate = nil;
 		self.categoryName = name;
         _typeId = typeId;
-		
-//		self.navigationBarTintColor = [UIColor colorWithRed:.92 green:.76 blue:0 alpha:1];
-//		self.navigationBarStyle = UIStatusBarStyleDefault;
 	}
 	
 	return self;
@@ -34,9 +30,9 @@
 	
 	TTTableViewController *searchController = [[[TTTableViewController alloc] init] autorelease];
 	
-	searchController.dataSource = [[[LocationIndexJSONDataSource alloc]
-                                    initWithTypeId:_typeId]
-                                    autorelease];
+//	searchController.dataSource = [[[LocationIndexJSONDataSource alloc]
+//                                    initWithTypeId:_typeId]
+//                                    autorelease];
 
 //	searchController.dataSource = self.dataSource;
 	
@@ -59,54 +55,9 @@
                        autorelease];
 }
 
-/*-(void)didSelectObject:(id)object atIndexPath:(NSIndexPath *)indexPath {
-	[_delegate locationListViewController:self didSelectObject:object];
-
-	TTTableSubtitleItem *theItem = object;
-	
-	NSDictionary *locationDict = theItem.userInfo;
-
-	LocationItem *theLocation = [locationDict objectForKey:@"location"];
-	
-	if (theLocation) {
-		LocationDetailViewController *locationDetail = [[LocationDetailViewController alloc] initWithLocation:theLocation];
-		[self.navigationController pushViewController:locationDetail animated:YES];
-	}
-}*/
-
 -(void)textField:(TTSearchTextField *)textField didSelectObject:(id)object {
 	[_delegate locationListViewController:self didSelectObject:object];
 }
-
-//-(BOOL)shouldOpenURL:(NSString *)URL {
-//	return NO;
-//}		 
-
-// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization.
-    }
-    return self;
-}
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations.
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
 
 -(id<UITableViewDelegate>)createDelegate {
 	return [[[TTTableViewDragRefreshDelegate alloc] initWithController:self] autorelease];
@@ -129,10 +80,5 @@
 - (void)dealloc {
     [super dealloc];
 }
-
-//-(BOOL)persistView:(NSMutableDictionary *)state {
-//    return NO;
-//}
-
 
 @end

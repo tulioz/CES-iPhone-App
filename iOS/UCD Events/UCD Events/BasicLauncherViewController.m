@@ -46,12 +46,6 @@
 {
     NSLog(@"did loadview on launcher");
     [super loadView];
-    
-//    UIButton* infoButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
-//    [infoButton addTarget:self action:@selector(infoButtonAction) forControlEvents:UIControlEventTouchUpInside];
-//    UIBarButtonItem *modalButton = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
-//    [self.navigationItem setRightBarButtonItem:modalButton animated:YES];
-//    [modalButton release];
 	
 	launcherView = [[UELauncherView alloc] initWithFrame:CGRectMake(0, 0, 320, 385)];
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"title.png"]];
