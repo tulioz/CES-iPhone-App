@@ -82,24 +82,6 @@
     }
 }
 
-// open the Google Maps application with start and end locations
-- (void)openGoogleMapsWithStartingCoordinate:(CLLocationCoordinate2D)start directionType:(NSInteger)directionType {
-	NSString *formatString = @"http://maps.google.com/maps?saddr=%f,%f&daddr=%@,%@";
-	// append the direction type flag
-	switch (directionType) {
-		case kWalking:
-			formatString = [formatString stringByAppendingString:@"&dirflg=w"];
-			break;
-		case kDriving:
-			break;
-		case kPublicTransit:
-			formatString = [formatString stringByAppendingString:@"&dirflg=r"];
-			break;
-		default:
-			break;
-	}
-//	NSString* url = [NSString stringWithFormat:formatString, start.latitude, start.longitude, building.latitude, building.longitude];
-//	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: url]];
-}
+
 
 @end

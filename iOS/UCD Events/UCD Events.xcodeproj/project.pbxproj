@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		243C60E5136FC95E00F2BC92 /* BSAddressComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C60D6136FC95E00F2BC92 /* BSAddressComponent.m */; };
-		243C60E6136FC95E00F2BC92 /* BSForwardGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C60D8136FC95E00F2BC92 /* BSForwardGeocoder.m */; };
-		243C60E7136FC95E00F2BC92 /* BSGoogleV2KmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C60DA136FC95E00F2BC92 /* BSGoogleV2KmlParser.m */; };
-		243C60E8136FC95E00F2BC92 /* BSGoogleV3KmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C60DC136FC95E00F2BC92 /* BSGoogleV3KmlParser.m */; };
-		243C60E9136FC95E00F2BC92 /* BSKmlResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C60DE136FC95E00F2BC92 /* BSKmlResult.m */; };
-		243C60EA136FC95E00F2BC92 /* CustomPlacemark.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C60E0136FC95E00F2BC92 /* CustomPlacemark.m */; };
-		243C60EB136FC95E00F2BC92 /* Forward_GeocodingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C60E2136FC95E00F2BC92 /* Forward_GeocodingAppDelegate.m */; };
-		243C60EC136FC95E00F2BC92 /* Forward_GeocodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C60E4136FC95E00F2BC92 /* Forward_GeocodingViewController.m */; };
+		243C60E5136FC95E00F2BC92 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		243C60E6136FC95E00F2BC92 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		243C60E7136FC95E00F2BC92 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		243C60E8136FC95E00F2BC92 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		243C60E9136FC95E00F2BC92 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		243C60EA136FC95E00F2BC92 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		243C60EB136FC95E00F2BC92 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		243C60EC136FC95E00F2BC92 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		32005DD2DD4BE82AFAA88C85 /* libextThree20JSON+YAJL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32005DD2DD4BE82AFAA88C84 /* libextThree20JSON+YAJL.a */; };
 		3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3201088596B4756681693704 /* libThree20UICommon.a */; };
 		3205FA96B41F8AE94E5369E5 /* libextThree20XML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3205FA96B41F8AE94E5369E4 /* libextThree20XML.a */; };
@@ -735,7 +735,6 @@
 			children = (
 				3D05494C137105F6005DF21C /* Reachability */,
 				3D21D44F13709494006348C6 /* Offers */,
-				243C60D4136FC91200F2BC92 /* BSGeocoding */,
 				3DA62B1D1368E35600788918 /* Map */,
 				3DCB57041363B7630090F9F0 /* Styles */,
 				3D76D4C5135170F4009FFCB1 /* Events */,
@@ -1132,14 +1131,14 @@
 				3DF3FC591367EE48002D6613 /* UEFeaturedItem.m in Sources */,
 				3DA62B201368E38200788918 /* MapViewController.m in Sources */,
 				3D4BD7F7136A1974004F3B29 /* LocationAnnotation.m in Sources */,
-				243C60E5136FC95E00F2BC92 /* BSAddressComponent.m in Sources */,
-				243C60E6136FC95E00F2BC92 /* BSForwardGeocoder.m in Sources */,
-				243C60E7136FC95E00F2BC92 /* BSGoogleV2KmlParser.m in Sources */,
-				243C60E8136FC95E00F2BC92 /* BSGoogleV3KmlParser.m in Sources */,
-				243C60E9136FC95E00F2BC92 /* BSKmlResult.m in Sources */,
-				243C60EA136FC95E00F2BC92 /* CustomPlacemark.m in Sources */,
-				243C60EB136FC95E00F2BC92 /* Forward_GeocodingAppDelegate.m in Sources */,
-				243C60EC136FC95E00F2BC92 /* Forward_GeocodingViewController.m in Sources */,
+				243C60E5136FC95E00F2BC92 /* (null) in Sources */,
+				243C60E6136FC95E00F2BC92 /* (null) in Sources */,
+				243C60E7136FC95E00F2BC92 /* (null) in Sources */,
+				243C60E8136FC95E00F2BC92 /* (null) in Sources */,
+				243C60E9136FC95E00F2BC92 /* (null) in Sources */,
+				243C60EA136FC95E00F2BC92 /* (null) in Sources */,
+				243C60EB136FC95E00F2BC92 /* (null) in Sources */,
+				243C60EC136FC95E00F2BC92 /* (null) in Sources */,
 				3D21D456137094A4006348C6 /* OfferItem.m in Sources */,
 				3D21D457137094A4006348C6 /* OffersJSONDataModel.m in Sources */,
 				3D21D458137094A4006348C6 /* OffersViewController.m in Sources */,
