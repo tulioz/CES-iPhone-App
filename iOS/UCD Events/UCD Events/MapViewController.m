@@ -7,7 +7,6 @@
 //
 
 #import "MapViewController.h"
-#import "BSForwardGeocoder.h"
 
 #define kWalking 0
 #define kDriving 1
@@ -25,6 +24,11 @@
     
     return self;
 }
+
+//-(id)initWithAddress:(LocationItem *)locationItem {
+//    [self setCurrentLocation:locationItem.coordinate];
+    
+//}
 
 -(void)viewDidLoad {
     self.title = @"Map";
@@ -96,28 +100,6 @@
 	}
 //	NSString* url = [NSString stringWithFormat:formatString, start.latitude, start.longitude, building.latitude, building.longitude];
 //	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: url]];
-}
-
-// Creates a new BSForwardGeocoder. It takes the address string, finds the GPS coordinates through findLocation via a BSForwardGeocoder object
--(BSKmlResult*)convertAddressToCoor:(NSString *)address {
-    BSForwardGeocoder* forwardGeocoder = nil;
-    BSKmlResult* place = nil;
-    
-    if(forwardGeocoder == nil) {
-        forwardGeocoder = [[BSForwardGeocoder alloc] initWithDelegate:self];
-    }
-    [forwardGeocoder findLocation:address];
-    
-    if(forwardGeocoder.status == G_GEO_SUCCESS) {
-        place = [forwardGeocoder.results objectAtIndex:0];
-        
-        return place;
-    }
-    else {
-        return nil;
-    }
-    
-    // take care of situations that haven't properly implemented the forwardGeocoder
 }
 
 @end

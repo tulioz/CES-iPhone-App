@@ -314,22 +314,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		243C60D5136FC95E00F2BC92 /* BSAddressComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSAddressComponent.h; path = ../../BSForwardGeocoder/Classes/BSAddressComponent.h; sourceTree = "<group>"; };
-		243C60D6136FC95E00F2BC92 /* BSAddressComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSAddressComponent.m; path = ../../BSForwardGeocoder/Classes/BSAddressComponent.m; sourceTree = "<group>"; };
-		243C60D7136FC95E00F2BC92 /* BSForwardGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSForwardGeocoder.h; path = ../../BSForwardGeocoder/Classes/BSForwardGeocoder.h; sourceTree = "<group>"; };
-		243C60D8136FC95E00F2BC92 /* BSForwardGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSForwardGeocoder.m; path = ../../BSForwardGeocoder/Classes/BSForwardGeocoder.m; sourceTree = "<group>"; };
-		243C60D9136FC95E00F2BC92 /* BSGoogleV2KmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSGoogleV2KmlParser.h; path = ../../BSForwardGeocoder/Classes/BSGoogleV2KmlParser.h; sourceTree = "<group>"; };
-		243C60DA136FC95E00F2BC92 /* BSGoogleV2KmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSGoogleV2KmlParser.m; path = ../../BSForwardGeocoder/Classes/BSGoogleV2KmlParser.m; sourceTree = "<group>"; };
-		243C60DB136FC95E00F2BC92 /* BSGoogleV3KmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSGoogleV3KmlParser.h; path = ../../BSForwardGeocoder/Classes/BSGoogleV3KmlParser.h; sourceTree = "<group>"; };
-		243C60DC136FC95E00F2BC92 /* BSGoogleV3KmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSGoogleV3KmlParser.m; path = ../../BSForwardGeocoder/Classes/BSGoogleV3KmlParser.m; sourceTree = "<group>"; };
-		243C60DD136FC95E00F2BC92 /* BSKmlResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSKmlResult.h; path = ../../BSForwardGeocoder/Classes/BSKmlResult.h; sourceTree = "<group>"; };
-		243C60DE136FC95E00F2BC92 /* BSKmlResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSKmlResult.m; path = ../../BSForwardGeocoder/Classes/BSKmlResult.m; sourceTree = "<group>"; };
-		243C60DF136FC95E00F2BC92 /* CustomPlacemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomPlacemark.h; path = ../../BSForwardGeocoder/Classes/CustomPlacemark.h; sourceTree = "<group>"; };
-		243C60E0136FC95E00F2BC92 /* CustomPlacemark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomPlacemark.m; path = ../../BSForwardGeocoder/Classes/CustomPlacemark.m; sourceTree = "<group>"; };
-		243C60E1136FC95E00F2BC92 /* Forward_GeocodingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Forward_GeocodingAppDelegate.h; path = ../../BSForwardGeocoder/Classes/Forward_GeocodingAppDelegate.h; sourceTree = "<group>"; };
-		243C60E2136FC95E00F2BC92 /* Forward_GeocodingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Forward_GeocodingAppDelegate.m; path = ../../BSForwardGeocoder/Classes/Forward_GeocodingAppDelegate.m; sourceTree = "<group>"; };
-		243C60E3136FC95E00F2BC92 /* Forward_GeocodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Forward_GeocodingViewController.h; path = ../../BSForwardGeocoder/Classes/Forward_GeocodingViewController.h; sourceTree = "<group>"; };
-		243C60E4136FC95E00F2BC92 /* Forward_GeocodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Forward_GeocodingViewController.m; path = ../../BSForwardGeocoder/Classes/Forward_GeocodingViewController.m; sourceTree = "<group>"; };
 		248AEF4D135173CD009FE716 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		248AEF4E135173CD009FE716 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		32005DD2DD4BE82AFAA88C80 /* extThree20JSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = extThree20JSON.xcodeproj; path = ../three20/src/extThree20JSON/extThree20JSON.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -472,29 +456,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		243C60D4136FC91200F2BC92 /* BSGeocoding */ = {
-			isa = PBXGroup;
-			children = (
-				243C60D5136FC95E00F2BC92 /* BSAddressComponent.h */,
-				243C60D6136FC95E00F2BC92 /* BSAddressComponent.m */,
-				243C60D7136FC95E00F2BC92 /* BSForwardGeocoder.h */,
-				243C60D8136FC95E00F2BC92 /* BSForwardGeocoder.m */,
-				243C60D9136FC95E00F2BC92 /* BSGoogleV2KmlParser.h */,
-				243C60DA136FC95E00F2BC92 /* BSGoogleV2KmlParser.m */,
-				243C60DB136FC95E00F2BC92 /* BSGoogleV3KmlParser.h */,
-				243C60DC136FC95E00F2BC92 /* BSGoogleV3KmlParser.m */,
-				243C60DD136FC95E00F2BC92 /* BSKmlResult.h */,
-				243C60DE136FC95E00F2BC92 /* BSKmlResult.m */,
-				243C60DF136FC95E00F2BC92 /* CustomPlacemark.h */,
-				243C60E0136FC95E00F2BC92 /* CustomPlacemark.m */,
-				243C60E1136FC95E00F2BC92 /* Forward_GeocodingAppDelegate.h */,
-				243C60E2136FC95E00F2BC92 /* Forward_GeocodingAppDelegate.m */,
-				243C60E3136FC95E00F2BC92 /* Forward_GeocodingViewController.h */,
-				243C60E4136FC95E00F2BC92 /* Forward_GeocodingViewController.m */,
-			);
-			name = BSGeocoding;
-			sourceTree = "<group>";
-		};
 		32005DD2DD4BE82AFAA88C83 /* Products */ = {
 			isa = PBXGroup;
 			children = (

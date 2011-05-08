@@ -71,7 +71,7 @@
      [InfoViewController class]];
     [map from:@"ucde://offers/" toViewController:
      [OffersViewController class]];
-    [map from:@"ucde://map/" toViewController:
+    [map from:@"ucde://map/(initWithAddress:)" toViewController:
      [MapViewController class]];
 
 //  Push the first view: the launcher  
