@@ -44,45 +44,45 @@
     [super loadView];
 	
 	launcherView = [[UELauncherView alloc] initWithFrame:CGRectMake(0, 0, 320, 385)];
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"title.png"]];
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"titlegray.png"]];
 	launcherView.columnCount = 3;
     //	launcherView.rowCount = 4;
 	launcherView.pages = [NSArray arrayWithObjects:
 						  [NSArray arrayWithObjects:
 						   [self launcherItemWithTitle:@"Weather" 
-                                                 image:@"bundle://agg.png" 
+                                                 image:@"bundle://weather.png" 
                                                    URL:@"http://www.accuweather.com/m/en-us/US/CA/Davis/Quick-Look.aspx"
                             ],
 						   [self launcherItemWithTitle:@"Map" 
-                                                 image:@"bundle://agg.png" 
+                                                 image:@"bundle://maps.png" 
                                                    URL:@"ucde://map/"
                             ],
 						   [self launcherItemWithTitle:@"Events" 
-                                                 image:@"bundle://agg.png" 
+                                                 image:@"bundle://events.png" 
                                                    URL:@"ucde://events/"
                             ],
 						   [self launcherItemWithTitle:@"Special Offers" 
-                                                 image:@"bundle://agg.png" 
+                                                 image:@"bundle://deals.png" 
                                                    URL:@"ucde://offers/"
                             ],
 						   [self launcherItemWithTitle:@"Restaurants" 
-                                                 image:@"bundle://agg.png" 
+                                                 image:@"bundle://restaurants.png" 
                                                    URL:@"ucde://locationList/Restaurants/1"
                             ],
 						   [self launcherItemWithTitle:@"Shopping" 
-                                                 image:@"bundle://agg.png" 
+                                                 image:@"bundle://shopping.png" 
                                                    URL:@"http://maps.google.com/maps/place?cid=9237992642497654431&q=panda+express+davis+ca&hl=en&sll=38.560978,-121.766971&sspn=0.035357,0.058199&ie=UTF8&ll=38.686582,-121.81057&spn=0,0&z=12"
                             ],
 						   [self launcherItemWithTitle:@"Hotels" 
-                                                 image:@"bundle://agg.png" 
+                                                 image:@"bundle://hotels.png" 
                                                    URL:@""
                             ],
-                           [self launcherItemWithTitle:@"Info" 
-                                                 image:@"bundle://agg.png" 
+                           [self launcherItemWithTitle:@"Places" 
+                                                 image:@"bundle://places.png" 
                                                    URL:@""
                             ],
-						   [self launcherItemWithTitle:@"UCD The Button" 
-                                                 image:@"bundle://agg.png" 
+						   [self launcherItemWithTitle:@"UC Davis" 
+                                                 image:@"bundle://ucd.png" 
                                                    URL:@""
                             ],
                            nil],
@@ -91,7 +91,7 @@
     
 
     
-    TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"emergencyInfoButton:" title:@"Emergency Information"];
+    TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"bottomBarButton:" title:@"Emergency Information"];
     [emergencyInfoButton addTarget:@"ucde://info/" action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];
     [emergencyInfoButton setFrame:CGRectMake(0, 370, 320, 50)];
     

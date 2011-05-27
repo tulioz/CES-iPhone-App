@@ -35,12 +35,12 @@
     return [self.styleSheet backgroundColorWithCssSelector:@".featuredTableItem" forState:UIControlStateNormal];
 }
 
--(UIColor*)emergencyInfoButtonBackgroundColor {
-    return [self.styleSheet backgroundColorWithCssSelector:@".emergencyInfoButton" forState:UIControlStateNormal];
+-(UIColor*)bottomBarButtonBackgroundColor {
+    return [self.styleSheet backgroundColorWithCssSelector:@".bottomBarButton" forState:UIControlStateNormal];
 }
 
--(UIFont*)emergencyInfoButtonFont {
-    return [self.styleSheet fontWithCssSelector:@".emergencyInfoButton" forState:UIControlStateNormal];
+-(UIFont*)bottomBarButtonFont {
+    return [self.styleSheet fontWithCssSelector:@".bottomBarButton" forState:UIControlStateNormal];
 }
 
 
@@ -62,12 +62,12 @@
 }
 
 // http://groups.google.com/group/three20/browse_thread/thread/186386848c1b7ab7?fwc=1
-- (TTStyle*)emergencyInfoButton:(UIControlState)state {
+- (TTStyle*)bottomBarButton:(UIControlState)state {
 //    TTDefaultCSSStyleSheet *styleSheet = [TTDefaultCSSStyleSheet globalCSSStyleSheet];
     
     TTShape* shape = [TTRectangleShape shape];
-    UIColor* tintColor = [self emergencyInfoButtonBackgroundColor];
-    return [TTSTYLESHEET toolbarButtonForState:state shape:shape tintColor:tintColor font:[self emergencyInfoButtonFont]];
+    UIColor* tintColor = [self bottomBarButtonBackgroundColor];
+    return [TTSTYLESHEET toolbarButtonForState:state shape:shape tintColor:tintColor font:[self bottomBarButtonFont]];
 }
 
 - (TTStyle*)embossedButton:(UIControlState)state {

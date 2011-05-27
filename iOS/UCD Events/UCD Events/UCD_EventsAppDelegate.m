@@ -12,6 +12,7 @@
 #import "LocationListViewController.h"
 #import "LocationDetailViewController.h"
 #import "EventListViewController.h"
+#import "EventViewContoller.h"
 #import "EventDetailViewController.h"
 #import "InfoViewController.h"
 #import "OffersViewController.h"

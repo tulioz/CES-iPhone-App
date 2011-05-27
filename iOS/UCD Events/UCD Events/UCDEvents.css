@@ -18,7 +18,7 @@
  * Common styles
  */
 body {
-  background-color: #1A1A1A;
+    background-color: #414042;
   color: black;
   font-size: 14pt;
 }
@@ -28,15 +28,15 @@ body:hover {
 }
 
 navigationBar {
-    background-color: #D7AA00;
+    background-color: #FFF200;
 }
 
 toolbar {
-  background-color: #EAC200;
+  background-color: #FFF200;
 }
 
 searchbar {
-  background-color: #EAC200;
+  background-color: #FFF200;
 }
 
 
@@ -120,8 +120,8 @@ searchTableSeparator {
   text-shadow: 0px 1px 0px #E6E6E6;
 }
 
-.emergencyInfoButton {
-    background-color: #D7AA00;
+.bottomBarButton {
+    background-color: #FFF200;
     font-size: 15pt;
     font-weight: bold;
 }
