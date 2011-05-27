@@ -407,8 +407,8 @@
 		3D8E2CF1138F8A4900DFEBB3 /* OffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersViewController.m; sourceTree = "<group>"; };
 		3D8E2CF2138F8A4900DFEBB3 /* places.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = places.png; sourceTree = "<group>"; };
 		3D8E2CF3138F8A4900DFEBB3 /* places@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "places@2x.png"; sourceTree = "<group>"; };
-		3D8E2CF4138F8A4900DFEBB3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
-		3D8E2CF5138F8A4900DFEBB3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
+		3D8E2CF4138F8A4900DFEBB3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3D8E2CF5138F8A4900DFEBB3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		3D8E2CF6138F8A4900DFEBB3 /* restaurants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurants.png; sourceTree = "<group>"; };
 		3D8E2CF7138F8A4900DFEBB3 /* restaurants@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restaurants@2x.png"; sourceTree = "<group>"; };
 		3D8E2CF8138F8A4900DFEBB3 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = ../Settings.h; sourceTree = "<group>"; };
@@ -608,6 +608,9 @@
 		3D1289F9138F89E4004233FC /* UCD Events */ = {
 			isa = PBXGroup;
 			children = (
+				3D493A6F13902EFA006B3A0B /* Settings */,
+				3D493A6E13902EB7006B3A0B /* App Delegate */,
+				3D493A6D13902EA9006B3A0B /* Reachability */,
 				3D493A65139028F8006B3A0B /* Resources */,
 				3D493A6A13902BBB006B3A0B /* Styles */,
 				3D493A6713902B51006B3A0B /* Events */,
@@ -615,19 +618,6 @@
 				3D493A6913902B8E006B3A0B /* Locations */,
 				3D493A6C13902BF4006B3A0B /* Maps */,
 				3D493A6B13902BE2006B3A0B /* Offers */,
-				3D8E2CF4138F8A4900DFEBB3 /* Reachability.h */,
-				3D8E2CF5138F8A4900DFEBB3 /* Reachability.m */,
-				3D8E2CF8138F8A4900DFEBB3 /* Settings.h */,
-				3D8E2CF9138F8A4900DFEBB3 /* Settings.m */,
-				3D8E2CFF138F8A4900DFEBB3 /* UCD Events-Prefix.pch */,
-				3D8E2D04138F8A4900DFEBB3 /* UCD_EventsViewController.h */,
-				3D8E2D05138F8A4900DFEBB3 /* UCD_EventsViewController.m */,
-				3D8E2D06138F8A4900DFEBB3 /* UCD_EventsViewController.xib */,
-				3D8E2D02138F8A4900DFEBB3 /* UCD_EventsAppDelegate.h */,
-				3D8E2D03138F8A4900DFEBB3 /* UCD_EventsAppDelegate.m */,
-				3DDBCCBB138FAE9400C5B7E7 /* Entitlements.plist */,
-				3D8E2CE7138F8A4900DFEBB3 /* MainWindow.xib */,
-				3D128A05138F89E4004233FC /* MainWindow.xib */,
 				3D1289FA138F89E4004233FC /* Supporting Files */,
 			);
 			path = "UCD Events";
@@ -636,6 +626,9 @@
 		3D1289FA138F89E4004233FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D8E2CFF138F8A4900DFEBB3 /* UCD Events-Prefix.pch */,
+				3DDBCCBB138FAE9400C5B7E7 /* Entitlements.plist */,
+				3D128A05138F89E4004233FC /* MainWindow.xib */,
 				320B6C86F11D9990244A9730 /* Three20.bundle */,
 				3D1289FB138F89E4004233FC /* UCD Events-Info.plist */,
 				3D1289FC138F89E4004233FC /* InfoPlist.strings */,
@@ -817,6 +810,38 @@
 			);
 			name = Maps;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		3D493A6D13902EA9006B3A0B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CF4138F8A4900DFEBB3 /* Reachability.h */,
+				3D8E2CF5138F8A4900DFEBB3 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D493A6E13902EB7006B3A0B /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CE7138F8A4900DFEBB3 /* MainWindow.xib */,
+				3D8E2D04138F8A4900DFEBB3 /* UCD_EventsViewController.h */,
+				3D8E2D05138F8A4900DFEBB3 /* UCD_EventsViewController.m */,
+				3D8E2D06138F8A4900DFEBB3 /* UCD_EventsViewController.xib */,
+				3D8E2D02138F8A4900DFEBB3 /* UCD_EventsAppDelegate.h */,
+				3D8E2D03138F8A4900DFEBB3 /* UCD_EventsAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		3D493A6F13902EFA006B3A0B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CF8138F8A4900DFEBB3 /* Settings.h */,
+				3D8E2CF9138F8A4900DFEBB3 /* Settings.m */,
+			);
+			name = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
