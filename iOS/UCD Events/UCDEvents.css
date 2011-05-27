@@ -66,7 +66,7 @@ searchTableSeparator {
  */
 
 .featuredTableItem {
-    background-color: yellow;
+    background-color: #FFF200;
     color: black;
 }
 
@@ -129,5 +129,11 @@ searchTableSeparator {
 .offerFrame {
     background-color: transparent;
     color: black;
+    font-size: 15pt;
+}
+
+.offerCard {
+    background-color: transparent;
+    color: #FFF200;
     font-size: 15pt;
 }
