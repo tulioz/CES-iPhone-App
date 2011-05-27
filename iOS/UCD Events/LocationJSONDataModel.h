@@ -9,7 +9,6 @@
 #import "LocationItem.h"
 
 #import <Three20/Three20.h>
-#import <extThree20XML/extThree20XML.h>
 #import <extThree20JSON/extThree20JSON.h>
 
 @interface LocationJSONDataModel : TTURLRequestModel {

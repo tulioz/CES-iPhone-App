@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D198CDB1342A726005C523B"
+               BlueprintIdentifier = "3D1289EE138F89E4004233FC"
                BuildableName = "UCD Events.app"
                BlueprintName = "UCD Events"
                ReferencedContainer = "container:UCD Events.xcodeproj">
@@ -31,7 +31,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D198CFE1342A727005C523B"
+               BlueprintIdentifier = "3D128A12138F89E5004233FC"
                BuildableName = "UCD EventsTests.octest"
                BlueprintName = "UCD EventsTests"
                ReferencedContainer = "container:UCD Events.xcodeproj">
@@ -50,24 +50,12 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3D198CDB1342A726005C523B"
+            BlueprintIdentifier = "3D1289EE138F89E4004233FC"
             BuildableName = "UCD Events.app"
             BlueprintName = "UCD Events"
             ReferencedContainer = "container:UCD Events.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "NSZombieEnabled"
-            value = "YES"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "MallocStackLoggingNoCompact"
-            value = "1"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -81,7 +69,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3D198CDB1342A726005C523B"
+            BlueprintIdentifier = "3D1289EE138F89E4004233FC"
             BuildableName = "UCD Events.app"
             BlueprintName = "UCD Events"
             ReferencedContainer = "container:UCD Events.xcodeproj">
