@@ -40,7 +40,7 @@
     
     TTURLCache *ttCache = [TTURLCache sharedCache];
     
-    [ttCache setDisableDiskCache:YES];
+    // [ttCache setDisableDiskCache:YES];
     
     //  TTNavigator Setup
     
