@@ -16,7 +16,7 @@
 
 -(void)viewDidLoad {
     self.title = eventsTitleString;
-    self.tableView.frame = CGRectMake(0, 0, 320, 385);
+    self.tableView.frame = CGRectMake(0, 0, 320, 370);
     
     TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"bottomBarButton:" title:@"View All Events"];
     [emergencyInfoButton addTarget:@"ucde://info/" action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];

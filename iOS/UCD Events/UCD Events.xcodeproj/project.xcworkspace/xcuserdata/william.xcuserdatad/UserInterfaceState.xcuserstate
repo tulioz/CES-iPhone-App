@@ -15881,7 +15881,7 @@
 				<integer>912</integer>
 			</dict>
 		</dict>
-		<string>UEStyleSheet.m</string>
+		<string>EventListViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -15894,7 +15894,7 @@
 				<integer>914</integer>
 			</dict>
 		</dict>
-		<string>Styles</string>
+		<string>Events</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -15958,7 +15958,7 @@
 				<integer>177</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/william/Documents/UC%20Davis/CES-iPhone-App/iOS/UCD%20Events/UCD%20Events/UEStyleSheet.m</string>
+			<string>file://localhost/Users/william/Documents/UC%20Davis/CES-iPhone-App/iOS/UCD%20Events/UCD%20Events/EventListViewController.m</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16342,10 +16342,10 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>328171916.10943502</real>
-		<string>{1362, 2009}</string>
-		<string>{2319, 0}</string>
-		<string>-bottomBarButton:</string>
+		<real>328172084.953583</real>
+		<string>{0, 1072}</string>
+		<string>{384, 0}</string>
+		<string>-viewDidLoad</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -16364,7 +16364,7 @@
 				<integer>962</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/CES-iPhone-App/iOS/UCD%20Events/UCD%20Events/UEStyleSheet.m</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/CES-iPhone-App/iOS/UCD%20Events/UCD%20Events/EventListViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -16806,7 +16806,7 @@
 			<key>NS.objects</key>
 			<array/>
 		</dict>
-		<string>UEStyleSheet.m</string>
+		<string>EventListViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -17585,10 +17585,6 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1086</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>1087</integer>
 				</dict>
 				<dict>
@@ -17601,19 +17597,23 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1091</integer>
+					<integer>1090</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1093</integer>
+					<integer>1092</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1095</integer>
+					<integer>1094</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1097</integer>
+					<integer>1096</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1098</integer>
 				</dict>
 			</array>
 		</dict>
@@ -17695,10 +17695,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>914</integer>
+					<integer>1086</integer>
 				</dict>
 			</array>
 		</dict>
+		<string>Styles</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -17783,7 +17784,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1090</integer>
+					<integer>1091</integer>
 				</dict>
 			</array>
 		</dict>
@@ -17802,7 +17803,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1092</integer>
+					<integer>1093</integer>
 				</dict>
 			</array>
 		</dict>
@@ -17829,7 +17830,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1094</integer>
+					<integer>1095</integer>
 				</dict>
 			</array>
 		</dict>
@@ -17856,7 +17857,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1096</integer>
+					<integer>1097</integer>
 				</dict>
 			</array>
 		</dict>
@@ -17883,11 +17884,10 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1098</integer>
+					<integer>914</integer>
 				</dict>
 			</array>
 		</dict>
-		<string>Events</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20758,7 +20758,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1092</integer>
+					<integer>1093</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20806,7 +20806,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1090</integer>
+					<integer>1091</integer>
 				</dict>
 			</array>
 		</dict>
@@ -53869,7 +53869,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1094</integer>
+					<integer>1095</integer>
 				</dict>
 			</array>
 		</dict>
@@ -53917,7 +53917,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1090</integer>
+					<integer>1091</integer>
 				</dict>
 			</array>
 		</dict>
@@ -53961,7 +53961,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1092</integer>
+					<integer>1093</integer>
 				</dict>
 			</array>
 		</dict>
@@ -75687,9 +75687,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>328171790.59786803</real>
+		<real>328172084.952371</real>
 		<string>{0, 1072}</string>
-		<string>{465, 0}</string>
+		<string>{384, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -77509,8 +77509,8 @@
 				</dict>
 			</array>
 		</dict>
-		<real>328171916.10824603</real>
-		<string>{1362, 2009}</string>
+		<real>328172026.08114398</real>
+		<string>{2063, 2408}</string>
 		<string>{2319, 0}</string>
 		<dict>
 			<key>$class</key>
@@ -84559,7 +84559,7 @@
 				<integer>4730</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>328171841.82970297</real>
+			<real>328172067.23884398</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -84570,7 +84570,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 11:50 PM</string>
+		<string>Today at 11:54 PM</string>
 		<integer>106</integer>
 		<string>Three20Core</string>
 		<dict>
@@ -86176,7 +86176,7 @@
 				<integer>4855</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/CES-iPhone-App/iOS/UCD%20Events/UCD%20Events/UEStyleSheet.m</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/CES-iPhone-App/iOS/UCD%20Events/UCD%20Events/EventListViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -86194,7 +86194,7 @@
 				<integer>4857</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/CES-iPhone-App/iOS/UCD%20Events/UCD%20Events/UEStyleSheet.h</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/CES-iPhone-App/iOS/UCD%20Events/UCD%20Events/UEStyleSheet.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -86212,7 +86212,7 @@
 				<integer>4859</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/william/Documents/UC%20Davis/CES-iPhone-App/iOS/UCD%20Events/UCD%20Events/EventListViewController.m</string>
+		<string>file://localhost/Users/william/Documents/UC%20Davis/CES-iPhone-App/iOS/UCD%20Events/UCD%20Events/UEStyleSheet.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -126343,7 +126343,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1098</integer>
+					<integer>914</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -126463,7 +126463,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1092</integer>
+					<integer>1093</integer>
 				</dict>
 			</array>
 		</dict>
@@ -126511,7 +126511,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1098</integer>
+					<integer>914</integer>
 				</dict>
 			</array>
 		</dict>
@@ -126891,7 +126891,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1098</integer>
+				<integer>914</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -127229,7 +127229,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1098</integer>
+				<integer>914</integer>
 			</dict>
 		</dict>
 		<dict>
