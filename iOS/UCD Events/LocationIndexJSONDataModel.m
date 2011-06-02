@@ -43,7 +43,7 @@
 		TTURLRequest *request = [TTURLRequest requestWithURL:loadURL delegate:self];
 	
 		// Define a cacheTimeout of 7 days
-		NSTimeInterval cacheTimeout = 7 * 24 * 60 * 60;
+		NSTimeInterval cacheTimeout = locationIndexTimeout;
 //        NSTimeInterval cacheTimeout = 1;
 		request.cachePolicy = cachePolicy;
 		request.cacheExpirationAge = cacheTimeout;

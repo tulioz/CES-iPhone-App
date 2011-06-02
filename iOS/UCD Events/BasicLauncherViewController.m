@@ -56,7 +56,7 @@
                             ],
                            [self launcherItemWithTitle:@"Shopping" 
                                                  image:@"bundle://shopping.png" 
-                                                   URL:@""
+                                                   URL:@"ucde://locationList/Shopping/3"
                             ],
                            [self launcherItemWithTitle:@"Restaurants" 
                                                  image:@"bundle://restaurants.png" 
@@ -72,7 +72,7 @@
                             ],
                            [self launcherItemWithTitle:@"Places" 
                                                  image:@"bundle://places.png" 
-                                                   URL:@""
+                                                   URL:@"ucde://locationList/Places/4"
                             ],
 						   [self launcherItemWithTitle:@"Map" 
                                                  image:@"bundle://maps.png" 

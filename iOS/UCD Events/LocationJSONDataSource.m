@@ -118,7 +118,7 @@
 }
 
 -(NSString *)titleForEmpty {
-	return @"Please try again later. Empty!";
+	return @"Please try again later.";
 }
 
 -(NSString *)titleForError:(NSError *)error {
@@ -126,7 +126,7 @@
 }
 
 -(NSString *)subtitleForError:(NSError *)error {
-	return @"Please try again later. Error!";
+	return @"Please try again later.";
 }
 
 

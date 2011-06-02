@@ -34,3 +34,11 @@ NSString *UCDButtonURL;
 NSString *weatherURL;
 
 NSString *moreEventsURL;
+
+BOOL cacheEnabled;
+
+NSTimeInterval locationIndexTimeout;
+NSTimeInterval locationItemTimeout;
+NSTimeInterval eventIndexTimeout;
+NSTimeInterval eventItemTimeout;
+NSTimeInterval offerIndexTimeout;

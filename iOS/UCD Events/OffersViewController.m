@@ -99,13 +99,13 @@
                                                             subtitle:@"Please try again."
                                                                image:nil] autorelease];
         errorView.backgroundColor = _scrollView.backgroundColor;
-        errorView.frame = CGRectMake(0, _scrollView.height / 2 , self.view.width, errorView.height);
+        errorView.frame = CGRectMake(0, self.view.height / 2 , self.view.width, errorView.height);
         [_scrollView addSubview:errorView];
     } else {
         TTActivityLabel* label = [[[TTActivityLabel alloc] initWithStyle:TTActivityLabelStyleWhite] autorelease];
         label.text = @"Loading...";
         [label sizeToFit];
-        label.frame = CGRectMake(0, _scrollView.height / 2 , self.view.width, label.height);
+        label.frame = CGRectMake(0, self.view.height / 2 , self.view.width, label.height);
         [_scrollView addSubview:label];
         _offersDataModel = [[OffersJSONDataModel alloc] init]; 
         self.model = _offersDataModel;
@@ -131,11 +131,11 @@
         pageView.userInteractionEnabled = NO;
     }
     
-    OffersStyledTextLabel* label = [[[OffersStyledTextLabel alloc] initWithFrame:CGRectMake(20, 20, 265, 300)] autorelease];
+    OffersStyledTextLabel* label = [[[OffersStyledTextLabel alloc] initWithFrame:CGRectMake(20, 20, 270, 300)] autorelease];
     OfferItem *currentOffer = [_offersDataModel.offers objectAtIndex:pageIndex];
 
     label.html = currentOffer.description;
-    
+
     [pageView addSubview:label];
     
     TTButton *locationInfoButton = [TTButton buttonWithStyle:@"embossedButton:" title:@"Location Information"];

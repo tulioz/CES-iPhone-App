@@ -38,9 +38,10 @@
     [self.window addSubview:viewController.view];
     [self.window makeKeyAndVisible];
     
-    TTURLCache *ttCache = [TTURLCache sharedCache];
-    
-    // [ttCache setDisableDiskCache:YES];
+    if (cacheEnabled) {
+        TTURLCache *ttCache = [TTURLCache sharedCache];
+        [ttCache setDisableDiskCache:NO];
+    }
     
     //  TTNavigator Setup
     

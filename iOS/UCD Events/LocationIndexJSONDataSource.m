@@ -83,9 +83,11 @@
                               @selector(caseInsensitiveCompare:)];
     
 //    Manually pin Featured Items to the top
-    [_sections addObject:@"Featured"];
-    [_items addObject:featuredCategory];   
-    
+    if ([featuredCategory count] != 0) {
+        [_sections addObject:@"Featured"];
+        [_items addObject:featuredCategory];  
+    }
+ 
 	for (NSString *currentCategory in categoryNames) {
 		NSArray *items = [categories objectForKey:currentCategory];
 		[_sections addObject:currentCategory];
@@ -139,22 +141,6 @@
 		_delegates = TTCreateNonRetainingArray();
 	}
 	return _delegates;
-}
-
--(NSString *)titleForLoading:(BOOL)reloading {
-	return @"Loading...";
-}
-
--(NSString *)titleForEmpty {
-	return @"Please try again later. Empty!";
-}
-
--(NSString *)titleForError:(NSError *)error {
-	return @"There was an error!";
-}
-
--(NSString *)subtitleForError:(NSError *)error {
-	return @"Please try again later. Error!";
 }
 
 #pragma mark -
