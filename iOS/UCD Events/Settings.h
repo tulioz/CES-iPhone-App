@@ -6,15 +6,28 @@ const NSString *apiDataFormat;
 const NSString *typesString;
 const NSString *locationsString;
 const NSString *offersString;
+const NSString *eventsString;
 
-const NSString *UCDPoliceDepartmentPhone;
-const NSString *UCDPoliceDepartmentAddr;
+const NSString *UCDPDEmergencyPhone;
+const NSString *UCDPDNonEmergencyPhone;
 const NSString *UCDFireDepartmentPhone;
 const NSString *UCDFireDepartmentAddr;
+const NSString *UCDFireLat;
+const NSString *UCDFireLong;
 const NSString *SutterDHSPhone;
 const NSString *SutterDHSAddr;
-const NSString *locationsString;
-const NSString *eventsString;
+const NSString *SutterDHSLat;
+const NSString *SutterDHSLong;
+const NSString *DavisPDPhone;
+const NSString *DavisPDAddr;
+const NSString *DavisPDLat;
+const NSString *DavisPDLong;
+const NSString *DavisFirePhone;
+const NSString *DavisFireAddr;
+const NSString *DavisFireLat;
+const NSString *DavisFireLong;
+
+
 NSString *eventsTitleString;
 
 NSString *UCDButtonURL;
