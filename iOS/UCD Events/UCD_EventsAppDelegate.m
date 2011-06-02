@@ -41,6 +41,11 @@
     if (cacheEnabled) {
         TTURLCache *ttCache = [TTURLCache sharedCache];
         [ttCache setDisableDiskCache:NO];
+        [ttCache setDisableImageCache:NO];
+    } else {
+        TTURLCache *ttCache = [TTURLCache sharedCache];
+        [ttCache setDisableDiskCache:YES];
+        [ttCache setDisableImageCache:YES];
     }
     
     //  TTNavigator Setup
