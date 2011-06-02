@@ -15,12 +15,12 @@ const NSString *typesString         = @"types";
 const NSString *locationsString     = @"locations";
 const NSString *offersString        = @"offers";
 
-const NSString *UCDPoliceDepartmentPhone    = @"4087201707";
-const NSString *UCDPoliceDepartmentAddr     = @"500 Lake Blvd, Davis, CA 95616";
+const NSString *UCDPoliceDepartmentPhone    = @"5307475400";
+const NSString *UCDPoliceDepartmentAddr     = @"2600 5th Street, Davis, CA 95618";
 const NSString *UCDFireDepartmentPhone      = @"4084312535";
-const NSString *UCDFireDepartmentAddr       = @"490 La Rue Road, Davis, CA 95616";
-const NSString *SutterDHSPhone              = @"5109445192";
-const NSString *SutterDHSAddr               = @"1 Main Street, Davis, CA 95616";
+const NSString *UCDFireDepartmentAddr       = @"530 5th Street, Davis, CA 95616";
+const NSString *SutterDHSPhone              = @"5307566440";
+const NSString *SutterDHSAddr               = @"2000 Sutter Place, Davis, CA 95616";
 const NSString *eventsString                = @"events";
 NSString *eventsTitleString                 = @"Featured Events";
 
