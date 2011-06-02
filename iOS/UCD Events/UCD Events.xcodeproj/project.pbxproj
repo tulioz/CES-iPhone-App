@@ -52,7 +52,6 @@
 		3D8E2D1D138F8A4900DFEBB3 /* hotels.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E2CC8138F8A4900DFEBB3 /* hotels.png */; };
 		3D8E2D1E138F8A4900DFEBB3 /* hotels@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E2CC9138F8A4900DFEBB3 /* hotels@2x.png */; };
 		3D8E2D1F138F8A4900DFEBB3 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E2CCB138F8A4900DFEBB3 /* InfoViewController.m */; };
-		3D8E2D20138F8A4900DFEBB3 /* LauncherViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E2CCD138F8A4900DFEBB3 /* LauncherViewTestController.m */; };
 		3D8E2D21138F8A4900DFEBB3 /* LocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E2CCF138F8A4900DFEBB3 /* LocationAnnotation.m */; };
 		3D8E2D22138F8A4900DFEBB3 /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E2CD1138F8A4900DFEBB3 /* LocationDetailViewController.m */; };
 		3D8E2D23138F8A4900DFEBB3 /* LocationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E2CD2138F8A4900DFEBB3 /* LocationDetailViewController.xib */; };
@@ -368,8 +367,6 @@
 		3D8E2CC9138F8A4900DFEBB3 /* hotels@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hotels@2x.png"; sourceTree = "<group>"; };
 		3D8E2CCA138F8A4900DFEBB3 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		3D8E2CCB138F8A4900DFEBB3 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
-		3D8E2CCC138F8A4900DFEBB3 /* LauncherViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherViewTestController.h; sourceTree = "<group>"; };
-		3D8E2CCD138F8A4900DFEBB3 /* LauncherViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherViewTestController.m; sourceTree = "<group>"; };
 		3D8E2CCE138F8A4900DFEBB3 /* LocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnnotation.h; sourceTree = "<group>"; };
 		3D8E2CCF138F8A4900DFEBB3 /* LocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAnnotation.m; sourceTree = "<group>"; };
 		3D8E2CD0138F8A4900DFEBB3 /* LocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailViewController.h; sourceTree = "<group>"; };
@@ -733,8 +730,6 @@
 			children = (
 				3D8E2CCA138F8A4900DFEBB3 /* InfoViewController.h */,
 				3D8E2CCB138F8A4900DFEBB3 /* InfoViewController.m */,
-				3D8E2CCC138F8A4900DFEBB3 /* LauncherViewTestController.h */,
-				3D8E2CCD138F8A4900DFEBB3 /* LauncherViewTestController.m */,
 				3D8E2D0C138F8A4900DFEBB3 /* UELauncherView.h */,
 				3D8E2D0D138F8A4900DFEBB3 /* UELauncherView.m */,
 				3D8E2CAC138F8A3900DFEBB3 /* BasicLauncherViewController.h */,
@@ -1179,7 +1174,6 @@
 				3D8E2D17138F8A4900DFEBB3 /* EventItemDataSource.m in Sources */,
 				3D8E2D18138F8A4900DFEBB3 /* EventListViewController.m in Sources */,
 				3D8E2D1F138F8A4900DFEBB3 /* InfoViewController.m in Sources */,
-				3D8E2D20138F8A4900DFEBB3 /* LauncherViewTestController.m in Sources */,
 				3D8E2D21138F8A4900DFEBB3 /* LocationAnnotation.m in Sources */,
 				3D8E2D22138F8A4900DFEBB3 /* LocationDetailViewController.m in Sources */,
 				3D8E2D24138F8A4900DFEBB3 /* LocationIndexJSONDataModel.m in Sources */,

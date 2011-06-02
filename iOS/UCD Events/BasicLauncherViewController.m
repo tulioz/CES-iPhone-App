@@ -92,7 +92,7 @@
     
 
     
-    TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"bottomBarButton:" title:@"Emergency Information"];
+    TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"launcherBottomBarButton:" title:@"Emergency Information"];
     [emergencyInfoButton addTarget:@"ucde://info/" action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];
     [emergencyInfoButton setFrame:CGRectMake(0, 370, 320, 50)];
     

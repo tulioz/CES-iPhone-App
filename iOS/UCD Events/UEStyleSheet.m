@@ -47,6 +47,13 @@
     return [self.styleSheet fontWithCssSelector:@".bottomBarButton" forState:UIControlStateNormal];
 }
 
+-(UIColor*)launcherBottomBarButtonBackgroundColor {
+    return [self.styleSheet backgroundColorWithCssSelector:@".launcherBottomBarButton" forState:UIControlStateNormal];
+}
+
+-(UIFont*)launcherBottomBarButtonFont {
+    return [self.styleSheet fontWithCssSelector:@".launcherBottomBarButton" forState:UIControlStateNormal];
+}
 
 -(UIColor*)offerFrameBackgroundColor {
     return [self.styleSheet backgroundColorWithCssSelector:@".offerFrame" forState:UIControlStateNormal];
@@ -60,15 +67,15 @@
     return [self.styleSheet fontWithCssSelector:@".offerFrame" forState:UIControlStateNormal];
 }
 
--(TTStyle*)offerTitle {
-    return [TTTextStyle styleWithFont:[self offerTitleFont] color:[self offerTitleColor] next:
-            [TTSolidFillStyle styleWithColor:[self offerTitleBackgroundColor] next:nil]];
+// http://groups.google.com/group/three20/browse_thread/thread/186386848c1b7ab7?fwc=1
+- (TTStyle*)launcherBottomBarButton:(UIControlState)state {
+    TTShape* shape = [TTRectangleShape shape];
+    UIColor* tintColor = [self launcherBottomBarButtonBackgroundColor];
+    return [TTSTYLESHEET toolbarButtonForState:state shape:shape tintColor:tintColor font:[self launcherBottomBarButtonFont]];
 }
 
 // http://groups.google.com/group/three20/browse_thread/thread/186386848c1b7ab7?fwc=1
 - (TTStyle*)bottomBarButton:(UIControlState)state {
-//    TTDefaultCSSStyleSheet *styleSheet = [TTDefaultCSSStyleSheet globalCSSStyleSheet];
-    
     TTShape* shape = [TTRectangleShape shape];
     UIColor* tintColor = [self bottomBarButtonBackgroundColor];
     return [TTSTYLESHEET toolbarButtonForState:state shape:shape tintColor:tintColor font:[self bottomBarButtonFont]];
