@@ -29,11 +29,14 @@
     [sections addObject:@"Sutter Davis Hospital"];
     
     //Basic
+    NSString *url = [self openGoogleMapsWithDestinationLatitude:UDPDlat longitude:UCDPDlong];
     NSArray *UCDPD = [NSArray arrayWithObjects:
-                      [TTTableCaptionItem itemWithText:[self formatPhoneString:UCDPoliceDepartmentPhone] caption:@"phone"],
-                      [TTTableCaptionItem itemWithText:UCDPoliceDepartmentAddr caption:@"address"],
+                      [TTTableCaptionItem itemWithText:[self formatPhoneString:UCDPoliceDepartmentPhone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", UCDPoliceDepartmentPhone]],
+                      [TTTableCaptionItem itemWithText:UCDPoliceDepartmentAddr caption:@"address" URL:url],
                       nil
                       ];
+    
+    
     // Contact
     NSArray *UCDFD = [NSArray arrayWithObjects:
                       [TTTableCaptionItem itemWithText:[self formatPhoneString:UCDFireDepartmentPhone] caption:@"phone"],
@@ -71,6 +74,15 @@
 	
 	return [NSString stringWithFormat:@"+1 (%@) %@-%@", areaCode, phonePart1, phonePart2];		
 }
+
+-(NSString *)openGoogleMapsWithDestinationLatitude:(NSString *)latitude longitude:(NSString *)longitude{
+    NSString *formatString = @"http://maps.google.com/maps?saddr=Current+Location&daddr=%@,%@"; 
+    
+	NSString *url = [NSString stringWithFormat:formatString, latitude, longitude];
+    
+    return url;
+}
+
 
 -(id<UITableViewDelegate>)createDelegate {
     return [[[TTTableViewVarHeightDelegate alloc] initWithController:self] autorelease];

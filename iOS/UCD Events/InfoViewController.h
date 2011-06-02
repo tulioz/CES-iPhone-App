@@ -14,4 +14,6 @@
 }
 
 -(NSString *) formatPhoneString:(NSString *) rawString;
+-(NSString* )openGoogleMapsWithDestinationLatitude:(NSString *)latitude longitude:(NSString *)longitude;
+
 @end
