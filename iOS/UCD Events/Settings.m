@@ -48,3 +48,4 @@ NSTimeInterval locationItemTimeout = 0;
 NSTimeInterval eventIndexTimeout = 0;
 NSTimeInterval eventItemTimeout = 0;
 NSTimeInterval offerIndexTimeout = 0;
+NSString *moreEventsURL       = @"http://calendar.ucdavis.edu/";
