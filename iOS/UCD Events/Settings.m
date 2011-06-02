@@ -41,7 +41,7 @@ NSString *UCDButtonURL        = @"http://events.ucdavis.edu";
 NSString *weatherURL          = @"http://www.accuweather.com/m/en-us/US/CA/Davis/Quick-Look.aspx";
 NSString *moreEventsURL       = @"http://calendar.ucdavis.edu/";
 
-BOOL cacheEnabled = YES;
+BOOL cacheEnabled = NO;
 
 NSTimeInterval locationIndexTimeout = 0;
 NSTimeInterval locationItemTimeout = 0;
