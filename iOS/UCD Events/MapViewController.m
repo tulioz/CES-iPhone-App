@@ -8,11 +8,6 @@
 
 #import "MapViewController.h"
 
-#define kWalking 0
-#define kDriving 1
-#define kPublicTransit 2
-#define kCancelButton 3
-
 @implementation MapViewController
 
 @synthesize mapView;
@@ -25,11 +20,6 @@
     return self;
 }
 
-//-(id)initWithAddress:(LocationItem *)locationItem {
-//    [self setCurrentLocation:locationItem.coordinate];
-    
-//}
-
 -(void)viewDidLoad {
     self.title = @"Map";
     mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
@@ -40,18 +30,9 @@
     
     [self setCurrentLocation:myLocation];
     
-
-    
 //    from http://stackoverflow.com/questions/2473706/how-do-i-zoom-an-mkmapview-to-the-users-current-location-without-cllocationmanage
     
     self.mapView.showsUserLocation = TRUE;
-//    
-//    [self.mapView.userLocation addObserver:self 
-//                                forKeyPath:@"location" 
-//                                   options:(NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld) 
-//                                   context:NULL];
-    
-//    self.mapView.region = MKCoordinateRegionMake();
     
 }
 
@@ -75,13 +56,5 @@
     return annotationView;
     
 }
-
--(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-    if ([self.mapView isUserLocationVisible]) {
-//        [self moveOr
-    }
-}
-
-
 
 @end
