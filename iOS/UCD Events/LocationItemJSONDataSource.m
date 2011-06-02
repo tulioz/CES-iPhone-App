@@ -110,7 +110,7 @@
 
 // open the Google Maps application with start and end locations
 -(NSString *)openGoogleMapsWithDestinationLatitude:(NSString *)latitude longitude:(NSString *)longitude{
-    NSString *formatString = @"http://maps.google.com/maps?daddr=%@,%@"; 
+    NSString *formatString = @"http://maps.google.com/maps?saddr=Current+Location&daddr=%@,%@"; 
     
 	NSString *url = [NSString stringWithFormat:formatString, latitude, longitude];
        
