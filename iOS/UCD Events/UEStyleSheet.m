@@ -31,6 +31,10 @@
     return [TTTextStyle styleWithFont:[UIFont systemFontOfSize:12] next:nil];
 }
 
+-(UIColor*)launcherNavigationBarBackgroundColor {
+    return [self.styleSheet backgroundColorWithCssSelector:@"launcherNavigationBar" forState:UIControlStateNormal];
+}
+
 -(UIColor*)featuredBackgroundColor {
     return [self.styleSheet backgroundColorWithCssSelector:@".featuredTableItem" forState:UIControlStateNormal];
 }
