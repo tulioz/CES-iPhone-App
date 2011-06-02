@@ -8,6 +8,7 @@
 
 #import "BasicLauncherViewController.h"
 #import "Three20UI/UIViewAdditions.h"
+#import "Settings.h"
 
 @interface BasicLauncherViewController(Private)
 - (TTLauncherItem *)launcherItemWithTitle:(NSString *)pTitle image:(NSString *)image URL:(NSString *)url;
@@ -51,19 +52,19 @@
 						  [NSArray arrayWithObjects:
 						   [self launcherItemWithTitle:@"Weather" 
                                                  image:@"bundle://weather.png" 
-                                                   URL:@"http://www.accuweather.com/m/en-us/US/CA/Davis/Quick-Look.aspx"
+                                                   URL:weatherURL
                             ],
                            [self launcherItemWithTitle:@"Shopping" 
                                                  image:@"bundle://shopping.png" 
-                                                   URL:@"http://maps.google.com/maps/place?cid=9237992642497654431&q=panda+express+davis+ca&hl=en&sll=38.560978,-121.766971&sspn=0.035357,0.058199&ie=UTF8&ll=38.686582,-121.81057&spn=0,0&z=12"
+                                                   URL:@""
                             ],
                            [self launcherItemWithTitle:@"Restaurants" 
                                                  image:@"bundle://restaurants.png" 
                                                    URL:@"ucde://locationList/Restaurants/1"
                             ],
                            [self launcherItemWithTitle:@"Hotels" 
-                                                 image:@"ucde://locationList/Hotels/2" 
-                                                   URL:@""
+                                                 image:@"bundle://hotels.png" 
+                                                   URL:@"ucde://locationList/Hotels/2"
                             ],
                            [self launcherItemWithTitle:@"Deals" 
                                                  image:@"bundle://deals.png" 
@@ -83,7 +84,7 @@
                             ],
 						   [self launcherItemWithTitle:@"UC Davis" 
                                                  image:@"bundle://ucd.png" 
-                                                   URL:@""
+                                                   URL:UCDButtonURL
                             ],
                            nil],
                           nil];

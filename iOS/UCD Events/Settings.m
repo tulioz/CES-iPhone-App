@@ -22,4 +22,8 @@ const NSString *UCDFireDepartmentAddr       = @"490 La Rue Road, Davis, CA 95616
 const NSString *SutterDHSPhone              = @"5109445192";
 const NSString *SutterDHSAddr               = @"1 Main Street, Davis, CA 95616";
 const NSString *eventsString                = @"events";
-NSString *eventsTitleString                 = @"Events";
+NSString *eventsTitleString                 = @"Featured Events";
+
+NSString *UCDButtonURL        = @"";
+NSString *weatherURL          = @"http://www.accuweather.com/m/en-us/US/CA/Davis/Quick-Look.aspx";
+NSString *moreEventsURL       = @"";

@@ -15,3 +15,8 @@ const NSString *SutterDHSPhone;
 const NSString *SutterDHSAddr;const NSString *locationsString;
 const NSString *eventsString;
 NSString *eventsTitleString;
+
+NSString *UCDButtonURL;
+NSString *weatherURL;
+
+NSString *moreEventsURL;
