@@ -12,6 +12,7 @@ const NSString *UCDPoliceDepartmentAddr;
 const NSString *UCDFireDepartmentPhone;
 const NSString *UCDFireDepartmentAddr;
 const NSString *SutterDHSPhone;
-const NSString *SutterDHSAddr;const NSString *locationsString;
+const NSString *SutterDHSAddr;
+const NSString *locationsString;
 const NSString *eventsString;
 NSString *eventsTitleString;
