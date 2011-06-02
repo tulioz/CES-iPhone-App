@@ -42,7 +42,7 @@
 	NSString *UCDFDurl = [self openGoogleMapsWithDestinationLatitude:UCDFireLat longitude:UCDFireLong];
     NSArray *UCDFD = [NSArray arrayWithObjects:
                       [TTTableCaptionItem itemWithText:[self formatPhoneString:UCDFireDepartmentPhone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", UCDFireDepartmentPhone]],                    
-					  [TTTableCaptionItem itemWithText:SutterDHSAddr caption:@"address" URL:UCDFDurl],
+					  [TTTableCaptionItem itemWithText:UCDFireDepartmentAddr caption:@"address" URL:UCDFDurl],
 					  nil
                       ];
 	
