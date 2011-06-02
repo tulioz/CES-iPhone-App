@@ -12,14 +12,6 @@
 
 @synthesize mapView;
 
--(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        //custom
-    }
-    
-    return self;
-}
-
 -(void)viewDidLoad {
     self.title = @"Map";
     mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
@@ -45,16 +37,11 @@
     [self.mapView setRegion:region animated:YES];
 }
 
-// http://mithin.in/2009/06/22/using-iphone-sdk-mapkit-framework-a-tutorial
--(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation {
-    MKPinAnnotationView *annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"currentloc"];
-    
-    annotationView.pinColor = MKPinAnnotationColorGreen;
-    annotationView.animatesDrop = TRUE;
-    annotationView.canShowCallout = YES;
-    annotationView.calloutOffset = CGPointMake(-5, 5);
-    return annotationView;
-    
+// add a dealloc
+- (void) dealloc
+{
+    TT_RELEASE_SAFELY(mapView);
 }
+
 
 @end

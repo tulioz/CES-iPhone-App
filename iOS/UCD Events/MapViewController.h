@@ -22,12 +22,3 @@
 -(void)setCurrentLocation:(CLLocation *)location;
 
 @end
-
-
-@interface AnnotationDelegate : NSObject <MKAnnotation> {
-    CLLocationCoordinate2D coordinate;
-    NSString * title;
-    NSString * subtitle;
-}
-
-@end
