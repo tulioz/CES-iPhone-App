@@ -39,4 +39,4 @@ NSString *eventsTitleString                 = @"Featured Events";
 
 NSString *UCDButtonURL        = @"http://events.ucdavis.edu";
 NSString *weatherURL          = @"http://www.accuweather.com/m/en-us/US/CA/Davis/Quick-Look.aspx";
-NSString *moreEventsURL       = @"";
+NSString *moreEventsURL       = @"http://calendar.ucdavis.edu/";
