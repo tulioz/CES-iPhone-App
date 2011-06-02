@@ -53,6 +53,26 @@
                                                  image:@"bundle://weather.png" 
                                                    URL:@"http://www.accuweather.com/m/en-us/US/CA/Davis/Quick-Look.aspx"
                             ],
+                           [self launcherItemWithTitle:@"Shopping" 
+                                                 image:@"bundle://shopping.png" 
+                                                   URL:@"http://maps.google.com/maps/place?cid=9237992642497654431&q=panda+express+davis+ca&hl=en&sll=38.560978,-121.766971&sspn=0.035357,0.058199&ie=UTF8&ll=38.686582,-121.81057&spn=0,0&z=12"
+                            ],
+                           [self launcherItemWithTitle:@"Restaurants" 
+                                                 image:@"bundle://restaurants.png" 
+                                                   URL:@"ucde://locationList/Restaurants/1"
+                            ],
+                           [self launcherItemWithTitle:@"Hotels" 
+                                                 image:@"ucde://locationList/Hotels/2" 
+                                                   URL:@""
+                            ],
+                           [self launcherItemWithTitle:@"Deals" 
+                                                 image:@"bundle://deals.png" 
+                                                   URL:@"ucde://offers/"
+                            ],
+                           [self launcherItemWithTitle:@"Places" 
+                                                 image:@"bundle://places.png" 
+                                                   URL:@""
+                            ],
 						   [self launcherItemWithTitle:@"Map" 
                                                  image:@"bundle://maps.png" 
                                                    URL:@"ucde://map/"
@@ -60,26 +80,6 @@
 						   [self launcherItemWithTitle:@"Events" 
                                                  image:@"bundle://events.png" 
                                                    URL:@"ucde://events/"
-                            ],
-						   [self launcherItemWithTitle:@"Special Offers" 
-                                                 image:@"bundle://deals.png" 
-                                                   URL:@"ucde://offers/"
-                            ],
-						   [self launcherItemWithTitle:@"Restaurants" 
-                                                 image:@"bundle://restaurants.png" 
-                                                   URL:@"ucde://locationList/Restaurants/1"
-                            ],
-						   [self launcherItemWithTitle:@"Shopping" 
-                                                 image:@"bundle://shopping.png" 
-                                                   URL:@"http://maps.google.com/maps/place?cid=9237992642497654431&q=panda+express+davis+ca&hl=en&sll=38.560978,-121.766971&sspn=0.035357,0.058199&ie=UTF8&ll=38.686582,-121.81057&spn=0,0&z=12"
-                            ],
-						   [self launcherItemWithTitle:@"Hotels" 
-                                                 image:@"bundle://hotels.png" 
-                                                   URL:@""
-                            ],
-                           [self launcherItemWithTitle:@"Places" 
-                                                 image:@"bundle://places.png" 
-                                                   URL:@""
                             ],
 						   [self launcherItemWithTitle:@"UC Davis" 
                                                  image:@"bundle://ucd.png" 
