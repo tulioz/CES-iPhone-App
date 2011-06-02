@@ -65,7 +65,7 @@
 	// City of Davis Fire Dept
 	NSString *DavisFDurl = [self openGoogleMapsWithDestinationLatitude:DavisFireLat longitude:DavisFireLong];
     NSArray *DavisFD = [NSArray arrayWithObjects:
-                      [TTTableCaptionItem itemWithText:[self formatPhoneString:DavisPDPhone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", DavisFirePhone]],
+                      [TTTableCaptionItem itemWithText:[self formatPhoneString:DavisFirePhone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", DavisFirePhone]],
                       [TTTableCaptionItem itemWithText:DavisFireAddr caption:@"address" URL:DavisFDurl],
                       nil
                       ];
