@@ -37,6 +37,6 @@ const NSString *DavisFireLong				= @"-121.742462";
 
 NSString *eventsTitleString                 = @"Featured Events";
 
-NSString *UCDButtonURL        = @"";
+NSString *UCDButtonURL        = @"http://events.ucdavis.edu";
 NSString *weatherURL          = @"http://www.accuweather.com/m/en-us/US/CA/Davis/Quick-Look.aspx";
 NSString *moreEventsURL       = @"";

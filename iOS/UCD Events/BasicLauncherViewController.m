@@ -84,7 +84,7 @@
                             ],
 						   [self launcherItemWithTitle:@"UC Davis" 
                                                  image:@"bundle://ucd.png" 
-                                                   URL:@"http://events.ucdavis.edu"
+                                                   URL:UCDButtonURL
                             ],
                            nil],
                           nil];

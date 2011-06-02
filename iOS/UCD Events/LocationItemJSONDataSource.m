@@ -56,6 +56,8 @@
     
     [self.sections addObject:@"Directions"];
     
+    NSString *url = [self openGoogleMapsWithDestinationLatitude:location.latitude longitude:location.longitude];
+    
     //Basic
     NSArray *basic = [NSArray arrayWithObjects:
                       [TTTableCaptionItem itemWithText:location.name caption:@"name"],
@@ -65,16 +67,13 @@
     // Contact
     NSArray *contact = [NSArray arrayWithObjects:
                         [TTTableCaptionItem itemWithText:[self formatPhoneString:location.phone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", location.phone]],
-                        [TTTableCaptionItem itemWithText:location.address caption:@"address" URL:@""],
+                        [TTTableCaptionItem itemWithText:location.address caption:@"address" URL:url],
                         nil];
     
     // Description
     NSArray *description = [NSArray arrayWithObjects:
                             [TTTableLongTextItem itemWithText:location.description]
                             , nil];
-
-    
-    NSString *url = [self openGoogleMapsWithDestinationLatitude:location.latitude longitude:location.longitude];
     
     
     // Directions
