@@ -8,6 +8,7 @@
 
 #import "BasicLauncherViewController.h"
 #import "Three20UI/UIViewAdditions.h"
+#import "Settings.h"
 
 @interface BasicLauncherViewController(Private)
 - (TTLauncherItem *)launcherItemWithTitle:(NSString *)pTitle image:(NSString *)image URL:(NSString *)url;
@@ -23,8 +24,6 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"Home";
-        self.navigationBarTintColor = [UIColor colorWithRed:255.0 green:242.0 blue:0.0 alpha:0.0]; 
-
     }
     return self;
 }
@@ -52,7 +51,27 @@
 						  [NSArray arrayWithObjects:
 						   [self launcherItemWithTitle:@"Weather" 
                                                  image:@"bundle://weather.png" 
-                                                   URL:@"http://www.accuweather.com/m/en-us/US/CA/Davis/Quick-Look.aspx"
+                                                   URL:weatherURL
+                            ],
+                           [self launcherItemWithTitle:@"Shopping" 
+                                                 image:@"bundle://shopping.png" 
+                                                   URL:@""
+                            ],
+                           [self launcherItemWithTitle:@"Restaurants" 
+                                                 image:@"bundle://restaurants.png" 
+                                                   URL:@"ucde://locationList/Restaurants/1"
+                            ],
+                           [self launcherItemWithTitle:@"Hotels" 
+                                                 image:@"bundle://hotels.png" 
+                                                   URL:@"ucde://locationList/Hotels/2"
+                            ],
+                           [self launcherItemWithTitle:@"Deals" 
+                                                 image:@"bundle://deals.png" 
+                                                   URL:@"ucde://offers/"
+                            ],
+                           [self launcherItemWithTitle:@"Places" 
+                                                 image:@"bundle://places.png" 
+                                                   URL:@""
                             ],
 						   [self launcherItemWithTitle:@"Map" 
                                                  image:@"bundle://maps.png" 
@@ -62,29 +81,9 @@
                                                  image:@"bundle://events.png" 
                                                    URL:@"ucde://events/"
                             ],
-						   [self launcherItemWithTitle:@"Special Offers" 
-                                                 image:@"bundle://deals.png" 
-                                                   URL:@"ucde://offers/"
-                            ],
-						   [self launcherItemWithTitle:@"Restaurants" 
-                                                 image:@"bundle://restaurants.png" 
-                                                   URL:@"ucde://locationList/Restaurants/1"
-                            ],
-						   [self launcherItemWithTitle:@"Shopping" 
-                                                 image:@"bundle://shopping.png" 
-                                                   URL:@"http://maps.google.com/maps/place?cid=9237992642497654431&q=panda+express+davis+ca&hl=en&sll=38.560978,-121.766971&sspn=0.035357,0.058199&ie=UTF8&ll=38.686582,-121.81057&spn=0,0&z=12"
-                            ],
-						   [self launcherItemWithTitle:@"Hotels" 
-                                                 image:@"bundle://hotels.png" 
-                                                   URL:@""
-                            ],
-                           [self launcherItemWithTitle:@"Places" 
-                                                 image:@"bundle://places.png" 
-                                                   URL:@""
-                            ],
 						   [self launcherItemWithTitle:@"UC Davis" 
                                                  image:@"bundle://ucd.png" 
-                                                   URL:@""
+                                                   URL:UCDButtonURL
                             ],
                            nil],
                           nil];

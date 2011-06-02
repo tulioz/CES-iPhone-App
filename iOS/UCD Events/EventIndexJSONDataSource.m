@@ -54,11 +54,14 @@
 //	TT_RELEASE_SAFELY(sortByName);
 	
 	NSMutableDictionary *sections = [NSMutableDictionary dictionary];
-	
+	NSMutableArray *sectionNames = [NSMutableArray array];
+    
 	for (EventItem *event in eventsFromModel) {
 		NSDate *eventDate = event.date;
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         [dateFormatter setDateFormat:@"MMMM YYYY"];
+        
+        NSLog(@"Date is %@\n", event.date);
 
         NSString *sectionHeader = [dateFormatter stringFromDate:eventDate];
         TT_RELEASE_SAFELY(dateFormatter);
@@ -70,6 +73,7 @@
 		if (!section) {
 			section = [NSMutableArray array];
 			[sections setObject:section forKey:sectionHeader];
+            [sectionNames addObject:sectionHeader];
 		}
 		
         NSString *itemURL = [self getURLForEventId:event.iD];
@@ -81,7 +85,8 @@
 		[section addObject:newTableItem];
 	}
 	
-    NSArray *sectionNames = [sections allKeys];
+//    NSArray *sectionNames = [sections allKeys];
+    
 //	NSArray *sectionNames = [sections.allKeys sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
 	for (NSString *currentSection in sectionNames) {
 		NSArray *items = [sections objectForKey:currentSection];
