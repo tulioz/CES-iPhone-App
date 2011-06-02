@@ -24,6 +24,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"Home";
+        self.navigationBarTintColor = [UIColor colorWithRed:255.0 green:242.0 blue:0.0 alpha:0.0]; 
     }
     return self;
 }
