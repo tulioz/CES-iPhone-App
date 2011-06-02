@@ -19,8 +19,8 @@
  */
 body {
     background-color: #414042;
-  color: black;
-  font-size: 14pt;
+    color: black;
+    font-size: 14pt;
 }
 
 body:hover {
@@ -29,6 +29,10 @@ body:hover {
 
 navigationBar {
     background-color: #414042; /* Switched from FFF200 */
+}
+
+launcherItem {
+    color: white;
 }
 
 launcherNavigationBar {
@@ -124,8 +128,14 @@ searchTableSeparator {
   text-shadow: 0px 1px 0px #E6E6E6;
 }
 
-.bottomBarButton {
+.launcherBottomBarButton {
     background-color: #FFF200;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.bottomBarButton {
+    background-color: #414042;
     font-size: 15pt;
     font-weight: bold;
 }

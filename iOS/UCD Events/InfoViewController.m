@@ -27,32 +27,56 @@
     [sections addObject:@"UC Davis Police Department"];
     [sections addObject:@"UC Davis Fire Department"];
     [sections addObject:@"Sutter Davis Hospital"];
-    
-    //Basic
-//    NSString *url = [self openGoogleMapsWithDestinationLatitude:UDPDlat longitude:UCDPDlong];
+    [sections addObject:@"City of Davis Police Department"];
+	[sections addObject:@"City of Davis Fire Department"];
+	
+    // UC Davis Police Department
     NSArray *UCDPD = [NSArray arrayWithObjects:
-                      [TTTableCaptionItem itemWithText:[self formatPhoneString:UCDPoliceDepartmentPhone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", UCDPoliceDepartmentPhone]],
-                      [TTTableCaptionItem itemWithText:UCDPoliceDepartmentAddr caption:@"address" /*URL:url*/],
-                      nil
+                      [TTTableCaptionItem itemWithText:[self formatPhoneString:UCDPDEmergencyPhone] caption:@"emergency" URL:[NSString stringWithFormat:@"tel:%@", UCDPDEmergencyPhone]],
+                      [TTTableCaptionItem itemWithText:[self formatPhoneString:UCDPDNonEmergencyPhone] caption:@"non-emergency" URL:[NSString stringWithFormat:@"tel:%@", UCDPDNonEmergencyPhone]],
+					  nil
                       ];
     
     
-    // Contact
+    // UC Davis Fire Department
+	NSString *UCDFDurl = [self openGoogleMapsWithDestinationLatitude:UCDFireLat longitude:UCDFireLong];
     NSArray *UCDFD = [NSArray arrayWithObjects:
-                      [TTTableCaptionItem itemWithText:[self formatPhoneString:UCDFireDepartmentPhone] caption:@"phone"],
-                      [TTTableCaptionItem itemWithText:UCDFireDepartmentAddr caption:@"address"],
-                      nil
+                      [TTTableCaptionItem itemWithText:[self formatPhoneString:UCDFireDepartmentPhone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", UCDFireDepartmentPhone]],                    
+					  [TTTableCaptionItem itemWithText:SutterDHSAddr caption:@"address" URL:UCDFDurl],
+					  nil
                       ];
+	
+	// Sutter Davis Hospital
+	NSString *SutterDHSurl = [self openGoogleMapsWithDestinationLatitude:SutterDHSLat longitude:SutterDHSLong];
     NSArray *SutterDHS = [NSArray arrayWithObjects:
-                      [TTTableCaptionItem itemWithText:[self formatPhoneString:SutterDHSPhone] caption:@"phone"],
-                      [TTTableCaptionItem itemWithText:SutterDHSAddr caption:@"address"],
+                      [TTTableCaptionItem itemWithText:[self formatPhoneString:SutterDHSPhone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", SutterDHSPhone]],
+                      [TTTableCaptionItem itemWithText:SutterDHSAddr caption:@"address" URL:SutterDHSurl],
                       nil
                       ];
+					  
+	// City of Davis Police Dept
+	NSString *DavisPDurl = [self openGoogleMapsWithDestinationLatitude:DavisPDLat longitude:DavisPDLong];
+    NSArray *DavisPD = [NSArray arrayWithObjects:
+                      [TTTableCaptionItem itemWithText:[self formatPhoneString:DavisPDPhone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", DavisPDPhone]],
+                      [TTTableCaptionItem itemWithText:DavisPDAddr caption:@"address" URL:DavisPDurl],
+                      nil
+                      ];
+	
+	// City of Davis Fire Dept
+	NSString *DavisFDurl = [self openGoogleMapsWithDestinationLatitude:DavisFireLat longitude:DavisFireLong];
+    NSArray *DavisFD = [NSArray arrayWithObjects:
+                      [TTTableCaptionItem itemWithText:[self formatPhoneString:DavisPDPhone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", DavisFirePhone]],
+                      [TTTableCaptionItem itemWithText:DavisFireAddr caption:@"address" URL:DavisFDurl],
+                      nil
+                      ];
+	
     
     // Description
     [items addObject:UCDPD];
     [items addObject:UCDFD];
     [items addObject:SutterDHS];
+	[items addObject:DavisPD];
+	[items addObject:DavisFD];
     self.dataSource = [TTSectionedDataSource 
                         dataSourceWithItems:items sections:sections];
 }
