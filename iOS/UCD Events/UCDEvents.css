@@ -31,6 +31,10 @@ navigationBar {
     background-color: #414042; /* Switched from FFF200 */
 }
 
+launcherItem {
+    color: white;
+}
+
 launcherNavigationBar {
     background-color: #FFF200; /* Switched from FFF200 */
 }

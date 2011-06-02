@@ -29,10 +29,10 @@
     [sections addObject:@"Sutter Davis Hospital"];
     
     //Basic
-    NSString *url = [self openGoogleMapsWithDestinationLatitude:UDPDlat longitude:UCDPDlong];
+//    NSString *url = [self openGoogleMapsWithDestinationLatitude:UDPDlat longitude:UCDPDlong];
     NSArray *UCDPD = [NSArray arrayWithObjects:
                       [TTTableCaptionItem itemWithText:[self formatPhoneString:UCDPoliceDepartmentPhone] caption:@"phone" URL:[NSString stringWithFormat:@"tel:%@", UCDPoliceDepartmentPhone]],
-                      [TTTableCaptionItem itemWithText:UCDPoliceDepartmentAddr caption:@"address" URL:url],
+//                      [TTTableCaptionItem itemWithText:UCDPoliceDepartmentAddr caption:@"address" URL:url],
                       nil
                       ];
     

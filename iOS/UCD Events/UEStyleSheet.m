@@ -67,6 +67,16 @@
     return [self.styleSheet fontWithCssSelector:@".offerFrame" forState:UIControlStateNormal];
 }
 
+- (TTStyle*)launcherButton:(UIControlState)state {
+    return
+    [TTPartStyle styleWithName:@"image" style:TTSTYLESTATE(launcherButtonImage:, state) next:
+     [TTTextStyle styleWithFont:[UIFont boldSystemFontOfSize:11] 
+                          color:[self.styleSheet colorWithCssSelector:@"launcherItem" forState:UIControlStateNormal]
+                minimumFontSize:11 shadowColor:nil
+                   shadowOffset:CGSizeZero next:nil]
+     ];
+}
+
 // http://groups.google.com/group/three20/browse_thread/thread/186386848c1b7ab7?fwc=1
 - (TTStyle*)launcherBottomBarButton:(UIControlState)state {
     TTShape* shape = [TTRectangleShape shape];
