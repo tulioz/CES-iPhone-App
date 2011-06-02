@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24744F79138F9371007F22E9 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24744F78138F9370007F22E9 /* Entitlements.plist */; };
 		32005DD2DD4BE82AFAA88C85 /* libextThree20JSON+YAJL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32005DD2DD4BE82AFAA88C84 /* libextThree20JSON+YAJL.a */; };
 		3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3201088596B4756681693704 /* libThree20UICommon.a */; };
 		320A2827FEC940B25BC42C65 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A2827FEC940B25BC42C64 /* libThree20Core.a */; };
@@ -85,8 +84,6 @@
 		3D8E2D3E138F8A4900DFEBB3 /* shopping@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E2CFB138F8A4900DFEBB3 /* shopping@2x.png */; };
 		3D8E2D3F138F8A4900DFEBB3 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E2CFC138F8A4900DFEBB3 /* title.png */; };
 		3D8E2D40138F8A4900DFEBB3 /* titlegray.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E2CFD138F8A4900DFEBB3 /* titlegray.png */; };
-		3D8E2D41138F8A4900DFEBB3 /* UCD Events-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E2CFE138F8A4900DFEBB3 /* UCD Events-Info.plist */; };
-		3D8E2D42138F8A4900DFEBB3 /* UCD_Events.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E2D00138F8A4900DFEBB3 /* UCD_Events.xcdatamodeld */; };
 		3D8E2D43138F8A4900DFEBB3 /* UCD_EventsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E2D03138F8A4900DFEBB3 /* UCD_EventsAppDelegate.m */; };
 		3D8E2D44138F8A4900DFEBB3 /* UCD_EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E2D05138F8A4900DFEBB3 /* UCD_EventsViewController.m */; };
 		3D8E2D45138F8A4900DFEBB3 /* UCD_EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E2D06138F8A4900DFEBB3 /* UCD_EventsViewController.xib */; };
@@ -99,6 +96,12 @@
 		3D8E2D4C138F8A4900DFEBB3 /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E2D10138F8A4900DFEBB3 /* weather.png */; };
 		3D8E2D4D138F8A4900DFEBB3 /* weather@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E2D11138F8A4900DFEBB3 /* weather@2x.png */; };
 		3DC79DFD138F8C2D00FC6306 /* UEFeaturedItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC79DFC138F8C2D00FC6306 /* UEFeaturedItemCell.m */; };
+		3DDBCCB2138FAA4000C5B7E7 /* extThree20CSSStyle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBCCB1138FAA4000C5B7E7 /* extThree20CSSStyle.bundle */; };
+		3DDBCCB4138FAB7700C5B7E7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBCCB3138FAB7700C5B7E7 /* Icon.png */; };
+		3DDBCCB6138FAB7B00C5B7E7 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBCCB5138FAB7B00C5B7E7 /* Icon@2x.png */; };
+		3DDBCCB8138FABFA00C5B7E7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBCCB7138FABFA00C5B7E7 /* Default@2x.png */; };
+		3DDBCCBA138FAC0600C5B7E7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBCCB9138FAC0600C5B7E7 /* Default.png */; };
+		3DDBCCBC138FAE9400C5B7E7 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBCCBB138FAE9400C5B7E7 /* Entitlements.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -308,7 +311,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24744F78138F9370007F22E9 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		32005DD2DD4BE82AFAA88C80 /* extThree20JSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = extThree20JSON.xcodeproj; path = ../three20/src/extThree20JSON/extThree20JSON.xcodeproj; sourceTree = SOURCE_ROOT; };
 		3201088596B4756681693700 /* Three20UICommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UICommon.xcodeproj; path = ../three20/src/Three20UICommon/Three20UICommon.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = ../three20/src/Three20Core/Three20Core.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -392,7 +394,7 @@
 		3D8E2CE3138F8A4900DFEBB3 /* LocationListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationListViewController.xib; sourceTree = "<group>"; };
 		3D8E2CE4138F8A4900DFEBB3 /* main_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_icon.png; sourceTree = "<group>"; };
 		3D8E2CE5138F8A4900DFEBB3 /* main_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_icon@2x.png"; sourceTree = "<group>"; };
-		3D8E2CE7138F8A4900DFEBB3 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		3D8E2CE7138F8A4900DFEBB3 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
 		3D8E2CE8138F8A4900DFEBB3 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
 		3D8E2CE9138F8A4900DFEBB3 /* maps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maps@2x.png"; sourceTree = "<group>"; };
 		3D8E2CEA138F8A4900DFEBB3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
@@ -409,15 +411,13 @@
 		3D8E2CF5138F8A4900DFEBB3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		3D8E2CF6138F8A4900DFEBB3 /* restaurants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurants.png; sourceTree = "<group>"; };
 		3D8E2CF7138F8A4900DFEBB3 /* restaurants@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restaurants@2x.png"; sourceTree = "<group>"; };
-		3D8E2CF8138F8A4900DFEBB3 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
-		3D8E2CF9138F8A4900DFEBB3 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		3D8E2CF8138F8A4900DFEBB3 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = ../Settings.h; sourceTree = "<group>"; };
+		3D8E2CF9138F8A4900DFEBB3 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = ../Settings.m; sourceTree = "<group>"; };
 		3D8E2CFA138F8A4900DFEBB3 /* shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping.png; sourceTree = "<group>"; };
 		3D8E2CFB138F8A4900DFEBB3 /* shopping@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping@2x.png"; sourceTree = "<group>"; };
 		3D8E2CFC138F8A4900DFEBB3 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		3D8E2CFD138F8A4900DFEBB3 /* titlegray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlegray.png; sourceTree = "<group>"; };
-		3D8E2CFE138F8A4900DFEBB3 /* UCD Events-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UCD Events-Info.plist"; sourceTree = "<group>"; };
-		3D8E2CFF138F8A4900DFEBB3 /* UCD Events-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UCD Events-Prefix.pch"; sourceTree = "<group>"; };
-		3D8E2D01138F8A4900DFEBB3 /* UCD_Events.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UCD_Events.xcdatamodel; sourceTree = "<group>"; };
+		3D8E2CFF138F8A4900DFEBB3 /* UCD Events-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UCD Events-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		3D8E2D02138F8A4900DFEBB3 /* UCD_EventsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UCD_EventsAppDelegate.h; path = ../UCD_EventsAppDelegate.h; sourceTree = "<group>"; };
 		3D8E2D03138F8A4900DFEBB3 /* UCD_EventsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UCD_EventsAppDelegate.m; path = ../UCD_EventsAppDelegate.m; sourceTree = "<group>"; };
 		3D8E2D04138F8A4900DFEBB3 /* UCD_EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UCD_EventsViewController.h; path = ../UCD_EventsViewController.h; sourceTree = "<group>"; };
@@ -436,6 +436,12 @@
 		3D8E2D11138F8A4900DFEBB3 /* weather@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather@2x.png"; sourceTree = "<group>"; };
 		3DC79DFB138F8C2D00FC6306 /* UEFeaturedItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEFeaturedItemCell.h; sourceTree = "<group>"; };
 		3DC79DFC138F8C2D00FC6306 /* UEFeaturedItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEFeaturedItemCell.m; sourceTree = "<group>"; };
+		3DDBCCB1138FAA4000C5B7E7 /* extThree20CSSStyle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = extThree20CSSStyle.bundle; path = "UCD Events/extThree20CSSStyle.bundle"; sourceTree = "<group>"; };
+		3DDBCCB3138FAB7700C5B7E7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3DDBCCB5138FAB7B00C5B7E7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3DDBCCB7138FABFA00C5B7E7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3DDBCCB9138FAC0600C5B7E7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3DDBCCBB138FAE9400C5B7E7 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -560,103 +566,6 @@
 		3D1289E4138F89E4004233FC = {
 			isa = PBXGroup;
 			children = (
-				24744F78138F9370007F22E9 /* Entitlements.plist */,
-				3D27839C138F8FCD0058FFD4 /* SystemConfiguration.framework */,
-				3D2782F6138F8F100058FFD4 /* CoreLocation.framework */,
-				3D2782F7138F8F100058FFD4 /* MapKit.framework */,
-				3DC79DFB138F8C2D00FC6306 /* UEFeaturedItemCell.h */,
-				3DC79DFC138F8C2D00FC6306 /* UEFeaturedItemCell.m */,
-				3D8E2CB6138F8A4900DFEBB3 /* EventDetailViewController.h */,
-				3D8E2CB7138F8A4900DFEBB3 /* EventDetailViewController.m */,
-				3D8E2CB8138F8A4900DFEBB3 /* EventIndexJSONDataModel.h */,
-				3D8E2CB9138F8A4900DFEBB3 /* EventIndexJSONDataModel.m */,
-				3D8E2CBA138F8A4900DFEBB3 /* EventIndexJSONDataSource.h */,
-				3D8E2CBB138F8A4900DFEBB3 /* EventIndexJSONDataSource.m */,
-				3D8E2CBC138F8A4900DFEBB3 /* EventItem.h */,
-				3D8E2CBD138F8A4900DFEBB3 /* EventItem.m */,
-				3D8E2CBE138F8A4900DFEBB3 /* EventItemDataModel.h */,
-				3D8E2CBF138F8A4900DFEBB3 /* EventItemDataModel.m */,
-				3D8E2CC0138F8A4900DFEBB3 /* EventItemDataSource.h */,
-				3D8E2CC1138F8A4900DFEBB3 /* EventItemDataSource.m */,
-				3D8E2CC2138F8A4900DFEBB3 /* EventListViewController.h */,
-				3D8E2CC3138F8A4900DFEBB3 /* EventListViewController.m */,
-				3D8E2CC4138F8A4900DFEBB3 /* events.png */,
-				3D8E2CC5138F8A4900DFEBB3 /* events@2x.png */,
-				3D8E2CC6138F8A4900DFEBB3 /* home_btn_map_default.png */,
-				3D8E2CC7138F8A4900DFEBB3 /* home_btn_schedule_default.png */,
-				3D8E2CC8138F8A4900DFEBB3 /* hotels.png */,
-				3D8E2CC9138F8A4900DFEBB3 /* hotels@2x.png */,
-				3D8E2CCA138F8A4900DFEBB3 /* InfoViewController.h */,
-				3D8E2CCB138F8A4900DFEBB3 /* InfoViewController.m */,
-				3D8E2CCC138F8A4900DFEBB3 /* LauncherViewTestController.h */,
-				3D8E2CCD138F8A4900DFEBB3 /* LauncherViewTestController.m */,
-				3D8E2CCE138F8A4900DFEBB3 /* LocationAnnotation.h */,
-				3D8E2CCF138F8A4900DFEBB3 /* LocationAnnotation.m */,
-				3D8E2CD0138F8A4900DFEBB3 /* LocationDetailViewController.h */,
-				3D8E2CD1138F8A4900DFEBB3 /* LocationDetailViewController.m */,
-				3D8E2CD2138F8A4900DFEBB3 /* LocationDetailViewController.xib */,
-				3D8E2CD3138F8A4900DFEBB3 /* LocationIndexJSONDataModel.h */,
-				3D8E2CD4138F8A4900DFEBB3 /* LocationIndexJSONDataModel.m */,
-				3D8E2CD5138F8A4900DFEBB3 /* LocationIndexJSONDataSource.h */,
-				3D8E2CD6138F8A4900DFEBB3 /* LocationIndexJSONDataSource.m */,
-				3D8E2CD7138F8A4900DFEBB3 /* LocationItem.h */,
-				3D8E2CD8138F8A4900DFEBB3 /* LocationItem.m */,
-				3D8E2CD9138F8A4900DFEBB3 /* LocationItemJSONDataModel.h */,
-				3D8E2CDA138F8A4900DFEBB3 /* LocationItemJSONDataModel.m */,
-				3D8E2CDB138F8A4900DFEBB3 /* LocationItemJSONDataSource.h */,
-				3D8E2CDC138F8A4900DFEBB3 /* LocationItemJSONDataSource.m */,
-				3D8E2CDD138F8A4900DFEBB3 /* LocationJSONDataModel.h */,
-				3D8E2CDE138F8A4900DFEBB3 /* LocationJSONDataModel.m */,
-				3D8E2CDF138F8A4900DFEBB3 /* LocationJSONDataSource.h */,
-				3D8E2CE0138F8A4900DFEBB3 /* LocationJSONDataSource.m */,
-				3D8E2CE1138F8A4900DFEBB3 /* LocationListViewController.h */,
-				3D8E2CE2138F8A4900DFEBB3 /* LocationListViewController.m */,
-				3D8E2CE3138F8A4900DFEBB3 /* LocationListViewController.xib */,
-				3D8E2CE4138F8A4900DFEBB3 /* main_icon.png */,
-				3D8E2CE5138F8A4900DFEBB3 /* main_icon@2x.png */,
-				3D8E2CE7138F8A4900DFEBB3 /* MainWindow.xib */,
-				3D8E2CE8138F8A4900DFEBB3 /* maps.png */,
-				3D8E2CE9138F8A4900DFEBB3 /* maps@2x.png */,
-				3D8E2CEA138F8A4900DFEBB3 /* MapViewController.h */,
-				3D8E2CEB138F8A4900DFEBB3 /* MapViewController.m */,
-				3D8E2CEC138F8A4900DFEBB3 /* OfferItem.h */,
-				3D8E2CED138F8A4900DFEBB3 /* OfferItem.m */,
-				3D8E2CEE138F8A4900DFEBB3 /* OffersJSONDataModel.h */,
-				3D8E2CEF138F8A4900DFEBB3 /* OffersJSONDataModel.m */,
-				3D8E2CF0138F8A4900DFEBB3 /* OffersViewController.h */,
-				3D8E2CF1138F8A4900DFEBB3 /* OffersViewController.m */,
-				3D8E2CF2138F8A4900DFEBB3 /* places.png */,
-				3D8E2CF3138F8A4900DFEBB3 /* places@2x.png */,
-				3D8E2CF4138F8A4900DFEBB3 /* Reachability.h */,
-				3D8E2CF5138F8A4900DFEBB3 /* Reachability.m */,
-				3D8E2CF6138F8A4900DFEBB3 /* restaurants.png */,
-				3D8E2CF7138F8A4900DFEBB3 /* restaurants@2x.png */,
-				3D8E2CF8138F8A4900DFEBB3 /* Settings.h */,
-				3D8E2CF9138F8A4900DFEBB3 /* Settings.m */,
-				3D8E2CFA138F8A4900DFEBB3 /* shopping.png */,
-				3D8E2CFB138F8A4900DFEBB3 /* shopping@2x.png */,
-				3D8E2CFC138F8A4900DFEBB3 /* title.png */,
-				3D8E2CFD138F8A4900DFEBB3 /* titlegray.png */,
-				3D8E2CFE138F8A4900DFEBB3 /* UCD Events-Info.plist */,
-				3D8E2CFF138F8A4900DFEBB3 /* UCD Events-Prefix.pch */,
-				3D8E2D00138F8A4900DFEBB3 /* UCD_Events.xcdatamodeld */,
-				3D8E2D07138F8A4900DFEBB3 /* ucd.png */,
-				3D8E2D08138F8A4900DFEBB3 /* ucd@2x.png */,
-				3D8E2D09138F8A4900DFEBB3 /* UCDEvents.css */,
-				3D8E2D0A138F8A4900DFEBB3 /* UEFeaturedItem.h */,
-				3D8E2D0B138F8A4900DFEBB3 /* UEFeaturedItem.m */,
-				3D8E2D0C138F8A4900DFEBB3 /* UELauncherView.h */,
-				3D8E2D0D138F8A4900DFEBB3 /* UELauncherView.m */,
-				3D8E2D0E138F8A4900DFEBB3 /* UEStyleSheet.h */,
-				3D8E2D0F138F8A4900DFEBB3 /* UEStyleSheet.m */,
-				3D8E2D10138F8A4900DFEBB3 /* weather.png */,
-				3D8E2D11138F8A4900DFEBB3 /* weather@2x.png */,
-				3D8E2CAA138F8A3900DFEBB3 /* agg.png */,
-				3D8E2CAB138F8A3900DFEBB3 /* agg2x.png */,
-				3D8E2CAC138F8A3900DFEBB3 /* BasicLauncherViewController.h */,
-				3D8E2CAD138F8A3900DFEBB3 /* BasicLauncherViewController.m */,
-				3D8E2CAE138F8A3900DFEBB3 /* deals.png */,
-				3D8E2CAF138F8A3900DFEBB3 /* deals@2x.png */,
 				3D1289F9138F89E4004233FC /* UCD Events */,
 				3D128A19138F89E5004233FC /* UCD EventsTests */,
 				3D1289F2138F89E4004233FC /* Frameworks */,
@@ -676,6 +585,9 @@
 		3D1289F2138F89E4004233FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D27839C138F8FCD0058FFD4 /* SystemConfiguration.framework */,
+				3D2782F6138F8F100058FFD4 /* CoreLocation.framework */,
+				3D2782F7138F8F100058FFD4 /* MapKit.framework */,
 				320D69F6C4746BCAB3364E90 /* extThree20CSSStyle.xcodeproj */,
 				32005DD2DD4BE82AFAA88C80 /* extThree20JSON.xcodeproj */,
 				3201088596B4756681693700 /* Three20UICommon.xcodeproj */,
@@ -696,12 +608,16 @@
 		3D1289F9138F89E4004233FC /* UCD Events */ = {
 			isa = PBXGroup;
 			children = (
-				3D8E2D04138F8A4900DFEBB3 /* UCD_EventsViewController.h */,
-				3D8E2D05138F8A4900DFEBB3 /* UCD_EventsViewController.m */,
-				3D8E2D06138F8A4900DFEBB3 /* UCD_EventsViewController.xib */,
-				3D8E2D02138F8A4900DFEBB3 /* UCD_EventsAppDelegate.h */,
-				3D8E2D03138F8A4900DFEBB3 /* UCD_EventsAppDelegate.m */,
-				3D128A05138F89E4004233FC /* MainWindow.xib */,
+				3D493A6F13902EFA006B3A0B /* Settings */,
+				3D493A6E13902EB7006B3A0B /* App Delegate */,
+				3D493A6D13902EA9006B3A0B /* Reachability */,
+				3D493A65139028F8006B3A0B /* Resources */,
+				3D493A6A13902BBB006B3A0B /* Styles */,
+				3D493A6713902B51006B3A0B /* Events */,
+				3D493A6813902B78006B3A0B /* Launcher */,
+				3D493A6913902B8E006B3A0B /* Locations */,
+				3D493A6C13902BF4006B3A0B /* Maps */,
+				3D493A6B13902BE2006B3A0B /* Offers */,
 				3D1289FA138F89E4004233FC /* Supporting Files */,
 			);
 			path = "UCD Events";
@@ -710,6 +626,9 @@
 		3D1289FA138F89E4004233FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D8E2CFF138F8A4900DFEBB3 /* UCD Events-Prefix.pch */,
+				3DDBCCBB138FAE9400C5B7E7 /* Entitlements.plist */,
+				3D128A05138F89E4004233FC /* MainWindow.xib */,
 				320B6C86F11D9990244A9730 /* Three20.bundle */,
 				3D1289FB138F89E4004233FC /* UCD Events-Info.plist */,
 				3D1289FC138F89E4004233FC /* InfoPlist.strings */,
@@ -737,6 +656,192 @@
 				3D128A1F138F89E5004233FC /* UCD EventsTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D493A65139028F8006B3A0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DDBCCB1138FAA4000C5B7E7 /* extThree20CSSStyle.bundle */,
+				3D8E2D09138F8A4900DFEBB3 /* UCDEvents.css */,
+				3D493A6613902AFF006B3A0B /* Images */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D493A6613902AFF006B3A0B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CE8138F8A4900DFEBB3 /* maps.png */,
+				3D8E2CE9138F8A4900DFEBB3 /* maps@2x.png */,
+				3D8E2CF2138F8A4900DFEBB3 /* places.png */,
+				3D8E2CF3138F8A4900DFEBB3 /* places@2x.png */,
+				3D8E2CF6138F8A4900DFEBB3 /* restaurants.png */,
+				3D8E2CF7138F8A4900DFEBB3 /* restaurants@2x.png */,
+				3D8E2CFA138F8A4900DFEBB3 /* shopping.png */,
+				3D8E2CFB138F8A4900DFEBB3 /* shopping@2x.png */,
+				3D8E2CFC138F8A4900DFEBB3 /* title.png */,
+				3D8E2CFD138F8A4900DFEBB3 /* titlegray.png */,
+				3D8E2CC4138F8A4900DFEBB3 /* events.png */,
+				3D8E2CC5138F8A4900DFEBB3 /* events@2x.png */,
+				3D8E2CC6138F8A4900DFEBB3 /* home_btn_map_default.png */,
+				3D8E2CC7138F8A4900DFEBB3 /* home_btn_schedule_default.png */,
+				3D8E2CC8138F8A4900DFEBB3 /* hotels.png */,
+				3D8E2CC9138F8A4900DFEBB3 /* hotels@2x.png */,
+				3D8E2CE4138F8A4900DFEBB3 /* main_icon.png */,
+				3D8E2CE5138F8A4900DFEBB3 /* main_icon@2x.png */,
+				3D8E2D07138F8A4900DFEBB3 /* ucd.png */,
+				3D8E2D08138F8A4900DFEBB3 /* ucd@2x.png */,
+				3D8E2CAE138F8A3900DFEBB3 /* deals.png */,
+				3D8E2CAF138F8A3900DFEBB3 /* deals@2x.png */,
+				3D8E2D10138F8A4900DFEBB3 /* weather.png */,
+				3D8E2D11138F8A4900DFEBB3 /* weather@2x.png */,
+				3D8E2CAA138F8A3900DFEBB3 /* agg.png */,
+				3D8E2CAB138F8A3900DFEBB3 /* agg2x.png */,
+				3DDBCCB9138FAC0600C5B7E7 /* Default.png */,
+				3DDBCCB7138FABFA00C5B7E7 /* Default@2x.png */,
+				3DDBCCB5138FAB7B00C5B7E7 /* Icon@2x.png */,
+				3DDBCCB3138FAB7700C5B7E7 /* Icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3D493A6713902B51006B3A0B /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CB6138F8A4900DFEBB3 /* EventDetailViewController.h */,
+				3D8E2CB7138F8A4900DFEBB3 /* EventDetailViewController.m */,
+				3D8E2CB8138F8A4900DFEBB3 /* EventIndexJSONDataModel.h */,
+				3D8E2CB9138F8A4900DFEBB3 /* EventIndexJSONDataModel.m */,
+				3D8E2CBA138F8A4900DFEBB3 /* EventIndexJSONDataSource.h */,
+				3D8E2CBB138F8A4900DFEBB3 /* EventIndexJSONDataSource.m */,
+				3D8E2CBC138F8A4900DFEBB3 /* EventItem.h */,
+				3D8E2CBD138F8A4900DFEBB3 /* EventItem.m */,
+				3D8E2CBE138F8A4900DFEBB3 /* EventItemDataModel.h */,
+				3D8E2CBF138F8A4900DFEBB3 /* EventItemDataModel.m */,
+				3D8E2CC0138F8A4900DFEBB3 /* EventItemDataSource.h */,
+				3D8E2CC1138F8A4900DFEBB3 /* EventItemDataSource.m */,
+				3D8E2CC2138F8A4900DFEBB3 /* EventListViewController.h */,
+				3D8E2CC3138F8A4900DFEBB3 /* EventListViewController.m */,
+			);
+			name = Events;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D493A6813902B78006B3A0B /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CCA138F8A4900DFEBB3 /* InfoViewController.h */,
+				3D8E2CCB138F8A4900DFEBB3 /* InfoViewController.m */,
+				3D8E2CCC138F8A4900DFEBB3 /* LauncherViewTestController.h */,
+				3D8E2CCD138F8A4900DFEBB3 /* LauncherViewTestController.m */,
+				3D8E2D0C138F8A4900DFEBB3 /* UELauncherView.h */,
+				3D8E2D0D138F8A4900DFEBB3 /* UELauncherView.m */,
+				3D8E2CAC138F8A3900DFEBB3 /* BasicLauncherViewController.h */,
+				3D8E2CAD138F8A3900DFEBB3 /* BasicLauncherViewController.m */,
+			);
+			name = Launcher;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D493A6913902B8E006B3A0B /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CCE138F8A4900DFEBB3 /* LocationAnnotation.h */,
+				3D8E2CCF138F8A4900DFEBB3 /* LocationAnnotation.m */,
+				3D8E2CD0138F8A4900DFEBB3 /* LocationDetailViewController.h */,
+				3D8E2CD1138F8A4900DFEBB3 /* LocationDetailViewController.m */,
+				3D8E2CD2138F8A4900DFEBB3 /* LocationDetailViewController.xib */,
+				3D8E2CD3138F8A4900DFEBB3 /* LocationIndexJSONDataModel.h */,
+				3D8E2CD4138F8A4900DFEBB3 /* LocationIndexJSONDataModel.m */,
+				3D8E2CD5138F8A4900DFEBB3 /* LocationIndexJSONDataSource.h */,
+				3D8E2CD6138F8A4900DFEBB3 /* LocationIndexJSONDataSource.m */,
+				3D8E2CD7138F8A4900DFEBB3 /* LocationItem.h */,
+				3D8E2CD8138F8A4900DFEBB3 /* LocationItem.m */,
+				3D8E2CD9138F8A4900DFEBB3 /* LocationItemJSONDataModel.h */,
+				3D8E2CDA138F8A4900DFEBB3 /* LocationItemJSONDataModel.m */,
+				3D8E2CDB138F8A4900DFEBB3 /* LocationItemJSONDataSource.h */,
+				3D8E2CDC138F8A4900DFEBB3 /* LocationItemJSONDataSource.m */,
+				3D8E2CDD138F8A4900DFEBB3 /* LocationJSONDataModel.h */,
+				3D8E2CDE138F8A4900DFEBB3 /* LocationJSONDataModel.m */,
+				3D8E2CDF138F8A4900DFEBB3 /* LocationJSONDataSource.h */,
+				3D8E2CE0138F8A4900DFEBB3 /* LocationJSONDataSource.m */,
+				3D8E2CE1138F8A4900DFEBB3 /* LocationListViewController.h */,
+				3D8E2CE2138F8A4900DFEBB3 /* LocationListViewController.m */,
+				3D8E2CE3138F8A4900DFEBB3 /* LocationListViewController.xib */,
+			);
+			name = Locations;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D493A6A13902BBB006B3A0B /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				3DC79DFB138F8C2D00FC6306 /* UEFeaturedItemCell.h */,
+				3DC79DFC138F8C2D00FC6306 /* UEFeaturedItemCell.m */,
+				3D8E2D0A138F8A4900DFEBB3 /* UEFeaturedItem.h */,
+				3D8E2D0B138F8A4900DFEBB3 /* UEFeaturedItem.m */,
+				3D8E2D0E138F8A4900DFEBB3 /* UEStyleSheet.h */,
+				3D8E2D0F138F8A4900DFEBB3 /* UEStyleSheet.m */,
+			);
+			name = Styles;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D493A6B13902BE2006B3A0B /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CEC138F8A4900DFEBB3 /* OfferItem.h */,
+				3D8E2CED138F8A4900DFEBB3 /* OfferItem.m */,
+				3D8E2CEE138F8A4900DFEBB3 /* OffersJSONDataModel.h */,
+				3D8E2CEF138F8A4900DFEBB3 /* OffersJSONDataModel.m */,
+				3D8E2CF0138F8A4900DFEBB3 /* OffersViewController.h */,
+				3D8E2CF1138F8A4900DFEBB3 /* OffersViewController.m */,
+			);
+			name = Offers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D493A6C13902BF4006B3A0B /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CEA138F8A4900DFEBB3 /* MapViewController.h */,
+				3D8E2CEB138F8A4900DFEBB3 /* MapViewController.m */,
+			);
+			name = Maps;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D493A6D13902EA9006B3A0B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CF4138F8A4900DFEBB3 /* Reachability.h */,
+				3D8E2CF5138F8A4900DFEBB3 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D493A6E13902EB7006B3A0B /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CE7138F8A4900DFEBB3 /* MainWindow.xib */,
+				3D8E2D04138F8A4900DFEBB3 /* UCD_EventsViewController.h */,
+				3D8E2D05138F8A4900DFEBB3 /* UCD_EventsViewController.m */,
+				3D8E2D06138F8A4900DFEBB3 /* UCD_EventsViewController.xib */,
+				3D8E2D02138F8A4900DFEBB3 /* UCD_EventsAppDelegate.h */,
+				3D8E2D03138F8A4900DFEBB3 /* UCD_EventsAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		3D493A6F13902EFA006B3A0B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E2CF8138F8A4900DFEBB3 /* Settings.h */,
+				3D8E2CF9138F8A4900DFEBB3 /* Settings.m */,
+			);
+			name = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1017,14 +1122,18 @@
 				3D8E2D3E138F8A4900DFEBB3 /* shopping@2x.png in Resources */,
 				3D8E2D3F138F8A4900DFEBB3 /* title.png in Resources */,
 				3D8E2D40138F8A4900DFEBB3 /* titlegray.png in Resources */,
-				3D8E2D41138F8A4900DFEBB3 /* UCD Events-Info.plist in Resources */,
 				3D8E2D45138F8A4900DFEBB3 /* UCD_EventsViewController.xib in Resources */,
 				3D8E2D46138F8A4900DFEBB3 /* ucd.png in Resources */,
 				3D8E2D47138F8A4900DFEBB3 /* ucd@2x.png in Resources */,
 				3D8E2D48138F8A4900DFEBB3 /* UCDEvents.css in Resources */,
 				3D8E2D4C138F8A4900DFEBB3 /* weather.png in Resources */,
 				3D8E2D4D138F8A4900DFEBB3 /* weather@2x.png in Resources */,
-				24744F79138F9371007F22E9 /* Entitlements.plist in Resources */,
+				3DDBCCB2138FAA4000C5B7E7 /* extThree20CSSStyle.bundle in Resources */,
+				3DDBCCB4138FAB7700C5B7E7 /* Icon.png in Resources */,
+				3DDBCCB6138FAB7B00C5B7E7 /* Icon@2x.png in Resources */,
+				3DDBCCB8138FABFA00C5B7E7 /* Default@2x.png in Resources */,
+				3DDBCCBA138FAC0600C5B7E7 /* Default.png in Resources */,
+				3DDBCCBC138FAE9400C5B7E7 /* Entitlements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1087,7 +1196,6 @@
 				3D8E2D36138F8A4900DFEBB3 /* OffersViewController.m in Sources */,
 				3D8E2D39138F8A4900DFEBB3 /* Reachability.m in Sources */,
 				3D8E2D3C138F8A4900DFEBB3 /* Settings.m in Sources */,
-				3D8E2D42138F8A4900DFEBB3 /* UCD_Events.xcdatamodeld in Sources */,
 				3D8E2D43138F8A4900DFEBB3 /* UCD_EventsAppDelegate.m in Sources */,
 				3D8E2D44138F8A4900DFEBB3 /* UCD_EventsViewController.m in Sources */,
 				3D8E2D49138F8A4900DFEBB3 /* UEFeaturedItem.m in Sources */,
@@ -1188,71 +1296,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		24744F7A138F9396007F22E9 /* Ad Hoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "Xcode Code Sign";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Xcode Code Sign";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(BUILT_PRODUCTS_DIR)/../three20",
-					"$(BUILT_PRODUCTS_DIR)/../../three20",
-					../three20/Build/Products/three20,
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = iphoneos;
-			};
-			name = "Ad Hoc";
-		};
-		24744F7B138F9396007F22E9 /* Ad Hoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UCD Events/UCD Events-Prefix.pch";
-				INFOPLIST_FILE = "UCD Events/UCD Events-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
-			};
-			name = "Ad Hoc";
-		};
-		24744F7C138F9396007F22E9 /* Ad Hoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UCD Events.app/UCD Events";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UCD EventsTests/UCD EventsTests-Prefix.pch";
-				INFOPLIST_FILE = "UCD EventsTests/UCD EventsTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = "Ad Hoc";
-		};
 		3D128A24138F89E5004233FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "Xcode Code Sign";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Xcode Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -1275,8 +1323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "Xcode Code Sign";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Xcode Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1302,7 +1349,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCD Events/UCD Events-Prefix.pch";
 				INFOPLIST_FILE = "UCD Events/UCD Events-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1312,12 +1358,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "Xcode Code Sign";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCD Events/UCD Events-Prefix.pch";
 				INFOPLIST_FILE = "UCD Events/UCD Events-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -1368,6 +1412,65 @@
 			};
 			name = Release;
 		};
+		3DDBCCBD138FAEAC00C5B7E7 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/../three20",
+					"$(BUILT_PRODUCTS_DIR)/../../three20",
+					../three20/Build/Products/three20,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = "Ad Hoc";
+		};
+		3DDBCCBE138FAEAC00C5B7E7 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCD Events/UCD Events-Prefix.pch";
+				INFOPLIST_FILE = "UCD Events/UCD Events-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		3DDBCCBF138FAEAC00C5B7E7 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UCD Events.app/UCD Events";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCD EventsTests/UCD EventsTests-Prefix.pch";
+				INFOPLIST_FILE = "UCD EventsTests/UCD EventsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = "Ad Hoc";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1376,7 +1479,7 @@
 			buildConfigurations = (
 				3D128A24138F89E5004233FC /* Debug */,
 				3D128A25138F89E5004233FC /* Release */,
-				24744F7A138F9396007F22E9 /* Ad Hoc */,
+				3DDBCCBD138FAEAC00C5B7E7 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1386,7 +1489,7 @@
 			buildConfigurations = (
 				3D128A27138F89E5004233FC /* Debug */,
 				3D128A28138F89E5004233FC /* Release */,
-				24744F7B138F9396007F22E9 /* Ad Hoc */,
+				3DDBCCBE138FAEAC00C5B7E7 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1396,25 +1499,12 @@
 			buildConfigurations = (
 				3D128A2A138F89E5004233FC /* Debug */,
 				3D128A2B138F89E5004233FC /* Release */,
-				24744F7C138F9396007F22E9 /* Ad Hoc */,
+				3DDBCCBF138FAEAC00C5B7E7 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3D8E2D00138F8A4900DFEBB3 /* UCD_Events.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3D8E2D01138F8A4900DFEBB3 /* UCD_Events.xcdatamodel */,
-			);
-			currentVersion = 3D8E2D01138F8A4900DFEBB3 /* UCD_Events.xcdatamodel */;
-			path = UCD_Events.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3D1289E6138F89E4004233FC /* Project object */;
 }

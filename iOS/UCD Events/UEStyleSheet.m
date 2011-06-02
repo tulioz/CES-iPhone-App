@@ -14,8 +14,8 @@
 //from twocentstudios.com
 -(TTStyle*)insetSquare {
     return [TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:0] next:
-            [TTLinearGradientFillStyle styleWithColor1:RGBCOLOR(234, 194, 0) color2:RGBCOLOR(200, 150, 0) next:
-             [TTInnerShadowStyle styleWithColor:RGBCOLOR(200, 150, 2) blur:3 offset:CGSizeMake(0, 1) next:nil]]];
+            [TTLinearGradientFillStyle styleWithColor1:[self.styleSheet backgroundColorWithCssSelector:@".featuredTableItem" forState:UIControlStateNormal] color2:RGBCOLOR(230, 200, 0) next:
+             [TTInnerShadowStyle styleWithColor:RGBCOLOR(230, 200, 2) blur:3 offset:CGSizeMake(0, 1) next:nil]]];
 }
 
 //From three20 examples
@@ -115,8 +115,8 @@
 -(TTStyle*)offerCard {
     return [TTShapeStyle styleWithShape:[TTRoundedRectangleShape shapeWithRadius:15] next:
             [TTInsetStyle styleWithInset:UIEdgeInsetsMake(10, 10, 10, 10) next:
-             [TTLinearGradientFillStyle styleWithColor1:RGBCOLOR(234, 194, 0)
-                                                 color2:RGBCOLOR(215, 165, 0) next:
+             [TTLinearGradientFillStyle styleWithColor1:[self.styleSheet colorWithCssSelector:@".offerCard" forState:UIControlStateNormal]
+                                                 color2:[self.styleSheet colorWithCssSelector:@".offerCard" forState:UIControlStateNormal] next:
               [TTInnerShadowStyle styleWithColor:RGBCOLOR(200, 150, 2) blur:5 offset:CGSizeMake(0, 2) next:
                [TTSolidBorderStyle styleWithColor:[UIColor clearColor] width:2 next:
                 nil]]]]];

@@ -27,17 +27,16 @@
 
 -(void)loadView {
 	[super loadView];
-	
-	TTTableViewController *searchController = [[[TTTableViewController alloc] init] autorelease];
-	
+//	TTTableViewController *searchController = [[[TTTableViewController alloc] init] autorelease];
+//	
 //	searchController.dataSource = [[[LocationIndexJSONDataSource alloc]
 //                                    initWithTypeId:_typeId]
 //                                    autorelease];
-
+//
 //	searchController.dataSource = self.dataSource;
-	
-	self.searchViewController = searchController;
-	self.tableView.tableHeaderView = _searchController.searchBar;
+//	
+//	self.searchViewController = searchController;
+//	self.tableView.tableHeaderView = _searchController.searchBar;
 	
 }
 
@@ -60,7 +59,7 @@
 }
 
 -(id<UITableViewDelegate>)createDelegate {
-	return [[[TTTableViewDragRefreshDelegate alloc] initWithController:self] autorelease];
+	return [[[TTTableViewVarHeightDelegate alloc] initWithController:self] autorelease];
 }
 
 - (void)didReceiveMemoryWarning {

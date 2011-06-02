@@ -138,12 +138,12 @@
     
     [pageView addSubview:label];
     
-    TTButton *emergencyInfoButton = [TTButton buttonWithStyle:@"embossedButton:" title:@"Location Information"];
+    TTButton *locationInfoButton = [TTButton buttonWithStyle:@"embossedButton:" title:@"Location Information"];
     NSString *targetURL = [self getLocationURL:currentOffer.locationId];
-    [emergencyInfoButton addTarget:targetURL action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];
-    [emergencyInfoButton setFrame:CGRectMake(20, 330, 265, 50)];
+    [locationInfoButton addTarget:targetURL action:@selector(openURLFromButton:) forControlEvents:UIControlEventTouchUpInside];
+    [locationInfoButton setFrame:CGRectMake(20, 330, 265, 50)];
     
-    [pageView addSubview:emergencyInfoButton];
+    [pageView addSubview:locationInfoButton];
 
     pageView.style = TTSTYLEVAR(offerCard);
     
