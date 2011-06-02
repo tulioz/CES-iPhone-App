@@ -43,16 +43,17 @@
 	
 	NSMutableArray *locationsFromModel = _locationFeedModel.locations;
 	
-	NSSortDescriptor *sortByCategory = [[NSSortDescriptor alloc] initWithKey: @"category" ascending:YES];
+//    Sort the locations by name ahead of time
 	NSSortDescriptor *sortByName = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
-	NSArray *sortDescriptors = [NSArray arrayWithObjects:sortByCategory, sortByName, nil];
+	NSArray *sortDescriptors = [NSArray arrayWithObjects: sortByName, nil];
 	[locationsFromModel sortUsingDescriptors:sortDescriptors];
 	
-	TT_RELEASE_SAFELY(sortByCategory);
 	TT_RELEASE_SAFELY(sortByName);
 	
 	NSMutableDictionary *categories = [NSMutableDictionary dictionary];
 	
+    NSMutableArray *featuredCategory = [NSMutableArray array];
+    
 	for (LocationItem *location in locationsFromModel) {
 		NSString *categoryName = location.category;
 		NSMutableArray *category = [categories objectForKey:categoryName];
@@ -65,8 +66,10 @@
         NSLog(@"Generated URL is %@", itemURL);
 		//		This is the actual creation of the location's cell item. 
         if ([location.featured isEqualToNumber:[NSNumber numberWithInt:1]]) {
-            [category addObject: [UEFeaturedItem itemWithText:location.name
-                                                     subtitle:location.address  URL:itemURL]];
+            UEFeaturedItem *featuredItem = [UEFeaturedItem itemWithText:location.name
+                                                               subtitle:location.address  URL:itemURL];
+            [category addObject:featuredItem];
+            [featuredCategory addObject:featuredItem];
         } else {
             NSLog(@"location was not featured");
             [category addObject: [TTTableSubtitleItem itemWithText:location.name
@@ -75,8 +78,13 @@
 
 	}
 	
+//    Sort the category names then put them in array so we can query the categories dict
 	NSArray *categoryNames = [categories.allKeys sortedArrayUsingSelector:
                               @selector(caseInsensitiveCompare:)];
+    
+//    Manually pin Featured Items to the top
+    [_sections addObject:@"Featured"];
+    [_items addObject:featuredCategory];   
     
 	for (NSString *currentCategory in categoryNames) {
 		NSArray *items = [categories objectForKey:currentCategory];
